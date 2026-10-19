@@ -1,0 +1,745 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: reboot_master v1.0.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "[{}] 操作: {}\n  變更細節: {}\n  執行狀態: {}\n----------------------------------------\n"
+msgstr "[{}] Művelet: {}\n  Részletek: {}\n  Állapot: {}\n----------------------------------------\n"
+
+msgid "尚無歷史操作紀錄。\n"
+msgstr "Még nincs előzménynapló.\n"
+
+msgid "無法獲取 SeShutdownPrivilege 系統關機權限"
+msgstr "Nem sikerült megszerezni a SeShutdownPrivilege rendszerjogosultságot"
+
+msgid "關機失敗，錯誤碼: {}"
+msgstr "Leállítás sikertelen, hibakód: {}"
+
+msgid "無法獲取 SeShutdownPrivilege 系統重啟權限"
+msgstr "Nem sikerült megszerezni a SeShutdownPrivilege újraindítási jogosultságot"
+
+msgid "重啟失敗，錯誤碼: {}"
+msgstr "Újraindítás sikertelen, hibakód: {}"
+
+msgid "無法獲取系統環境權限 (SeSystemEnvironmentPrivilege)，請確認是否以系統管理員身分執行"
+msgstr "A SeSystemEnvironmentPrivilege nem szerezhető meg. Kérjük, futtassa rendszergazdaként"
+
+msgid "當前主機板或作業系統不支援直接從系統重啟至韌體/BIOS設定"
+msgstr "Az alaplap vagy az operációs rendszer nem támogatja a közvetlen újraindítást a BIOS-ba"
+
+msgid "寫入 UEFI 韌體變數失敗，可能受限於防毒軟體或權限異常。"
+msgstr "Nem sikerült írni az UEFI változót. Vírusirtó vagy engedélykorlátozás okozhatja."
+
+msgid "重啟至 BIOS/UEFI"
+msgstr "Újraindítás a BIOS/UEFI-be"
+
+msgid "寫入 UEFI 變數: OsIndications (GUID: {8BE4DF61-93CA-11D2-AA0D-00E098032B8C})，Bit 0 設為 1 (BootToFwUI)"
+msgstr "UEFI változó beírva: OsIndications (GUID: {8BE4DF61-93CA-11D2-AA0D-00E098032B8C}), 0. bit 1-re állítva (BootToFwUI)"
+
+msgid "準備重啟"
+msgstr "Felkészülés az újraindításra"
+
+msgid "已成功透過 API 寫入 UEFI 變數，系統正在重新啟動至 BIOS/UEFI..."
+msgstr "Az UEFI változó sikeresen beírva. Újraindítás a BIOS/UEFI-be..."
+
+msgid "執行 bcdedit 失敗: {}"
+msgstr "A bcdedit futtatása sikertelen: {}"
+
+msgid "執行 `bcdedit {}` 失敗: {}"
+msgstr "A `bcdedit {}` sikertelen: {}"
+
+msgid "找不到實體系統的 SOFTWARE 登錄檔"
+msgstr "A fizikai rendszer SOFTWARE beállításjegyzék-struktúrája nem található"
+
+msgid "無法從 bcdedit 輸出中找到新的 GUID 起點"
+msgstr "Nem található az új GUID kezdete a bcdedit kimenetében"
+
+msgid "無法從 bcdedit 輸出中找到新的 GUID 終點"
+msgstr "Nem található az új GUID vége a bcdedit kimenetében"
+
+msgid "無法獲取當前執行檔路徑: {}"
+msgstr "Az aktuális végrehajtható fájl elérési útja nem érhető el: {}"
+
+msgid "一次性安全模式"
+msgstr "Egyszeri csökkentett mód"
+
+msgid "模式: {}\n  臨時 GUID: {}"
+msgstr "Mód: {}\n  Ideiglenes GUID: {}"
+
+msgid "已成功設定一次性安全模式，系統正在重新啟動..."
+msgstr "Az egyszeri csökkentett mód sikeresen beállítva. Újraindítás..."
+
+msgid "重啟至進階開機選單"
+msgstr "Újraindítás a Speciális indításhoz"
+
+msgid "建立臨時副本 GUID: {}"
+msgstr "Ideiglenes bejegyzés GUID létrehozva: {}"
+
+msgid "已成功設定一次性進階開機選單，系統正在重新啟動..."
+msgstr "Egyszeri speciális indítási beállítások beállítva. Újraindítás..."
+
+msgid "重啟進入 BIOS / UEFI 韌體"
+msgstr "Újraindítás a BIOS / UEFI firmware-be"
+
+msgid "此操作將立即重新啟動電腦並自動進入 BIOS/UEFI 設定畫面。"
+msgstr "Azonnal újraindítja a számítógépet, és belép a BIOS/UEFI beállításaiba."
+
+msgid "一次性安全模式 (Minimal)"
+msgstr "Egyszeri csökkentett mód (minimális)"
+
+msgid "下一次開機將進入安全模式。第二次重新開機時，系統將自動恢復進入正常模式。"
+msgstr "A következő indításkor csökkentett módba lép. A következő újraindításkor visszaáll normál módba."
+
+msgid "一次性安全模式 (含網路)"
+msgstr "Egyszeri csökkentett mód (hálózattal)"
+
+msgid "下一次開機將進入含網路連線的安全模式。第二次重新開機時，系統將自動恢復進入正常模式。"
+msgstr "A következő indításkor hálózattal támogatott csökkentett módba lép. Később visszaáll normál módba."
+
+msgid "重啟進入進階開機選單"
+msgstr "Újraindítás a Speciális indítási beállításokhoz"
+
+msgid "此操作將重新啟動電腦並直接開啟 Windows 進階開機與疑難排解選單。"
+msgstr "Újraindítja a gépet, és megnyitja a Windows speciális indítási és hibaelhárítási menüjét."
+
+msgid "直接強制重啟電腦"
+msgstr "Kényszerített újraindítás most"
+
+msgid "此操作將透過 Win32 原生 API 立即重啟您的電腦。"
+msgstr "Azonnal újraindítja a számítógépet a natív Win32 API segítségével."
+
+msgid "直接安全關機"
+msgstr "Biztonságos leállítás most"
+
+msgid "此操作將透過 Win32 原生 API 立即關閉電腦電源。"
+msgstr "Azonnal kikapcsolja a számítógépet a natív Win32 API segítségével."
+
+msgid "開啟測試模式 (Test Mode)"
+msgstr "Teszt üzemmód engedélyezése"
+
+msgid "開啟後系統將接受測試簽章驅動程式。桌面右下角會出現「測試模式」浮水印。\n\n• 需先在 BIOS 關閉 Secure Boot 才能生效\n• 大多數遊戲反作弊（EAC、BattlEye）會拒絕在此模式下運行遊戲\n• 執行後需重新開機才會生效。關閉則執行「關閉測試模式」"
+msgstr "A rendszer elfogadja a teszt-aláírt illesztőprogramokat. \"Teszt üzemmód\" vízjel jelenik meg.\n\n• A Secure Boot funkciót először ki kell kapcsolni a BIOS-ban\n• A legtöbb csalás elleni rendszer (EAC, BattlEye) blokkolja a játékokat ebben a módban\n• Újraindítás szükséges. Kikapcsoláshoz használja a \"Teszt üzemmód letiltása\" gombot"
+
+msgid "關閉測試模式"
+msgstr "Teszt üzemmód letiltása"
+
+msgid "關閉測試模式後，系統將恢復標準驅動簽章驗證。需重新開機才會生效。"
+msgstr "A teszt üzemmód letiltása visszaállítja a normál illesztőprogram-aláírás ellenőrzést. Újraindítás szükséges."
+
+msgid "停用驅動程式強制簽章"
+msgstr "Illesztőprogram-aláírás kikényszerítésének letiltása"
+
+msgid "此操作將徹底關閉 Windows 的驅動程式數位簽章驗證 (nointegritychecks)。\n\n• 允許安裝完全沒有數位簽章的驅動程式\n• 系統安全性將大幅降低\n• 需先在 BIOS 關閉 Secure Boot 才能生效\n• 執行後需重新開機才會生效。"
+msgstr "Teljesen kikapcsolja a Windows illesztőprogram-aláírás ellenőrzését (nointegritychecks).\n\n• Lehetővé teszi aláíratlan illesztőprogramok telepítését\n• A rendszer biztonsága jelentősen csökken\n• A Secure Boot-ot először ki kell kapcsolni a BIOS-ban\n• Újraindítás szükséges."
+
+msgid "恢復強制簽章驗證"
+msgstr "Aláírás-kikényszerítés visszaállítása"
+
+msgid "將恢復 Windows 預設的驅動程式數位簽章驗證機制。需重新開機才會生效。"
+msgstr "Visszaállítja a Windows alapértelmezett illesztőprogram-aláírás ellenőrzését. Újraindítás szükséges."
+
+msgid "恢復系統安全防護"
+msgstr "Rendszerbiztonság visszaállítása"
+
+msgid "將恢復 Windows 預設的數位簽章驗證與核心安全機制。\n\n需要重新開機才會完全生效。確定要執行嗎？"
+msgstr "Visszaállítja a Windows alapértelmezett aláírás-ellenőrzését és kernelbiztonságát.\n\nÚjraindítás szükséges. Biztosan folytatja?"
+
+msgid "警告：這將徹底停用驅動程式強制簽章 (nointegritychecks) 並關閉記憶體完整性，大幅降低系統安全性。\n\n需要重新開機才會完全生效。確定要執行嗎？"
+msgstr "Figyelem: Letiltja az illesztőprogram-aláírás kényszerítését és a memória-integritást, ami jelentősen rontja a biztonságot.\n\nÚjraindítás szükséges. Folytatja?"
+
+msgid "警告：這將開啟測試模式以允許載入未經簽章的驅動程式，大幅降低系統安全性。\n\n需要重新開機才會完全生效。確定要執行嗎？"
+msgstr "Figyelem: Engedélyezi a Teszt üzemmódot az aláíratlan illesztőprogramokhoz, ami jelentősen rontja a biztonságot.\n\nÚjraindítás szükséges. Folytatja?"
+
+msgid "解除驅動與核心安全限制"
+msgstr "Illesztőprogram- és kernelkorlátok feloldása"
+
+msgid "\n[執行] 正在請求重啟至 BIOS/UEFI...\n"
+msgstr "\n[Futtatás] Újraindítás kérése a BIOS/UEFI-be...\n"
+
+msgid "[成功] {}\n"
+msgstr "[OK] {}\n"
+
+msgid "[提示/錯誤] {}\n"
+msgstr "[Megjegyzés/Hiba] {}\n"
+
+msgid "\n[執行] 正在設定一次性安全模式 (Minimal)...\n"
+msgstr "\n[Futtatás] Egyszeri csökkentett mód (minimális) beállítása...\n"
+
+msgid "[錯誤] {}\n"
+msgstr "[Hiba] {}\n"
+
+msgid "\n[執行] 正在設定一次性安全模式 (Network)...\n"
+msgstr "\n[Futtatás] Egyszeri csökkentett mód (hálózattal) beállítása...\n"
+
+msgid "\n[執行] 正在請求重啟進入進階選單...\n"
+msgstr "\n[Futtatás] Újraindítás kérése a Speciális indítási menübe...\n"
+
+msgid "\n[執行] 正在偵測隨身碟並設定重啟進入 PE...\n"
+msgstr "\n[Futtatás] USB-meghajtó észlelése és PE rendszerindítás konfigurálása...\n"
+
+msgid "\n[執行] 正在透過 Win32 ExitWindowsEx 原生 API 重啟電腦...\n"
+msgstr "\n[Futtatás] Újraindítás a natív Win32 ExitWindowsEx API-n keresztül...\n"
+
+msgid "[成功] 已發送 Win32 原生重啟信號，系統正在重啟...\n"
+msgstr "[OK] A natív Win32 újraindítási jel elküldve. Újraindítás...\n"
+
+msgid "[API失敗] {}"
+msgstr "[API sikertelen] {}"
+
+msgid "\n[執行] 正在透過 Win32 ExitWindowsEx 原生 API 關閉電腦...\n"
+msgstr "\n[Futtatás] Leállítás a natív Win32 ExitWindowsEx API-n keresztül...\n"
+
+msgid "[成功] 已發送 Win32 原生關機信號，系統正在關機...\n"
+msgstr "[OK] A natív Win32 leállítási jel elküldve. Leállítás...\n"
+
+msgid "\n[執行] 正在開啟測試模式...\n"
+msgstr "\n[Futtatás] Teszt üzemmód engedélyezése...\n"
+
+msgid "[成功] 測試模式已開啟，請重新開機以生效。桌面右下角將顯示「測試模式」浮水印。\n"
+msgstr "[OK] Teszt üzemmód engedélyezve. Indítsa újra a gépet az érvényesítéshez.\n"
+
+msgid "[錯誤] {}\n提示：請先到 BIOS 關閉 Secure Boot 後再嘗試。\n"
+msgstr "[Hiba] {}\nTipp: Kapcsolja ki a Secure Boot funkciót a BIOS-ban, majd próbálja újra.\n"
+
+msgid "\n[執行] 正在關閉測試模式...\n"
+msgstr "\n[Futtatás] Teszt üzemmód letiltása...\n"
+
+msgid "[成功] 測試模式已關閉，請重新開機以生效。\n"
+msgstr "[OK] Teszt üzemmód letiltva. Indítsa újra a gépet.\n"
+
+msgid "\n[執行] 正在停用強制簽章 (nointegritychecks)...\n"
+msgstr "\n[Futtatás] Aláírás-kikényszerítés letiltása (nointegritychecks)...\n"
+
+msgid "[成功] 強制簽章驗證已停用，請重新開機以生效。\n"
+msgstr "[OK] Az aláírás-kikényszerítés letiltva. Indítsa újra a gépet.\n"
+
+msgid "[錯誤] {}\n提示：請確認是否具備系統管理員權限，或先到 BIOS 關閉 Secure Boot。\n"
+msgstr "[Hiba] {}\nTipp: Ellenőrizze a rendszergazdai jogokat, vagy kapcsolja ki a Secure Boot-ot a BIOS-ban.\n"
+
+msgid "\n[執行] 正在恢復強制簽章 (nointegritychecks)...\n"
+msgstr "\n[Futtatás] Aláírás-kikényszerítés visszaállítása (nointegritychecks)...\n"
+
+msgid "[成功] 強制簽章驗證已恢復正常，請重新開機以生效。\n"
+msgstr "[OK] Aláírás-kikényszerítés visszaállítva. Indítsa újra a gépet.\n"
+
+msgid "\n[執行] 正在恢復系統安全防護...\n"
+msgstr "\n[Futtatás] Rendszerbiztonság visszaállítása...\n"
+
+msgid "  [錯誤] 關閉 nointegritychecks 失敗: {}\n"
+msgstr "  [Hiba] A nointegritychecks kikapcsolása sikertelen: {}\n"
+
+msgid "  - 驅動強制簽章已恢復\n"
+msgstr "  - Illesztőprogram-aláírás kikényszerítése visszaállítva\n"
+
+msgid "  [錯誤] 關閉 testsigning 失敗: {}\n"
+msgstr "  [Hiba] A testsigning kikapcsolása sikertelen: {}\n"
+
+msgid "  [錯誤] 寫入登錄檔失敗 (錯誤碼 {}): 無法開啟記憶體完整性\n"
+msgstr "  [Hiba] Beállításjegyzék-írási hiba (kód: {}): Nem sikerült engedélyezni a memória-integritást\n"
+
+msgid "  - 記憶體完整性已開啟\n"
+msgstr "  - Memória-integritás engedélyezve\n"
+
+msgid "  - 測試模式已關閉\n"
+msgstr "  - Teszt üzemmód letiltva\n"
+
+msgid "  - 系統安全防護已恢復\n"
+msgstr "  - Rendszerbiztonság visszaállítva\n"
+
+msgid "  [錯誤] 寫入登錄檔失敗 (錯誤碼 {})\n"
+msgstr "  [Hiba] Beállításjegyzék-írási hiba (hibakód: {})\n"
+
+msgid "[警告] 過程中有錯誤發生，請檢查上方日誌。\n"
+msgstr "[Figyelem] Hibák történtek. Kérjük, ellenőrizze a fenti naplót.\n"
+
+msgid "[成功] 安全防護已恢復，請重新開機以生效。\n"
+msgstr "[OK] Biztonsági védelem visszaállítva. Indítsa újra a gépet.\n"
+
+msgid "\n[執行] 正在解除驅動與核心安全限制...\n"
+msgstr "\n[Futtatás] Illesztőprogram- és kernelkorlátok feloldása...\n"
+
+msgid "  [錯誤] 開啟 nointegritychecks 失敗: {}\n"
+msgstr "  [Hiba] A nointegritychecks bekapcsolása sikertelen: {}\n"
+
+msgid "  - 驅動強制簽章已停用\n"
+msgstr "  - Illesztőprogram-aláírás kikényszerítése letiltva\n"
+
+msgid "  [錯誤] 寫入登錄檔失敗 (錯誤碼 {}): 無法關閉記憶體完整性\n"
+msgstr "  [Hiba] Beállításjegyzék-írási hiba (kód: {}): Nem sikerült letiltani a memória-integritást\n"
+
+msgid "  - 記憶體完整性已關閉\n"
+msgstr "  - Memória-integritás letiltva\n"
+
+msgid "  [錯誤] 開啟 testsigning 失敗: {}\n"
+msgstr "  [Hiba] A testsigning bekapcsolása sikertelen: {}\n"
+
+msgid "  - 測試模式已開啟\n"
+msgstr "  - Teszt üzemmód engedélyezve\n"
+
+msgid "  - 驅動封鎖規則已關閉\n"
+msgstr "  - Illesztőprogram-tiltólista letiltva\n"
+
+msgid "[成功] 指定的安全限制已解除，請重新開機以生效。\n"
+msgstr "[OK] A kijelölt biztonsági korlátozások feloldva. Indítsa újra a gépet.\n"
+
+msgid "新增了隨身碟/磁碟: {} {}"
+msgstr "Új USB-meghajtó/lemez csatlakoztatva: {} {}"
+
+msgid "移除了隨身碟/磁碟: {} {}"
+msgstr "USB-meghajtó/lemez eltávolítva: {} {}"
+
+msgid "未偵測到包含 PE 環境的隨身碟"
+msgstr "Nem található PE környezetet tartalmazó USB-meghajtó"
+
+msgid "未插入任何隨身碟"
+msgstr "Nincs csatlakoztatva USB-meghajtó"
+
+msgid "USB啟動"
+msgstr "USB-ről indítás"
+
+msgid "\n[狀態變更] {}\n"
+msgstr "\n[Állapotváltozás] {}\n"
+
+msgid "使用者將目標隨身碟切換為: {} {}"
+msgstr "Cél USB-meghajtó átváltva: {} {}"
+
+msgid "無法讀取掃描結果"
+msgstr "A vizsgálati eredmények nem olvashatók"
+
+msgid "無法讀取選擇結果"
+msgstr "A kijelölés nem olvasható"
+
+msgid "未找到指定的 PE 隨身碟，請重新掃描。"
+msgstr "A megadott PE USB-meghajtó nem található. Vizsgálja újra."
+
+msgid "ramdisksdidevice 失敗: {}"
+msgstr "ramdisksdidevice sikertelen: {}"
+
+msgid "ramdisksdipath 失敗: {}"
+msgstr "ramdisksdipath sikertelen: {}"
+
+msgid "執行 bcdedit /create 失敗: {}"
+msgstr "A bcdedit /create sikertelen: {}"
+
+msgid "set device 失敗: {}"
+msgstr "set device sikertelen: {}"
+
+msgid "set osdevice 失敗: {}"
+msgstr "set osdevice sikertelen: {}"
+
+msgid "set path 失敗: {}"
+msgstr "set path sikertelen: {}"
+
+msgid "set systemroot 失敗: {}"
+msgstr "set systemroot sikertelen: {}"
+
+msgid "set winpe 失敗: {}"
+msgstr "set winpe sikertelen: {}"
+
+msgid "set detecthal 失敗: {}"
+msgstr "set detecthal sikertelen: {}"
+
+msgid "bootsequence 失敗: {}"
+msgstr "bootsequence sikertelen: {}"
+
+msgid "無法在系統中找到此本地模式 PE 的引導選單。請確認您已正確安裝本地模式 PE。"
+msgstr "A helyi PE rendszerindítási bejegyzése nem található. Ellenőrizze a telepítést."
+
+msgid "set device locate 失敗: {}"
+msgstr "set device locate sikertelen: {}"
+
+msgid "成功偵測到隨身碟並建立啟動項，系統正在重新啟動..."
+msgstr "USB-meghajtó észlelve és indítási bejegyzés létrehozva. Újraindítás..."
+
+msgid "成功建立 PE 啟動項，但發送重啟訊號失敗，請手動重新啟動電腦。"
+msgstr "PE indítási bejegyzés létrehozva, de az újraindítási jel sikertelen. Indítsa újra manuálisan."
+
+msgid "恢復驅動與核心安全防護"
+msgstr "Illesztőprogram- és kernelbiztonság visszaállítása"
+
+msgid "解除驅動與核心安全限制"
+msgstr "Illesztőprogram- és kernelkorlátok feloldása"
+
+msgid "包含測試模式、強制簽章與記憶體完整性。\n勾選下方項目並點擊按鈕，設定將於下次重開機後生效。"
+msgstr "Tartalmazza a Teszt módot, az aláírás-kikényszerítést és a memória-integritást.\nVálassza ki az elemeket és alkalmazza. Újraindításkor lép érvénybe."
+
+msgid "停用驅動封鎖規則"
+msgstr "Illesztőprogram-tiltólista letiltása"
+
+msgid "關閉記憶體完整性"
+msgstr "Memória-integritás kikapcsolása"
+
+msgid "恢復預設安全"
+msgstr "Alapértelmezett biztonság visszaállítása"
+
+msgid "套用變更"
+msgstr "Módosítások alkalmazása"
+
+msgid "重啟大師 (Reboot Master)"
+msgstr "Reboot Master"
+
+msgid "系統就緒。請選擇操作項目。"
+msgstr "A rendszer készen áll. Válasszon egy műveletet."
+
+msgid "USB啟動"
+msgstr "USB-ről indítás"
+
+msgid "掃描 USB 裝置中..."
+msgstr "USB-eszközök keresése..."
+
+msgid "確定要執行此操作？"
+msgstr "Biztosan végrehajtja ezt a műveletet?"
+
+msgid "即將執行選定的重啟或關機操作。"
+msgstr "A kiválasztott újraindítási vagy leállítási művelet hamarosan lefut."
+
+msgid "重啟管理"
+msgstr "Újraindítás-kezelő"
+
+msgid "說明"
+msgstr "Súgó"
+
+msgid "聲明"
+msgstr "Jogi nyilatkozat"
+
+msgid "外觀：跟隨系統 (點擊切換反色)"
+msgstr "Téma: Rendszer (kattintson az invertáláshoz)"
+
+msgid "外觀：淺色 (點擊切換深色)"
+msgstr "Téma: Világos (kattintson a Sötéthez)"
+
+msgid "外觀：深色 (點擊跟隨系統)"
+msgstr "Téma: Sötét (kattintson a Rendszerhez)"
+
+msgid "設定"
+msgstr "Beállítások"
+
+msgid "開機控制"
+msgstr "Boot vezérlés"
+
+msgid "電源與開機導向控制"
+msgstr "Főkapcsoló- és indításvezérlő"
+
+msgid "點擊卡片即可執行操作。安全模式採用無痕自動清除技術。"
+msgstr "Kattintson egy kártyára a végrehajtáshoz. A csökkentett mód nyommentesen törlődik."
+
+msgid "WinPE 環境"
+msgstr "WinPE környezet"
+
+msgid "標準 Windows"
+msgstr "Normál Windows"
+
+msgid "操作日誌"
+msgstr "Tevékenységnapló"
+
+msgid "BIOS / UEFI 設定"
+msgstr "BIOS / UEFI beállítás"
+
+msgid "重啟並自動進入主機板底層韌體設定畫面"
+msgstr "Újraindítás közvetlenül az alaplapi firmware beállításaiba."
+
+msgid "安全模式 (一般)"
+msgstr "Csökkentett mód (minimális)"
+
+msgid "無網路基礎排錯模式，第二次重啟自動復原"
+msgstr "Alapvető hibaelhárítás hálózat nélkül. Következő indításkor visszaáll."
+
+msgid "重新啟動系統"
+msgstr "Rendszer újraindítása"
+
+msgid "呼叫原生 API 強制重新啟動電腦"
+msgstr "Számítógép kényszerített újraindítása a natív API-n keresztül."
+
+msgid "進階開機選單"
+msgstr "Speciális indítási menü"
+
+msgid "進入 Windows 修復環境 (WinRE) 與啟動設定"
+msgstr "Belépés a Windows helyreállítási környezetbe (WinRE) és beállításokba."
+
+msgid "自動偵測USB裝置並使用USB裝置啟動"
+msgstr "USB-eszköz automatikus észlelése és indítás arról."
+
+msgid "安全模式 (含網路)"
+msgstr "Csökkentett mód (hálózattal)"
+
+msgid "支援連線之排錯模式，第二次重啟自動復原"
+msgstr "Hibaelhárítás hálózati kapcsolattal. Következő indításkor visszaáll."
+
+msgid "安全關機"
+msgstr "Biztonságos leállítás"
+
+msgid "呼叫原生 API 安全關閉電腦電源"
+msgstr "Számítógép biztonságos kikapcsolása a natív API-val."
+
+msgid "恢復系統安全防護"
+msgstr "Rendszerbiztonság visszaállítása"
+
+msgid "停用驅動強制簽章"
+msgstr "Aláírás-kikényszerítés letiltása"
+
+msgid "啟用驅動測試模式"
+msgstr "Illesztőprogram-tesztmód engedélyezése"
+
+msgid "32 位元系統無強制核心簽章限制，無需解鎖。"
+msgstr "A 32 bites rendszerek nem követelik meg a rendszermag-aláírást. Feloldás nem szükséges."
+
+msgid "恢復預設數位簽章驗證與防護。點擊卡片套用並重啟。"
+msgstr "Alapértelmezett digitális aláírás-ellenőrzés visszaállítása. Kattintson az újraindításhoz."
+
+msgid "關閉數位簽章驗證與記憶體完整性。點擊卡片套用。"
+msgstr "Aláírás-ellenőrzés és memória-integritás letiltása. Kattintson az alkalmazáshoz."
+
+msgid "允許載入無簽章驅動。點擊右側展開選項。"
+msgstr "Aláíratlan illesztőprogramok engedélyezése. Kattintson jobbra a részletekért."
+
+msgid "去除測試模式浮水印"
+msgstr "Teszt üzemmód vízjel eltávolítása"
+
+msgid "操作日誌歷史"
+msgstr "Tevékenységnapló előzményei"
+
+msgid "檢視所有執行過的指令與系統回報紀錄。"
+msgstr "Az összes végrehajtott parancs és rendszerválasz megtekintése."
+
+msgid "複製日誌"
+msgstr "Napló másolása"
+
+msgid "回上一頁"
+msgstr "Vissza"
+
+msgid "操作說明"
+msgstr "Használati útmutató"
+
+msgid "了解重啟大師的操作細節與底層架構設計。"
+msgstr "Ismerje meg a Reboot Master működését és architektúráját."
+
+msgid "軟體功能與優先級設計"
+msgstr "Funkciók és végrehajtási prioritás"
+
+msgid "本軟體依循「原生 Win32 API 優先 > DLL 導出函式 > 系統管理指令」之架構設計。直接關機與重啟採用 ExitWindowsEx API；安全模式則透過 BCD 一次性導引機制（/bootsequence），確保重啟一次進入安全模式後，下次重開機即自動回歸標準正常模式。"
+msgstr "A szoftver a „Natív Win32 API > DLL exportok > Rendszerparancsok” elvre épül. A leállítás és újraindítás az ExitWindowsEx API-t használja; a csökkentett mód az egyszeri BCD mechanizmusra támaszkodik (/bootsequence), így a következő újraindításkor automatikusan normál módba tér vissza."
+
+msgid "得翼科技 (DEI 3C)"
+msgstr "DEI Tech (DEI 3C)"
+
+msgid "效能無界限，讓您的數位生活隨心所欲"
+msgstr "Határtalan teljesítmény a szabad digitális életért."
+
+msgid "電腦組裝"
+msgstr "PC összeszerelés"
+
+msgid "筆電升級"
+msgstr "Laptop bővítés"
+
+msgid "網路規劃"
+msgstr "Hálózattervezés"
+
+msgid "資安防護"
+msgstr "Kiberbiztonság"
+
+msgid "官方頻道與社群"
+msgstr "Hivatalos csatornák és közösség"
+
+msgid "前往官方部落格"
+msgstr "Ugrás a hivatalos blogra"
+
+msgid "重啟大師 (Reboot Master) "
+msgstr "Reboot Master "
+
+msgid "使用者條款與免責聲明"
+msgstr "Felhasználási feltételek és jogi nyilatkozat"
+
+msgid "請在使用本軟體前詳細閱讀以下條款與資料安全提醒。"
+msgstr "Használat előtt figyelmesen olvassa el az alábbi feltételeket és adatbiztonsági tudnivalókat."
+
+msgid "資料安全提醒與免責聲明"
+msgstr "Adatbiztonsági tájékoztató és jogi nyilatkozat"
+
+msgid "歡迎使用「重啟大師 (Reboot Master)」\n\n1. 觸發重新開機或關機前，系統將立即終止所有未儲存之應用程式執行。請使用者於執行前確保所有工作檔案皆已儲存完畢。\n\n2. 本軟體依「現況」免費提供，開發團隊不承擔因硬體相容性（如主機板不支援 UEFI 韌體重啟）或資料未儲存造成之任何直接或間接損失。"
+msgstr "Üdvözli a „Reboot Master”\n\n1. Az újraindítás vagy leállítás azonnal bezárja a mentetlen alkalmazásokat. Kérjük, mentse el minden munkáját.\n\n2. A szoftver ingyenesen, „adott állapotban” áll rendelkezésre. A fejlesztők nem vállalnak felelősséget hardveres inkompatibilitásért vagy adatvesztésért."
+
+msgid "調整語言、外觀與軟體更新。"
+msgstr "Nyelv, megjelenés és frissítések beállítása."
+
+msgid "語言"
+msgstr "Nyelv"
+
+msgid "選擇介面顯示語言。"
+msgstr "Válassza ki a kezelőfelület megjelenítési nyelvét."
+
+msgid "繁體中文"
+msgstr "Hagyományos kínai"
+
+msgid "简体中文"
+msgstr "Egyszerűsített kínai"
+
+msgid "外觀"
+msgstr "Megjelenés"
+
+msgid "選擇淺色、深色，或跟隨系統設定。"
+msgstr "Válasszon Világos, Sötét vagy Rendszerbeállítást."
+
+msgid "淺色"
+msgstr "Világos"
+
+msgid "淺色 (跟隨系統)"
+msgstr "Világos (Rendszer)"
+
+msgid "深色 (跟隨系統)"
+msgstr "Sötét (Rendszer)"
+
+msgid "深色"
+msgstr "Sötét"
+
+msgid "軟體更新"
+msgstr "Szoftverfrissítések"
+
+msgid "啟動時會自動檢查 GitHub 上的最新版本。"
+msgstr "Indításkor automatikusan ellenőrzi a legújabb verziót a GitHubon."
+
+msgid "目前版本："
+msgstr "Jelenlegi verzió: "
+
+msgid "正在檢查更新..."
+msgstr "Frissítések keresése..."
+
+msgid "發現新版本："
+msgstr "Új verzió érhető el: "
+
+msgid "目前已是最新版本。"
+msgstr "A legfrissebb verziót használja."
+
+msgid "無法連線至 GitHub，請檢查網路連線。"
+msgstr "Nem sikerült csatlakozni a GitHubhoz. Ellenőrizze a hálózati kapcsolatot."
+
+msgid "正在下載更新，完成後將自動重新啟動..."
+msgstr "Frissítés letöltése. Az alkalmazás befejezés után automatikusan újraindul..."
+
+msgid "尚未檢查更新。"
+msgstr "Még nem kerestünk frissítéseket."
+
+msgid "檢查更新"
+msgstr "Frissítések keresése"
+
+msgid "立即更新"
+msgstr "Frissítés most"
+
+msgid "再次確認您的操作"
+msgstr "Művelet megerősítése"
+
+msgid "\n\n請確認您的所有工作與文件皆已儲存。確定要立即執行嗎？"
+msgstr "\n\nKérjük, ellenőrizze, hogy minden munkáját elmentette-e. Biztosan végrehajtja most?"
+
+msgid "取消"
+msgstr "Mégse"
+
+msgid "確定執行"
+msgstr "Megerősítés"
+
+msgid "所有安全模式均採用無痕自動清除技術，重啟後將自動還原。"
+msgstr "Minden csökkentett mód nyommentes törlést használ, és újraindításkor visszaáll."
+
+msgid "恢復預設數位簽章驗證與防護。"
+msgstr "Alapértelmezett digitális aláírás-ellenőrzés és védelem visszaállítása."
+
+msgid "關閉數位簽章驗證與記憶體完整性"
+msgstr "Digitális aláírás-ellenőrzés és memória-integritás letiltása"
+
+msgid "允許載入無簽章之驅動程式。"
+msgstr "Aláíratlan illesztőprogramok betöltésének engedélyezése."
+
+msgid "選擇語言"
+msgstr "Nyelv kiválasztása"
+
+msgid "此功能僅支援 Windows 8 及以上版本。您的系統過舊，請在開機時手動按鍵進入 BIOS。"
+msgstr "Ez a funkció csak Windows 8 vagy újabb rendszereken működik. Indításkor nyomja meg a BIOS billentyűt."
+
+msgid "此系統為傳統 BIOS (Legacy)，無法透過軟體重啟進入 BIOS 設定。請在開機時手動按鍵進入。"
+msgstr "A rendszer Legacy BIOS-t használ, szoftveres újraindítás nem lehetséges. Indításkor nyomja le a megfelelő billentyűt."
+
+msgid "  [範本解析] 處於 WinPE 環境，採用實體系統預設項 {default}\n"
+msgstr "[Sablon] WinPE környezetben a fizikai operációs rendszer alapértelmezett bejegyzése: {default} \n"
+
+msgid "  [範本解析] 正在探測當前引導項 {current}...\n"
+msgstr "[Sablon] Az aktuális rendszerindítási bejegyzés vizsgálata {current}... \n"
+
+msgid "  [範本解析] 當前會話引導項 {current} 有效，採用為母體範本\n"
+msgstr "[Sablon] A jelenlegi {current} rendszerindítási bejegyzés érvényes, alapsablonként használva \n"
+
+msgid "  [範本解析] 偵測到 {current} 已於前次重啟後被清理刪除 (無效識別元)\n"
+msgstr "[Sablon] A(z) {current} észlelése megtörtént az előző újraindítás után (érvénytelen azonosító) \n"
+
+msgid "  [範本解析] 正在驗證系統永久開機項 {default}...\n"
+msgstr "[Sablon] Az állandó rendszerindítási bejegyzés érvényesítése {default}... \n"
+
+msgid "  [範本解析] 成功選定系統永久開機項 {default} 作為母體範本 (確保一次成功)\n"
+msgstr "[Sablon] A(z) {alapértelmezett} állandó bejegyzés sikeresen kiválasztva alapsablonként (biztosítja az első próbálkozás sikerét) \n"
+
+msgid "  [範本解析] 正在掃描 BCD osloader 列表以尋找有效開機項...\n"
+msgstr "[Sablon] A BCD osloader lista ellenőrzése érvényes rendszerindítási bejegyzések keresésére... \n"
+
+msgid "  [範本解析] 從 osloader 列表成功定位實體系統項: {}\n"
+msgstr "[Sablon] Sikeresen megtalálható fizikai operációs rendszer bejegyzés az osloaderből: {} \n"
+
+msgid "  [範本解析] 未能列舉額外開機項，預設採用 {default}\n"
+msgstr "[Sablon] Nem sikerült további bejegyzéseket felsorolni, alapértelmezés szerint {default} \n"
+
+msgid "  [建立副本] 正在自範本 {} 複製建立臨時安全模式項...\n"
+msgstr "[Klón létrehozása] Sablon másolása {} a csökkentett módú ideiglenes bejegyzés létrehozásához... \n"
+
+msgid "  [建立副本] 成功建立副本！\n"
+msgstr "[Klón létrehozása] A klón sikeresen létrehozva! \n"
+
+msgid "  [降級備援] 複製範本 {} 失敗: {}，啟動備援嘗試 {{default}}...\n"
+msgstr "[Tartalék] A(z) {} sablon másolása nem sikerült: {}, tartalék kísérlet a(z) {{default}} használatával... \n"
+
+msgid "  [降級備援] 備援方案複製 {default} 成功！\n"
+msgstr "[Tartalék] A(z) {default} tartalék klónja sikerült! \n"
+
+msgid "  [降級備援] 備援方案亦失敗: {}\n"
+msgstr "[Tartalék] A tartalék klón szintén meghiúsult: {} \n"
+
+msgid "建立臨時安全模式引導項失敗"
+msgstr "Nem sikerült létrehozni az ideiglenes csökkentett módú rendszerindító bejegyzést"
+
+msgid "  [建立副本] 失敗: {}\n"
+msgstr "[Klón létrehozása] Sikertelen: {} \n"
+
+msgid "  [臨時標識] 取得臨時 GUID: {}\n"
+msgstr "[Temp GUID] Megszerzett ideiglenes GUID: {} \n"
+
+msgid "  [選單隱藏] 從開機選單中隱藏此臨時副本 (/displayorder ... /remove)...\n"
+msgstr "[Menü elrejtése] Ideiglenes klón elrejtése a rendszerindító menüből (/displayorder ... /remove)... \n"
+
+msgid "  [模式配置] 設定 safeboot 參數為 {}...\n"
+msgstr "[Config] A safeboot paraméter beállítása a következőre: {}... \n"
+
+msgid "  [一次性引導] 設定單次啟動序列 (/bootsequence)，重啟後 BootMgr 自動復原...\n"
+msgstr "[Egyszeri indítás] Az egyszeri indítási sorrend (/bootsequence) beállítása, a BootMgr újraindítás után visszaáll... \n"
+
+msgid "  [開機自毀] 註冊 RunOnce 自毀清理任務 (重啟登入後徹底刪除臨時項目)...\n"
+msgstr "[Önmegsemmisítés] RunOnce tisztítási feladat regisztrálása (bejelentkezés után véglegesen törli az ideiglenes bejegyzést)... \n"
+
+msgid "母體範本: {}\n  模式: {}\n  臨時 GUID: {}"
+msgstr "Alapsablon: {}\nMód: {}\nTemp GUID: {}"
+
+msgid "  [建立副本] 正在自範本 {} 複製建立臨時進階選單項...\n"
+msgstr "[Klón létrehozása] Sablon másolása {} az ideiglenes Advanced Boot Options bejegyzés létrehozásához... \n"
+
+msgid "建立臨時進階選單引導項失敗"
+msgstr "Nem sikerült létrehozni az ideiglenes Speciális rendszerindítási beállítások rendszerindítási bejegyzést"
+
+msgid "  [進階選項] 啟用 advancedoptions=true (Win7 顯示 F8 選單，Win10/11 顯示開機設定)...\n"
+msgstr "[Speciális beállítások] Az advancedoptions=true engedélyezése (F8 menü Win7-en, Indítási beállítások Win10/11-en)... \n"
+
+msgid "母體範本: {}\n  臨時 GUID: {}"
+msgstr "Alapsablon: {}\nTemp GUID: {}"
+
+msgid "此功能僅支援 Windows 8 及以上之 UEFI 系統"
+msgstr "Ez a funkció csak az UEFI rendszereket támogatja Windows 8 és újabb rendszeren"
+
+msgid "主機板或系統未支援韌體引導 (Legacy BIOS)"
+msgstr "Az alaplap vagy a rendszer nem támogatja a firmware-indítást (örökölt BIOS)"
+

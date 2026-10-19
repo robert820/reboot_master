@@ -1,0 +1,745 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: reboot_master v1.0.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ku\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "[{}] 操作: {}\n  變更細節: {}\n  執行狀態: {}\n----------------------------------------\n"
+msgstr "[{}] Çalakî: {}\n  Kîtekît: {}\n  Rewş: {}\n----------------------------------------\n"
+
+msgid "尚無歷史操作紀錄。\n"
+msgstr "Hêj dîroka çalakiyan tune ye.\n"
+
+msgid "無法獲取 SeShutdownPrivilege 系統關機權限"
+msgstr "Destûra pergala SeShutdownPrivilege nehat wergirtin"
+
+msgid "關機失敗，錯誤碼: {}"
+msgstr "Girtin biserneket, koda çewtiyê: {}"
+
+msgid "無法獲取 SeShutdownPrivilege 系統重啟權限"
+msgstr "Destûra ji nû ve destpêkirina SeShutdownPrivilege nehat wergirtin"
+
+msgid "重啟失敗，錯誤碼: {}"
+msgstr "Ji nû ve destpêkirin biserneket, koda çewtiyê: {}"
+
+msgid "無法獲取系統環境權限 (SeSystemEnvironmentPrivilege)，請確認是否以系統管理員身分執行"
+msgstr "SeSystemEnvironmentPrivilege nehat wergirtin. Wekî rêveber bidin destpêkirin"
+
+msgid "當前主機板或作業系統不支援直接從系統重啟至韌體/BIOS設定"
+msgstr "Karta sereke an pergal piştgiriya ji nû ve destpêkirina rasterast a BIOS/UEFI nake"
+
+msgid "寫入 UEFI 韌體變數失敗，可能受限於防毒軟體或權限異常。"
+msgstr "Nivîsandina guhêrbara UEFI biserneket. Ji aliyê antîvîrus an destûran ve hate astengkirin."
+
+msgid "重啟至 BIOS/UEFI"
+msgstr "Ji nû ve destpêkirina BIOS/UEFI"
+
+msgid "寫入 UEFI 變數: OsIndications (GUID: {8BE4DF61-93CA-11D2-AA0D-00E098032B8C})，Bit 0 設為 1 (BootToFwUI)"
+msgstr "Guhêrbara UEFI hat nivîsandin: OsIndications (GUID: {8BE4DF61-93CA-11D2-AA0D-00E098032B8C}), Bîta 0 wekî 1 hat danîn (BootToFwUI)"
+
+msgid "準備重啟"
+msgstr "Amadekariya ji nû ve destpêkirinê"
+
+msgid "已成功透過 API 寫入 UEFI 變數，系統正在重新啟動至 BIOS/UEFI..."
+msgstr "Guhêrbara UEFI bi serkeftî hat nivîsandin. Ji nû ve di BIOS/UEFI de dest pê dike..."
+
+msgid "執行 bcdedit 失敗: {}"
+msgstr "Xebitandina bcdedit biserneket: {}"
+
+msgid "執行 `bcdedit {}` 失敗: {}"
+msgstr "`bcdedit {}` biserneket: {}"
+
+msgid "找不到實體系統的 SOFTWARE 登錄檔"
+msgstr "Kozika qeydê ya SOFTWARE ya pergala fîzîkî nehat dîtin"
+
+msgid "無法從 bcdedit 輸出中找到新的 GUID 起點"
+msgstr "Di derana bcdedit de destpêka GUID-a nû nehat dîtin"
+
+msgid "無法從 bcdedit 輸出中找到新的 GUID 終點"
+msgstr "Di derana bcdedit de dawiya GUID-a nû nehat dîtin"
+
+msgid "無法獲取當前執行檔路徑: {}"
+msgstr "Rêça dosyeya xebitandinê ya niha nehat wergirtin: {}"
+
+msgid "一次性安全模式"
+msgstr "Moda ewle ya yekcarî"
+
+msgid "模式: {}\n  臨時 GUID: {}"
+msgstr "Mod: {}\n  GUID ya demkî: {}"
+
+msgid "已成功設定一次性安全模式，系統正在重新啟動..."
+msgstr "Moda ewle ya yekcarî hat mîhengkirin. Ji nû ve dest pê dike..."
+
+msgid "重啟至進階開機選單"
+msgstr "Ji nû ve di pêşeka destpêkirina pêşketî de bide destpêkirin"
+
+msgid "建立臨時副本 GUID: {}"
+msgstr "GUID ya navnîşa demkî hat afirandin: {}"
+
+msgid "已成功設定一次性進階開機選單，系統正在重新啟動..."
+msgstr "Vebijarkên destpêkirina pêşketî yên yekcarî hatin mîhengkirin. Ji nû ve dest pê dike..."
+
+msgid "重啟進入 BIOS / UEFI 韌體"
+msgstr "Ji nû ve di bellenavê BIOS / UEFI de bide destpêkirin"
+
+msgid "此操作將立即重新啟動電腦並自動進入 BIOS/UEFI 設定畫面。"
+msgstr "Komputerê di cih de ji nû ve dide destpêkirin û bixweber dikeve mîhengên BIOS/UEFI."
+
+msgid "一次性安全模式 (Minimal)"
+msgstr "Moda ewle ya yekcarî (Kêmîn)"
+
+msgid "下一次開機將進入安全模式。第二次重新開機時，系統將自動恢復進入正常模式。"
+msgstr "Carekê di moda ewle de dest pê dike. Di destpêkirina din de vedigere moda asayî."
+
+msgid "一次性安全模式 (含網路)"
+msgstr "Moda ewle ya yekcarî (bi torê re)"
+
+msgid "下一次開機將進入含網路連線的安全模式。第二次重新開機時，系統將自動恢復進入正常模式。"
+msgstr "Carekê di moda ewle bi torê re dest pê dike. Di destpêkirina din de vedigere moda asayî."
+
+msgid "重啟進入進階開機選單"
+msgstr "Ji nû ve di vebijarkên destpêkirinê yên pêşketî de bide destpêkirin"
+
+msgid "此操作將重新啟動電腦並直接開啟 Windows 進階開機與疑難排解選單。"
+msgstr "Komputerê ji nû ve dide destpêkirin û pêşeka destpêkirina pêşketî û çareserkirina pirsgirêkan vedike."
+
+msgid "直接強制重啟電腦"
+msgstr "Bêrawestandin ji nû ve dest pê bike"
+
+msgid "此操作將透過 Win32 原生 API 立即重啟您的電腦。"
+msgstr "Komputera we di cih de bi riya Win32 API ya xwemalî ji nû ve dide destpêkirin."
+
+msgid "直接安全關機"
+msgstr "Bi ewlehî niha bigire"
+
+msgid "此操作將透過 Win32 原生 API 立即關閉電腦電源。"
+msgstr "Elektrîka komputera we di cih de bi riya Win32 API ya xwemalî digire."
+
+msgid "開啟測試模式 (Test Mode)"
+msgstr "Moda ceribandinê çalak bike"
+
+msgid "開啟後系統將接受測試簽章驅動程式。桌面右下角會出現「測試模式」浮水印。\n\n• 需先在 BIOS 關閉 Secure Boot 才能生效\n• 大多數遊戲反作弊（EAC、BattlEye）會拒絕在此模式下運行遊戲\n• 執行後需重新開機才會生效。關閉則執行「關閉測試模式」"
+msgstr "Pergal dê ajokerên bi îmzeya ceribandinê qebûl bike. Nîşana avî ya \"Moda ceribandinê\" li ser sermaseyê xuya dibe.\n\n• Divê pêşî Secure Boot di BIOS de were girtin\n• Piraniya pergalên dij-xapandinê (EAC, BattlEye) lîstikan asteng dikin\n• Ji nû ve destpêkirin pêwîst e. Ji bo girtinê \"Moda ceribandinê neçalak bike\" bi kar bîne"
+
+msgid "關閉測試模式"
+msgstr "Moda ceribandinê neçalak bike"
+
+msgid "關閉測試模式後，系統將恢復標準驅動簽章驗證。需重新開機才會生效。"
+msgstr "Neçalakkirina moda ceribandinê piştrastkirina standard a îmzeya ajokerê vedigerîne. Ji nû ve destpêkirin pêwîst e."
+
+msgid "停用驅動程式強制簽章"
+msgstr "Zorêdana îmzeya ajokerê neçalak bike"
+
+msgid "此操作將徹底關閉 Windows 的驅動程式數位簽章驗證 (nointegritychecks)。\n\n• 允許安裝完全沒有數位簽章的驅動程式\n• 系統安全性將大幅降低\n• 需先在 BIOS 關閉 Secure Boot 才能生效\n• 執行後需重新開機才會生效。"
+msgstr "Verastkirina îmzeya dîjîtal a ajokerên Windows bi tevahî digire (nointegritychecks).\n\n• Destûrê dide sazkirina ajokerên bê îmze\n• Ewlehiya pergalê dê pir kêm bibe\n• Divê pêşî Secure Boot di BIOS de were girtin\n• Ji nû ve destpêkirin pêwîst e."
+
+msgid "恢復強制簽章驗證"
+msgstr "Zorêdana îmzeyê vegerîne"
+
+msgid "將恢復 Windows 預設的驅動程式數位簽章驗證機制。需重新開機才會生效。"
+msgstr "Mekanîzmaya standard a piştrastkirina îmzeya ajokerên Windows vedigerîne. Ji nû ve destpêkirin pêwîst e."
+
+msgid "恢復系統安全防護"
+msgstr "Ewlehiya pergalê vegerîne"
+
+msgid "將恢復 Windows 預設的數位簽章驗證與核心安全機制。\n\n需要重新開機才會完全生效。確定要執行嗎？"
+msgstr "Ewlehiya navikê û piştrastkirina îmzeya standard a Windows vedigerîne.\n\nJi bo bandora tevahî ji nû ve destpêkirin pêwîst e. Berdewam bike?"
+
+msgid "警告：這將徹底停用驅動程式強制簽章 (nointegritychecks) 並關閉記憶體完整性，大幅降低系統安全性。\n\n需要重新開機才會完全生效。確定要執行嗎？"
+msgstr "Hişyarî: Zorêdana îmzeya ajokerê û yekparebûna bîrê digire, ku ev ewlehiya pergalê pir kêm dike.\n\nJi nû ve destpêkirin pêwîst e. Berdewam bike?"
+
+msgid "警告：這將開啟測試模式以允許載入未經簽章的驅動程式，大幅降低系統安全性。\n\n需要重新開機才會完全生效。確定要執行嗎？"
+msgstr "Hişyarî: Moda ceribandinê çalak dike da ku ajokerên bê îmze werin barkirin, ku ev ewlehiyê kêm dike.\n\nJi nû ve destpêkirin pêwîst e. Berdewam bike?"
+
+msgid "解除驅動與核心安全限制"
+msgstr "Sînorên ewlehiya ajoker û navikê rake"
+
+msgid "\n[執行] 正在請求重啟至 BIOS/UEFI...\n"
+msgstr "\n[Xebitandin] Daxwaza ji nû ve destpêkirina BIOS/UEFI tê kirin...\n"
+
+msgid "[成功] {}\n"
+msgstr "[Serkeftî] {}\n"
+
+msgid "[提示/錯誤] {}\n"
+msgstr "[Agahdarî/Çewtî] {}\n"
+
+msgid "\n[執行] 正在設定一次性安全模式 (Minimal)...\n"
+msgstr "\n[Xebitandin] Moda ewle ya yekcarî (Kêmîn) tê mîhengkirin...\n"
+
+msgid "[錯誤] {}\n"
+msgstr "[Çewtî] {}\n"
+
+msgid "\n[執行] 正在設定一次性安全模式 (Network)...\n"
+msgstr "\n[Xebitandin] Moda ewle ya yekcarî (bi torê re) tê mîhengkirin...\n"
+
+msgid "\n[執行] 正在請求重啟進入進階選單...\n"
+msgstr "\n[Xebitandin] Daxwaza destpêkirina di pêşeka pêşketî de tê kirin...\n"
+
+msgid "\n[執行] 正在偵測隨身碟並設定重啟進入 PE...\n"
+msgstr "\n[Xebitandin] Dîska USB tê tesbîtkirin û destpêkirina PE tê mîhengkirin...\n"
+
+msgid "\n[執行] 正在透過 Win32 ExitWindowsEx 原生 API 重啟電腦...\n"
+msgstr "\n[Xebitandin] Bi riya Win32 ExitWindowsEx API ya xwemalî ji nû ve dest pê dike...\n"
+
+msgid "[成功] 已發送 Win32 原生重啟信號，系統正在重啟...\n"
+msgstr "[Serkeftî] Sînyala ji nû ve destpêkirina Win32 hat şandin. Ji nû ve dest pê dike...\n"
+
+msgid "[API失敗] {}"
+msgstr "[API biserneket] {}"
+
+msgid "\n[執行] 正在透過 Win32 ExitWindowsEx 原生 API 關閉電腦...\n"
+msgstr "\n[Xebitandin] Bi riya Win32 ExitWindowsEx API ya xwemalî tê girtin...\n"
+
+msgid "[成功] 已發送 Win32 原生關機信號，系統正在關機...\n"
+msgstr "[Serkeftî] Sînyala girtinê ya Win32 hat şandin. Tê girtin...\n"
+
+msgid "\n[執行] 正在開啟測試模式...\n"
+msgstr "\n[Xebitandin] Moda ceribandinê tê çalakkirin...\n"
+
+msgid "[成功] 測試模式已開啟，請重新開機以生效。桌面右下角將顯示「測試模式」浮水印。\n"
+msgstr "[Serkeftî] Moda ceribandinê hat çalakkirin. Ji bo sepandinê ji nû ve dest pê bike.\n"
+
+msgid "[錯誤] {}\n提示：請先到 BIOS 關閉 Secure Boot 後再嘗試。\n"
+msgstr "[Çewtî] {}\nNîşe: Ji kerema xwe Secure Boot di BIOS de bigire û dîsa biceribîne.\n"
+
+msgid "\n[執行] 正在關閉測試模式...\n"
+msgstr "\n[Xebitandin] Moda ceribandinê tê neçalakkirin...\n"
+
+msgid "[成功] 測試模式已關閉，請重新開機以生效。\n"
+msgstr "[Serkeftî] Moda ceribandinê hat neçalakkirin. Ji bo sepandinê ji nû ve dest pê bike.\n"
+
+msgid "\n[執行] 正在停用強制簽章 (nointegritychecks)...\n"
+msgstr "\n[Xebitandin] Zorêdana îmzeyê tê neçalakkirin (nointegritychecks)...\n"
+
+msgid "[成功] 強制簽章驗證已停用，請重新開機以生效。\n"
+msgstr "[Serkeftî] Zorêdana îmzeyê hat neçalakkirin. Ji bo sepandinê ji nû ve dest pê bike.\n"
+
+msgid "[錯誤] {}\n提示：請確認是否具備系統管理員權限，或先到 BIOS 關閉 Secure Boot。\n"
+msgstr "[Çewtî] {}\nNîşe: Destûrên rêveber kontrol bike an Secure Boot di BIOS de bigire.\n"
+
+msgid "\n[執行] 正在恢復強制簽章 (nointegritychecks)...\n"
+msgstr "\n[Xebitandin] Zorêdana îmzeyê tê vegerandin (nointegritychecks)...\n"
+
+msgid "[成功] 強制簽章驗證已恢復正常，請重新開機以生效。\n"
+msgstr "[Serkeftî] Zorêdana îmzeyê hat vegerandin. Ji bo sepandinê ji nû ve dest pê bike.\n"
+
+msgid "\n[執行] 正在恢復系統安全防護...\n"
+msgstr "\n[Xebitandin] Ewlehiya pergalê tê vegerandin...\n"
+
+msgid "  [錯誤] 關閉 nointegritychecks 失敗: {}\n"
+msgstr "  [Çewtî] Girtina nointegritychecks biserneket: {}\n"
+
+msgid "  - 驅動強制簽章已恢復\n"
+msgstr "  - Zorêdana îmzeya ajokerê hat vegerandin\n"
+
+msgid "  [錯誤] 關閉 testsigning 失敗: {}\n"
+msgstr "  [Çewtî] Girtina testsigning biserneket: {}\n"
+
+msgid "  [錯誤] 寫入登錄檔失敗 (錯誤碼 {}): 無法開啟記憶體完整性\n"
+msgstr "  [Çewtî] Nivîsandina qeydê biserneket (koda {}): Yekparebûna bîrê nehat çalakkirin\n"
+
+msgid "  - 記憶體完整性已開啟\n"
+msgstr "  - Yekparebûna bîrê hat çalakkirin\n"
+
+msgid "  - 測試模式已關閉\n"
+msgstr "  - Moda ceribandinê hat neçalakkirin\n"
+
+msgid "  - 系統安全防護已恢復\n"
+msgstr "  - Ewlehiya pergalê hat vegerandin\n"
+
+msgid "  [錯誤] 寫入登錄檔失敗 (錯誤碼 {})\n"
+msgstr "  [Çewtî] Nivîsandina qeydê biserneket (koda çewtiyê {})\n"
+
+msgid "[警告] 過程中有錯誤發生，請檢查上方日誌。\n"
+msgstr "[Hişyarî] Çewtî derketin holê. Ji kerema xwe rojnivîska li jor kontrol bike.\n"
+
+msgid "[成功] 安全防護已恢復，請重新開機以生效。\n"
+msgstr "[Serkeftî] Ewlehî hat vegerandin. Ji bo sepandinê ji nû ve dest pê bike.\n"
+
+msgid "\n[執行] 正在解除驅動與核心安全限制...\n"
+msgstr "\n[Xebitandin] Sînorên ewlehiya ajoker û navikê tên rakirin...\n"
+
+msgid "  [錯誤] 開啟 nointegritychecks 失敗: {}\n"
+msgstr "  [Çewtî] Vekirina nointegritychecks biserneket: {}\n"
+
+msgid "  - 驅動強制簽章已停用\n"
+msgstr "  - Zorêdana îmzeya ajokerê hat neçalakkirin\n"
+
+msgid "  [錯誤] 寫入登錄檔失敗 (錯誤碼 {}): 無法關閉記憶體完整性\n"
+msgstr "  [Çewtî] Nivîsandina qeydê biserneket (koda {}): Yekparebûna bîrê nehat girtin\n"
+
+msgid "  - 記憶體完整性已關閉\n"
+msgstr "  - Yekparebûna bîrê hat girtin\n"
+
+msgid "  [錯誤] 開啟 testsigning 失敗: {}\n"
+msgstr "  [Çewtî] Vekirina testsigning biserneket: {}\n"
+
+msgid "  - 測試模式已開啟\n"
+msgstr "  - Moda ceribandinê hat çalakkirin\n"
+
+msgid "  - 驅動封鎖規則已關閉\n"
+msgstr "  - Lîsteya astengkirina ajokeran hat girtin\n"
+
+msgid "[成功] 指定的安全限制已解除，請重新開機以生效。\n"
+msgstr "[Serkeftî] Sînorên ewlehiyê hatin rakirin. Ji bo sepandinê ji nû ve dest pê bike.\n"
+
+msgid "新增了隨身碟/磁碟: {} {}"
+msgstr "Dîska USB hat girêdan: {} {}"
+
+msgid "移除了隨身碟/磁碟: {} {}"
+msgstr "Dîska USB hat derxistin: {} {}"
+
+msgid "未偵測到包含 PE 環境的隨身碟"
+msgstr "Dîska USB ya bi hawirdora PE nehat tesbîtkirin"
+
+msgid "未插入任何隨身碟"
+msgstr "Tu dîska USB nehatiye girêdan"
+
+msgid "USB啟動"
+msgstr "Destpêkirina bi USB"
+
+msgid "\n[狀態變更] {}\n"
+msgstr "\n[Guhertina rewşê] {}\n"
+
+msgid "使用者將目標隨身碟切換為: {} {}"
+msgstr "Dîska USB ya armanc hat guhertin bo: {} {}"
+
+msgid "無法讀取掃描結果"
+msgstr "Encamên lêgerînê nehatin xwendin"
+
+msgid "無法讀取選擇結果"
+msgstr "Hilbijartin nehat xwendin"
+
+msgid "未找到指定的 PE 隨身碟，請重新掃描。"
+msgstr "Dîska PE USB ya diyarkirî nehat dîtin. Ji kerema xwe dîsa lê bigere."
+
+msgid "ramdisksdidevice 失敗: {}"
+msgstr "ramdisksdidevice biserneket: {}"
+
+msgid "ramdisksdipath 失敗: {}"
+msgstr "ramdisksdipath biserneket: {}"
+
+msgid "執行 bcdedit /create 失敗: {}"
+msgstr "bcdedit /create biserneket: {}"
+
+msgid "set device 失敗: {}"
+msgstr "set device biserneket: {}"
+
+msgid "set osdevice 失敗: {}"
+msgstr "set osdevice biserneket: {}"
+
+msgid "set path 失敗: {}"
+msgstr "set path biserneket: {}"
+
+msgid "set systemroot 失敗: {}"
+msgstr "set systemroot biserneket: {}"
+
+msgid "set winpe 失敗: {}"
+msgstr "set winpe biserneket: {}"
+
+msgid "set detecthal 失敗: {}"
+msgstr "set detecthal biserneket: {}"
+
+msgid "bootsequence 失敗: {}"
+msgstr "bootsequence biserneket: {}"
+
+msgid "無法在系統中找到此本地模式 PE 的引導選單。請確認您已正確安裝本地模式 PE。"
+msgstr "Navnîşa destpêkirinê ya PE a herêmî nehat dîtin. Ji kerema xwe sazkirinê kontrol bike."
+
+msgid "set device locate 失敗: {}"
+msgstr "set device locate biserneket: {}"
+
+msgid "成功偵測到隨身碟並建立啟動項，系統正在重新啟動..."
+msgstr "Dîska USB hat tesbîtkirin û navnîşa destpêkirinê hat afirandin. Ji nû ve dest pê dike..."
+
+msgid "成功建立 PE 啟動項，但發送重啟訊號失敗，請手動重新啟動電腦。"
+msgstr "Navnîşa PE hat afirandin, lê sînyala destpêkirinê neçû. Ji kerema xwe bi destan ji nû ve dest pê bike."
+
+msgid "恢復驅動與核心安全防護"
+msgstr "Ewlehiya ajoker û navikê vegerîne"
+
+msgid "解除驅動與核心安全限制"
+msgstr "Sînorên ewlehiya ajoker û navikê rake"
+
+msgid "包含測試模式、強制簽章與記憶體完整性。\n勾選下方項目並點擊按鈕，設定將於下次重開機後生效。"
+msgstr "Moda ceribandinê, zorêdana îmzeyê û yekparebûna bîrê dihewîne.\nVebijarkan hilbijêre û bisepîne. Piştî destpêkirina din çalak dibe."
+
+msgid "停用驅動封鎖規則"
+msgstr "Lîsteya astengkirina ajokeran neçalak bike"
+
+msgid "關閉記憶體完整性"
+msgstr "Yekparebûna bîrê bigire"
+
+msgid "恢復預設安全"
+msgstr "Ewlehiya standard vegerîne"
+
+msgid "套用變更"
+msgstr "Guhertinan bisepîne"
+
+msgid "重啟大師 (Reboot Master)"
+msgstr "Reboot Master"
+
+msgid "系統就緒。請選擇操作項目。"
+msgstr "Pergal amade ye. Çalakiyek hilbijêre."
+
+msgid "USB啟動"
+msgstr "Destpêkirina bi USB"
+
+msgid "掃描 USB 裝置中..."
+msgstr "Amûrên USB tên kontrolkirin..."
+
+msgid "確定要執行此操作？"
+msgstr "Teqez dixwazî berdewam bikî?"
+
+msgid "即將執行選定的重啟或關機操作。"
+msgstr "Çalakiya ji nû ve destpêkirinê an girtinê ya hilbijartî dê bixebite."
+
+msgid "重啟管理"
+msgstr "Rêveberiya ji nû ve destpêkirinê"
+
+msgid "說明"
+msgstr "Alîkarî"
+
+msgid "聲明"
+msgstr "Daxuyaniya berpirsiyariyê"
+
+msgid "外觀：跟隨系統 (點擊切換反色)"
+msgstr "Mijar: Pergal (ji bo vegerandinê bitikîne)"
+
+msgid "外觀：淺色 (點擊切換深色)"
+msgstr "Mijar: Ronak (ji bo Tarî bitikîne)"
+
+msgid "外觀：深色 (點擊跟隨系統)"
+msgstr "Mijar: Tarî (ji bo Pergalê bitikîne)"
+
+msgid "設定"
+msgstr "Mîheng"
+
+msgid "開機控制"
+msgstr "Kontrola destpêkirinê"
+
+msgid "電源與開機導向控制"
+msgstr "Kontrola hêz û destpêkirinê"
+
+msgid "點擊卡片即可執行操作。安全模式採用無痕自動清除技術。"
+msgstr "Ji bo xebitandinê li ser kartê bitikîne. Moda ewle bixweber bê şop tê paqijkirin."
+
+msgid "WinPE 環境"
+msgstr "Hawirdora WinPE"
+
+msgid "標準 Windows"
+msgstr "Windowsa standard"
+
+msgid "操作日誌"
+msgstr "Rojnivîsa çalakiyê"
+
+msgid "BIOS / UEFI 設定"
+msgstr "Mîhengên BIOS / UEFI"
+
+msgid "重啟並自動進入主機板底層韌體設定畫面"
+msgstr "Rasterast di mîhengên bellenavê yên karta sereke de ji nû ve dest pê bike."
+
+msgid "安全模式 (一般)"
+msgstr "Moda ewle (Kêmîn)"
+
+msgid "無網路基礎排錯模式，第二次重啟自動復原"
+msgstr "Çareserkirina bingehîn a bê tor. Di destpêkirina duyem de vedigere."
+
+msgid "重新啟動系統"
+msgstr "Pergalê ji nû ve bide destpêkirin"
+
+msgid "呼叫原生 API 強制重新啟動電腦"
+msgstr "Bi riya API ya xwemalî komputerê bi darê zorê ji nû ve bide destpêkirin."
+
+msgid "進階開機選單"
+msgstr "Pêşeka destpêkirina pêşketî"
+
+msgid "進入 Windows 修復環境 (WinRE) 與啟動設定"
+msgstr "Têketina hawirdora vegerandina Windows (WinRE) û mîhengên destpêkirinê."
+
+msgid "自動偵測USB裝置並使用USB裝置啟動"
+msgstr "Amûra USB bixweber bibîne û bi USB bide destpêkirin."
+
+msgid "安全模式 (含網路)"
+msgstr "Moda ewle (bi torê re)"
+
+msgid "支援連線之排錯模式，第二次重啟自動復原"
+msgstr "Çareserkirina pirsgirêkan bi torê re. Di destpêkirina duyem de vedigere."
+
+msgid "安全關機"
+msgstr "Girtina ewle"
+
+msgid "呼叫原生 API 安全關閉電腦電源"
+msgstr "Bi riya API ya xwemalî komputerê bi ewlehî bigire."
+
+msgid "恢復系統安全防護"
+msgstr "Ewlehiya pergalê vegerîne"
+
+msgid "停用驅動強制簽章"
+msgstr "Zorêdana îmzeyê neçalak bike"
+
+msgid "啟用驅動測試模式"
+msgstr "Moda ceribandina ajokeran çalak bike"
+
+msgid "32 位元系統無強制核心簽章限制，無需解鎖。"
+msgstr "Pergalên 32-bit zorê li ser îmzeya navikê nakin. Vekirin ne pêwîst e."
+
+msgid "恢復預設數位簽章驗證與防護。點擊卡片套用並重啟。"
+msgstr "Piştrastkirina îmzeya standard vegerîne. Ji bo sepandin û destpêkirinê bitikîne."
+
+msgid "關閉數位簽章驗證與記憶體完整性。點擊卡片套用。"
+msgstr "Piştrastkirina îmzeyê û yekparebûna bîrê neçalak bike. Ji bo sepandinê bitikîne."
+
+msgid "允許載入無簽章驅動。點擊右側展開選項。"
+msgstr "Destûrê bide barkirina ajokerên bê îmze. Ji bo vebijarkan li rastê bitikîne."
+
+msgid "去除測試模式浮水印"
+msgstr "Nîşana avî ya moda ceribandinê rake"
+
+msgid "操作日誌歷史"
+msgstr "Dîroka rojnivîsa çalakiyê"
+
+msgid "檢視所有執行過的指令與系統回報紀錄。"
+msgstr "Hemî fermanên hatine xebitandin û bersivên pergalê bibîne."
+
+msgid "複製日誌"
+msgstr "Rojnivîsê jibergirtin"
+
+msgid "回上一頁"
+msgstr "Vegere"
+
+msgid "操作說明"
+msgstr "Rêbernameya bikaranînê"
+
+msgid "了解重啟大師的操作細節與底層架構設計。"
+msgstr "Der barê karkirina Reboot Master û mîmariya wê de agahdar bibe."
+
+msgid "軟體功能與優先級設計"
+msgstr "Taybetmendî û pêşengiya xebitandinê"
+
+msgid "本軟體依循「原生 Win32 API 優先 > DLL 導出函式 > 系統管理指令」之架構設計。直接關機與重啟採用 ExitWindowsEx API；安全模式則透過 BCD 一次性導引機制（/bootsequence），確保重啟一次進入安全模式後，下次重開機即自動回歸標準正常模式。"
+msgstr "Li ser binyata \"Win32 API ya xwemalî > Fonksiyonên DLL > Fermanên pergalê\" hatiye avakirin. Girtin û destpêkirin ExitWindowsEx bi kar tînin; moda ewle mekanîzmaya BCD ya yekcarî (/bootsequence) bi kar tîne, da ku di destpêkirina din de bixweber vegere moda normal."
+
+msgid "得翼科技 (DEI 3C)"
+msgstr "DEI Tech (DEI 3C)"
+
+msgid "效能無界限，讓您的數位生活隨心所欲"
+msgstr "Performansa bêsînor, ji bo jiyana we ya dîjîtal a azad."
+
+msgid "電腦組裝"
+msgstr "Komkirina PC"
+
+msgid "筆電升級"
+msgstr "Nûvekirina laptopan"
+
+msgid "網路規劃"
+msgstr "Plansaziya torê"
+
+msgid "資安防護"
+msgstr "Ewlehiya sîber"
+
+msgid "官方頻道與社群"
+msgstr "Kanalên fermî û civak"
+
+msgid "前往官方部落格"
+msgstr "Serdana bloga fermî bike"
+
+msgid "重啟大師 (Reboot Master) "
+msgstr "Reboot Master "
+
+msgid "使用者條款與免責聲明"
+msgstr "Şertên bikaranînê û daxuyaniya berpirsiyariyê"
+
+msgid "請在使用本軟體前詳細閱讀以下條款與資料安全提醒。"
+msgstr "Ji kerema xwe berî bikaranînê van şertan û agahdariyên ewlehiya daneyan bi baldarî bixwînin."
+
+msgid "資料安全提醒與免責聲明"
+msgstr "Hişyariya ewlehiya daneyan û daxuyaniya berpirsiyariyê"
+
+msgid "歡迎使用「重啟大師 (Reboot Master)」\n\n1. 觸發重新開機或關機前，系統將立即終止所有未儲存之應用程式執行。請使用者於執行前確保所有工作檔案皆已儲存完畢。\n\n2. 本軟體依「現況」免費提供，開發團隊不承擔因硬體相容性（如主機板不支援 UEFI 韌體重啟）或資料未儲存造成之任何直接或間接損失。"
+msgstr "Bi xêr hatî bo \"Reboot Master\"\n\n1. Ji nû ve destpêkirin an girtin dê sepanên nehatine tomarkirin di cih de bigire. Berê hemî dosyeyên xwe tomar bike.\n\n2. Ev nermalav belaş \"wekî ku heye\" tê pêşkêşkirin. Tîm berpirsiyariya lihevnehatina hişkalavê an windabûna daneyan nagire ser xwe."
+
+msgid "調整語言、外觀與軟體更新。"
+msgstr "Ziman, xuyang û nûvekirinan sererast bike."
+
+msgid "語言"
+msgstr "Ziman"
+
+msgid "選擇介面顯示語言。"
+msgstr "Zimanê nîşandana navrûyê hilbijêre."
+
+msgid "繁體中文"
+msgstr "Çîniya kevneşopî"
+
+msgid "简体中文"
+msgstr "Çîniya hêsankirî"
+
+msgid "外觀"
+msgstr "Xuyang"
+
+msgid "選擇淺色、深色，或跟隨系統設定。"
+msgstr "Ronak, Tarî an li gorî mîhengên pergalê hilbijêre."
+
+msgid "淺色"
+msgstr "Ronak"
+
+msgid "淺色 (跟隨系統)"
+msgstr "Ronak (Pergal)"
+
+msgid "深色 (跟隨系統)"
+msgstr "Tarî (Pergal)"
+
+msgid "深色"
+msgstr "Tarî"
+
+msgid "軟體更新"
+msgstr "Nûvekirinên nermalavê"
+
+msgid "啟動時會自動檢查 GitHub 上的最新版本。"
+msgstr "Di destpêkirinê de bixweber guhertoya herî dawî ya li ser GitHub kontrol dike."
+
+msgid "目前版本："
+msgstr "Guhertoya niha: "
+
+msgid "正在檢查更新..."
+msgstr "Nûvekirin tên kontrolkirin..."
+
+msgid "發現新版本："
+msgstr "Guhertoyek nû heye: "
+
+msgid "目前已是最新版本。"
+msgstr "Guhertoya herî dawî li cem we ye."
+
+msgid "無法連線至 GitHub，請檢查網路連線。"
+msgstr "Girêdana bi GitHub re çênebû. Tora xwe kontrol bike."
+
+msgid "正在下載更新，完成後將自動重新啟動..."
+msgstr "Nûvekirin tê daxistin. Piştî qedandinê sepan dê bixweber ji nû ve dest pê bike..."
+
+msgid "尚未檢查更新。"
+msgstr "Hêj nûvekirin nehatine kontrolkirin."
+
+msgid "檢查更新"
+msgstr "Nûvekirinan kontrol bike"
+
+msgid "立即更新"
+msgstr "Niha nûve bike"
+
+msgid "再次確認您的操作"
+msgstr "Çalakiyê bipejirîne"
+
+msgid "\n\n請確認您的所有工作與文件皆已儲存。確定要立即執行嗎？"
+msgstr "\n\nJi kerema xwe bawer bin ku hemî kar û belge hatine tomarkirin. Niha bidî xebitandin?"
+
+msgid "取消"
+msgstr "Betal bike"
+
+msgid "確定執行"
+msgstr "Bipejirîne"
+
+msgid "所有安全模式均採用無痕自動清除技術，重啟後將自動還原。"
+msgstr "Hemî modên ewle paqijkirina otomatîk bi kar tînin û piştî destpêkirinê vedigerin."
+
+msgid "恢復預設數位簽章驗證與防護。"
+msgstr "Piştrastkirina îmzeya dîjîtal û parastina standard vegerîne."
+
+msgid "關閉數位簽章驗證與記憶體完整性"
+msgstr "Piştrastkirina îmzeya dîjîtal û yekparebûna bîrê neçalak bike"
+
+msgid "允許載入無簽章之驅動程式。"
+msgstr "Destûrê bide barkirina ajokerên bê îmze."
+
+msgid "選擇語言"
+msgstr "Ziman hilbijêre"
+
+msgid "此功能僅支援 Windows 8 及以上版本。您的系統過舊，請在開機時手動按鍵進入 BIOS。"
+msgstr "Ev taybetmendî Windows 8 an nûtir dixwaze. Di dema destpêkirinê de pê li bişkoja têketina BIOS bike."
+
+msgid "此系統為傳統 BIOS (Legacy)，無法透過軟體重啟進入 BIOS 設定。請在開機時手動按鍵進入。"
+msgstr "Pergal Legacy BIOS bi kar tîne, bi nermalavê nayê vekirin. Di destpêkirinê de pê li bişkokê bike."
+
+msgid "  [範本解析] 處於 WinPE 環境，採用實體系統預設項 {default}\n"
+msgstr "[Şablon] Di hawîrdora WinPE de, bi karanîna têketina xwerû ya OS-ya laşî {default} \n"
+
+msgid "  [範本解析] 正在探測當前引導項 {current}...\n"
+msgstr "[Şablon] Lêpirsîna têketina bootê ya heyî {niha}... \n"
+
+msgid "  [範本解析] 當前會話引導項 {current} 有效，採用為母體範本\n"
+msgstr "[Şablon] Têketina bootê ya niha {niha} derbasdar e, wekî şablonê bingehîn tê bikaranîn \n"
+
+msgid "  [範本解析] 偵測到 {current} 已於前次重啟後被清理刪除 (無效識別元)\n"
+msgstr "[Şablon] Hat diyarkirin {niha} piştî nûavakirina berê hat paqijkirin (nasnameya nederbasdar) \n"
+
+msgid "  [範本解析] 正在驗證系統永久開機項 {default}...\n"
+msgstr "[Şablon] Têketina boota pergalê ya daîmî tê erêkirin {default}... \n"
+
+msgid "  [範本解析] 成功選定系統永久開機項 {default} 作為母體範本 (確保一次成功)\n"
+msgstr "[Şablon] Bi serketî têketina daîmî {default} wekî şablonê bingehîn hat hilbijartin (serkeftina yekem-ceribandinê misoger dike) \n"
+
+msgid "  [範本解析] 正在掃描 BCD osloader 列表以尋找有效開機項...\n"
+msgstr "[Şablon] Lêgerîna lîsteya osloader a BCD ji bo têketinên bootê yên derbasdar... \n"
+
+msgid "  [範本解析] 從 osloader 列表成功定位實體系統項: {}\n"
+msgstr "[Şablon] Têketina OS-ya laşî ya ji osloader bi serketî hatî cîh: {} \n"
+
+msgid "  [範本解析] 未能列舉額外開機項，預設採用 {default}\n"
+msgstr "[Şablon] Nikaribû navnîşên zêde bijmêre, wekî {default} \n"
+
+msgid "  [建立副本] 正在自範本 {} 複製建立臨時安全模式項...\n"
+msgstr "[Create Clone] Kopîkirina şablonê {} ji bo afirandina têketina Moda Ewle ya demkî... \n"
+
+msgid "  [建立副本] 成功建立副本！\n"
+msgstr "[Create Clone] Clone bi serfirazî hate afirandin! \n"
+
+msgid "  [降級備援] 複製範本 {} 失敗: {}，啟動備援嘗試 {{default}}...\n"
+msgstr "[Vegere] Kopîkirina şablonê {} bi ser neket: {}, hewldana paşvegerê bi {{default}}... \n"
+
+msgid "  [降級備援] 備援方案複製 {default} 成功！\n"
+msgstr "[Fallback] Klona paşverû ya {default} bi ser ket! \n"
+
+msgid "  [降級備援] 備援方案亦失敗: {}\n"
+msgstr "[Fallback] Klona paşverû jî têk çû: {} \n"
+
+msgid "建立臨時安全模式引導項失敗"
+msgstr "Afirandina têketina boota Moda Ewle ya demkî bi ser neket"
+
+msgid "  [建立副本] 失敗: {}\n"
+msgstr "[Create Clone] Biserneket: {} \n"
+
+msgid "  [臨時標識] 取得臨時 GUID: {}\n"
+msgstr "[GUID-ya demkî] GUID-ya demkî ya bidestxistî: {} \n"
+
+msgid "  [選單隱藏] 從開機選單中隱藏此臨時副本 (/displayorder ... /remove)...\n"
+msgstr "[Menu veşêre] Veşartina klona demkî ji menuya bootê (/displayorder ... /rake)... \n"
+
+msgid "  [模式配置] 設定 safeboot 參數為 {}...\n"
+msgstr "[Config] Danasîna parametreya safeboot li ser {}... \n"
+
+msgid "  [一次性引導] 設定單次啟動序列 (/bootsequence)，重啟後 BootMgr 自動復原...\n"
+msgstr "[One-time Boot] Sazkirina rêzika yek-shot (/bootsequence), BootMgr piştî ji nû ve destpêkirinê vedigere... \n"
+
+msgid "  [開機自毀] 註冊 RunOnce 自毀清理任務 (重啟登入後徹底刪除臨時項目)...\n"
+msgstr "[Xwe-hilweşandin] Karê paqijkirina RunOnce tomar dike (piştî têketinê têketina demkî bi domdarî jêdibe)... \n"
+
+msgid "母體範本: {}\n  模式: {}\n  臨時 GUID: {}"
+msgstr "Şablonên Bingeh: {}\nMod: {}\nGUID-a Temp: {}"
+
+msgid "  [建立副本] 正在自範本 {} 複製建立臨時進階選單項...\n"
+msgstr "[Create Clone] Kopîkirina şablonê {} ji bo afirandina têketina Vebijarkên Bootê yên Pêşkeftî yên demkî... \n"
+
+msgid "建立臨時進階選單引導項失敗"
+msgstr "Afirandina demkî Vebijarkên Boot-ê yên Pêşkeftî têketina bootê bi ser neket"
+
+msgid "  [進階選項] 啟用 advancedoptions=true (Win7 顯示 F8 選單，Win10/11 顯示開機設定)...\n"
+msgstr "[Vebijarkên pêşkeftî] Çalakkirina advancedoptions=true (menuya F8 li ser Win7, Mîhengên Destpêkê li ser Win10/11)... \n"
+
+msgid "母體範本: {}\n  臨時 GUID: {}"
+msgstr "Şablonên Bingehîn: {}\nGUIDa dem: {}"
+
+msgid "此功能僅支援 Windows 8 及以上之 UEFI 系統"
+msgstr "Ev taybetmendî tenê pergalên UEFI yên li ser Windows 8 û jorîn piştgirî dike"
+
+msgid "主機板或系統未支援韌體引導 (Legacy BIOS)"
+msgstr "Motherboard an pergalê boot firmware piştgirî nake (BIOS Legacy)"
+

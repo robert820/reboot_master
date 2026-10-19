@@ -1,0 +1,745 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: reboot_master v1.0.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "[{}] 操作: {}\n  變更細節: {}\n  執行狀態: {}\n----------------------------------------\n"
+msgstr "[{}] 작업: {}\n  세부 정보: {}\n  상태: {}\n----------------------------------------\n"
+
+msgid "尚無歷史操作紀錄。\n"
+msgstr "작업 기록이 아직 없습니다.\n"
+
+msgid "無法獲取 SeShutdownPrivilege 系統關機權限"
+msgstr "SeShutdownPrivilege 시스템 종료 권한을 얻을 수 없습니다."
+
+msgid "關機失敗，錯誤碼: {}"
+msgstr "시스템 종료 실패, 오류 코드: {}"
+
+msgid "無法獲取 SeShutdownPrivilege 系統重啟權限"
+msgstr "SeShutdownPrivilege 다시 시작 권한을 얻을 수 없습니다."
+
+msgid "重啟失敗，錯誤碼: {}"
+msgstr "다시 시작 실패, 오류 코드: {}"
+
+msgid "無法獲取系統環境權限 (SeSystemEnvironmentPrivilege)，請確認是否以系統管理員身分執行"
+msgstr "시스템 환경 권한(SeSystemEnvironmentPrivilege)을 가져올 수 없습니다. 관리자 권한으로 실행했는지 확인하세요."
+
+msgid "當前主機板或作業系統不支援直接從系統重啟至韌體/BIOS設定"
+msgstr "현재 메인보드 또는 OS에서 펌웨어/BIOS 설정으로 직접 다시 시작을 지원하지 않습니다."
+
+msgid "寫入 UEFI 韌體變數失敗，可能受限於防毒軟體或權限異常。"
+msgstr "UEFI 펌웨어 변수 쓰기 실패. 백신 프로그램 또는 권한 문제를 확인하세요."
+
+msgid "重啟至 BIOS/UEFI"
+msgstr "BIOS/UEFI로 다시 시작"
+
+msgid "寫入 UEFI 變數: OsIndications (GUID: {8BE4DF61-93CA-11D2-AA0D-00E098032B8C})，Bit 0 設為 1 (BootToFwUI)"
+msgstr "UEFI 변수 작성: OsIndications (GUID: {8BE4DF61-93CA-11D2-AA0D-00E098032B8C}), 비트 0을 1로 설정 (BootToFwUI)"
+
+msgid "準備重啟"
+msgstr "다시 시작 준비 중"
+
+msgid "已成功透過 API 寫入 UEFI 變數，系統正在重新啟動至 BIOS/UEFI..."
+msgstr "UEFI 변수가 작성되었습니다. BIOS/UEFI로 다시 시작하는 중..."
+
+msgid "執行 bcdedit 失敗: {}"
+msgstr "bcdedit 실행 실패: {}"
+
+msgid "執行 `bcdedit {}` 失敗: {}"
+msgstr "`bcdedit {}` 실행 실패: {}"
+
+msgid "找不到實體系統的 SOFTWARE 登錄檔"
+msgstr "물리 시스템의 SOFTWARE 레지스트리 하이브를 찾을 수 없습니다."
+
+msgid "無法從 bcdedit 輸出中找到新的 GUID 起點"
+msgstr "bcdedit 출력에서 새 GUID 시작 부분을 찾을 수 없습니다."
+
+msgid "無法從 bcdedit 輸出中找到新的 GUID 終點"
+msgstr "bcdedit 출력에서 새 GUID 끝 부분을 찾을 수 없습니다."
+
+msgid "無法獲取當前執行檔路徑: {}"
+msgstr "현재 실행 파일 경로를 가져올 수 없습니다: {}"
+
+msgid "一次性安全模式"
+msgstr "일회성 안전 모드"
+
+msgid "模式: {}\n  臨時 GUID: {}"
+msgstr "모드: {}\n  임시 GUID: {}"
+
+msgid "已成功設定一次性安全模式，系統正在重新啟動..."
+msgstr "일회성 안전 모드가 설정되었습니다. 다시 시작하는 중..."
+
+msgid "重啟至進階開機選單"
+msgstr "고급 시작 옵션으로 다시 시작"
+
+msgid "建立臨時副本 GUID: {}"
+msgstr "임시 항목 GUID 생성됨: {}"
+
+msgid "已成功設定一次性進階開機選單，系統正在重新啟動..."
+msgstr "일회성 고급 시작 옵션이 설정되었습니다. 다시 시작하는 중..."
+
+msgid "重啟進入 BIOS / UEFI 韌體"
+msgstr "BIOS/UEFI 펌웨어로 다시 시작"
+
+msgid "此操作將立即重新啟動電腦並自動進入 BIOS/UEFI 設定畫面。"
+msgstr "컴퓨터를 즉시 다시 시작하고 BIOS/UEFI 설정 화면으로 자동 진입합니다."
+
+msgid "一次性安全模式 (Minimal)"
+msgstr "일회성 안전 모드(최소)"
+
+msgid "下一次開機將進入安全模式。第二次重新開機時，系統將自動恢復進入正常模式。"
+msgstr "다음 부팅 시 안전 모드로 진입합니다. 두 번째 재부팅 시 정상 모드로 자동 복원됩니다."
+
+msgid "一次性安全模式 (含網路)"
+msgstr "일회성 안전 모드(네트워킹 사용)"
+
+msgid "下一次開機將進入含網路連線的安全模式。第二次重新開機時，系統將自動恢復進入正常模式。"
+msgstr "다음 부팅 시 네트워킹을 지원하는 안전 모드로 진입합니다. 두 번째 재부팅 시 정상 모드로 자동 복원됩니다."
+
+msgid "重啟進入進階開機選單"
+msgstr "고급 시작 옵션으로 다시 시작"
+
+msgid "此操作將重新啟動電腦並直接開啟 Windows 進階開機與疑難排解選單。"
+msgstr "컴퓨터를 다시 시작하고 Windows 고급 시작 및 문제 해결 메뉴를 직접 엽니다."
+
+msgid "直接強制重啟電腦"
+msgstr "컴퓨터 강제 다시 시작"
+
+msgid "此操作將透過 Win32 原生 API 立即重啟您的電腦。"
+msgstr "Win32 네이티브 API를 통해 컴퓨터를 즉시 다시 시작합니다."
+
+msgid "直接安全關機"
+msgstr "안전하게 시스템 종료"
+
+msgid "此操作將透過 Win32 原生 API 立即關閉電腦電源。"
+msgstr "Win32 네이티브 API를 통해 컴퓨터 전원을 즉시 끕니다."
+
+msgid "開啟測試模式 (Test Mode)"
+msgstr "테스트 모드 활성화"
+
+msgid "開啟後系統將接受測試簽章驅動程式。桌面右下角會出現「測試模式」浮水印。\n\n• 需先在 BIOS 關閉 Secure Boot 才能生效\n• 大多數遊戲反作弊（EAC、BattlEye）會拒絕在此模式下運行遊戲\n• 執行後需重新開機才會生效。關閉則執行「關閉測試模式」"
+msgstr "시스템이 테스트 서명된 드라이버를 허용합니다. 바탕화면 우측 하단에 \"테스트 모드\" 워터마크가 표시됩니다.\n\n• BIOS에서 Secure Boot를 먼저 비활성화해야 합니다.\n• 대부분의 안티치트(EAC, BattlEye)가 이 모드에서 게임 실행을 차단합니다.\n• 적용하려면 재부팅이 필요합니다. 끄려면 \"테스트 모드 비활성화\"를 실행하세요."
+
+msgid "關閉測試模式"
+msgstr "테스트 모드 비활성화"
+
+msgid "關閉測試模式後，系統將恢復標準驅動簽章驗證。需重新開機才會生效。"
+msgstr "테스트 모드를 끄면 표준 드라이버 서명 확인이 복원됩니다. 재부팅이 필요합니다."
+
+msgid "停用驅動程式強制簽章"
+msgstr "드라이버 서명 적용 비활성화"
+
+msgid "此操作將徹底關閉 Windows 的驅動程式數位簽章驗證 (nointegritychecks)。\n\n• 允許安裝完全沒有數位簽章的驅動程式\n• 系統安全性將大幅降低\n• 需先在 BIOS 關閉 Secure Boot 才能生效\n• 執行後需重新開機才會生效。"
+msgstr "Windows 드라이버 디지털 서명 확인(nointegritychecks)을 완전히 끕니다.\n\n• 디지털 서명이 없는 드라이버 설치 허용\n• 시스템 보안이 크게 저하됨\n• BIOS에서 Secure Boot를 먼저 비활성화해야 함\n• 재부팅 후 적용됩니다."
+
+msgid "恢復強制簽章驗證"
+msgstr "드라이버 서명 적용 복원"
+
+msgid "將恢復 Windows 預設的驅動程式數位簽章驗證機制。需重新開機才會生效。"
+msgstr "Windows 기본 드라이버 디지털 서명 확인 메커니즘을 복원합니다. 재부팅이 필요합니다."
+
+msgid "恢復系統安全防護"
+msgstr "시스템 보안 복원"
+
+msgid "將恢復 Windows 預設的數位簽章驗證與核心安全機制。\n\n需要重新開機才會完全生效。確定要執行嗎？"
+msgstr "Windows 기본 디지털 서명 확인 및 커널 보안 메커니즘을 복원합니다.\n\n완전히 적용하려면 재부팅이 필요합니다. 계속하시겠습니까?"
+
+msgid "警告：這將徹底停用驅動程式強制簽章 (nointegritychecks) 並關閉記憶體完整性，大幅降低系統安全性。\n\n需要重新開機才會完全生效。確定要執行嗎？"
+msgstr "경고: 드라이버 서명 적용(nointegritychecks)을 비활성화하고 메모리 무결성을 꺼 시스템 보안이 크게 저하됩니다.\n\n완전히 적용하려면 재부팅이 필요합니다. 계속하시겠습니까?"
+
+msgid "警告：這將開啟測試模式以允許載入未經簽章的驅動程式，大幅降低系統安全性。\n\n需要重新開機才會完全生效。確定要執行嗎？"
+msgstr "경고: 서명되지 않은 드라이버 로드를 허용하는 테스트 모드를 켜면 시스템 보안이 크게 저하됩니다.\n\n완전히 적용하려면 재부팅이 필요합니다. 계속하시겠습니까?"
+
+msgid "解除驅動與核心安全限制"
+msgstr "드라이버 및 커널 보안 제한 해제"
+
+msgid "\n[執行] 正在請求重啟至 BIOS/UEFI...\n"
+msgstr "\n[실행] BIOS/UEFI 재시작 요청 중...\n"
+
+msgid "[成功] {}\n"
+msgstr "[성공] {}\n"
+
+msgid "[提示/錯誤] {}\n"
+msgstr "[알림/오류] {}\n"
+
+msgid "\n[執行] 正在設定一次性安全模式 (Minimal)...\n"
+msgstr "\n[실행] 일회성 안전 모드(최소) 설정 중...\n"
+
+msgid "[錯誤] {}\n"
+msgstr "[오류] {}\n"
+
+msgid "\n[執行] 正在設定一次性安全模式 (Network)...\n"
+msgstr "\n[실행] 일회성 안전 모드(네트워킹 사용) 설정 중...\n"
+
+msgid "\n[執行] 正在請求重啟進入進階選單...\n"
+msgstr "\n[실행] 고급 시작 옵션으로 다시 시작 요청 중...\n"
+
+msgid "\n[執行] 正在偵測隨身碟並設定重啟進入 PE...\n"
+msgstr "\n[실행] USB 드라이브 감지 및 PE 부팅 구성 중...\n"
+
+msgid "\n[執行] 正在透過 Win32 ExitWindowsEx 原生 API 重啟電腦...\n"
+msgstr "\n[실행] Win32 ExitWindowsEx 네이티브 API로 컴퓨터 다시 시작 중...\n"
+
+msgid "[成功] 已發送 Win32 原生重啟信號，系統正在重啟...\n"
+msgstr "[성공] Win32 네이티브 다시 시작 신호 전송됨. 다시 시작하는 중...\n"
+
+msgid "[API失敗] {}"
+msgstr "[API 실패] {}"
+
+msgid "\n[執行] 正在透過 Win32 ExitWindowsEx 原生 API 關閉電腦...\n"
+msgstr "\n[실행] Win32 ExitWindowsEx 네이티브 API로 컴퓨터 종료 중...\n"
+
+msgid "[成功] 已發送 Win32 原生關機信號，系統正在關機...\n"
+msgstr "[성공] Win32 네이티브 종료 신호 전송됨. 종료 중...\n"
+
+msgid "\n[執行] 正在開啟測試模式...\n"
+msgstr "\n[실행] 테스트 모드 활성화 중...\n"
+
+msgid "[成功] 測試模式已開啟，請重新開機以生效。桌面右下角將顯示「測試模式」浮水印。\n"
+msgstr "[성공] 테스트 모드가 활성화되었습니다. 재부팅하세요. 바탕화면에 \"테스트 모드\" 워터마크가 표시됩니다.\n"
+
+msgid "[錯誤] {}\n提示：請先到 BIOS 關閉 Secure Boot 後再嘗試。\n"
+msgstr "[오류] {}\n힌트: BIOS에서 Secure Boot를 비활성화한 후 다시 시도하세요.\n"
+
+msgid "\n[執行] 正在關閉測試模式...\n"
+msgstr "\n[실행] 테스트 모드 비활성화 중...\n"
+
+msgid "[成功] 測試模式已關閉，請重新開機以生效。\n"
+msgstr "[성공] 테스트 모드가 비활성화되었습니다. 재부팅하세요.\n"
+
+msgid "\n[執行] 正在停用強制簽章 (nointegritychecks)...\n"
+msgstr "\n[실행] 드라이버 서명 적용(nointegritychecks) 비활성화 중...\n"
+
+msgid "[成功] 強制簽章驗證已停用，請重新開機以生效。\n"
+msgstr "[성공] 드라이버 서명 적용이 비활성화되었습니다. 재부팅하세요.\n"
+
+msgid "[錯誤] {}\n提示：請確認是否具備系統管理員權限，或先到 BIOS 關閉 Secure Boot。\n"
+msgstr "[오류] {}\n힌트: 관리자 권한을 확인하거나, BIOS에서 Secure Boot를 비활성화하세요.\n"
+
+msgid "\n[執行] 正在恢復強制簽章 (nointegritychecks)...\n"
+msgstr "\n[실행] 드라이버 서명 적용(nointegritychecks) 복원 중...\n"
+
+msgid "[成功] 強制簽章驗證已恢復正常，請重新開機以生效。\n"
+msgstr "[성공] 드라이버 서명 적용이 복원되었습니다. 재부팅하세요.\n"
+
+msgid "\n[執行] 正在恢復系統安全防護...\n"
+msgstr "\n[실행] 시스템 보안 복원 중...\n"
+
+msgid "  [錯誤] 關閉 nointegritychecks 失敗: {}\n"
+msgstr "  [오류] nointegritychecks 끄기 실패: {}\n"
+
+msgid "  - 驅動強制簽章已恢復\n"
+msgstr "  - 드라이버 서명 적용 복원됨\n"
+
+msgid "  [錯誤] 關閉 testsigning 失敗: {}\n"
+msgstr "  [오류] testsigning 끄기 실패: {}\n"
+
+msgid "  [錯誤] 寫入登錄檔失敗 (錯誤碼 {}): 無法開啟記憶體完整性\n"
+msgstr "  [오류] 레지스트리 쓰기 실패(코드 {}): 메모리 무결성을 켤 수 없습니다.\n"
+
+msgid "  - 記憶體完整性已開啟\n"
+msgstr "  - 메모리 무결성 활성화됨\n"
+
+msgid "  - 測試模式已關閉\n"
+msgstr "  - 테스트 모드 비활성화됨\n"
+
+msgid "  - 系統安全防護已恢復\n"
+msgstr "  - 시스템 보안 복원됨\n"
+
+msgid "  [錯誤] 寫入登錄檔失敗 (錯誤碼 {})\n"
+msgstr "  [오류] 레지스트리 쓰기 실패(오류 코드 {})\n"
+
+msgid "[警告] 過程中有錯誤發生，請檢查上方日誌。\n"
+msgstr "[경고] 처리 중 오류가 발생했습니다. 위 로그를 확인하세요.\n"
+
+msgid "[成功] 安全防護已恢復，請重新開機以生效。\n"
+msgstr "[성공] 보안 설정이 복원되었습니다. 재부팅하세요.\n"
+
+msgid "\n[執行] 正在解除驅動與核心安全限制...\n"
+msgstr "\n[실행] 드라이버 및 커널 보안 제한 해제 중...\n"
+
+msgid "  [錯誤] 開啟 nointegritychecks 失敗: {}\n"
+msgstr "  [오류] nointegritychecks 켜기 실패: {}\n"
+
+msgid "  - 驅動強制簽章已停用\n"
+msgstr "  - 드라이버 서명 적용 비활성화됨\n"
+
+msgid "  [錯誤] 寫入登錄檔失敗 (錯誤碼 {}): 無法關閉記憶體完整性\n"
+msgstr "  [오류] 레지스트리 쓰기 실패(코드 {}): 메모리 무결성을 끌 수 없습니다.\n"
+
+msgid "  - 記憶體完整性已關閉\n"
+msgstr "  - 메모리 무결성 꺼짐\n"
+
+msgid "  [錯誤] 開啟 testsigning 失敗: {}\n"
+msgstr "  [오류] testsigning 켜기 실패: {}\n"
+
+msgid "  - 測試模式已開啟\n"
+msgstr "  - 테스트 모드 활성화됨\n"
+
+msgid "  - 驅動封鎖規則已關閉\n"
+msgstr "  - 드라이버 차단 목록 꺼짐\n"
+
+msgid "[成功] 指定的安全限制已解除，請重新開機以生效。\n"
+msgstr "[성공] 지정된 보안 제한이 해제되었습니다. 재부팅하세요.\n"
+
+msgid "新增了隨身碟/磁碟: {} {}"
+msgstr "USB 드라이브/디스크 추가됨: {} {}"
+
+msgid "移除了隨身碟/磁碟: {} {}"
+msgstr "USB 드라이브/디스크 제거됨: {} {}"
+
+msgid "未偵測到包含 PE 環境的隨身碟"
+msgstr "PE 환경이 포함된 USB 드라이브가 감지되지 않았습니다."
+
+msgid "未插入任何隨身碟"
+msgstr "연결된 USB 드라이브가 없습니다."
+
+msgid "USB啟動"
+msgstr "USB 부팅"
+
+msgid "\n[狀態變更] {}\n"
+msgstr "\n[상태 변경] {}\n"
+
+msgid "使用者將目標隨身碟切換為: {} {}"
+msgstr "대상 USB 드라이브를 다음으로 전환함: {} {}"
+
+msgid "無法讀取掃描結果"
+msgstr "스캔 결과를 읽을 수 없습니다."
+
+msgid "無法讀取選擇結果"
+msgstr "선택 항목을 읽을 수 없습니다."
+
+msgid "未找到指定的 PE 隨身碟，請重新掃描。"
+msgstr "지정된 PE USB 드라이브를 찾을 수 없습니다. 다시 검색하세요."
+
+msgid "ramdisksdidevice 失敗: {}"
+msgstr "ramdisksdidevice 실패: {}"
+
+msgid "ramdisksdipath 失敗: {}"
+msgstr "ramdisksdipath 실패: {}"
+
+msgid "執行 bcdedit /create 失敗: {}"
+msgstr "bcdedit /create 실행 실패: {}"
+
+msgid "set device 失敗: {}"
+msgstr "set device 실패: {}"
+
+msgid "set osdevice 失敗: {}"
+msgstr "set osdevice 실패: {}"
+
+msgid "set path 失敗: {}"
+msgstr "set path 실패: {}"
+
+msgid "set systemroot 失敗: {}"
+msgstr "set systemroot 실패: {}"
+
+msgid "set winpe 失敗: {}"
+msgstr "set winpe 실패: {}"
+
+msgid "set detecthal 失敗: {}"
+msgstr "set detecthal 실패: {}"
+
+msgid "bootsequence 失敗: {}"
+msgstr "bootsequence 실패: {}"
+
+msgid "無法在系統中找到此本地模式 PE 的引導選單。請確認您已正確安裝本地模式 PE。"
+msgstr "시스템에서 이 로컬 모드 PE의 부팅 항목을 찾을 수 없습니다. 올바르게 설치되었는지 확인하세요."
+
+msgid "set device locate 失敗: {}"
+msgstr "set device locate 실패: {}"
+
+msgid "成功偵測到隨身碟並建立啟動項，系統正在重新啟動..."
+msgstr "USB 드라이브가 감지되고 부팅 항목이 생성되었습니다. 다시 시작하는 중..."
+
+msgid "成功建立 PE 啟動項，但發送重啟訊號失敗，請手動重新啟動電腦。"
+msgstr "PE 부팅 항목이 생성되었으나 재시작 신호 전송 실패. 수동으로 다시 시작하세요."
+
+msgid "恢復驅動與核心安全防護"
+msgstr "드라이버 및 커널 보안 복원"
+
+msgid "解除驅動與核心安全限制"
+msgstr "드라이버 및 커널 보안 제한 해제"
+
+msgid "包含測試模式、強制簽章與記憶體完整性。\n勾選下方項目並點擊按鈕，設定將於下次重開機後生效。"
+msgstr "테스트 모드, 서명 적용 및 메모리 무결성을 포함합니다.\n아래 항목을 선택하고 적용하면 다음 재부팅 시 적용됩니다."
+
+msgid "停用驅動封鎖規則"
+msgstr "드라이버 차단 목록 비활성화"
+
+msgid "關閉記憶體完整性"
+msgstr "메모리 무결성 끄기"
+
+msgid "恢復預設安全"
+msgstr "기본 보안 복원"
+
+msgid "套用變更"
+msgstr "변경 사항 적용"
+
+msgid "重啟大師 (Reboot Master)"
+msgstr "Reboot Master"
+
+msgid "系統就緒。請選擇操作項目。"
+msgstr "시스템 준비 완료. 작업을 선택하세요."
+
+msgid "USB啟動"
+msgstr "USB 부팅"
+
+msgid "掃描 USB 裝置中..."
+msgstr "USB 드라이브 검색 중..."
+
+msgid "確定要執行此操作？"
+msgstr "이 작업을 실행하시겠습니까?"
+
+msgid "即將執行選定的重啟或關機操作。"
+msgstr "선택한 다시 시작 또는 종료 작업이 곧 실행됩니다."
+
+msgid "重啟管理"
+msgstr "재부팅 관리"
+
+msgid "說明"
+msgstr "도움말"
+
+msgid "聲明"
+msgstr "면책 조항"
+
+msgid "外觀：跟隨系統 (點擊切換反色)"
+msgstr "테마: 시스템 설정 (반전하려면 클릭)"
+
+msgid "外觀：淺色 (點擊切換深色)"
+msgstr "테마: 라이트 (다크로 전환하려면 클릭)"
+
+msgid "外觀：深色 (點擊跟隨系統)"
+msgstr "테마: 다크 (시스템 설정으로 전환하려면 클릭)"
+
+msgid "設定"
+msgstr "설정"
+
+msgid "開機控制"
+msgstr "부팅 제어"
+
+msgid "電源與開機導向控制"
+msgstr "전원 및 부팅 제어"
+
+msgid "點擊卡片即可執行操作。安全模式採用無痕自動清除技術。"
+msgstr "카드를 클릭하여 실행합니다. 안전 모드는 무흔적 자동 정리 기술을 사용합니다."
+
+msgid "WinPE 環境"
+msgstr "WinPE 환경"
+
+msgid "標準 Windows"
+msgstr "표준 Windows"
+
+msgid "操作日誌"
+msgstr "활동 로그"
+
+msgid "BIOS / UEFI 設定"
+msgstr "BIOS/UEFI 설정"
+
+msgid "重啟並自動進入主機板底層韌體設定畫面"
+msgstr "재부팅 후 마더보드 펌웨어(BIOS) 설정으로 자동 진입합니다."
+
+msgid "安全模式 (一般)"
+msgstr "안전 모드(기본)"
+
+msgid "無網路基礎排錯模式，第二次重啟自動復原"
+msgstr "네트워크 없는 기본 문제 해결 모드. 다음 부팅 시 정상 복원됩니다."
+
+msgid "重新啟動系統"
+msgstr "시스템 다시 시작"
+
+msgid "呼叫原生 API 強制重新啟動電腦"
+msgstr "네이티브 API를 호출하여 컴퓨터를 강제로 다시 시작합니다."
+
+msgid "進階開機選單"
+msgstr "고급 시작 메뉴"
+
+msgid "進入 Windows 修復環境 (WinRE) 與啟動設定"
+msgstr "Windows 복구 환경(WinRE) 및 시작 설정으로 진입합니다."
+
+msgid "自動偵測USB裝置並使用USB裝置啟動"
+msgstr "USB 장치를 자동으로 감지하고 USB로 부팅합니다."
+
+msgid "安全模式 (含網路)"
+msgstr "안전 모드(네트워킹 사용)"
+
+msgid "支援連線之排錯模式，第二次重啟自動復原"
+msgstr "네트워크 지원 문제 해결 모드. 다음 부팅 시 정상 복원됩니다."
+
+msgid "安全關機"
+msgstr "안전한 시스템 종료"
+
+msgid "呼叫原生 API 安全關閉電腦電源"
+msgstr "네이티브 API를 호출하여 컴퓨터 전원을 안전하게 끕니다."
+
+msgid "恢復系統安全防護"
+msgstr "시스템 보안 복원"
+
+msgid "停用驅動強制簽章"
+msgstr "드라이버 서명 적용 비활성화"
+
+msgid "啟用驅動測試模式"
+msgstr "드라이버 테스트 모드 활성화"
+
+msgid "32 位元系統無強制核心簽章限制，無需解鎖。"
+msgstr "32비트 시스템은 커널 서명을 강제하지 않으므로 해제가 필요하지 않습니다."
+
+msgid "恢復預設數位簽章驗證與防護。點擊卡片套用並重啟。"
+msgstr "기본 디지털 서명 확인 및 보호를 복원합니다. 적용 후 재부팅하려면 클릭하세요."
+
+msgid "關閉數位簽章驗證與記憶體完整性。點擊卡片套用。"
+msgstr "디지털 서명 확인 및 메모리 무결성을 비활성화합니다. 적용하려면 클릭하세요."
+
+msgid "允許載入無簽章驅動。點擊右側展開選項。"
+msgstr "서명되지 않은 드라이버 로드를 허용합니다. 옵션을 펼치려면 우측을 클릭하세요."
+
+msgid "去除測試模式浮水印"
+msgstr "테스트 모드 워터마크 제거"
+
+msgid "操作日誌歷史"
+msgstr "작업 로그 기록"
+
+msgid "檢視所有執行過的指令與系統回報紀錄。"
+msgstr "실행된 모든 명령과 시스템 응답 기록을 확인합니다."
+
+msgid "複製日誌"
+msgstr "로그 복사"
+
+msgid "回上一頁"
+msgstr "뒤로"
+
+msgid "操作說明"
+msgstr "사용 설명"
+
+msgid "了解重啟大師的操作細節與底層架構設計。"
+msgstr "Reboot Master의 작동 방식과 기본 아키텍처 설계를 알아봅니다."
+
+msgid "軟體功能與優先級設計"
+msgstr "기능 및 실행 우선순위 설계"
+
+msgid "本軟體依循「原生 Win32 API 優先 > DLL 導出函式 > 系統管理指令」之架構設計。直接關機與重啟採用 ExitWindowsEx API；安全模式則透過 BCD 一次性導引機制（/bootsequence），確保重啟一次進入安全模式後，下次重開機即自動回歸標準正常模式。"
+msgstr "본 프로그램은 \"네이티브 Win32 API 우선 > DLL 내보내기 함수 > 시스템 관리 명령\" 구조로 설계되었습니다. 직접 종료 및 재부팅은 ExitWindowsEx API를 사용하며, 안전 모드는 BCD 일회성 부팅 메커니즘(/bootsequence)을 적용하여 1회 진입 후 다음 재부팅 시 자동으로 표준 모드로 복귀합니다."
+
+msgid "得翼科技 (DEI 3C)"
+msgstr "DEI Tech (DEI 3C)"
+
+msgid "效能無界限，讓您的數位生活隨心所欲"
+msgstr "한계 없는 성능, 자유로운 디지털 라이프를 선사합니다."
+
+msgid "電腦組裝"
+msgstr "PC 조립"
+
+msgid "筆電升級"
+msgstr "노트북 업그레이드"
+
+msgid "網路規劃"
+msgstr "네트워크 구축/설계"
+
+msgid "資安防護"
+msgstr "보안 솔루션"
+
+msgid "官方頻道與社群"
+msgstr "공식 채널 및 커뮤니티"
+
+msgid "前往官方部落格"
+msgstr "공식 블로그 방문"
+
+msgid "重啟大師 (Reboot Master) "
+msgstr "Reboot Master "
+
+msgid "使用者條款與免責聲明"
+msgstr "이용 약관 및 면책 조항"
+
+msgid "請在使用本軟體前詳細閱讀以下條款與資料安全提醒。"
+msgstr "소프트웨어를 사용하기 전에 다음 약관과 데이터 안전 주의사항을 읽어보세요."
+
+msgid "資料安全提醒與免責聲明"
+msgstr "데이터 안전 주의사항 및 면책 조항"
+
+msgid "歡迎使用「重啟大師 (Reboot Master)」\n\n1. 觸發重新開機或關機前，系統將立即終止所有未儲存之應用程式執行。請使用者於執行前確保所有工作檔案皆已儲存完畢。\n\n2. 本軟體依「現況」免費提供，開發團隊不承擔因硬體相容性（如主機板不支援 UEFI 韌體重啟）或資料未儲存造成之任何直接或間接損失。"
+msgstr "“Reboot Master”를 이용해 주셔서 감사합니다.\n\n1. 다시 시작 또는 시스템 종료 시 저장되지 않은 프로그램이 즉시 종료됩니다. 실행 전 모든 작업을 저장했는지 확인하세요.\n\n2. 본 소프트웨어는 \"있는 그대로\" 무료 제공되며, 하드웨어 호환성 문제(메인보드의 UEFI 재부팅 미지원 등)나 데이터 미저장으로 인한 손실에 대해 책임을 지지 않습니다."
+
+msgid "調整語言、外觀與軟體更新。"
+msgstr "언어, 테마 및 소프트웨어 업데이트를 설정합니다."
+
+msgid "語言"
+msgstr "언어"
+
+msgid "選擇介面顯示語言。"
+msgstr "인터페이스 표시 언어를 선택합니다."
+
+msgid "繁體中文"
+msgstr "번체 중국어"
+
+msgid "简体中文"
+msgstr "간체 중국어"
+
+msgid "外觀"
+msgstr "테마"
+
+msgid "選擇淺色、深色，或跟隨系統設定。"
+msgstr "라이트, 다크 또는 시스템 설정을 선택합니다."
+
+msgid "淺色"
+msgstr "라이트"
+
+msgid "淺色 (跟隨系統)"
+msgstr "라이트 (시스템 설정)"
+
+msgid "深色 (跟隨系統)"
+msgstr "다크 (시스템 설정)"
+
+msgid "深色"
+msgstr "다크"
+
+msgid "軟體更新"
+msgstr "소프트웨어 업데이트"
+
+msgid "啟動時會自動檢查 GitHub 上的最新版本。"
+msgstr "시작할 때 GitHub에서 최신 버전을 자동으로 확인합니다."
+
+msgid "目前版本："
+msgstr "현재 버전: "
+
+msgid "正在檢查更新..."
+msgstr "업데이트 확인 중..."
+
+msgid "發現新版本："
+msgstr "새 버전 발견: "
+
+msgid "目前已是最新版本。"
+msgstr "최신 버전을 사용 중입니다."
+
+msgid "無法連線至 GitHub，請檢查網路連線。"
+msgstr "GitHub에 연결할 수 없습니다. 네트워크 연결을 확인하세요."
+
+msgid "正在下載更新，完成後將自動重新啟動..."
+msgstr "업데이트를 다운로드하는 중입니다. 완료되면 자동으로 다시 시작됩니다..."
+
+msgid "尚未檢查更新。"
+msgstr "아직 업데이트를 확인하지 않았습니다."
+
+msgid "檢查更新"
+msgstr "업데이트 확인"
+
+msgid "立即更新"
+msgstr "지금 업데이트"
+
+msgid "再次確認您的操作"
+msgstr "작업 확인"
+
+msgid "\n\n請確認您的所有工作與文件皆已儲存。確定要立即執行嗎？"
+msgstr "\n\n모든 작업과 문서가 저장되었는지 확인하세요. 지금 실행하시겠습니까?"
+
+msgid "取消"
+msgstr "취소"
+
+msgid "確定執行"
+msgstr "확인"
+
+msgid "所有安全模式均採用無痕自動清除技術，重啟後將自動還原。"
+msgstr "모든 안전 모드는 무흔적 자동 정리 기술을 적용하여 재부팅 후 자동 복원됩니다."
+
+msgid "恢復預設數位簽章驗證與防護。"
+msgstr "기본 디지털 서명 확인 및 보호를 복원합니다."
+
+msgid "關閉數位簽章驗證與記憶體完整性"
+msgstr "디지털 서명 확인 및 메모리 무결성을 비활성화합니다"
+
+msgid "允許載入無簽章之驅動程式。"
+msgstr "서명되지 않은 드라이버의 로드를 허용합니다."
+
+msgid "選擇語言"
+msgstr "언어 선택"
+
+msgid "此功能僅支援 Windows 8 及以上版本。您的系統過舊，請在開機時手動按鍵進入 BIOS。"
+msgstr "이 기능은 Windows 8 이상에서만 지원됩니다. 부팅 시 단축키를 눌러 BIOS로 직접 진입하세요."
+
+msgid "此系統為傳統 BIOS (Legacy)，無法透過軟體重啟進入 BIOS 設定。請在開機時手動按鍵進入。"
+msgstr "이 시스템은 레거시 BIOS를 사용하므로 소프트웨어를 통한 진입이 불가능합니다. 부팅 시 키를 눌러 진입하세요."
+
+msgid "  [範本解析] 處於 WinPE 環境，採用實體系統預設項 {default}\n"
+msgstr "[템플릿] WinPE 환경에서 물리적 OS 기본 항목 사용 {default} \n"
+
+msgid "  [範本解析] 正在探測當前引導項 {current}...\n"
+msgstr "[템플릿] 현재 부팅 항목 {current} 조사 중... \n"
+
+msgid "  [範本解析] 當前會話引導項 {current} 有效，採用為母體範本\n"
+msgstr "[템플릿] 현재 부팅 항목 {current}이(가) 유효합니다. 기본 템플릿으로 사용됩니다. \n"
+
+msgid "  [範本解析] 偵測到 {current} 已於前次重啟後被清理刪除 (無效識別元)\n"
+msgstr "[템플릿] 이전 재부팅 후 {current}가 정리되었음을 감지했습니다(잘못된 식별자) \n"
+
+msgid "  [範本解析] 正在驗證系統永久開機項 {default}...\n"
+msgstr "[템플릿] 영구 시스템 부팅 항목 유효성 검사 중 {default}... \n"
+
+msgid "  [範本解析] 成功選定系統永久開機項 {default} 作為母體範本 (確保一次成功)\n"
+msgstr "[템플릿] 기본 템플릿으로 영구 항목 {default}을(를) 성공적으로 선택했습니다(첫 번째 시도 성공 보장) \n"
+
+msgid "  [範本解析] 正在掃描 BCD osloader 列表以尋找有效開機項...\n"
+msgstr "[템플릿] 유효한 부팅 항목을 찾기 위해 BCD osloader 목록을 검색하는 중... \n"
+
+msgid "  [範本解析] 從 osloader 列表成功定位實體系統項: {}\n"
+msgstr "[템플릿] osloader에서 물리적 OS 항목을 성공적으로 찾았습니다: {} \n"
+
+msgid "  [範本解析] 未能列舉額外開機項，預設採用 {default}\n"
+msgstr "[템플릿] 추가 항목을 열거할 수 없습니다. 기본값은 {default}입니다. \n"
+
+msgid "  [建立副本] 正在自範本 {} 複製建立臨時安全模式項...\n"
+msgstr "[복제 생성] 임시 안전 모드 항목을 생성하기 위해 템플릿 {}을 복사하는 중... \n"
+
+msgid "  [建立副本] 成功建立副本！\n"
+msgstr "[클론 생성] 클론이 생성되었습니다! \n"
+
+msgid "  [降級備援] 複製範本 {} 失敗: {}，啟動備援嘗試 {{default}}...\n"
+msgstr "[폴백] 템플릿 {} 복사 실패: {}, {{default}}로 폴백 시도 중... \n"
+
+msgid "  [降級備援] 備援方案複製 {default} 成功！\n"
+msgstr "[Fallback] {default}의 대체 복제가 성공했습니다! \n"
+
+msgid "  [降級備援] 備援方案亦失敗: {}\n"
+msgstr "[폴백] 대체 복제도 실패했습니다. {} \n"
+
+msgid "建立臨時安全模式引導項失敗"
+msgstr "임시 안전 모드 부팅 항목을 생성하지 못했습니다."
+
+msgid "  [建立副本] 失敗: {}\n"
+msgstr "[복제 생성] 실패: {} \n"
+
+msgid "  [臨時標識] 取得臨時 GUID: {}\n"
+msgstr "[임시 GUID] 임시 GUID 획득: {} \n"
+
+msgid "  [選單隱藏] 從開機選單中隱藏此臨時副本 (/displayorder ... /remove)...\n"
+msgstr "[메뉴 숨기기] 부팅 메뉴(/displayorder ... /remove)에서 임시 복제본 숨기기... \n"
+
+msgid "  [模式配置] 設定 safeboot 參數為 {}...\n"
+msgstr "[구성] safeboot 매개변수를 {}로 설정 중... \n"
+
+msgid "  [一次性引導] 設定單次啟動序列 (/bootsequence)，重啟後 BootMgr 自動復原...\n"
+msgstr "[일회성 부팅] 싱글샷 시퀀스(/bootsequence)를 설정하면 BootMgr이 다시 시작한 후 되돌립니다... \n"
+
+msgid "  [開機自毀] 註冊 RunOnce 自毀清理任務 (重啟登入後徹底刪除臨時項目)...\n"
+msgstr "[자체 소멸] RunOnce 정리 작업 등록 중(로그인 후 임시 항목을 영구적으로 삭제)... \n"
+
+msgid "母體範本: {}\n  模式: {}\n  臨時 GUID: {}"
+msgstr "기본 템플릿: {}\n모드: {}\n임시 GUID: {}"
+
+msgid "  [建立副本] 正在自範本 {} 複製建立臨時進階選單項...\n"
+msgstr "[복제 생성] 임시 고급 부팅 옵션 항목을 생성하기 위해 템플릿 {}을 복사하는 중... \n"
+
+msgid "建立臨時進階選單引導項失敗"
+msgstr "임시 고급 부팅 옵션 부팅 항목을 생성하지 못했습니다."
+
+msgid "  [進階選項] 啟用 advancedoptions=true (Win7 顯示 F8 選單，Win10/11 顯示開機設定)...\n"
+msgstr "[고급 옵션] Advancedoptions=true 활성화(Win7에서는 F8 메뉴, Win10/11에서는 시작 설정)... \n"
+
+msgid "母體範本: {}\n  臨時 GUID: {}"
+msgstr "기본 템플릿: {}\n임시 GUID: {}"
+
+msgid "此功能僅支援 Windows 8 及以上之 UEFI 系統"
+msgstr "이 기능은 Windows 8 이상의 UEFI 시스템만 지원합니다"
+
+msgid "主機板或系統未支援韌體引導 (Legacy BIOS)"
+msgstr "마더보드 또는 시스템이 펌웨어 부팅을 지원하지 않습니다(레거시 BIOS)"
+

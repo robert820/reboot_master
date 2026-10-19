@@ -136,5 +136,7 @@ If you encounter any issues, bugs, or have feature requests during system mainte
 
 ## 📄 License & Disclaimer
 
-- **Freeware**: This utility is freeware and free for both personal and commercial use.
+- **Freeware License**: This utility is proprietary freeware, provided free of charge for personal, corporate, and professional IT maintenance/repair use. PC repair shops and technicians are permitted to use this software to service and repair computers for clients freely.
+- **Restrictions**: Selling, leasing, charging distribution fees, or bundling this software into paid products or paid boot media is strictly prohibited. Reverse engineering, decompiling, tampering with code, or removing "DEI Tech" branding is prohibited (except for community localization files under [lang/](../../lang/README.md)).
 - **Disclaimer**: While this utility includes rigorous safeguards (such as automatic single-boot rollback and Legacy BIOS checks), modifying boot configurations is an advanced system action. Users assume responsibility for their system environment when using this tool.
+- **Full Agreement**: Please refer to the [LICENSE](../../LICENSE) file for the complete End User License Agreement (EULA).
