@@ -1,0 +1,745 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: reboot_master v1.0.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: sr-Latn\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "[{}] 操作: {}\n  變更細節: {}\n  執行狀態: {}\n----------------------------------------\n"
+msgstr "[{}] Radnja: {}\n  Detalji: {}\n  Status: {}\n----------------------------------------\n"
+
+msgid "尚無歷史操作紀錄。\n"
+msgstr "Još nema istorije aktivnosti.\n"
+
+msgid "無法獲取 SeShutdownPrivilege 系統關機權限"
+msgstr "Nije moguće dobiti sistemsku privilegiju SeShutdownPrivilege"
+
+msgid "關機失敗，錯誤碼: {}"
+msgstr "Isključivanje nije uspelo, kôd greške: {}"
+
+msgid "無法獲取 SeShutdownPrivilege 系統重啟權限"
+msgstr "Nije moguće dobiti privilegiju ponovnog pokretanja SeShutdownPrivilege"
+
+msgid "重啟失敗，錯誤碼: {}"
+msgstr "Ponovno pokretanje nije uspelo, kôd greške: {}"
+
+msgid "無法獲取系統環境權限 (SeSystemEnvironmentPrivilege)，請確認是否以系統管理員身分執行"
+msgstr "Nije moguće dobiti SeSystemEnvironmentPrivilege. Pokrenite kao administrator"
+
+msgid "當前主機板或作業系統不支援直接從系統重啟至韌體/BIOS設定"
+msgstr "Matična ploča ili OS ne podržava direktno ponovno pokretanje u BIOS/firmver"
+
+msgid "寫入 UEFI 韌體變數失敗，可能受限於防毒軟體或權限異常。"
+msgstr "Upisivanje UEFI promenljive nije uspelo. Blokirano antivirusom ili dozvolama."
+
+msgid "重啟至 BIOS/UEFI"
+msgstr "Ponovo pokreni u BIOS/UEFI"
+
+msgid "寫入 UEFI 變數: OsIndications (GUID: {8BE4DF61-93CA-11D2-AA0D-00E098032B8C})，Bit 0 設為 1 (BootToFwUI)"
+msgstr "Upisana UEFI promenljiva: OsIndications (GUID: {8BE4DF61-93CA-11D2-AA0D-00E098032B8C}), Bit 0 postavljen na 1 (BootToFwUI)"
+
+msgid "準備重啟"
+msgstr "Priprema za ponovno pokretanje"
+
+msgid "已成功透過 API 寫入 UEFI 變數，系統正在重新啟動至 BIOS/UEFI..."
+msgstr "UEFI promenljiva je uspešno upisana. Ponovno pokretanje u BIOS/UEFI..."
+
+msgid "執行 bcdedit 失敗: {}"
+msgstr "Pokretanje bcdedit nije uspelo: {}"
+
+msgid "執行 `bcdedit {}` 失敗: {}"
+msgstr "`bcdedit {}` nije uspeo: {}"
+
+msgid "找不到實體系統的 SOFTWARE 登錄檔"
+msgstr "Nije pronađena SOFTWARE košnica registra fizičkog sistema"
+
+msgid "無法從 bcdedit 輸出中找到新的 GUID 起點"
+msgstr "Nije pronađen početak novog GUID-a u bcdedit izlazu"
+
+msgid "無法從 bcdedit 輸出中找到新的 GUID 終點"
+msgstr "Nije pronađen kraj novog GUID-a u bcdedit izlazu"
+
+msgid "無法獲取當前執行檔路徑: {}"
+msgstr "Nije moguće dobiti putanju trenutne izvršne datoteke: {}"
+
+msgid "一次性安全模式"
+msgstr "Jednokratni bezbedni režim"
+
+msgid "模式: {}\n  臨時 GUID: {}"
+msgstr "Režim: {}\n  Privremeni GUID: {}"
+
+msgid "已成功設定一次性安全模式，系統正在重新啟動..."
+msgstr "Jednokratni bezbedni režim je podešen. Ponovno pokretanje..."
+
+msgid "重啟至進階開機選單"
+msgstr "Ponovo pokreni u napredni meni pokretanja"
+
+msgid "建立臨時副本 GUID: {}"
+msgstr "Kreiran privremeni GUID unosa: {}"
+
+msgid "已成功設定一次性進階開機選單，系統正在重新啟動..."
+msgstr "Jednokratne napredne opcije pokretanja su podešene. Ponovno pokretanje..."
+
+msgid "重啟進入 BIOS / UEFI 韌體"
+msgstr "Ponovo pokreni u BIOS / UEFI firmver"
+
+msgid "此操作將立即重新啟動電腦並自動進入 BIOS/UEFI 設定畫面。"
+msgstr "Odmah ponovo pokreće računar i automatski ulazi u BIOS/UEFI podešavanja."
+
+msgid "一次性安全模式 (Minimal)"
+msgstr "Jednokratni bezbedni režim (minimalni)"
+
+msgid "下一次開機將進入安全模式。第二次重新開機時，系統將自動恢復進入正常模式。"
+msgstr "Pokreće se u bezbednom režimu jednom. Vraća se u normalni režim pri sledećem pokretanju."
+
+msgid "一次性安全模式 (含網路)"
+msgstr "Jednokratni bezbedni režim (sa mrežom)"
+
+msgid "下一次開機將進入含網路連線的安全模式。第二次重新開機時，系統將自動恢復進入正常模式。"
+msgstr "Pokreće se u bezbednom režimu sa mrežom jednom. Vraća se u normalu pri sledećem pokretanju."
+
+msgid "重啟進入進階開機選單"
+msgstr "Ponovo pokreni u napredne opcije pokretanja"
+
+msgid "此操作將重新啟動電腦並直接開啟 Windows 進階開機與疑難排解選單。"
+msgstr "Ponovo pokreće računar i otvara Windows meni za napredno pokretanje i rešavanje problema."
+
+msgid "直接強制重啟電腦"
+msgstr "Prinudno ponovo pokreni"
+
+msgid "此操作將透過 Win32 原生 API 立即重啟您的電腦。"
+msgstr "Odmah ponovo pokreće računar koristeći izvorni Win32 API."
+
+msgid "直接安全關機"
+msgstr "Bezbedno isključi odmah"
+
+msgid "此操作將透過 Win32 原生 API 立即關閉電腦電源。"
+msgstr "Odmah isključuje računar koristeći izvorni Win32 API."
+
+msgid "開啟測試模式 (Test Mode)"
+msgstr "Omogući režim testiranja"
+
+msgid "開啟後系統將接受測試簽章驅動程式。桌面右下角會出現「測試模式」浮水印。\n\n• 需先在 BIOS 關閉 Secure Boot 才能生效\n• 大多數遊戲反作弊（EAC、BattlEye）會拒絕在此模式下運行遊戲\n• 執行後需重新開機才會生效。關閉則執行「關閉測試模式」"
+msgstr "Sistem će prihvatiti drajvere sa testnim potpisom. Pojaviće se vodeni žig „Režim testiranja”.\n\n• Secure Boot mora prvo biti isključen u BIOS-u\n• Većina anti-cheat sistema (EAC, BattlEye) blokiraće igre\n• Potrebno je ponovno pokretanje. Izaberite „Onemogući režim testiranja” za isključivanje"
+
+msgid "關閉測試模式"
+msgstr "Onemogući režim testiranja"
+
+msgid "關閉測試模式後，系統將恢復標準驅動簽章驗證。需重新開機才會生效。"
+msgstr "Onemogućavanje režima testiranja vraća standardnu proveru potpisa drajvera. Potrebno je ponovno pokretanje."
+
+msgid "停用驅動程式強制簽章"
+msgstr "Onemogući prinudno potpisivanje drajvera"
+
+msgid "此操作將徹底關閉 Windows 的驅動程式數位簽章驗證 (nointegritychecks)。\n\n• 允許安裝完全沒有數位簽章的驅動程式\n• 系統安全性將大幅降低\n• 需先在 BIOS 關閉 Secure Boot 才能生效\n• 執行後需重新開機才會生效。"
+msgstr "Potpuno isključuje proveru potpisa drajvera u Windows-u (nointegritychecks).\n\n• Omogućava instalaciju nepotpisanih drajvera\n• Bezbednost sistema će biti značajno umanjena\n• Secure Boot mora prvo biti isključen u BIOS-u\n• Potrebno je ponovno pokretanje."
+
+msgid "恢復強制簽章驗證"
+msgstr "Vrati prinudno potpisivanje"
+
+msgid "將恢復 Windows 預設的驅動程式數位簽章驗證機制。需重新開機才會生效。"
+msgstr "Vraća podrazumevanu Windows verifikaciju potpisa drajvera. Potrebno je ponovno pokretanje."
+
+msgid "恢復系統安全防護"
+msgstr "Vrati bezbednost sistema"
+
+msgid "將恢復 Windows 預設的數位簽章驗證與核心安全機制。\n\n需要重新開機才會完全生效。確定要執行嗎？"
+msgstr "Vratiće podrazumevanu verifikaciju potpisa i bezbednost kernela.\n\nPotrebno je ponovno pokretanje. Želite li da nastavite?"
+
+msgid "警告：這將徹底停用驅動程式強制簽章 (nointegritychecks) 並關閉記憶體完整性，大幅降低系統安全性。\n\n需要重新開機才會完全生效。確定要執行嗎？"
+msgstr "Upozorenje: Onemogućava prinudno potpisivanje drajvera i isključuje integritet memorije, znatno smanjujući bezbednost.\n\nPotrebno je ponovno pokretanje. Nastaviti?"
+
+msgid "警告：這將開啟測試模式以允許載入未經簽章的驅動程式，大幅降低系統安全性。\n\n需要重新開機才會完全生效。確定要執行嗎？"
+msgstr "Upozorenje: Omogućava režim testiranja za učitavanje nepotpisanih drajvera, znatno smanjujući bezbednost.\n\nPotrebno je ponovno pokretanje. Nastaviti?"
+
+msgid "解除驅動與核心安全限制"
+msgstr "Ukini ograničenja drajvera i kernela"
+
+msgid "\n[執行] 正在請求重啟至 BIOS/UEFI...\n"
+msgstr "\n[Pokreni] Zahteva se ponovno pokretanje u BIOS/UEFI...\n"
+
+msgid "[成功] {}\n"
+msgstr "[Uspešno] {}\n"
+
+msgid "[提示/錯誤] {}\n"
+msgstr "[Obaveštenje/Greška] {}\n"
+
+msgid "\n[執行] 正在設定一次性安全模式 (Minimal)...\n"
+msgstr "\n[Pokreni] Podešavanje jednokratnog bezbednog režima (minimalnog)...\n"
+
+msgid "[錯誤] {}\n"
+msgstr "[Greška] {}\n"
+
+msgid "\n[執行] 正在設定一次性安全模式 (Network)...\n"
+msgstr "\n[Pokreni] Podešavanje jednokratnog bezbednog režima (sa mrežom)...\n"
+
+msgid "\n[執行] 正在請求重啟進入進階選單...\n"
+msgstr "\n[Pokreni] Zahteva se restart u napredni meni...\n"
+
+msgid "\n[執行] 正在偵測隨身碟並設定重啟進入 PE...\n"
+msgstr "\n[Pokreni] Otkrivanje USB diska i podešavanje PE pokretanja...\n"
+
+msgid "\n[執行] 正在透過 Win32 ExitWindowsEx 原生 API 重啟電腦...\n"
+msgstr "\n[Pokreni] Ponovno pokretanje preko izvornog Win32 ExitWindowsEx API-ja...\n"
+
+msgid "[成功] 已發送 Win32 原生重啟信號，系統正在重啟...\n"
+msgstr "[Uspešno] Poslat je Win32 signal za restart. Sistem se ponovo pokreće...\n"
+
+msgid "[API失敗] {}"
+msgstr "[API neuspeh] {}"
+
+msgid "\n[執行] 正在透過 Win32 ExitWindowsEx 原生 API 關閉電腦...\n"
+msgstr "\n[Pokreni] Isključivanje preko izvornog Win32 ExitWindowsEx API-ja...\n"
+
+msgid "[成功] 已發送 Win32 原生關機信號，系統正在關機...\n"
+msgstr "[Uspešno] Poslat je Win32 signal za isključivanje. Sistem se isključuje...\n"
+
+msgid "\n[執行] 正在開啟測試模式...\n"
+msgstr "\n[Pokreni] Omogućavanje režima testiranja...\n"
+
+msgid "[成功] 測試模式已開啟，請重新開機以生效。桌面右下角將顯示「測試模式」浮水印。\n"
+msgstr "[Uspešno] Režim testiranja omogućen. Ponovo pokrenite za primenu. Vodeni žig će se pojaviti.\n"
+
+msgid "[錯誤] {}\n提示：請先到 BIOS 關閉 Secure Boot 後再嘗試。\n"
+msgstr "[Greška] {}\nSavet: Isključite Secure Boot u BIOS-u i pokušajte ponovo.\n"
+
+msgid "\n[執行] 正在關閉測試模式...\n"
+msgstr "\n[Pokreni] Onemogućavanje režima testiranja...\n"
+
+msgid "[成功] 測試模式已關閉，請重新開機以生效。\n"
+msgstr "[Uspešno] Režim testiranja je onemogućen. Ponovo pokrenite za primenu.\n"
+
+msgid "\n[執行] 正在停用強制簽章 (nointegritychecks)...\n"
+msgstr "\n[Pokreni] Onemogućavanje prinudnog potpisivanja (nointegritychecks)...\n"
+
+msgid "[成功] 強制簽章驗證已停用，請重新開機以生效。\n"
+msgstr "[Uspešno] Prinudno potpisivanje je onemogućeno. Ponovo pokrenite za primenu.\n"
+
+msgid "[錯誤] {}\n提示：請確認是否具備系統管理員權限，或先到 BIOS 關閉 Secure Boot。\n"
+msgstr "[Greška] {}\nSavet: Proverite administratorska prava ili isključite Secure Boot u BIOS-u.\n"
+
+msgid "\n[執行] 正在恢復強制簽章 (nointegritychecks)...\n"
+msgstr "\n[Pokreni] Vraćanje prinudnog potpisivanja (nointegritychecks)...\n"
+
+msgid "[成功] 強制簽章驗證已恢復正常，請重新開機以生效。\n"
+msgstr "[Uspešno] Prinudno potpisivanje je vraćeno. Ponovo pokrenite za primenu.\n"
+
+msgid "\n[執行] 正在恢復系統安全防護...\n"
+msgstr "\n[Pokreni] Vraćanje bezbednosti sistema...\n"
+
+msgid "  [錯誤] 關閉 nointegritychecks 失敗: {}\n"
+msgstr "  [Greška] Isključivanje nointegritychecks nije uspelo: {}\n"
+
+msgid "  - 驅動強制簽章已恢復\n"
+msgstr "  - Prinudno potpisivanje drajvera je vraćeno\n"
+
+msgid "  [錯誤] 關閉 testsigning 失敗: {}\n"
+msgstr "  [Greška] Isključivanje testsigning nije uspelo: {}\n"
+
+msgid "  [錯誤] 寫入登錄檔失敗 (錯誤碼 {}): 無法開啟記憶體完整性\n"
+msgstr "  [Greška] Upis u registar nije uspeo (kôd {}): Nije moguće omogućiti integritet memorije\n"
+
+msgid "  - 記憶體完整性已開啟\n"
+msgstr "  - Integritet memorije je omogućen\n"
+
+msgid "  - 測試模式已關閉\n"
+msgstr "  - Režim testiranja je isključen\n"
+
+msgid "  - 系統安全防護已恢復\n"
+msgstr "  - Bezbednost sistema je vraćena\n"
+
+msgid "  [錯誤] 寫入登錄檔失敗 (錯誤碼 {})\n"
+msgstr "  [Greška] Upis u registar nije uspeo (kôd greške {})\n"
+
+msgid "[警告] 過程中有錯誤發生，請檢查上方日誌。\n"
+msgstr "[Upozorenje] Došlo je do grešaka. Proverite dnevnik iznad.\n"
+
+msgid "[成功] 安全防護已恢復，請重新開機以生效。\n"
+msgstr "[Uspešno] Bezbednost je vraćena. Ponovo pokrenite za primenu.\n"
+
+msgid "\n[執行] 正在解除驅動與核心安全限制...\n"
+msgstr "\n[Pokreni] Ukidanje bezbednosnih ograničenja drajvera i kernela...\n"
+
+msgid "  [錯誤] 開啟 nointegritychecks 失敗: {}\n"
+msgstr "  [Greška] Uključivanje nointegritychecks nije uspelo: {}\n"
+
+msgid "  - 驅動強制簽章已停用\n"
+msgstr "  - Prinudno potpisivanje drajvera je onemogućeno\n"
+
+msgid "  [錯誤] 寫入登錄檔失敗 (錯誤碼 {}): 無法關閉記憶體完整性\n"
+msgstr "  [Greška] Upis u registar nije uspeo (kôd {}): Nije moguće isključiti integritet memorije\n"
+
+msgid "  - 記憶體完整性已關閉\n"
+msgstr "  - Integritet memorije je isključen\n"
+
+msgid "  [錯誤] 開啟 testsigning 失敗: {}\n"
+msgstr "  [Greška] Uključivanje testsigning nije uspelo: {}\n"
+
+msgid "  - 測試模式已開啟\n"
+msgstr "  - Režim testiranja je uključen\n"
+
+msgid "  - 驅動封鎖規則已關閉\n"
+msgstr "  - Lista blokiranih drajvera je isključena\n"
+
+msgid "[成功] 指定的安全限制已解除，請重新開機以生效。\n"
+msgstr "[Uspešno] Bezbednosna ograničenja su ukinuta. Ponovo pokrenite za primenu.\n"
+
+msgid "新增了隨身碟/磁碟: {} {}"
+msgstr "USB disk je dodat: {} {}"
+
+msgid "移除了隨身碟/磁碟: {} {}"
+msgstr "USB disk je uklonjen: {} {}"
+
+msgid "未偵測到包含 PE 環境的隨身碟"
+msgstr "Nije pronađen USB disk sa PE okruženjem"
+
+msgid "未插入任何隨身碟"
+msgstr "Nije priključen nijedan USB disk"
+
+msgid "USB啟動"
+msgstr "Pokretanje sa USB-a"
+
+msgid "\n[狀態變更] {}\n"
+msgstr "\n[Promena statusa] {}\n"
+
+msgid "使用者將目標隨身碟切換為: {} {}"
+msgstr "Ciljni USB disk promenjen na: {} {}"
+
+msgid "無法讀取掃描結果"
+msgstr "Nije moguće pročitati rezultate skeniranja"
+
+msgid "無法讀取選擇結果"
+msgstr "Nije moguće pročitati izbor"
+
+msgid "未找到指定的 PE 隨身碟，請重新掃描。"
+msgstr "Navedeni PE USB disk nije pronađen. Skenirajte ponovo."
+
+msgid "ramdisksdidevice 失敗: {}"
+msgstr "ramdisksdidevice nije uspelo: {}"
+
+msgid "ramdisksdipath 失敗: {}"
+msgstr "ramdisksdipath nije uspelo: {}"
+
+msgid "執行 bcdedit /create 失敗: {}"
+msgstr "bcdedit /create nije uspelo: {}"
+
+msgid "set device 失敗: {}"
+msgstr "set device nije uspelo: {}"
+
+msgid "set osdevice 失敗: {}"
+msgstr "set osdevice nije uspelo: {}"
+
+msgid "set path 失敗: {}"
+msgstr "set path nije uspelo: {}"
+
+msgid "set systemroot 失敗: {}"
+msgstr "set systemroot nije uspelo: {}"
+
+msgid "set winpe 失敗: {}"
+msgstr "set winpe nije uspelo: {}"
+
+msgid "set detecthal 失敗: {}"
+msgstr "set detecthal nije uspelo: {}"
+
+msgid "bootsequence 失敗: {}"
+msgstr "bootsequence nije uspelo: {}"
+
+msgid "無法在系統中找到此本地模式 PE 的引導選單。請確認您已正確安裝本地模式 PE。"
+msgstr "Unos za pokretanje lokalnog PE nije pronađen. Proverite instalaciju."
+
+msgid "set device locate 失敗: {}"
+msgstr "set device locate nije uspelo: {}"
+
+msgid "成功偵測到隨身碟並建立啟動項，系統正在重新啟動..."
+msgstr "USB disk je prepoznat i unos za pokretanje kreiran. Ponovno pokretanje..."
+
+msgid "成功建立 PE 啟動項，但發送重啟訊號失敗，請手動重新啟動電腦。"
+msgstr "PE unos je kreiran, ali slanje signala za restart nije uspelo. Ponovo pokrenite ručno."
+
+msgid "恢復驅動與核心安全防護"
+msgstr "Vrati bezbednost drajvera i kernela"
+
+msgid "解除驅動與核心安全限制"
+msgstr "Ukini ograničenja drajvera i kernela"
+
+msgid "包含測試模式、強制簽章與記憶體完整性。\n勾選下方項目並點擊按鈕，設定將於下次重開機後生效。"
+msgstr "Uključuje režim testiranja, potpisivanje i integritet memorije.\nIzaberite stavke i primenite. Stupa na snagu pri sledećem pokretanju."
+
+msgid "停用驅動封鎖規則"
+msgstr "Onemogući listu blokiranih drajvera"
+
+msgid "關閉記憶體完整性"
+msgstr "Isključi integritet memorije"
+
+msgid "恢復預設安全"
+msgstr "Vrati podrazumevanu bezbednost"
+
+msgid "套用變更"
+msgstr "Primeni izmene"
+
+msgid "重啟大師 (Reboot Master)"
+msgstr "Reboot Master"
+
+msgid "系統就緒。請選擇操作項目。"
+msgstr "Sistem je spreman. Izaberite radnju."
+
+msgid "USB啟動"
+msgstr "Pokretanje sa USB-a"
+
+msgid "掃描 USB 裝置中..."
+msgstr "Skeniranje USB uređaja..."
+
+msgid "確定要執行此操作？"
+msgstr "Da li ste sigurni da želite da nastavite?"
+
+msgid "即將執行選定的重啟或關機操作。"
+msgstr "Izabrana radnja ponovnog pokretanja ili isključivanja će se izvršiti."
+
+msgid "重啟管理"
+msgstr "Upravljanje restartom"
+
+msgid "說明"
+msgstr "Pomoć"
+
+msgid "聲明"
+msgstr "Odricanje odgovornosti"
+
+msgid "外觀：跟隨系統 (點擊切換反色)"
+msgstr "Tema: Sistemska (kliknite za inverziju)"
+
+msgid "外觀：淺色 (點擊切換深色)"
+msgstr "Tema: Svetla (kliknite za tamnu)"
+
+msgid "外觀：深色 (點擊跟隨系統)"
+msgstr "Tema: Tamna (kliknite za sistemsku)"
+
+msgid "設定"
+msgstr "Podešavanja"
+
+msgid "開機控制"
+msgstr "Kontrola pokretanja"
+
+msgid "電源與開機導向控制"
+msgstr "Kontrola napajanja i pokretanja"
+
+msgid "點擊卡片即可執行操作。安全模式採用無痕自動清除技術。"
+msgstr "Kliknite na karticu da izvršite. Bezbedni režim se automatski čisti bez tragova."
+
+msgid "WinPE 環境"
+msgstr "WinPE okruženje"
+
+msgid "標準 Windows"
+msgstr "Standardni Windows"
+
+msgid "操作日誌"
+msgstr "Dnevnik aktivnosti"
+
+msgid "BIOS / UEFI 設定"
+msgstr "BIOS / UEFI podešavanje"
+
+msgid "重啟並自動進入主機板底層韌體設定畫面"
+msgstr "Restartujte direktno u podešavanja firmvera matične ploče."
+
+msgid "安全模式 (一般)"
+msgstr "Bezbedni režim (osnovni)"
+
+msgid "無網路基礎排錯模式，第二次重啟自動復原"
+msgstr "Osnovno rešavanje problema bez mreže. Vraća se pri sledećem pokretanju."
+
+msgid "重新啟動系統"
+msgstr "Ponovo pokreni sistem"
+
+msgid "呼叫原生 API 強制重新啟動電腦"
+msgstr "Prinudno ponovo pokrenite računar preko izvornog API-ja."
+
+msgid "進階開機選單"
+msgstr "Napredni meni pokretanja"
+
+msgid "進入 Windows 修復環境 (WinRE) 與啟動設定"
+msgstr "Ulazak u Windows okruženje za oporavak (WinRE) i podešavanja."
+
+msgid "自動偵測USB裝置並使用USB裝置啟動"
+msgstr "Automatski prepoznaj i pokreni sa USB uređaja."
+
+msgid "安全模式 (含網路)"
+msgstr "Bezbedni režim (sa mrežom)"
+
+msgid "支援連線之排錯模式，第二次重啟自動復原"
+msgstr "Rešavanje problema sa mrežom. Vraća se pri sledećem pokretanju."
+
+msgid "安全關機"
+msgstr "Bezbedno isključivanje"
+
+msgid "呼叫原生 API 安全關閉電腦電源"
+msgstr "Bezbedno isključite računar preko izvornog API-ja."
+
+msgid "恢復系統安全防護"
+msgstr "Vrati bezbednost sistema"
+
+msgid "停用驅動強制簽章"
+msgstr "Onemogući prinudno potpisivanje"
+
+msgid "啟用驅動測試模式"
+msgstr "Omogući testni režim drajvera"
+
+msgid "32 位元系統無強制核心簽章限制，無需解鎖。"
+msgstr "32-bitni sistemi nemaju prinudno potpisivanje kernela. Otključavanje nije potrebno."
+
+msgid "恢復預設數位簽章驗證與防護。點擊卡片套用並重啟。"
+msgstr "Vratite podrazumevanu verifikaciju potpisa. Kliknite za primenu i restart."
+
+msgid "關閉數位簽章驗證與記憶體完整性。點擊卡片套用。"
+msgstr "Onemogućite verifikaciju potpisa i integritet memorije. Kliknite za primenu."
+
+msgid "允許載入無簽章驅動。點擊右側展開選項。"
+msgstr "Dozvoli nepotpisane drajvere. Kliknite desno za opcije."
+
+msgid "去除測試模式浮水印"
+msgstr "Ukloni vodeni žig režima testiranja"
+
+msgid "操作日誌歷史"
+msgstr "Istorija dnevnika aktivnosti"
+
+msgid "檢視所有執行過的指令與系統回報紀錄。"
+msgstr "Pregledajte sve izvršene komande i odgovore sistema."
+
+msgid "複製日誌"
+msgstr "Kopiraj dnevnik"
+
+msgid "回上一頁"
+msgstr "Nazad"
+
+msgid "操作說明"
+msgstr "Uputstvo za rad"
+
+msgid "了解重啟大師的操作細節與底層架構設計。"
+msgstr "Saznajte kako Reboot Master funkcioniše i njegov osnovni dizajn."
+
+msgid "軟體功能與優先級設計"
+msgstr "Funkcije i prioriteti izvršavanja"
+
+msgid "本軟體依循「原生 Win32 API 優先 > DLL 導出函式 > 系統管理指令」之架構設計。直接關機與重啟採用 ExitWindowsEx API；安全模式則透過 BCD 一次性導引機制（/bootsequence），確保重啟一次進入安全模式後，下次重開機即自動回歸標準正常模式。"
+msgstr "Dizajnirano prema principu „Izvorni Win32 API > DLL funkcije > Sistemske komande”. Gašenje i restart koriste ExitWindowsEx; bezbedni režim koristi jednokratni BCD mehanizam (/bootsequence), čime se pri sledećem pokretanju automatski vraća u normalan režim."
+
+msgid "得翼科技 (DEI 3C)"
+msgstr "DEI Tech (DEI 3C)"
+
+msgid "效能無界限，讓您的數位生活隨心所欲"
+msgstr "Performanse bez granica za vaš digitalni život po želji."
+
+msgid "電腦組裝"
+msgstr "Sklapanje računara"
+
+msgid "筆電升級"
+msgstr "Nadogradnja laptopa"
+
+msgid "網路規劃"
+msgstr "Mrežno planiranje"
+
+msgid "資安防護"
+msgstr "Sajber bezbednost"
+
+msgid "官方頻道與社群"
+msgstr "Zvanični kanali i zajednica"
+
+msgid "前往官方部落格"
+msgstr "Posetite zvanični blog"
+
+msgid "重啟大師 (Reboot Master) "
+msgstr "Reboot Master "
+
+msgid "使用者條款與免責聲明"
+msgstr "Uslovi korišćenja i odricanje odgovornosti"
+
+msgid "請在使用本軟體前詳細閱讀以下條款與資料安全提醒。"
+msgstr "Molimo pažljivo pročitajte sledeće uslove i obaveštenja o bezbednosti podataka pre upotrebe."
+
+msgid "資料安全提醒與免責聲明"
+msgstr "Bezbednost podataka i odricanje odgovornosti"
+
+msgid "歡迎使用「重啟大師 (Reboot Master)」\n\n1. 觸發重新開機或關機前，系統將立即終止所有未儲存之應用程式執行。請使用者於執行前確保所有工作檔案皆已儲存完畢。\n\n2. 本軟體依「現況」免費提供，開發團隊不承擔因硬體相容性（如主機板不支援 UEFI 韌體重啟）或資料未儲存造成之任何直接或間接損失。"
+msgstr "Dobrodošli u „Reboot Master”\n\n1. Ponovno pokretanje ili gašenje će odmah zatvoriti nesačuvane aplikacije. Sačuvajte sve datoteke pre pokretanja.\n\n2. Ovaj softver se pruža besplatno „u viđenom stanju”. Tim ne snosi odgovornost za hardversku nekompatibilnost ili gubitak podataka."
+
+msgid "調整語言、外觀與軟體更新。"
+msgstr "Prilagodite jezik, izgled i ažuriranja."
+
+msgid "語言"
+msgstr "Jezik"
+
+msgid "選擇介面顯示語言。"
+msgstr "Izaberite jezik prikaza korisničkog interfejsa."
+
+msgid "繁體中文"
+msgstr "Tradicionalni kineski"
+
+msgid "简体中文"
+msgstr "Pojednostavljeni kineski"
+
+msgid "外觀"
+msgstr "Izgled"
+
+msgid "選擇淺色、深色，或跟隨系統設定。"
+msgstr "Izaberite Svetlo, Tamno ili prema sistemu."
+
+msgid "淺色"
+msgstr "Svetlo"
+
+msgid "淺色 (跟隨系統)"
+msgstr "Svetlo (Sistem)"
+
+msgid "深色 (跟隨系統)"
+msgstr "Tamno (Sistem)"
+
+msgid "深色"
+msgstr "Tamno"
+
+msgid "軟體更新"
+msgstr "Ažuriranja softvera"
+
+msgid "啟動時會自動檢查 GitHub 上的最新版本。"
+msgstr "Automatski proverava najnoviju verziju na GitHub-u pri pokretanju."
+
+msgid "目前版本："
+msgstr "Trenutna verzija: "
+
+msgid "正在檢查更新..."
+msgstr "Provera ažuriranja..."
+
+msgid "發現新版本："
+msgstr "Dostupna nova verzija: "
+
+msgid "目前已是最新版本。"
+msgstr "Koristite najnoviju verziju."
+
+msgid "無法連線至 GitHub，請檢查網路連線。"
+msgstr "Nije moguće povezati se na GitHub. Proverite mrežnu vezu."
+
+msgid "正在下載更新，完成後將自動重新啟動..."
+msgstr "Preuzimanje ažuriranja. Aplikacija će se automatski ponovo pokrenuti..."
+
+msgid "尚未檢查更新。"
+msgstr "Još nije provereno za ažuriranja."
+
+msgid "檢查更新"
+msgstr "Proveri ažuriranja"
+
+msgid "立即更新"
+msgstr "Ažuriraj sada"
+
+msgid "再次確認您的操作"
+msgstr "Potvrdite radnju"
+
+msgid "\n\n請確認您的所有工作與文件皆已儲存。確定要立即執行嗎？"
+msgstr "\n\nUverite se da su svi dokumenti i rad sačuvani. Želite li da pokrenete odmah?"
+
+msgid "取消"
+msgstr "Otkaži"
+
+msgid "確定執行"
+msgstr "Potvrdi"
+
+msgid "所有安全模式均採用無痕自動清除技術，重啟後將自動還原。"
+msgstr "Svi bezbedni režimi koriste automatsko čišćenje bez tragova i vraćaju se nakon restarta."
+
+msgid "恢復預設數位簽章驗證與防護。"
+msgstr "Vratite podrazumevanu verifikaciju digitalnog potpisa i zaštitu."
+
+msgid "關閉數位簽章驗證與記憶體完整性"
+msgstr "Onemogućite verifikaciju digitalnog potpisa i integritet memorije"
+
+msgid "允許載入無簽章之驅動程式。"
+msgstr "Dozvolite učitavanje nepotpisanih drajvera."
+
+msgid "選擇語言"
+msgstr "Izaberite jezik"
+
+msgid "此功能僅支援 Windows 8 及以上版本。您的系統過舊，請在開機時手動按鍵進入 BIOS。"
+msgstr "Ova funkcija zahteva Windows 8 ili noviji. Pritisnite taster pri pokretanju da uđete u BIOS."
+
+msgid "此系統為傳統 BIOS (Legacy)，無法透過軟體重啟進入 BIOS 設定。請在開機時手動按鍵進入。"
+msgstr "Sistem koristi Legacy BIOS, restart kroz softver nije moguć. Pritisnite taster pri pokretanju."
+
+msgid "  [範本解析] 處於 WinPE 環境，採用實體系統預設項 {default}\n"
+msgstr "[Predložak] U WinPE okruženju, koristeći zadani unos fizičkog OS-a {default} \n"
+
+msgid "  [範本解析] 正在探測當前引導項 {current}...\n"
+msgstr "[Predložak] Ispitivanje trenutnog unosa pokretanja {current}... \n"
+
+msgid "  [範本解析] 當前會話引導項 {current} 有效，採用為母體範本\n"
+msgstr "[Predložak] Trenutačni unos pokretanja {current} je važeći, koristeći kao osnovni predložak \n"
+
+msgid "  [範本解析] 偵測到 {current} 已於前次重啟後被清理刪除 (無效識別元)\n"
+msgstr "[Predložak] Otkriveno {current} je očišćeno nakon prethodnog ponovnog pokretanja (nevažeći identifikator) \n"
+
+msgid "  [範本解析] 正在驗證系統永久開機項 {default}...\n"
+msgstr "[Predložak] Provjera trajnog unosa pokretanja sustava {default}... \n"
+
+msgid "  [範本解析] 成功選定系統永久開機項 {default} 作為母體範本 (確保一次成功)\n"
+msgstr "[Predložak] Uspješno odabran trajni unos {default} kao osnovni predložak (osigurava uspjeh prvog pokušaja) \n"
+
+msgid "  [範本解析] 正在掃描 BCD osloader 列表以尋找有效開機項...\n"
+msgstr "[Predložak] Skeniranje popisa BCD osloadera za valjane unose za pokretanje... \n"
+
+msgid "  [範本解析] 從 osloader 列表成功定位實體系統項: {}\n"
+msgstr "[Predložak] Uspješno lociran unos fizičkog OS-a iz osloadera: {} \n"
+
+msgid "  [範本解析] 未能列舉額外開機項，預設採用 {default}\n"
+msgstr "[Predložak] Nije moguće nabrojati dodatne unose, zadana je {default} \n"
+
+msgid "  [建立副本] 正在自範本 {} 複製建立臨時安全模式項...\n"
+msgstr "[Stvori klon] Kopiranje predloška {} za stvaranje privremenog unosa sigurnog načina rada... \n"
+
+msgid "  [建立副本] 成功建立副本！\n"
+msgstr "[Stvori klon] Klon je uspješno kreiran! \n"
+
+msgid "  [降級備援] 複製範本 {} 失敗: {}，啟動備援嘗試 {{default}}...\n"
+msgstr "[Fallback] Kopiranje predloška {} nije uspjelo: {}, pokušaj rezerve s {{default}}... \n"
+
+msgid "  [降級備援] 備援方案複製 {default} 成功！\n"
+msgstr "[Fallback] Rezervni klon {default} je uspio! \n"
+
+msgid "  [降級備援] 備援方案亦失敗: {}\n"
+msgstr "[Rezervni] Rezervni klon također nije uspio: {} \n"
+
+msgid "建立臨時安全模式引導項失敗"
+msgstr "Nije uspjelo stvaranje privremenog unosa za pokretanje sigurnog načina rada"
+
+msgid "  [建立副本] 失敗: {}\n"
+msgstr "[Stvori klon] Neuspješno: {} \n"
+
+msgid "  [臨時標識] 取得臨時 GUID: {}\n"
+msgstr "[Privremeni GUID] Dobiven privremeni GUID: {} \n"
+
+msgid "  [選單隱藏] 從開機選單中隱藏此臨時副本 (/displayorder ... /remove)...\n"
+msgstr "[Sakrij izbornik] Skrivanje privremenog klona iz izbornika za pokretanje (/displayorder ... /remove)... \n"
+
+msgid "  [模式配置] 設定 safeboot 參數為 {}...\n"
+msgstr "[Konfiguracija] Postavljanje parametra sigurnog pokretanja na {}... \n"
+
+msgid "  [一次性引導] 設定單次啟動序列 (/bootsequence)，重啟後 BootMgr 自動復原...\n"
+msgstr "[Jednokratno pokretanje] Postavljanje jednokratnog niza (/bootsequence), BootMgr se vraća nakon ponovnog pokretanja... \n"
+
+msgid "  [開機自毀] 註冊 RunOnce 自毀清理任務 (重啟登入後徹底刪除臨時項目)...\n"
+msgstr "[Samouništenje] Registriranje zadatka čišćenja RunOnce (trajno briše privremeni unos nakon prijave)... \n"
+
+msgid "母體範本: {}\n  模式: {}\n  臨時 GUID: {}"
+msgstr "Osnovni predložak: {}\nNačin: {}\nTemp GUID: {}"
+
+msgid "  [建立副本] 正在自範本 {} 複製建立臨時進階選單項...\n"
+msgstr "[Stvori klon] Kopiranje predloška {} za stvaranje privremenog unosa naprednih opcija pokretanja... \n"
+
+msgid "建立臨時進階選單引導項失敗"
+msgstr "Nije uspjelo stvaranje privremenog unosa za pokretanje naprednih opcija pokretanja"
+
+msgid "  [進階選項] 啟用 advancedoptions=true (Win7 顯示 F8 選單，Win10/11 顯示開機設定)...\n"
+msgstr "[Napredne opcije] Omogućavanje advancedoptions=true (izbornik F8 na Win7, postavke pokretanja na Win10/11)... \n"
+
+msgid "母體範本: {}\n  臨時 GUID: {}"
+msgstr "Osnovni predložak: {}\nTemp GUID: {}"
+
+msgid "此功能僅支援 Windows 8 及以上之 UEFI 系統"
+msgstr "Ova značajka podržava samo UEFI sustave na Windows 8 i novijim"
+
+msgid "主機板或系統未支援韌體引導 (Legacy BIOS)"
+msgstr "Matična ploča ili sustav ne podržavaju pokretanje firmvera (naslijeđeni BIOS)"
+

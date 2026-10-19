@@ -1,0 +1,745 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: reboot_master v1.0.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ca\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "[{}] 操作: {}\n  變更細節: {}\n  執行狀態: {}\n----------------------------------------\n"
+msgstr "[{}] Acció: {}\n  Detalls: {}\n  Estat: {}\n----------------------------------------\n"
+
+msgid "尚無歷史操作紀錄。\n"
+msgstr "Encara no hi ha cap historial d'activitat.\n"
+
+msgid "無法獲取 SeShutdownPrivilege 系統關機權限"
+msgstr "No es pot obtenir el privilegi del sistema SeShutdownPrivilege"
+
+msgid "關機失敗，錯誤碼: {}"
+msgstr "Error d'apagada, codi d'error: {}"
+
+msgid "無法獲取 SeShutdownPrivilege 系統重啟權限"
+msgstr "No es pot obtenir el privilegi de reinici SeShutdownPrivilege"
+
+msgid "重啟失敗，錯誤碼: {}"
+msgstr "Error en reiniciar, codi d’error: {}"
+
+msgid "無法獲取系統環境權限 (SeSystemEnvironmentPrivilege)，請確認是否以系統管理員身分執行"
+msgstr "No es pot obtenir SeSystemEnvironmentPrivilege. Executeu com a administrador"
+
+msgid "當前主機板或作業系統不支援直接從系統重啟至韌體/BIOS設定"
+msgstr "La placa base o el SO no admeten reiniciar directament a la configuració del BIOS/UEFI"
+
+msgid "寫入 UEFI 韌體變數失敗，可能受限於防毒軟體或權限異常。"
+msgstr "Ha fallat escriure la variable UEFI. Bloquejat per antivirus o permisos."
+
+msgid "重啟至 BIOS/UEFI"
+msgstr "Reinicia al BIOS/UEFI"
+
+msgid "寫入 UEFI 變數: OsIndications (GUID: {8BE4DF61-93CA-11D2-AA0D-00E098032B8C})，Bit 0 設為 1 (BootToFwUI)"
+msgstr "Variable UEFI escrita: OsIndications (GUID: {8BE4DF61-93CA-11D2-AA0D-00E098032B8C}), Bit 0 establert a 1 (BootToFwUI)"
+
+msgid "準備重啟"
+msgstr "Preparant el reinici"
+
+msgid "已成功透過 API 寫入 UEFI 變數，系統正在重新啟動至 BIOS/UEFI..."
+msgstr "Variable UEFI escrita amb èxit. Reiniciant al BIOS/UEFI..."
+
+msgid "執行 bcdedit 失敗: {}"
+msgstr "Ha fallat executar bcdedit: {}"
+
+msgid "執行 `bcdedit {}` 失敗: {}"
+msgstr "`bcdedit {}` ha fallat: {}"
+
+msgid "找不到實體系統的 SOFTWARE 登錄檔"
+msgstr "No s’ha trobat el rusc del registre SOFTWARE del sistema físic"
+
+msgid "無法從 bcdedit 輸出中找到新的 GUID 起點"
+msgstr "No s’ha trobat l’inici del nou GUID a la sortida de bcdedit"
+
+msgid "無法從 bcdedit 輸出中找到新的 GUID 終點"
+msgstr "No s’ha trobat el final del nou GUID a la sortida de bcdedit"
+
+msgid "無法獲取當前執行檔路徑: {}"
+msgstr "No es pot obtenir el camí de l’executable actual: {}"
+
+msgid "一次性安全模式"
+msgstr "Mode segur d’un sol ús"
+
+msgid "模式: {}\n  臨時 GUID: {}"
+msgstr "Mode: {}\n  GUID temporal: {}"
+
+msgid "已成功設定一次性安全模式，系統正在重新啟動..."
+msgstr "Mode segur d’un sol ús configurat correctament. Reiniciant..."
+
+msgid "重啟至進階開機選單"
+msgstr "Reinicia a les opcions d’inici avançades"
+
+msgid "建立臨時副本 GUID: {}"
+msgstr "S’ha creat el GUID d’entrada temporal: {}"
+
+msgid "已成功設定一次性進階開機選單，系統正在重新啟動..."
+msgstr "Opcions d’inici avançades d’un sol ús configurades. Reiniciant..."
+
+msgid "重啟進入 BIOS / UEFI 韌體"
+msgstr "Reinicia al microprogramari BIOS / UEFI"
+
+msgid "此操作將立即重新啟動電腦並自動進入 BIOS/UEFI 設定畫面。"
+msgstr "Reinicia l’ordinador immediatament i entra a la configuració del BIOS/UEFI."
+
+msgid "一次性安全模式 (Minimal)"
+msgstr "Mode segur d’un sol ús (mínim)"
+
+msgid "下一次開機將進入安全模式。第二次重新開機時，系統將自動恢復進入正常模式。"
+msgstr "Inicia en mode segur una vegada. Torna al mode normal al següent reinici."
+
+msgid "一次性安全模式 (含網路)"
+msgstr "Mode segur d’un sol ús (amb xarxa)"
+
+msgid "下一次開機將進入含網路連線的安全模式。第二次重新開機時，系統將自動恢復進入正常模式。"
+msgstr "Inicia en mode segur amb xarxa una vegada. Torna al mode normal al següent reinici."
+
+msgid "重啟進入進階開機選單"
+msgstr "Reinicia a les opcions d’inici avançades"
+
+msgid "此操作將重新啟動電腦並直接開啟 Windows 進階開機與疑難排解選單。"
+msgstr "Reinicia l’ordinador i obre el menú d’inici avançat i resolució de problemes de Windows."
+
+msgid "直接強制重啟電腦"
+msgstr "Força el reinici ara"
+
+msgid "此操作將透過 Win32 原生 API 立即重啟您的電腦。"
+msgstr "Reinicia l’ordinador immediatament mitjançant l’API nativa de Win32."
+
+msgid "直接安全關機"
+msgstr "Apagada segura ara"
+
+msgid "此操作將透過 Win32 原生 API 立即關閉電腦電源。"
+msgstr "Apaga l’ordinador immediatament mitjançant l’API nativa de Win32."
+
+msgid "開啟測試模式 (Test Mode)"
+msgstr "Activa el mode de prova"
+
+msgid "開啟後系統將接受測試簽章驅動程式。桌面右下角會出現「測試模式」浮水印。\n\n• 需先在 BIOS 關閉 Secure Boot 才能生效\n• 大多數遊戲反作弊（EAC、BattlEye）會拒絕在此模式下運行遊戲\n• 執行後需重新開機才會生效。關閉則執行「關閉測試模式」"
+msgstr "El sistema acceptarà controladors signats en mode de prova. Apareixerà una filigrana a l’escriptori.\n\n• Cal desactivar Secure Boot al BIOS primer\n• La majoria d’anti-trampes (EAC, BattlEye) blocaran jocs en aquest mode\n• Cal reiniciar perquè tingui efecte. Utilitzeu \"Desactiva el mode de prova\" per apagar-lo"
+
+msgid "關閉測試模式"
+msgstr "Desactiva el mode de prova"
+
+msgid "關閉測試模式後，系統將恢復標準驅動簽章驗證。需重新開機才會生效。"
+msgstr "Desactivar el mode de prova restaura la verificació de signatura de controladors estàndard. Cal reiniciar."
+
+msgid "停用驅動程式強制簽章"
+msgstr "Desactiva l’obligatorietat de signatura del controlador"
+
+msgid "此操作將徹底關閉 Windows 的驅動程式數位簽章驗證 (nointegritychecks)。\n\n• 允許安裝完全沒有數位簽章的驅動程式\n• 系統安全性將大幅降低\n• 需先在 BIOS 關閉 Secure Boot 才能生效\n• 執行後需重新開機才會生效。"
+msgstr "Desactiva completament la verificació de signatures de controladors de Windows (nointegritychecks).\n\n• Permet instal·lar controladors sense signar\n• La seguretat del sistema es reduirà notablement\n• Cal desactivar Secure Boot al BIOS primer\n• Cal reiniciar."
+
+msgid "恢復強制簽章驗證"
+msgstr "Restaura l’obligatorietat de signatura"
+
+msgid "將恢復 Windows 預設的驅動程式數位簽章驗證機制。需重新開機才會生效。"
+msgstr "Restaurarà el mecanisme per defecte de verificació de signatures de Windows. Cal reiniciar."
+
+msgid "恢復系統安全防護"
+msgstr "Restaura la seguretat del sistema"
+
+msgid "將恢復 Windows 預設的數位簽章驗證與核心安全機制。\n\n需要重新開機才會完全生效。確定要執行嗎？"
+msgstr "Restaurarà la verificació de signatures i la seguretat del nucli per defecte.\n\nCal reiniciar perquè tingui efecte. Voleu continuar?"
+
+msgid "警告：這將徹底停用驅動程式強制簽章 (nointegritychecks) 並關閉記憶體完整性，大幅降低系統安全性。\n\n需要重新開機才會完全生效。確定要執行嗎？"
+msgstr "Avís: Desactiva l’obligatorietat de signatura del controlador i la integritat de la memòria, reduint molt la seguretat.\n\nCal reiniciar perquè tingui efecte. Voleu continuar?"
+
+msgid "警告：這將開啟測試模式以允許載入未經簽章的驅動程式，大幅降低系統安全性。\n\n需要重新開機才會完全生效。確定要執行嗎？"
+msgstr "Avís: Activa el mode de prova per permetre carregar controladors sense signar, reduint la seguretat.\n\nCal reiniciar. Voleu continuar?"
+
+msgid "解除驅動與核心安全限制"
+msgstr "Desactiva les restriccions del controlador i del nucli"
+
+msgid "\n[執行] 正在請求重啟至 BIOS/UEFI...\n"
+msgstr "\n[Execució] Sol·licitant reinici al BIOS/UEFI...\n"
+
+msgid "[成功] {}\n"
+msgstr "[Correcte] {}\n"
+
+msgid "[提示/錯誤] {}\n"
+msgstr "[Avís/Error] {}\n"
+
+msgid "\n[執行] 正在設定一次性安全模式 (Minimal)...\n"
+msgstr "\n[Execució] Configurant mode segur d’un sol ús (mínim)...\n"
+
+msgid "[錯誤] {}\n"
+msgstr "[Error] {}\n"
+
+msgid "\n[執行] 正在設定一次性安全模式 (Network)...\n"
+msgstr "\n[Execució] Configurant mode segur d’un sol ús (amb xarxa)...\n"
+
+msgid "\n[執行] 正在請求重啟進入進階選單...\n"
+msgstr "\n[Execució] Sol·licitant reinici a les opcions avançades...\n"
+
+msgid "\n[執行] 正在偵測隨身碟並設定重啟進入 PE...\n"
+msgstr "\n[Execució] Detectant unitat USB i configurant l’inici PE...\n"
+
+msgid "\n[執行] 正在透過 Win32 ExitWindowsEx 原生 API 重啟電腦...\n"
+msgstr "\n[Execució] Reiniciant mitjançant l’API nativa Win32 ExitWindowsEx...\n"
+
+msgid "[成功] 已發送 Win32 原生重啟信號，系統正在重啟...\n"
+msgstr "[Correcte] Senyal de reinici Win32 enviat. Reiniciant...\n"
+
+msgid "[API失敗] {}"
+msgstr "[Ha fallat l’API] {}"
+
+msgid "\n[執行] 正在透過 Win32 ExitWindowsEx 原生 API 關閉電腦...\n"
+msgstr "\n[Execució] Apagant mitjançant l’API nativa Win32 ExitWindowsEx...\n"
+
+msgid "[成功] 已發送 Win32 原生關機信號，系統正在關機...\n"
+msgstr "[Correcte] Senyal d’apagada Win32 enviat. Apagant...\n"
+
+msgid "\n[執行] 正在開啟測試模式...\n"
+msgstr "\n[Execució] Activant el mode de prova...\n"
+
+msgid "[成功] 測試模式已開啟，請重新開機以生效。桌面右下角將顯示「測試模式」浮水印。\n"
+msgstr "[Correcte] Mode de prova activat. Reinicieu per aplicar. Apareixerà una filigrana a l’escriptori.\n"
+
+msgid "[錯誤] {}\n提示：請先到 BIOS 關閉 Secure Boot 後再嘗試。\n"
+msgstr "[Error] {}\nSuggeriment: Desactiveu Secure Boot al BIOS i torneu-ho a provar.\n"
+
+msgid "\n[執行] 正在關閉測試模式...\n"
+msgstr "\n[Execució] Desactivant el mode de prova...\n"
+
+msgid "[成功] 測試模式已關閉，請重新開機以生效。\n"
+msgstr "[Correcte] Mode de prova desactivat. Reinicieu per aplicar.\n"
+
+msgid "\n[執行] 正在停用強制簽章 (nointegritychecks)...\n"
+msgstr "\n[Execució] Desactivant obligatorietat de signatura (nointegritychecks)...\n"
+
+msgid "[成功] 強制簽章驗證已停用，請重新開機以生效。\n"
+msgstr "[Correcte] Obligatorietat de signatura desactivada. Reinicieu per aplicar.\n"
+
+msgid "[錯誤] {}\n提示：請確認是否具備系統管理員權限，或先到 BIOS 關閉 Secure Boot。\n"
+msgstr "[Error] {}\nSuggeriment: Comproveu els permisos d’administrador o desactiveu Secure Boot al BIOS.\n"
+
+msgid "\n[執行] 正在恢復強制簽章 (nointegritychecks)...\n"
+msgstr "\n[Execució] Restaurant obligatorietat de signatura (nointegritychecks)...\n"
+
+msgid "[成功] 強制簽章驗證已恢復正常，請重新開機以生效。\n"
+msgstr "[Correcte] Obligatorietat de signatura restaurada. Reinicieu per aplicar.\n"
+
+msgid "\n[執行] 正在恢復系統安全防護...\n"
+msgstr "\n[Execució] Restaurant la seguretat del sistema...\n"
+
+msgid "  [錯誤] 關閉 nointegritychecks 失敗: {}\n"
+msgstr "  [Error] Ha fallat desactivar nointegritychecks: {}\n"
+
+msgid "  - 驅動強制簽章已恢復\n"
+msgstr "  - Obligatorietat de signatura del controlador restaurada\n"
+
+msgid "  [錯誤] 關閉 testsigning 失敗: {}\n"
+msgstr "  [Error] Ha fallat desactivar testsigning: {}\n"
+
+msgid "  [錯誤] 寫入登錄檔失敗 (錯誤碼 {}): 無法開啟記憶體完整性\n"
+msgstr "  [Error] Ha fallat escriure al registre (codi {}): No s’ha pogut activar la integritat de la memòria\n"
+
+msgid "  - 記憶體完整性已開啟\n"
+msgstr "  - Integritat de la memòria activada\n"
+
+msgid "  - 測試模式已關閉\n"
+msgstr "  - Mode de prova desactivat\n"
+
+msgid "  - 系統安全防護已恢復\n"
+msgstr "  - Seguretat del sistema restaurada\n"
+
+msgid "  [錯誤] 寫入登錄檔失敗 (錯誤碼 {})\n"
+msgstr "  [Error] Ha fallat escriure al registre (codi d’error {})\n"
+
+msgid "[警告] 過程中有錯誤發生，請檢查上方日誌。\n"
+msgstr "[Avís] S’han produït errors. Reviseu el registre superior.\n"
+
+msgid "[成功] 安全防護已恢復，請重新開機以生效。\n"
+msgstr "[Correcte] Seguretat restaurada. Reinicieu per aplicar.\n"
+
+msgid "\n[執行] 正在解除驅動與核心安全限制...\n"
+msgstr "\n[Execució] Desactivant restriccions de seguretat del controlador i del nucli...\n"
+
+msgid "  [錯誤] 開啟 nointegritychecks 失敗: {}\n"
+msgstr "  [Error] Ha fallat activar nointegritychecks: {}\n"
+
+msgid "  - 驅動強制簽章已停用\n"
+msgstr "  - Obligatorietat de signatura del controlador desactivada\n"
+
+msgid "  [錯誤] 寫入登錄檔失敗 (錯誤碼 {}): 無法關閉記憶體完整性\n"
+msgstr "  [Error] Ha fallat escriure al registre (codi {}): No s’ha pogut desactivar la integritat de la memòria\n"
+
+msgid "  - 記憶體完整性已關閉\n"
+msgstr "  - Integritat de la memòria desactivada\n"
+
+msgid "  [錯誤] 開啟 testsigning 失敗: {}\n"
+msgstr "  [Error] Ha fallat activar testsigning: {}\n"
+
+msgid "  - 測試模式已開啟\n"
+msgstr "  - Mode de prova activat\n"
+
+msgid "  - 驅動封鎖規則已關閉\n"
+msgstr "  - Llista de bloqueig de controladors desactivada\n"
+
+msgid "[成功] 指定的安全限制已解除，請重新開機以生效。\n"
+msgstr "[Correcte] Restriccions de seguretat eliminades. Reinicieu per aplicar.\n"
+
+msgid "新增了隨身碟/磁碟: {} {}"
+msgstr "Unitat USB/disc connectat: {} {}"
+
+msgid "移除了隨身碟/磁碟: {} {}"
+msgstr "Unitat USB/disc desconnectat: {} {}"
+
+msgid "未偵測到包含 PE 環境的隨身碟"
+msgstr "No s’ha detectat cap unitat USB amb entorn PE"
+
+msgid "未插入任何隨身碟"
+msgstr "No hi ha cap unitat USB connectada"
+
+msgid "USB啟動"
+msgstr "Inici per USB"
+
+msgid "\n[狀態變更] {}\n"
+msgstr "\n[Canvi d’estat] {}\n"
+
+msgid "使用者將目標隨身碟切換為: {} {}"
+msgstr "Unitat USB de destinació canviada a: {} {}"
+
+msgid "無法讀取掃描結果"
+msgstr "No es poden llegir els resultats de l’escaneig"
+
+msgid "無法讀取選擇結果"
+msgstr "No es pot llegir la selecció"
+
+msgid "未找到指定的 PE 隨身碟，請重新掃描。"
+msgstr "No s’ha trobat la unitat USB PE especificada. Torneu a cercar."
+
+msgid "ramdisksdidevice 失敗: {}"
+msgstr "ramdisksdidevice ha fallat: {}"
+
+msgid "ramdisksdipath 失敗: {}"
+msgstr "ramdisksdipath ha fallat: {}"
+
+msgid "執行 bcdedit /create 失敗: {}"
+msgstr "bcdedit /create ha fallat: {}"
+
+msgid "set device 失敗: {}"
+msgstr "set device ha fallat: {}"
+
+msgid "set osdevice 失敗: {}"
+msgstr "set osdevice ha fallat: {}"
+
+msgid "set path 失敗: {}"
+msgstr "set path ha fallat: {}"
+
+msgid "set systemroot 失敗: {}"
+msgstr "set systemroot ha fallat: {}"
+
+msgid "set winpe 失敗: {}"
+msgstr "set winpe ha fallat: {}"
+
+msgid "set detecthal 失敗: {}"
+msgstr "set detecthal ha fallat: {}"
+
+msgid "bootsequence 失敗: {}"
+msgstr "bootsequence ha fallat: {}"
+
+msgid "無法在系統中找到此本地模式 PE 的引導選單。請確認您已正確安裝本地模式 PE。"
+msgstr "No s’ha trobat l’entrada d’inici del PE local. Comproveu que estigui ben instal·lat."
+
+msgid "set device locate 失敗: {}"
+msgstr "set device locate ha fallat: {}"
+
+msgid "成功偵測到隨身碟並建立啟動項，系統正在重新啟動..."
+msgstr "S’ha detectat la unitat USB i s’ha creat l’entrada d’inici. Reiniciant..."
+
+msgid "成功建立 PE 啟動項，但發送重啟訊號失敗，請手動重新啟動電腦。"
+msgstr "S’ha creat l’entrada PE, però ha fallat el senyal de reinici. Reinicieu manualment."
+
+msgid "恢復驅動與核心安全防護"
+msgstr "Restaura la seguretat del controlador i del nucli"
+
+msgid "解除驅動與核心安全限制"
+msgstr "Desactiva les restriccions del controlador i del nucli"
+
+msgid "包含測試模式、強制簽章與記憶體完整性。\n勾選下方項目並點擊按鈕，設定將於下次重開機後生效。"
+msgstr "Inclou el mode de prova, la signatura obligatòria i la integritat de la memòria.\nMarqueu les opcions i apliqueu. Efectiu al proper reinici."
+
+msgid "停用驅動封鎖規則"
+msgstr "Desactiva la llista de bloqueig de controladors"
+
+msgid "關閉記憶體完整性"
+msgstr "Desactiva la integritat de la memòria"
+
+msgid "恢復預設安全"
+msgstr "Restaura la seguretat per defecte"
+
+msgid "套用變更"
+msgstr "Aplica els canvis"
+
+msgid "重啟大師 (Reboot Master)"
+msgstr "Reboot Master"
+
+msgid "系統就緒。請選擇操作項目。"
+msgstr "Sistema a punt. Seleccioneu una acció."
+
+msgid "USB啟動"
+msgstr "Inici per USB"
+
+msgid "掃描 USB 裝置中..."
+msgstr "Escanejant dispositius USB..."
+
+msgid "確定要執行此操作？"
+msgstr "Segur que voleu continuar?"
+
+msgid "即將執行選定的重啟或關機操作。"
+msgstr "L’acció seleccionada de reinici o apagada està a punt d’executar-se."
+
+msgid "重啟管理"
+msgstr "Gestió del reinici"
+
+msgid "說明"
+msgstr "Ajuda"
+
+msgid "聲明"
+msgstr "Avís legal"
+
+msgid "外觀：跟隨系統 (點擊切換反色)"
+msgstr "Tema: Sistema (cliqueu per invertir)"
+
+msgid "外觀：淺色 (點擊切換深色)"
+msgstr "Tema: Clar (cliqueu per Fosc)"
+
+msgid "外觀：深色 (點擊跟隨系統)"
+msgstr "Tema: Fosc (cliqueu per Sistema)"
+
+msgid "設定"
+msgstr "Configuració"
+
+msgid "開機控制"
+msgstr "Control d'arrencada"
+
+msgid "電源與開機導向控制"
+msgstr "Control d’energia i inici"
+
+msgid "點擊卡片即可執行操作。安全模式採用無痕自動清除技術。"
+msgstr "Feu clic a la targeta per executar. El mode segur utilitza neteja automàtica sense rastres."
+
+msgid "WinPE 環境"
+msgstr "Entorn WinPE"
+
+msgid "標準 Windows"
+msgstr "Windows estàndard"
+
+msgid "操作日誌"
+msgstr "Registre d’activitat"
+
+msgid "BIOS / UEFI 設定"
+msgstr "Configuració BIOS / UEFI"
+
+msgid "重啟並自動進入主機板底層韌體設定畫面"
+msgstr "Reinicia directament a la configuració del microprogramari de la placa base."
+
+msgid "安全模式 (一般)"
+msgstr "Mode segur (mínim)"
+
+msgid "無網路基礎排錯模式，第二次重啟自動復原"
+msgstr "Resolució bàsica de problemes sense xarxa. Es reverteix al segon reinici."
+
+msgid "重新啟動系統"
+msgstr "Reinicia el sistema"
+
+msgid "呼叫原生 API 強制重新啟動電腦"
+msgstr "Força el reinici de l’ordinador mitjançant l’API nativa."
+
+msgid "進階開機選單"
+msgstr "Menú d’inici avançat"
+
+msgid "進入 Windows 修復環境 (WinRE) 與啟動設定"
+msgstr "Entra a l’entorn de recuperació de Windows (WinRE) i configuració."
+
+msgid "自動偵測USB裝置並使用USB裝置啟動"
+msgstr "Detecta automàticament i inicia des del dispositiu USB."
+
+msgid "安全模式 (含網路)"
+msgstr "Mode segur (amb xarxa)"
+
+msgid "支援連線之排錯模式，第二次重啟自動復原"
+msgstr "Resolució de problemes amb xarxa. Es reverteix al segon reinici."
+
+msgid "安全關機"
+msgstr "Apagada segura"
+
+msgid "呼叫原生 API 安全關閉電腦電源"
+msgstr "Apaga l’ordinador de forma segura mitjançant l’API nativa."
+
+msgid "恢復系統安全防護"
+msgstr "Restaura la seguretat del sistema"
+
+msgid "停用驅動強制簽章"
+msgstr "Desactiva l’obligatorietat de signatura"
+
+msgid "啟用驅動測試模式"
+msgstr "Activa el mode de prova de controladors"
+
+msgid "32 位元系統無強制核心簽章限制，無需解鎖。"
+msgstr "Els sistemes de 32 bits no exigeixen signatura del nucli. No cal desbloquejar."
+
+msgid "恢復預設數位簽章驗證與防護。點擊卡片套用並重啟。"
+msgstr "Restaura la verificació de signatures per defecte. Feu clic per aplicar i reiniciar."
+
+msgid "關閉數位簽章驗證與記憶體完整性。點擊卡片套用。"
+msgstr "Desactiva la verificació de signatures i la integritat de la memòria. Feu clic per aplicar."
+
+msgid "允許載入無簽章驅動。點擊右側展開選項。"
+msgstr "Permet carregar controladors sense signar. Feu clic a la dreta per desplegar."
+
+msgid "去除測試模式浮水印"
+msgstr "Elimina la filigrana del mode de prova"
+
+msgid "操作日誌歷史"
+msgstr "Historial del registre d’activitat"
+
+msgid "檢視所有執行過的指令與系統回報紀錄。"
+msgstr "Consulteu totes les ordres executades i respostes del sistema."
+
+msgid "複製日誌"
+msgstr "Copia el registre"
+
+msgid "回上一頁"
+msgstr "Enrere"
+
+msgid "操作說明"
+msgstr "Guia d’ús"
+
+msgid "了解重啟大師的操作細節與底層架構設計。"
+msgstr "Coneixeu el funcionament de Reboot Master i la seva arquitectura."
+
+msgid "軟體功能與優先級設計"
+msgstr "Funcions i prioritat d’execució"
+
+msgid "本軟體依循「原生 Win32 API 優先 > DLL 導出函式 > 系統管理指令」之架構設計。直接關機與重啟採用 ExitWindowsEx API；安全模式則透過 BCD 一次性導引機制（/bootsequence），確保重啟一次進入安全模式後，下次重開機即自動回歸標準正常模式。"
+msgstr "Dissenyat segons l’arquitectura \"API nativa Win32 > Exportacions DLL > Ordres del sistema\". L’apagada i reinici utilitzen ExitWindowsEx; el mode segur fa servir el mecanisme BCD d’un sol ús (/bootsequence), tornant automàticament al mode normal en reiniciar."
+
+msgid "得翼科技 (DEI 3C)"
+msgstr "DEI Tech (DEI 3C)"
+
+msgid "效能無界限，讓您的數位生活隨心所欲"
+msgstr "Rendiment sense límits per a la teva vida digital."
+
+msgid "電腦組裝"
+msgstr "Muntatge de PC"
+
+msgid "筆電升級"
+msgstr "Actualització de portàtils"
+
+msgid "網路規劃"
+msgstr "Planificació de xarxes"
+
+msgid "資安防護"
+msgstr "Ciberseguretat"
+
+msgid "官方頻道與社群"
+msgstr "Canals oficials i comunitat"
+
+msgid "前往官方部落格"
+msgstr "Visita el blog oficial"
+
+msgid "重啟大師 (Reboot Master) "
+msgstr "Reboot Master "
+
+msgid "使用者條款與免責聲明"
+msgstr "Condicions d’ús i avís legal"
+
+msgid "請在使用本軟體前詳細閱讀以下條款與資料安全提醒。"
+msgstr "Llegiu atentament les condicions i els avisos de seguretat de dades abans d’utilitzar el programa."
+
+msgid "資料安全提醒與免責聲明"
+msgstr "Seguretat de les dades i avís legal"
+
+msgid "歡迎使用「重啟大師 (Reboot Master)」\n\n1. 觸發重新開機或關機前，系統將立即終止所有未儲存之應用程式執行。請使用者於執行前確保所有工作檔案皆已儲存完畢。\n\n2. 本軟體依「現況」免費提供，開發團隊不承擔因硬體相容性（如主機板不支援 UEFI 韌體重啟）或資料未儲存造成之任何直接或間接損失。"
+msgstr "Benvingut a \"Reboot Master\"\n\n1. El reinici o l’apagada tancarà immediatament les aplicacions no desades. Assegureu-vos de desar tots els fitxers abans de continuar.\n\n2. Aquest programari es proporciona gratuïtament \"tal com és\". L’equip no es fa responsable d’incompatibilitats de maquinari o pèrdua de dades."
+
+msgid "調整語言、外觀與軟體更新。"
+msgstr "Ajusteu la llengua, l’aparença i les actualitzacions."
+
+msgid "語言"
+msgstr "Llengua"
+
+msgid "選擇介面顯示語言。"
+msgstr "Seleccioneu la llengua de la interfície."
+
+msgid "繁體中文"
+msgstr "Xinès tradicional"
+
+msgid "简体中文"
+msgstr "Xinès simplificat"
+
+msgid "外觀"
+msgstr "Aparença"
+
+msgid "選擇淺色、深色，或跟隨系統設定。"
+msgstr "Trieu Clar, Fosc o segons el sistema."
+
+msgid "淺色"
+msgstr "Clar"
+
+msgid "淺色 (跟隨系統)"
+msgstr "Clar (Sistema)"
+
+msgid "深色 (跟隨系統)"
+msgstr "Fosc (Sistema)"
+
+msgid "深色"
+msgstr "Fosc"
+
+msgid "軟體更新"
+msgstr "Actualitzacions de programari"
+
+msgid "啟動時會自動檢查 GitHub 上的最新版本。"
+msgstr "Comprova automàticament la darrera versió a GitHub en iniciar."
+
+msgid "目前版本："
+msgstr "Versió actual: "
+
+msgid "正在檢查更新..."
+msgstr "Comprovant actualitzacions..."
+
+msgid "發現新版本："
+msgstr "Nova versió disponible: "
+
+msgid "目前已是最新版本。"
+msgstr "Ja teniu la versió més recent."
+
+msgid "無法連線至 GitHub，請檢查網路連線。"
+msgstr "No s’ha pogut connectar amb GitHub. Comproveu la connexió de xarxa."
+
+msgid "正在下載更新，完成後將自動重新啟動..."
+msgstr "Baixant l’actualització. L’aplicació es reiniciarà automàticament en acabar..."
+
+msgid "尚未檢查更新。"
+msgstr "Encara no s’han comprovat les actualitzacions."
+
+msgid "檢查更新"
+msgstr "Comprova actualitzacions"
+
+msgid "立即更新"
+msgstr "Actualitza ara"
+
+msgid "再次確認您的操作"
+msgstr "Confirmeu l’acció"
+
+msgid "\n\n請確認您的所有工作與文件皆已儲存。確定要立即執行嗎？"
+msgstr "\n\nAssegureu-vos que tota la feina i els documents estiguin desats. Voleu executar-ho ara?"
+
+msgid "取消"
+msgstr "Cancel·la"
+
+msgid "確定執行"
+msgstr "Confirma"
+
+msgid "所有安全模式均採用無痕自動清除技術，重啟後將自動還原。"
+msgstr "Tots els modes segurs utilitzen neteja automàtica i es restauren en reiniciar."
+
+msgid "恢復預設數位簽章驗證與防護。"
+msgstr "Restaura la verificació de signatures digitals i la protecció per defecte."
+
+msgid "關閉數位簽章驗證與記憶體完整性"
+msgstr "Desactiva la verificació de signatures digitals i la integritat de la memòria"
+
+msgid "允許載入無簽章之驅動程式。"
+msgstr "Permet la càrrega de controladors no signats."
+
+msgid "選擇語言"
+msgstr "Selecciona la llengua"
+
+msgid "此功能僅支援 Windows 8 及以上版本。您的系統過舊，請在開機時手動按鍵進入 BIOS。"
+msgstr "Aquesta funció requereix Windows 8 o superior. Premeu la tecla durant l’arrencada per entrar al BIOS."
+
+msgid "此系統為傳統 BIOS (Legacy)，無法透過軟體重啟進入 BIOS 設定。請在開機時手動按鍵進入。"
+msgstr "El sistema utilitza BIOS heretat (Legacy); no es pot reiniciar via programari. Premeu la tecla en arrencar."
+
+msgid "  [範本解析] 處於 WinPE 環境，採用實體系統預設項 {default}\n"
+msgstr "[Plantilla] A l'entorn WinPE, utilitzant l'entrada predeterminada del sistema operatiu físic {default} \n"
+
+msgid "  [範本解析] 正在探測當前引導項 {current}...\n"
+msgstr "[Plantilla] Sondejant l'entrada d'arrencada actual {current}... \n"
+
+msgid "  [範本解析] 當前會話引導項 {current} 有效，採用為母體範本\n"
+msgstr "[Plantilla] L'entrada d'arrencada actual {current} és vàlida, utilitzant com a plantilla base \n"
+
+msgid "  [範本解析] 偵測到 {current} 已於前次重啟後被清理刪除 (無效識別元)\n"
+msgstr "[Plantilla] El {current} detectat s'ha netejat després d'un reinici anterior (identificador no vàlid) \n"
+
+msgid "  [範本解析] 正在驗證系統永久開機項 {default}...\n"
+msgstr "[Plantilla] S'està validant l'entrada d'arrencada permanent del sistema {per defecte}... \n"
+
+msgid "  [範本解析] 成功選定系統永久開機項 {default} 作為母體範本 (確保一次成功)\n"
+msgstr "[Plantilla] L'entrada permanent seleccionada correctament {per defecte} com a plantilla base (assegura l'èxit del primer intent) \n"
+
+msgid "  [範本解析] 正在掃描 BCD osloader 列表以尋找有效開機項...\n"
+msgstr "[Plantilla] Escanejant la llista d'osloader BCD per trobar entrades d'arrencada vàlides... \n"
+
+msgid "  [範本解析] 從 osloader 列表成功定位實體系統項: {}\n"
+msgstr "[Plantilla] L'entrada del sistema operatiu físic s'ha localitzat correctament des de l'osloader: {} \n"
+
+msgid "  [範本解析] 未能列舉額外開機項，預設採用 {default}\n"
+msgstr "[Plantilla] No s'han pogut enumerar entrades addicionals, el valor predeterminat és {predeterminat} \n"
+
+msgid "  [建立副本] 正在自範本 {} 複製建立臨時安全模式項...\n"
+msgstr "[Crea un clon] S'està copiant la plantilla {} per crear una entrada temporal en mode segur... \n"
+
+msgid "  [建立副本] 成功建立副本！\n"
+msgstr "[Crea un clon] El clon s'ha creat correctament! \n"
+
+msgid "  [降級備援] 複製範本 {} 失敗: {}，啟動備援嘗試 {{default}}...\n"
+msgstr "[Fallback] S'ha produït un error en copiar la plantilla {}: {}, s'ha intentat una alternativa amb {{per defecte}}... \n"
+
+msgid "  [降級備援] 備援方案複製 {default} 成功！\n"
+msgstr "[Fallback] El clon de reserva de {default} s'ha aconseguit! \n"
+
+msgid "  [降級備援] 備援方案亦失敗: {}\n"
+msgstr "[Fallback] El clon de reserva també ha fallat: {} \n"
+
+msgid "建立臨時安全模式引導項失敗"
+msgstr "No s'ha pogut crear l'entrada d'arrencada temporal en mode segur"
+
+msgid "  [建立副本] 失敗: {}\n"
+msgstr "[Crea un clon] Ha fallat: {} \n"
+
+msgid "  [臨時標識] 取得臨時 GUID: {}\n"
+msgstr "[GUID temporal] GUID temporal adquirit: {} \n"
+
+msgid "  [選單隱藏] 從開機選單中隱藏此臨時副本 (/displayorder ... /remove)...\n"
+msgstr "[Amaga el menú] Ocultant el clon temporal del menú d'arrencada (/displayorder ... /remove)... \n"
+
+msgid "  [模式配置] 設定 safeboot 參數為 {}...\n"
+msgstr "[Configuració] S'està configurant el paràmetre safeboot a {}... \n"
+
+msgid "  [一次性引導] 設定單次啟動序列 (/bootsequence)，重啟後 BootMgr 自動復原...\n"
+msgstr "[Arrencada única] S'està configurant la seqüència d'un sol tir (/bootsequence), BootMgr es revertirà després de reiniciar... \n"
+
+msgid "  [開機自毀] 註冊 RunOnce 自毀清理任務 (重啟登入後徹底刪除臨時項目)...\n"
+msgstr "[Autodestrucció] Registre de la tasca de neteja RunOnce (elimina permanentment l'entrada temporal després d'iniciar sessió)... \n"
+
+msgid "母體範本: {}\n  模式: {}\n  臨時 GUID: {}"
+msgstr "Plantilla base: {}\nMode: {}\nTemp GUID: {}"
+
+msgid "  [建立副本] 正在自範本 {} 複製建立臨時進階選單項...\n"
+msgstr "[Crea un clon] S'està copiant la plantilla {} per crear una entrada temporal d'Opcions d'arrencada avançada... \n"
+
+msgid "建立臨時進階選單引導項失敗"
+msgstr "No s'ha pogut crear l'entrada d'arrencada d'Opcions d'arrencada avançades temporals"
+
+msgid "  [進階選項] 啟用 advancedoptions=true (Win7 顯示 F8 選單，Win10/11 顯示開機設定)...\n"
+msgstr "[Opcions avançades] Habilitant advancedoptions=true (menú F8 a Win7, Configuració d'inici a Win10/11)... \n"
+
+msgid "母體範本: {}\n  臨時 GUID: {}"
+msgstr "Plantilla base: {}\nTemp GUID: {}"
+
+msgid "此功能僅支援 Windows 8 及以上之 UEFI 系統"
+msgstr "Aquesta funció només admet sistemes UEFI a Windows 8 i posteriors"
+
+msgid "主機板或系統未支援韌體引導 (Legacy BIOS)"
+msgstr "La placa base o el sistema no admet l'arrencada del microprogramari (BIOS heretat)"
+

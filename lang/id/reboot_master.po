@@ -1,0 +1,745 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: reboot_master v1.0.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "[{}] 操作: {}\n  變更細節: {}\n  執行狀態: {}\n----------------------------------------\n"
+msgstr "[{}] Tindakan: {}\n  Detail: {}\n  Status: {}\n----------------------------------------\n"
+
+msgid "尚無歷史操作紀錄。\n"
+msgstr "Belum ada riwayat aktivitas.\n"
+
+msgid "無法獲取 SeShutdownPrivilege 系統關機權限"
+msgstr "Tidak dapat memperoleh hak istimewa sistem SeShutdownPrivilege"
+
+msgid "關機失敗，錯誤碼: {}"
+msgstr "Gagal mematikan, kode kesalahan: {}"
+
+msgid "無法獲取 SeShutdownPrivilege 系統重啟權限"
+msgstr "Tidak dapat memperoleh hak istimewa mulai ulang SeShutdownPrivilege"
+
+msgid "重啟失敗，錯誤碼: {}"
+msgstr "Gagal memulai ulang, kode kesalahan: {}"
+
+msgid "無法獲取系統環境權限 (SeSystemEnvironmentPrivilege)，請確認是否以系統管理員身分執行"
+msgstr "Tidak dapat memperoleh SeSystemEnvironmentPrivilege. Jalankan sebagai administrator"
+
+msgid "當前主機板或作業系統不支援直接從系統重啟至韌體/BIOS設定"
+msgstr "Motherboard atau OS tidak mendukung mulai ulang langsung ke pengaturan BIOS/UEFI"
+
+msgid "寫入 UEFI 韌體變數失敗，可能受限於防毒軟體或權限異常。"
+msgstr "Gagal menulis variabel UEFI. Diblokir oleh antivirus atau perizinan."
+
+msgid "重啟至 BIOS/UEFI"
+msgstr "Mulai Ulang ke BIOS/UEFI"
+
+msgid "寫入 UEFI 變數: OsIndications (GUID: {8BE4DF61-93CA-11D2-AA0D-00E098032B8C})，Bit 0 設為 1 (BootToFwUI)"
+msgstr "Menulis variabel UEFI: OsIndications (GUID: {8BE4DF61-93CA-11D2-AA0D-00E098032B8C}), Bit 0 diatur ke 1 (BootToFwUI)"
+
+msgid "準備重啟"
+msgstr "Mempersiapkan mulai ulang"
+
+msgid "已成功透過 API 寫入 UEFI 變數，系統正在重新啟動至 BIOS/UEFI..."
+msgstr "Variabel UEFI berhasil ditulis. Memulai ulang ke BIOS/UEFI..."
+
+msgid "執行 bcdedit 失敗: {}"
+msgstr "Gagal menjalankan bcdedit: {}"
+
+msgid "執行 `bcdedit {}` 失敗: {}"
+msgstr "`bcdedit {}` gagal: {}"
+
+msgid "找不到實體系統的 SOFTWARE 登錄檔"
+msgstr "Tidak dapat menemukan hive registri SOFTWARE pada sistem fisik"
+
+msgid "無法從 bcdedit 輸出中找到新的 GUID 起點"
+msgstr "Tidak dapat menemukan awal GUID baru pada output bcdedit"
+
+msgid "無法從 bcdedit 輸出中找到新的 GUID 終點"
+msgstr "Tidak dapat menemukan akhir GUID baru pada output bcdedit"
+
+msgid "無法獲取當前執行檔路徑: {}"
+msgstr "Tidak dapat memperoleh jalur berkas yang sedang dieksekusi: {}"
+
+msgid "一次性安全模式"
+msgstr "Safe Mode Satu Kali"
+
+msgid "模式: {}\n  臨時 GUID: {}"
+msgstr "Mode: {}\n  GUID Sementara: {}"
+
+msgid "已成功設定一次性安全模式，系統正在重新啟動..."
+msgstr "Safe Mode satu kali berhasil dikonfigurasi. Memulai ulang..."
+
+msgid "重啟至進階開機選單"
+msgstr "Mulai Ulang ke Menu Startup Lanjutan"
+
+msgid "建立臨時副本 GUID: {}"
+msgstr "GUID entri sementara dibuat: {}"
+
+msgid "已成功設定一次性進階開機選單，系統正在重新啟動..."
+msgstr "Opsi Boot Lanjutan satu kali berhasil diatur. Memulai ulang..."
+
+msgid "重啟進入 BIOS / UEFI 韌體"
+msgstr "Mulai Ulang ke Firmware BIOS / UEFI"
+
+msgid "此操作將立即重新啟動電腦並自動進入 BIOS/UEFI 設定畫面。"
+msgstr "Memulai ulang komputer segera dan otomatis masuk ke pengaturan BIOS/UEFI."
+
+msgid "一次性安全模式 (Minimal)"
+msgstr "Safe Mode Satu Kali (Minimal)"
+
+msgid "下一次開機將進入安全模式。第二次重新開機時，系統將自動恢復進入正常模式。"
+msgstr "Boot ke Safe Mode sekali. Otomatis kembali ke mode normal pada mulai ulang berikutnya."
+
+msgid "一次性安全模式 (含網路)"
+msgstr "Safe Mode Satu Kali (dengan Jaringan)"
+
+msgid "下一次開機將進入含網路連線的安全模式。第二次重新開機時，系統將自動恢復進入正常模式。"
+msgstr "Boot ke Safe Mode dengan Jaringan sekali. Otomatis kembali ke mode normal pada mulai ulang berikutnya."
+
+msgid "重啟進入進階開機選單"
+msgstr "Mulai Ulang ke Opsi Startup Lanjutan"
+
+msgid "此操作將重新啟動電腦並直接開啟 Windows 進階開機與疑難排解選單。"
+msgstr "Memulai ulang komputer dan membuka menu Startup Lanjutan & Pemecahan Masalah Windows."
+
+msgid "直接強制重啟電腦"
+msgstr "Paksa Mulai Ulang Sekarang"
+
+msgid "此操作將透過 Win32 原生 API 立即重啟您的電腦。"
+msgstr "Memulai ulang komputer Anda segera menggunakan Win32 API asli."
+
+msgid "直接安全關機"
+msgstr "Matikan Aman Sekarang"
+
+msgid "此操作將透過 Win32 原生 API 立即關閉電腦電源。"
+msgstr "Mematikan daya komputer Anda segera menggunakan Win32 API asli."
+
+msgid "開啟測試模式 (Test Mode)"
+msgstr "Aktifkan Mode Uji"
+
+msgid "開啟後系統將接受測試簽章驅動程式。桌面右下角會出現「測試模式」浮水印。\n\n• 需先在 BIOS 關閉 Secure Boot 才能生效\n• 大多數遊戲反作弊（EAC、BattlEye）會拒絕在此模式下運行遊戲\n• 執行後需重新開機才會生效。關閉則執行「關閉測試模式」"
+msgstr "Sistem akan menerima driver yang ditandatangani uji. Tanda air \"Test Mode\" akan muncul di desktop.\n\n• Secure Boot harus dinonaktifkan di BIOS terlebih dahulu\n• Sebagian besar anti-cheat (EAC, BattlEye) akan memblokir game dalam mode ini\n• Perlu mulai ulang agar berlaku. Gunakan \"Nonaktifkan Mode Uji\" untuk mematikan"
+
+msgid "關閉測試模式"
+msgstr "Nonaktifkan Mode Uji"
+
+msgid "關閉測試模式後，系統將恢復標準驅動簽章驗證。需重新開機才會生效。"
+msgstr "Menonaktifkan Mode Uji memulihkan verifikasi tanda tangan driver standar. Mulai ulang diperlukan."
+
+msgid "停用驅動程式強制簽章"
+msgstr "Nonaktifkan Penegakan Tanda Tangan Driver"
+
+msgid "此操作將徹底關閉 Windows 的驅動程式數位簽章驗證 (nointegritychecks)。\n\n• 允許安裝完全沒有數位簽章的驅動程式\n• 系統安全性將大幅降低\n• 需先在 BIOS 關閉 Secure Boot 才能生效\n• 執行後需重新開機才會生效。"
+msgstr "Mematikan total verifikasi tanda tangan driver Windows (nointegritychecks).\n\n• Mengizinkan pemasangan driver yang tidak ditandatangani\n• Keamanan sistem akan sangat menurun\n• Secure Boot harus dinonaktifkan di BIOS terlebih dahulu\n• Perlu mulai ulang agar berlaku."
+
+msgid "恢復強制簽章驗證"
+msgstr "Pulihkan Penegakan Tanda Tangan"
+
+msgid "將恢復 Windows 預設的驅動程式數位簽章驗證機制。需重新開機才會生效。"
+msgstr "Memulihkan mekanisme verifikasi tanda tangan driver bawaan Windows. Mulai ulang diperlukan."
+
+msgid "恢復系統安全防護"
+msgstr "Pulihkan Keamanan Sistem"
+
+msgid "將恢復 Windows 預設的數位簽章驗證與核心安全機制。\n\n需要重新開機才會完全生效。確定要執行嗎？"
+msgstr "Memulihkan verifikasi tanda tangan dan keamanan kernel bawaan Windows.\n\nPerlu mulai ulang agar diterapkan sepenuhnya. Lanjutkan?"
+
+msgid "警告：這將徹底停用驅動程式強制簽章 (nointegritychecks) 並關閉記憶體完整性，大幅降低系統安全性。\n\n需要重新開機才會完全生效。確定要執行嗎？"
+msgstr "Peringatan: Menonaktifkan penegakan tanda tangan driver dan integritas memori, menurunkan keamanan sistem secara drastis.\n\nPerlu mulai ulang agar diterapkan. Lanjutkan?"
+
+msgid "警告：這將開啟測試模式以允許載入未經簽章的驅動程式，大幅降低系統安全性。\n\n需要重新開機才會完全生效。確定要執行嗎？"
+msgstr "Peringatan: Mengaktifkan Mode Uji untuk memuat driver tanpa tanda tangan, menurunkan keamanan sistem.\n\nPerlu mulai ulang. Lanjutkan?"
+
+msgid "解除驅動與核心安全限制"
+msgstr "Buka Pembatasan Driver & Kernel"
+
+msgid "\n[執行] 正在請求重啟至 BIOS/UEFI...\n"
+msgstr "\n[Jalankan] Meminta mulai ulang ke BIOS/UEFI...\n"
+
+msgid "[成功] {}\n"
+msgstr "[Sukses] {}\n"
+
+msgid "[提示/錯誤] {}\n"
+msgstr "[Pemberitahuan/Kesalahan] {}\n"
+
+msgid "\n[執行] 正在設定一次性安全模式 (Minimal)...\n"
+msgstr "\n[Jalankan] Mengonfigurasi Safe Mode satu kali (Minimal)...\n"
+
+msgid "[錯誤] {}\n"
+msgstr "[Kesalahan] {}\n"
+
+msgid "\n[執行] 正在設定一次性安全模式 (Network)...\n"
+msgstr "\n[Jalankan] Mengonfigurasi Safe Mode satu kali (dengan Jaringan)...\n"
+
+msgid "\n[執行] 正在請求重啟進入進階選單...\n"
+msgstr "\n[Jalankan] Meminta mulai ulang ke Menu Startup Lanjutan...\n"
+
+msgid "\n[執行] 正在偵測隨身碟並設定重啟進入 PE...\n"
+msgstr "\n[Jalankan] Mendeteksi drive USB dan mengonfigurasi boot PE...\n"
+
+msgid "\n[執行] 正在透過 Win32 ExitWindowsEx 原生 API 重啟電腦...\n"
+msgstr "\n[Jalankan] Memulai ulang melalui Win32 ExitWindowsEx API asli...\n"
+
+msgid "[成功] 已發送 Win32 原生重啟信號，系統正在重啟...\n"
+msgstr "[Sukses] Sinyal mulai ulang Win32 terkirim. Memulai ulang...\n"
+
+msgid "[API失敗] {}"
+msgstr "[API Gagal] {}"
+
+msgid "\n[執行] 正在透過 Win32 ExitWindowsEx 原生 API 關閉電腦...\n"
+msgstr "\n[Jalankan] Mematikan sistem melalui Win32 ExitWindowsEx API asli...\n"
+
+msgid "[成功] 已發送 Win32 原生關機信號，系統正在關機...\n"
+msgstr "[Sukses] Sinyal matikan Win32 terkirim. Mematikan...\n"
+
+msgid "\n[執行] 正在開啟測試模式...\n"
+msgstr "\n[Jalankan] Mengaktifkan Mode Uji...\n"
+
+msgid "[成功] 測試模式已開啟，請重新開機以生效。桌面右下角將顯示「測試模式」浮水印。\n"
+msgstr "[Sukses] Mode Uji diaktifkan. Mulai ulang agar berlaku. Tanda air akan muncul di desktop.\n"
+
+msgid "[錯誤] {}\n提示：請先到 BIOS 關閉 Secure Boot 後再嘗試。\n"
+msgstr "[Kesalahan] {}\nPetunjuk: Nonaktifkan Secure Boot di BIOS lalu coba lagi.\n"
+
+msgid "\n[執行] 正在關閉測試模式...\n"
+msgstr "\n[Jalankan] Menonaktifkan Mode Uji...\n"
+
+msgid "[成功] 測試模式已關閉，請重新開機以生效。\n"
+msgstr "[Sukses] Mode Uji dinonaktifkan. Mulai ulang agar berlaku.\n"
+
+msgid "\n[執行] 正在停用強制簽章 (nointegritychecks)...\n"
+msgstr "\n[Jalankan] Menonaktifkan penegakan tanda tangan (nointegritychecks)...\n"
+
+msgid "[成功] 強制簽章驗證已停用，請重新開機以生效。\n"
+msgstr "[Sukses] Penegakan tanda tangan dinonaktifkan. Mulai ulang agar berlaku.\n"
+
+msgid "[錯誤] {}\n提示：請確認是否具備系統管理員權限，或先到 BIOS 關閉 Secure Boot。\n"
+msgstr "[Kesalahan] {}\nPetunjuk: Periksa hak administrator atau nonaktifkan Secure Boot di BIOS.\n"
+
+msgid "\n[執行] 正在恢復強制簽章 (nointegritychecks)...\n"
+msgstr "\n[Jalankan] Memulihkan penegakan tanda tangan (nointegritychecks)...\n"
+
+msgid "[成功] 強制簽章驗證已恢復正常，請重新開機以生效。\n"
+msgstr "[Sukses] Penegakan tanda tangan dipulihkan. Mulai ulang agar berlaku.\n"
+
+msgid "\n[執行] 正在恢復系統安全防護...\n"
+msgstr "\n[Jalankan] Memulihkan keamanan sistem...\n"
+
+msgid "  [錯誤] 關閉 nointegritychecks 失敗: {}\n"
+msgstr "  [Kesalahan] Gagal menonaktifkan nointegritychecks: {}\n"
+
+msgid "  - 驅動強制簽章已恢復\n"
+msgstr "  - Penegakan tanda tangan driver dipulihkan\n"
+
+msgid "  [錯誤] 關閉 testsigning 失敗: {}\n"
+msgstr "  [Kesalahan] Gagal menonaktifkan testsigning: {}\n"
+
+msgid "  [錯誤] 寫入登錄檔失敗 (錯誤碼 {}): 無法開啟記憶體完整性\n"
+msgstr "  [Kesalahan] Penulisan registri gagal (kode {}): Tidak dapat mengaktifkan Integritas Memori\n"
+
+msgid "  - 記憶體完整性已開啟\n"
+msgstr "  - Integritas Memori diaktifkan\n"
+
+msgid "  - 測試模式已關閉\n"
+msgstr "  - Mode Uji dinonaktifkan\n"
+
+msgid "  - 系統安全防護已恢復\n"
+msgstr "  - Keamanan sistem dipulihkan\n"
+
+msgid "  [錯誤] 寫入登錄檔失敗 (錯誤碼 {})\n"
+msgstr "  [Kesalahan] Penulisan registri gagal (kode kesalahan {})\n"
+
+msgid "[警告] 過程中有錯誤發生，請檢查上方日誌。\n"
+msgstr "[Peringatan] Terjadi kesalahan. Silakan periksa log di atas.\n"
+
+msgid "[成功] 安全防護已恢復，請重新開機以生效。\n"
+msgstr "[Sukses] Keamanan dipulihkan. Mulai ulang agar berlaku.\n"
+
+msgid "\n[執行] 正在解除驅動與核心安全限制...\n"
+msgstr "\n[Jalankan] Membuka pembatasan keamanan driver dan kernel...\n"
+
+msgid "  [錯誤] 開啟 nointegritychecks 失敗: {}\n"
+msgstr "  [Kesalahan] Gagal mengaktifkan nointegritychecks: {}\n"
+
+msgid "  - 驅動強制簽章已停用\n"
+msgstr "  - Penegakan tanda tangan driver dinonaktifkan\n"
+
+msgid "  [錯誤] 寫入登錄檔失敗 (錯誤碼 {}): 無法關閉記憶體完整性\n"
+msgstr "  [Kesalahan] Penulisan registri gagal (kode {}): Tidak dapat menonaktifkan Integritas Memori\n"
+
+msgid "  - 記憶體完整性已關閉\n"
+msgstr "  - Integritas Memori dinonaktifkan\n"
+
+msgid "  [錯誤] 開啟 testsigning 失敗: {}\n"
+msgstr "  [Kesalahan] Gagal mengaktifkan testsigning: {}\n"
+
+msgid "  - 測試模式已開啟\n"
+msgstr "  - Mode Uji diaktifkan\n"
+
+msgid "  - 驅動封鎖規則已關閉\n"
+msgstr "  - Daftar blokir driver dinonaktifkan\n"
+
+msgid "[成功] 指定的安全限制已解除，請重新開機以生效。\n"
+msgstr "[Sukses] Pembatasan keamanan dicabut. Mulai ulang agar berlaku.\n"
+
+msgid "新增了隨身碟/磁碟: {} {}"
+msgstr "Drive/disk USB ditambahkan: {} {}"
+
+msgid "移除了隨身碟/磁碟: {} {}"
+msgstr "Drive/disk USB dilepas: {} {}"
+
+msgid "未偵測到包含 PE 環境的隨身碟"
+msgstr "Tidak ada drive USB dengan lingkungan PE yang terdeteksi"
+
+msgid "未插入任何隨身碟"
+msgstr "Tidak ada drive USB yang tersambung"
+
+msgid "USB啟動"
+msgstr "Boot USB"
+
+msgid "\n[狀態變更] {}\n"
+msgstr "\n[Perubahan Status] {}\n"
+
+msgid "使用者將目標隨身碟切換為: {} {}"
+msgstr "Drive USB target dialihkan ke: {} {}"
+
+msgid "無法讀取掃描結果"
+msgstr "Tidak dapat membaca hasil pemindaian"
+
+msgid "無法讀取選擇結果"
+msgstr "Tidak dapat membaca pilihan"
+
+msgid "未找到指定的 PE 隨身碟，請重新掃描。"
+msgstr "Drive USB PE yang ditentukan tidak ditemukan. Pindai ulang."
+
+msgid "ramdisksdidevice 失敗: {}"
+msgstr "ramdisksdidevice gagal: {}"
+
+msgid "ramdisksdipath 失敗: {}"
+msgstr "ramdisksdipath gagal: {}"
+
+msgid "執行 bcdedit /create 失敗: {}"
+msgstr "bcdedit /create gagal: {}"
+
+msgid "set device 失敗: {}"
+msgstr "set device gagal: {}"
+
+msgid "set osdevice 失敗: {}"
+msgstr "set osdevice gagal: {}"
+
+msgid "set path 失敗: {}"
+msgstr "set path gagal: {}"
+
+msgid "set systemroot 失敗: {}"
+msgstr "set systemroot gagal: {}"
+
+msgid "set winpe 失敗: {}"
+msgstr "set winpe gagal: {}"
+
+msgid "set detecthal 失敗: {}"
+msgstr "set detecthal gagal: {}"
+
+msgid "bootsequence 失敗: {}"
+msgstr "bootsequence gagal: {}"
+
+msgid "無法在系統中找到此本地模式 PE 的引導選單。請確認您已正確安裝本地模式 PE。"
+msgstr "Entri boot untuk PE lokal tidak ditemukan. Pastikan PE lokal terpasang dengan benar."
+
+msgid "set device locate 失敗: {}"
+msgstr "set device locate gagal: {}"
+
+msgid "成功偵測到隨身碟並建立啟動項，系統正在重新啟動..."
+msgstr "Drive USB terdeteksi dan entri boot dibuat. Memulai ulang..."
+
+msgid "成功建立 PE 啟動項，但發送重啟訊號失敗，請手動重新啟動電腦。"
+msgstr "Entri boot PE dibuat, namun pengiriman sinyal mulai ulang gagal. Silakan mulai ulang secara manual."
+
+msgid "恢復驅動與核心安全防護"
+msgstr "Pulihkan Keamanan Driver & Kernel"
+
+msgid "解除驅動與核心安全限制"
+msgstr "Buka Pembatasan Driver & Kernel"
+
+msgid "包含測試模式、強制簽章與記憶體完整性。\n勾選下方項目並點擊按鈕，設定將於下次重開機後生效。"
+msgstr "Termasuk Mode Uji, penegakan tanda tangan, dan Integritas Memori.\nPilih opsi di bawah dan terapkan. Berlaku pada boot berikutnya."
+
+msgid "停用驅動封鎖規則"
+msgstr "Nonaktifkan Daftar Blokir Driver"
+
+msgid "關閉記憶體完整性"
+msgstr "Matikan Integritas Memori"
+
+msgid "恢復預設安全"
+msgstr "Pulihkan Keamanan Bawaan"
+
+msgid "套用變更"
+msgstr "Terapkan Perubahan"
+
+msgid "重啟大師 (Reboot Master)"
+msgstr "Reboot Master"
+
+msgid "系統就緒。請選擇操作項目。"
+msgstr "Sistem siap. Silakan pilih tindakan."
+
+msgid "USB啟動"
+msgstr "Boot USB"
+
+msgid "掃描 USB 裝置中..."
+msgstr "Memindai perangkat USB..."
+
+msgid "確定要執行此操作？"
+msgstr "Apakah Anda yakin ingin melanjutkan?"
+
+msgid "即將執行選定的重啟或關機操作。"
+msgstr "Tindakan mulai ulang atau matikan yang dipilih akan segera dijalankan."
+
+msgid "重啟管理"
+msgstr "Kontrol Reboot"
+
+msgid "說明"
+msgstr "Bantuan"
+
+msgid "聲明"
+msgstr "Pernyataan"
+
+msgid "外觀：跟隨系統 (點擊切換反色)"
+msgstr "Tema: Sistem (klik untuk balikkan)"
+
+msgid "外觀：淺色 (點擊切換深色)"
+msgstr "Tema: Terang (klik untuk Gelap)"
+
+msgid "外觀：深色 (點擊跟隨系統)"
+msgstr "Tema: Gelap (klik untuk Sistem)"
+
+msgid "設定"
+msgstr "Pengaturan"
+
+msgid "開機控制"
+msgstr "Kontrol Boot"
+
+msgid "電源與開機導向控制"
+msgstr "Kontrol Daya & Boot"
+
+msgid "點擊卡片即可執行操作。安全模式採用無痕自動清除技術。"
+msgstr "Klik kartu untuk menjalankan. Safe Mode menggunakan pembersihan otomatis tanpa jejak."
+
+msgid "WinPE 環境"
+msgstr "Lingkungan WinPE"
+
+msgid "標準 Windows"
+msgstr "Windows Standar"
+
+msgid "操作日誌"
+msgstr "Log Aktivitas"
+
+msgid "BIOS / UEFI 設定"
+msgstr "Pengaturan BIOS / UEFI"
+
+msgid "重啟並自動進入主機板底層韌體設定畫面"
+msgstr "Mulai ulang langsung ke pengaturan firmware motherboard."
+
+msgid "安全模式 (一般)"
+msgstr "Safe Mode (Minimal)"
+
+msgid "無網路基礎排錯模式，第二次重啟自動復原"
+msgstr "Pemecahan masalah dasar tanpa jaringan. Kembali normal pada boot kedua."
+
+msgid "重新啟動系統"
+msgstr "Mulai Ulang Sistem"
+
+msgid "呼叫原生 API 強制重新啟動電腦"
+msgstr "Paksa mulai ulang komputer melalui API asli."
+
+msgid "進階開機選單"
+msgstr "Menu Startup Lanjutan"
+
+msgid "進入 Windows 修復環境 (WinRE) 與啟動設定"
+msgstr "Masuk ke Lingkungan Pemulihan Windows (WinRE) & pengaturan startup."
+
+msgid "自動偵測USB裝置並使用USB裝置啟動"
+msgstr "Deteksi otomatis dan boot dari perangkat USB."
+
+msgid "安全模式 (含網路)"
+msgstr "Safe Mode (dengan Jaringan)"
+
+msgid "支援連線之排錯模式，第二次重啟自動復原"
+msgstr "Pemecahan masalah dengan jaringan. Kembali normal pada boot kedua."
+
+msgid "安全關機"
+msgstr "Matikan Aman"
+
+msgid "呼叫原生 API 安全關閉電腦電源"
+msgstr "Matikan komputer secara aman melalui API asli."
+
+msgid "恢復系統安全防護"
+msgstr "Pulihkan Keamanan Sistem"
+
+msgid "停用驅動強制簽章"
+msgstr "Nonaktifkan Penegakan Tanda Tangan"
+
+msgid "啟用驅動測試模式"
+msgstr "Aktifkan Mode Uji Driver"
+
+msgid "32 位元系統無強制核心簽章限制，無需解鎖。"
+msgstr "Sistem 32-bit tidak memberlakukan tanda tangan kernel. Tidak perlu dibuka kunci."
+
+msgid "恢復預設數位簽章驗證與防護。點擊卡片套用並重啟。"
+msgstr "Pulihkan verifikasi tanda tangan digital default. Klik untuk menerapkan dan mulai ulang."
+
+msgid "關閉數位簽章驗證與記憶體完整性。點擊卡片套用。"
+msgstr "Nonaktifkan verifikasi tanda tangan digital dan Integritas Memori. Klik untuk terapkan."
+
+msgid "允許載入無簽章驅動。點擊右側展開選項。"
+msgstr "Izinkan memuat driver tanpa tanda tangan. Klik kanan untuk buka opsi."
+
+msgid "去除測試模式浮水印"
+msgstr "Hapus Tanda Air Mode Uji"
+
+msgid "操作日誌歷史"
+msgstr "Riwayat Log Aktivitas"
+
+msgid "檢視所有執行過的指令與系統回報紀錄。"
+msgstr "Lihat semua perintah yang dijalankan dan respons sistem."
+
+msgid "複製日誌"
+msgstr "Salin Log"
+
+msgid "回上一頁"
+msgstr "Kembali"
+
+msgid "操作說明"
+msgstr "Panduan Penggunaan"
+
+msgid "了解重啟大師的操作細節與底層架構設計。"
+msgstr "Pelajari cara kerja Reboot Master dan arsitektur dasarnya."
+
+msgid "軟體功能與優先級設計"
+msgstr "Fitur & Prioritas Eksekusi"
+
+msgid "本軟體依循「原生 Win32 API 優先 > DLL 導出函式 > 系統管理指令」之架構設計。直接關機與重啟採用 ExitWindowsEx API；安全模式則透過 BCD 一次性導引機制（/bootsequence），確保重啟一次進入安全模式後，下次重開機即自動回歸標準正常模式。"
+msgstr "Dirancang berdasarkan \"Win32 API Asli > Ekspor DLL > Perintah Sistem\". Penonaktifan dan mulai ulang menggunakan ExitWindowsEx; Safe Mode memanfaatkan mekanisme boot satu kali BCD (/bootsequence), yang otomatis kembali ke mode normal pada mulai ulang berikutnya."
+
+msgid "得翼科技 (DEI 3C)"
+msgstr "DEI Tech (DEI 3C)"
+
+msgid "效能無界限，讓您的數位生活隨心所欲"
+msgstr "Performa tanpa batas, memberdayakan kehidupan digital Anda."
+
+msgid "電腦組裝"
+msgstr "Perakitan PC"
+
+msgid "筆電升級"
+msgstr "Peningkatan Laptop"
+
+msgid "網路規劃"
+msgstr "Perencanaan Jaringan"
+
+msgid "資安防護"
+msgstr "Keamanan Siber"
+
+msgid "官方頻道與社群"
+msgstr "Saluran Resmi & Komunitas"
+
+msgid "前往官方部落格"
+msgstr "Kunjungi Blog Resmi"
+
+msgid "重啟大師 (Reboot Master) "
+msgstr "Reboot Master "
+
+msgid "使用者條款與免責聲明"
+msgstr "Ketentuan Penggunaan & Penafian"
+
+msgid "請在使用本軟體前詳細閱讀以下條款與資料安全提醒。"
+msgstr "Harap baca ketentuan berikut dan pemberitahuan keamanan data dengan cermat sebelum menggunakan."
+
+msgid "資料安全提醒與免責聲明"
+msgstr "Pemberitahuan Keamanan Data & Penafian"
+
+msgid "歡迎使用「重啟大師 (Reboot Master)」\n\n1. 觸發重新開機或關機前，系統將立即終止所有未儲存之應用程式執行。請使用者於執行前確保所有工作檔案皆已儲存完畢。\n\n2. 本軟體依「現況」免費提供，開發團隊不承擔因硬體相容性（如主機板不支援 UEFI 韌體重啟）或資料未儲存造成之任何直接或間接損失。"
+msgstr "Selamat datang di \"Reboot Master\"\n\n1. Memulai ulang atau mematikan akan segera menutup aplikasi yang belum disimpan. Pastikan semua file telah disimpan terlebih dahulu.\n\n2. Perangkat lunak ini disediakan gratis \"apa adanya\". Tim tidak bertanggung jawab atas ketidakcocokan perangkat keras atau kehilangan data."
+
+msgid "調整語言、外觀與軟體更新。"
+msgstr "Sesuaikan bahasa, tampilan, dan pembaruan."
+
+msgid "語言"
+msgstr "Bahasa"
+
+msgid "選擇介面顯示語言。"
+msgstr "Pilih bahasa tampilan antarmuka."
+
+msgid "繁體中文"
+msgstr "Tionghoa Tradisional"
+
+msgid "简体中文"
+msgstr "Tionghoa Sederhana"
+
+msgid "外觀"
+msgstr "Tampilan"
+
+msgid "選擇淺色、深色，或跟隨系統設定。"
+msgstr "Pilih Terang, Gelap, atau ikuti pengaturan sistem."
+
+msgid "淺色"
+msgstr "Terang"
+
+msgid "淺色 (跟隨系統)"
+msgstr "Terang (Sistem)"
+
+msgid "深色 (跟隨系統)"
+msgstr "Gelap (Sistem)"
+
+msgid "深色"
+msgstr "Gelap"
+
+msgid "軟體更新"
+msgstr "Pembaruan Perangkat Lunak"
+
+msgid "啟動時會自動檢查 GitHub 上的最新版本。"
+msgstr "Memeriksa versi terbaru di GitHub secara otomatis saat startup."
+
+msgid "目前版本："
+msgstr "Versi saat ini: "
+
+msgid "正在檢查更新..."
+msgstr "Memeriksa pembaruan..."
+
+msgid "發現新版本："
+msgstr "Versi baru tersedia: "
+
+msgid "目前已是最新版本。"
+msgstr "Anda sudah menggunakan versi terbaru."
+
+msgid "無法連線至 GitHub，請檢查網路連線。"
+msgstr "Tidak dapat terhubung ke GitHub. Periksa koneksi jaringan Anda."
+
+msgid "正在下載更新，完成後將自動重新啟動..."
+msgstr "Mengunduh pembaruan. Aplikasi akan dimulai ulang otomatis setelah selesai..."
+
+msgid "尚未檢查更新。"
+msgstr "Belum memeriksa pembaruan."
+
+msgid "檢查更新"
+msgstr "Periksa Pembaruan"
+
+msgid "立即更新"
+msgstr "Perbarui Sekarang"
+
+msgid "再次確認您的操作"
+msgstr "Konfirmasi Tindakan"
+
+msgid "\n\n請確認您的所有工作與文件皆已儲存。確定要立即執行嗎？"
+msgstr "\n\nPastikan semua pekerjaan dan dokumen telah disimpan. Yakin ingin menjalankan sekarang?"
+
+msgid "取消"
+msgstr "Batal"
+
+msgid "確定執行"
+msgstr "Konfirmasi"
+
+msgid "所有安全模式均採用無痕自動清除技術，重啟後將自動還原。"
+msgstr "Semua Safe Mode menggunakan pembersihan otomatis tanpa jejak dan pulih saat reboot."
+
+msgid "恢復預設數位簽章驗證與防護。"
+msgstr "Pulihkan verifikasi tanda tangan digital dan perlindungan default."
+
+msgid "關閉數位簽章驗證與記憶體完整性"
+msgstr "Nonaktifkan verifikasi tanda tangan digital dan Integritas Memori"
+
+msgid "允許載入無簽章之驅動程式。"
+msgstr "Izinkan memuat driver yang tidak ditandatangani."
+
+msgid "選擇語言"
+msgstr "Pilih Bahasa"
+
+msgid "此功能僅支援 Windows 8 及以上版本。您的系統過舊，請在開機時手動按鍵進入 BIOS。"
+msgstr "Fitur ini memerlukan Windows 8 atau lebih baru. Silakan tekan tombol saat boot untuk masuk ke BIOS."
+
+msgid "此系統為傳統 BIOS (Legacy)，無法透過軟體重啟進入 BIOS 設定。請在開機時手動按鍵進入。"
+msgstr "Sistem menggunakan Legacy BIOS, tidak dapat reboot via perangkat lunak. Tekan tombol saat boot."
+
+msgid "  [範本解析] 處於 WinPE 環境，採用實體系統預設項 {default}\n"
+msgstr "[Templat] Di lingkungan WinPE, menggunakan entri default OS fisik {default} \n"
+
+msgid "  [範本解析] 正在探測當前引導項 {current}...\n"
+msgstr "[Templat] Memeriksa entri boot saat ini {saat ini}... \n"
+
+msgid "  [範本解析] 當前會話引導項 {current} 有效，採用為母體範本\n"
+msgstr "[Templat] Entri boot saat ini {saat ini} valid, menggunakan templat dasar \n"
+
+msgid "  [範本解析] 偵測到 {current} 已於前次重啟後被清理刪除 (無效識別元)\n"
+msgstr "[Templat] Terdeteksi {saat ini} dibersihkan setelah reboot sebelumnya (pengidentifikasi tidak valid) \n"
+
+msgid "  [範本解析] 正在驗證系統永久開機項 {default}...\n"
+msgstr "[Templat] Memvalidasi entri boot sistem permanen {default}... \n"
+
+msgid "  [範本解析] 成功選定系統永久開機項 {default} 作為母體範本 (確保一次成功)\n"
+msgstr "[Templat] Berhasil memilih entri permanen {default} sebagai templat dasar (memastikan keberhasilan percobaan pertama) \n"
+
+msgid "  [範本解析] 正在掃描 BCD osloader 列表以尋找有效開機項...\n"
+msgstr "[Templat] Memindai daftar osloader BCD untuk entri boot yang valid... \n"
+
+msgid "  [範本解析] 從 osloader 列表成功定位實體系統項: {}\n"
+msgstr "[Templat] Berhasil menemukan entri OS fisik dari osloader: {} \n"
+
+msgid "  [範本解析] 未能列舉額外開機項，預設採用 {default}\n"
+msgstr "[Templat] Tidak dapat menghitung entri tambahan, defaultnya adalah {default} \n"
+
+msgid "  [建立副本] 正在自範本 {} 複製建立臨時安全模式項...\n"
+msgstr "[Buat Klon] Menyalin template {} untuk membuat entri Safe Mode sementara... \n"
+
+msgid "  [建立副本] 成功建立副本！\n"
+msgstr "[Buat Klon] Klon berhasil dibuat! \n"
+
+msgid "  [降級備援] 複製範本 {} 失敗: {}，啟動備援嘗試 {{default}}...\n"
+msgstr "[Fallback] Menyalin template {} gagal: {}, mencoba melakukan fallback dengan {{default}}... \n"
+
+msgid "  [降級備援] 備援方案複製 {default} 成功！\n"
+msgstr "[Fallback] Kloning fallback dari {default} berhasil! \n"
+
+msgid "  [降級備援] 備援方案亦失敗: {}\n"
+msgstr "[Fallback] Kloning fallback juga gagal: {} \n"
+
+msgid "建立臨時安全模式引導項失敗"
+msgstr "Gagal membuat entri boot Mode Aman sementara"
+
+msgid "  [建立副本] 失敗: {}\n"
+msgstr "[Buat Klon] Gagal: {} \n"
+
+msgid "  [臨時標識] 取得臨時 GUID: {}\n"
+msgstr "[GUID Temp] Memperoleh GUID sementara: {} \n"
+
+msgid "  [選單隱藏] 從開機選單中隱藏此臨時副本 (/displayorder ... /remove)...\n"
+msgstr "[Sembunyikan Menu] Menyembunyikan klon sementara dari menu boot (/displayorder ... /remove)... \n"
+
+msgid "  [模式配置] 設定 safeboot 參數為 {}...\n"
+msgstr "[Config] Menyetel parameter safeboot ke {}... \n"
+
+msgid "  [一次性引導] 設定單次啟動序列 (/bootsequence)，重啟後 BootMgr 自動復原...\n"
+msgstr "[Boot Satu Kali] Mengatur urutan pengambilan tunggal (/bootsequence), BootMgr kembali setelah restart... \n"
+
+msgid "  [開機自毀] 註冊 RunOnce 自毀清理任務 (重啟登入後徹底刪除臨時項目)...\n"
+msgstr "[Penghancuran mandiri] Mendaftarkan tugas pembersihan RunOnce (menghapus entri sementara secara permanen setelah login)... \n"
+
+msgid "母體範本: {}\n  模式: {}\n  臨時 GUID: {}"
+msgstr "Templat Dasar: {}\nMode: {}\nGUID Temp: {}"
+
+msgid "  [建立副本] 正在自範本 {} 複製建立臨時進階選單項...\n"
+msgstr "[Buat Klon] Menyalin template {} untuk membuat entri Opsi Booting Lanjutan sementara... \n"
+
+msgid "建立臨時進階選單引導項失敗"
+msgstr "Gagal membuat entri boot Opsi Boot Lanjutan sementara"
+
+msgid "  [進階選項] 啟用 advancedoptions=true (Win7 顯示 F8 選單，Win10/11 顯示開機設定)...\n"
+msgstr "[Opsi Lanjutan] Mengaktifkan advancedoptions=true (menu F8 di Win7, Pengaturan Startup di Win10/11)... \n"
+
+msgid "母體範本: {}\n  臨時 GUID: {}"
+msgstr "Templat Dasar: {}\nGUID Temp: {}"
+
+msgid "此功能僅支援 Windows 8 及以上之 UEFI 系統"
+msgstr "Fitur ini hanya mendukung sistem UEFI pada Windows 8 ke atas"
+
+msgid "主機板或系統未支援韌體引導 (Legacy BIOS)"
+msgstr "Motherboard atau sistem tidak mendukung boot firmware (Legacy BIOS)"
+

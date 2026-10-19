@@ -1,0 +1,745 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: reboot_master v1.0.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: pl\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "[{}] 操作: {}\n  變更細節: {}\n  執行狀態: {}\n----------------------------------------\n"
+msgstr "[{}] Operacja: {}\n  Szczegóły: {}\n  Stan: {}\n----------------------------------------\n"
+
+msgid "尚無歷史操作紀錄。\n"
+msgstr "Brak historii aktywności.\n"
+
+msgid "無法獲取 SeShutdownPrivilege 系統關機權限"
+msgstr "Nie można uzyskać uprawnienia systemowego SeShutdownPrivilege"
+
+msgid "關機失敗，錯誤碼: {}"
+msgstr "Zamykanie nie powiodło się, kod błędu: {}"
+
+msgid "無法獲取 SeShutdownPrivilege 系統重啟權限"
+msgstr "Nie można uzyskać uprawnienia do ponownego uruchomienia SeShutdownPrivilege"
+
+msgid "重啟失敗，錯誤碼: {}"
+msgstr "Ponowne uruchomienie nie powiodło się, kod błędu: {}"
+
+msgid "無法獲取系統環境權限 (SeSystemEnvironmentPrivilege)，請確認是否以系統管理員身分執行"
+msgstr "Nie można uzyskać SeSystemEnvironmentPrivilege. Uruchom jako administrator"
+
+msgid "當前主機板或作業系統不支援直接從系統重啟至韌體/BIOS設定"
+msgstr "Płyta główna lub system operacyjny nie obsługuje bezpośredniego restartu do BIOS/UEFI"
+
+msgid "寫入 UEFI 韌體變數失敗，可能受限於防毒軟體或權限異常。"
+msgstr "Zapis zmiennej UEFI nie powiódł się. Zablokowany przez antywirus lub brak uprawnień."
+
+msgid "重啟至 BIOS/UEFI"
+msgstr "Uruchom ponownie do BIOS/UEFI"
+
+msgid "寫入 UEFI 變數: OsIndications (GUID: {8BE4DF61-93CA-11D2-AA0D-00E098032B8C})，Bit 0 設為 1 (BootToFwUI)"
+msgstr "Zapisano zmienną UEFI: OsIndications (GUID: {8BE4DF61-93CA-11D2-AA0D-00E098032B8C}), Bit 0 ustawiony na 1 (BootToFwUI)"
+
+msgid "準備重啟"
+msgstr "Przygotowywanie do ponownego uruchomienia"
+
+msgid "已成功透過 API 寫入 UEFI 變數，系統正在重新啟動至 BIOS/UEFI..."
+msgstr "Zmienna UEFI zapisana pomyślnie. Ponowne uruchamianie do BIOS/UEFI..."
+
+msgid "執行 bcdedit 失敗: {}"
+msgstr "Uruchomienie bcdedit nie powiodło się: {}"
+
+msgid "執行 `bcdedit {}` 失敗: {}"
+msgstr "`bcdedit {}` nie powiodło się: {}"
+
+msgid "找不到實體系統的 SOFTWARE 登錄檔"
+msgstr "Nie znaleziono gałęzi rejestru SOFTWARE systemu fizycznego"
+
+msgid "無法從 bcdedit 輸出中找到新的 GUID 起點"
+msgstr "Nie znaleziono początku nowego identyfikatora GUID w wynikach bcdedit"
+
+msgid "無法從 bcdedit 輸出中找到新的 GUID 終點"
+msgstr "Nie znaleziono końca nowego identyfikatora GUID w wynikach bcdedit"
+
+msgid "無法獲取當前執行檔路徑: {}"
+msgstr "Nie można uzyskać bieżącej ścieżki pliku wykonywalnego: {}"
+
+msgid "一次性安全模式"
+msgstr "Jednorazowy tryb awaryjny"
+
+msgid "模式: {}\n  臨時 GUID: {}"
+msgstr "Tryb: {}\n  Tymczasowy GUID: {}"
+
+msgid "已成功設定一次性安全模式，系統正在重新啟動..."
+msgstr "Jednorazowy tryb awaryjny został skonfigurowany. Ponowne uruchamianie..."
+
+msgid "重啟至進階開機選單"
+msgstr "Uruchom ponownie do zaawansowanych opcji rozruchu"
+
+msgid "建立臨時副本 GUID: {}"
+msgstr "Utworzono tymczasowy GUID wpisu: {}"
+
+msgid "已成功設定一次性進階開機選單，系統正在重新啟動..."
+msgstr "Skonfigurowano jednorazowe zaawansowane opcje rozruchu. Restart..."
+
+msgid "重啟進入 BIOS / UEFI 韌體"
+msgstr "Uruchom ponownie do oprogramowania układowego BIOS/UEFI"
+
+msgid "此操作將立即重新啟動電腦並自動進入 BIOS/UEFI 設定畫面。"
+msgstr "Natychmiast uruchamia ponownie komputer i wchodzi do ustawień BIOS/UEFI."
+
+msgid "一次性安全模式 (Minimal)"
+msgstr "Jednorazowy tryb awaryjny (minimalny)"
+
+msgid "下一次開機將進入安全模式。第二次重新開機時，系統將自動恢復進入正常模式。"
+msgstr "Jednorazowy rozruch w trybie awaryjnym. Powrót do trybu normalnego przy następnym restarcie."
+
+msgid "一次性安全模式 (含網路)"
+msgstr "Jednorazowy tryb awaryjny (z obsługą sieci)"
+
+msgid "下一次開機將進入含網路連線的安全模式。第二次重新開機時，系統將自動恢復進入正常模式。"
+msgstr "Jednorazowy rozruch w trybie awaryjnym z siecią. Powrót do trybu normalnego przy następnym restarcie."
+
+msgid "重啟進入進階開機選單"
+msgstr "Uruchom ponownie do zaawansowanych opcji rozruchu"
+
+msgid "此操作將重新啟動電腦並直接開啟 Windows 進階開機與疑難排解選單。"
+msgstr "Ponownie uruchamia komputer i bezpośrednio otwiera menu zaawansowanego rozruchu Windows."
+
+msgid "直接強制重啟電腦"
+msgstr "Wymuś natychmiastowy restart"
+
+msgid "此操作將透過 Win32 原生 API 立即重啟您的電腦。"
+msgstr "Natychmiast uruchamia ponownie komputer przy użyciu natywnego Win32 API."
+
+msgid "直接安全關機"
+msgstr "Bezpieczne zamknięcie teraz"
+
+msgid "此操作將透過 Win32 原生 API 立即關閉電腦電源。"
+msgstr "Natychmiast wyłącza komputer przy użyciu natywnego Win32 API."
+
+msgid "開啟測試模式 (Test Mode)"
+msgstr "Włącz tryb testowy"
+
+msgid "開啟後系統將接受測試簽章驅動程式。桌面右下角會出現「測試模式」浮水印。\n\n• 需先在 BIOS 關閉 Secure Boot 才能生效\n• 大多數遊戲反作弊（EAC、BattlEye）會拒絕在此模式下運行遊戲\n• 執行後需重新開機才會生效。關閉則執行「關閉測試模式」"
+msgstr "System zaakceptuje sterowniki z podpisem testowym. Na pulpicie pojawi się znak wodny „Tryb testowy”.\n\n• Najpierw należy wyłączyć Secure Boot w BIOS-ie\n• Większość systemów anti-cheat (EAC, BattlEye) zablokuje gry w tym trybie\n• Wymagany restart. Użyj „Wyłącz tryb testowy”, aby wyłączyć"
+
+msgid "關閉測試模式"
+msgstr "Wyłącz tryb testowy"
+
+msgid "關閉測試模式後，系統將恢復標準驅動簽章驗證。需重新開機才會生效。"
+msgstr "Wyłączenie trybu testowego przywraca standardową weryfikację podpisów sterowników. Wymagany restart."
+
+msgid "停用驅動程式強制簽章"
+msgstr "Wyłącz wymuszanie podpisów sterowników"
+
+msgid "此操作將徹底關閉 Windows 的驅動程式數位簽章驗證 (nointegritychecks)。\n\n• 允許安裝完全沒有數位簽章的驅動程式\n• 系統安全性將大幅降低\n• 需先在 BIOS 關閉 Secure Boot 才能生效\n• 執行後需重新開機才會生效。"
+msgstr "Całkowicie wyłącza weryfikację podpisu sterowników Windows (nointegritychecks).\n\n• Umożliwia instalację niepodpisanych sterowników\n• Bezpieczeństwo systemu zostanie znacznie obniżone\n• Należy najpierw wyłączyć Secure Boot w BIOS-ie\n• Wymagany restart."
+
+msgid "恢復強制簽章驗證"
+msgstr "Przywróć wymuszanie podpisów"
+
+msgid "將恢復 Windows 預設的驅動程式數位簽章驗證機制。需重新開機才會生效。"
+msgstr "Przywraca domyślną weryfikację podpisów sterowników Windows. Wymagany restart."
+
+msgid "恢復系統安全防護"
+msgstr "Przywróć bezpieczeństwo systemu"
+
+msgid "將恢復 Windows 預設的數位簽章驗證與核心安全機制。\n\n需要重新開機才會完全生效。確定要執行嗎？"
+msgstr "Przywraca domyślną weryfikację podpisów i zabezpieczenia jądra Windows.\n\nWymagany restart, aby zastosować. Czy chcesz kontynuować?"
+
+msgid "警告：這將徹底停用驅動程式強制簽章 (nointegritychecks) 並關閉記憶體完整性，大幅降低系統安全性。\n\n需要重新開機才會完全生效。確定要執行嗎？"
+msgstr "Ostrzeżenie: Wyłącza wymuszanie podpisów sterowników i integralność pamięci, znacznie obniżając bezpieczeństwo.\n\nWymagany restart, aby zastosować. Kontynuować?"
+
+msgid "警告：這將開啟測試模式以允許載入未經簽章的驅動程式，大幅降低系統安全性。\n\n需要重新開機才會完全生效。確定要執行嗎？"
+msgstr "Ostrzeżenie: Włącza tryb testowy, zezwalając na ładowanie niepodpisanych sterowników, co obniża bezpieczeństwo.\n\nWymagany restart. Kontynuować?"
+
+msgid "解除驅動與核心安全限制"
+msgstr "Wyłącz ograniczenia sterowników i jądra"
+
+msgid "\n[執行] 正在請求重啟至 BIOS/UEFI...\n"
+msgstr "\n[Uruchom] Żądanie ponownego uruchomienia do BIOS/UEFI...\n"
+
+msgid "[成功] {}\n"
+msgstr "[OK] {}\n"
+
+msgid "[提示/錯誤] {}\n"
+msgstr "[Uwaga/Błąd] {}\n"
+
+msgid "\n[執行] 正在設定一次性安全模式 (Minimal)...\n"
+msgstr "\n[Uruchom] Konfigurowanie jednorazowego trybu awaryjnego (minimalnego)...\n"
+
+msgid "[錯誤] {}\n"
+msgstr "[Błąd] {}\n"
+
+msgid "\n[執行] 正在設定一次性安全模式 (Network)...\n"
+msgstr "\n[Uruchom] Konfigurowanie jednorazowego trybu awaryjnego (z siecią)...\n"
+
+msgid "\n[執行] 正在請求重啟進入進階選單...\n"
+msgstr "\n[Uruchom] Żądanie restartu do zaawansowanych opcji rozruchu...\n"
+
+msgid "\n[執行] 正在偵測隨身碟並設定重啟進入 PE...\n"
+msgstr "\n[Uruchom] Wykrywanie dysku USB i konfigurowanie rozruchu PE...\n"
+
+msgid "\n[執行] 正在透過 Win32 ExitWindowsEx 原生 API 重啟電腦...\n"
+msgstr "\n[Uruchom] Ponowne uruchamianie przez natywny interfejs Win32 ExitWindowsEx...\n"
+
+msgid "[成功] 已發送 Win32 原生重啟信號，系統正在重啟...\n"
+msgstr "[OK] Wysłano sygnał restartu Win32. Ponowne uruchamianie...\n"
+
+msgid "[API失敗] {}"
+msgstr "[Błąd API] {}"
+
+msgid "\n[執行] 正在透過 Win32 ExitWindowsEx 原生 API 關閉電腦...\n"
+msgstr "\n[Uruchom] Zamykanie przez natywny interfejs Win32 ExitWindowsEx...\n"
+
+msgid "[成功] 已發送 Win32 原生關機信號，系統正在關機...\n"
+msgstr "[OK] Wysłano sygnał zamknięcia Win32. Wyłączanie komputera...\n"
+
+msgid "\n[執行] 正在開啟測試模式...\n"
+msgstr "\n[Uruchom] Włączanie trybu testowego...\n"
+
+msgid "[成功] 測試模式已開啟，請重新開機以生效。桌面右下角將顯示「測試模式」浮水印。\n"
+msgstr "[OK] Tryb testowy włączony. Uruchom ponownie, aby zastosować. Znak wodny pojawi się na pulpicie.\n"
+
+msgid "[錯誤] {}\n提示：請先到 BIOS 關閉 Secure Boot 後再嘗試。\n"
+msgstr "[Błąd] {}\nWskazówka: Wyłącz Secure Boot w BIOS-ie i spróbuj ponownie.\n"
+
+msgid "\n[執行] 正在關閉測試模式...\n"
+msgstr "\n[Uruchom] Wyłączanie trybu testowego...\n"
+
+msgid "[成功] 測試模式已關閉，請重新開機以生效。\n"
+msgstr "[OK] Tryb testowy wyłączony. Uruchom ponownie, aby zastosować.\n"
+
+msgid "\n[執行] 正在停用強制簽章 (nointegritychecks)...\n"
+msgstr "\n[Uruchom] Wyłączanie wymuszania podpisów (nointegritychecks)...\n"
+
+msgid "[成功] 強制簽章驗證已停用，請重新開機以生效。\n"
+msgstr "[OK] Wymuszanie podpisów wyłączone. Uruchom ponownie, aby zastosować.\n"
+
+msgid "[錯誤] {}\n提示：請確認是否具備系統管理員權限，或先到 BIOS 關閉 Secure Boot。\n"
+msgstr "[Błąd] {}\nWskazówka: Sprawdź uprawnienia administratora lub wyłącz Secure Boot w BIOS-ie.\n"
+
+msgid "\n[執行] 正在恢復強制簽章 (nointegritychecks)...\n"
+msgstr "\n[Uruchom] Przywracanie wymuszania podpisów (nointegritychecks)...\n"
+
+msgid "[成功] 強制簽章驗證已恢復正常，請重新開機以生效。\n"
+msgstr "[OK] Przywrócono wymuszanie podpisów. Uruchom ponownie, aby zastosować.\n"
+
+msgid "\n[執行] 正在恢復系統安全防護...\n"
+msgstr "\n[Uruchom] Przywracanie zabezpieczeń systemu...\n"
+
+msgid "  [錯誤] 關閉 nointegritychecks 失敗: {}\n"
+msgstr "  [Błąd] Wyłączenie nointegritychecks nie powiodło się: {}\n"
+
+msgid "  - 驅動強制簽章已恢復\n"
+msgstr "  - Przywrócono wymuszanie podpisów sterowników\n"
+
+msgid "  [錯誤] 關閉 testsigning 失敗: {}\n"
+msgstr "  [Błąd] Wyłączenie testsigning nie powiodło się: {}\n"
+
+msgid "  [錯誤] 寫入登錄檔失敗 (錯誤碼 {}): 無法開啟記憶體完整性\n"
+msgstr "  [Błąd] Zapis do rejestru nie powiódł się (kod {}): Nie można włączyć integralności pamięci\n"
+
+msgid "  - 記憶體完整性已開啟\n"
+msgstr "  - Integralność pamięci włączona\n"
+
+msgid "  - 測試模式已關閉\n"
+msgstr "  - Tryb testowy wyłączony\n"
+
+msgid "  - 系統安全防護已恢復\n"
+msgstr "  - Bezpieczeństwo systemu przywrócone\n"
+
+msgid "  [錯誤] 寫入登錄檔失敗 (錯誤碼 {})\n"
+msgstr "  [Błąd] Zapis do rejestru nie powiódł się (kod błędu {})\n"
+
+msgid "[警告] 過程中有錯誤發生，請檢查上方日誌。\n"
+msgstr "[Ostrzeżenie] Wystąpiły błędy. Sprawdź powyższy dziennik.\n"
+
+msgid "[成功] 安全防護已恢復，請重新開機以生效。\n"
+msgstr "[OK] Zabezpieczenia przywrócone. Uruchom ponownie, aby zastosować.\n"
+
+msgid "\n[執行] 正在解除驅動與核心安全限制...\n"
+msgstr "\n[Uruchom] Wyłączanie ograniczeń sterowników i jądra...\n"
+
+msgid "  [錯誤] 開啟 nointegritychecks 失敗: {}\n"
+msgstr "  [Błąd] Włączenie nointegritychecks nie powiodło się: {}\n"
+
+msgid "  - 驅動強制簽章已停用\n"
+msgstr "  - Wymuszanie podpisów sterowników wyłączone\n"
+
+msgid "  [錯誤] 寫入登錄檔失敗 (錯誤碼 {}): 無法關閉記憶體完整性\n"
+msgstr "  [Błąd] Zapis do rejestru nie powiódł się (kod {}): Nie można wyłączyć integralności pamięci\n"
+
+msgid "  - 記憶體完整性已關閉\n"
+msgstr "  - Integralność pamięci wyłączona\n"
+
+msgid "  [錯誤] 開啟 testsigning 失敗: {}\n"
+msgstr "  [Błąd] Włączenie testsigning nie powiodło się: {}\n"
+
+msgid "  - 測試模式已開啟\n"
+msgstr "  - Tryb testowy włączony\n"
+
+msgid "  - 驅動封鎖規則已關閉\n"
+msgstr "  - Lista blokowanych sterowników wyłączona\n"
+
+msgid "[成功] 指定的安全限制已解除，請重新開機以生效。\n"
+msgstr "[OK] Ograniczenia bezpieczeństwa zniesione. Uruchom ponownie, aby zastosować.\n"
+
+msgid "新增了隨身碟/磁碟: {} {}"
+msgstr "Podłączono napęd/dysk USB: {} {}"
+
+msgid "移除了隨身碟/磁碟: {} {}"
+msgstr "Odłączono napęd/dysk USB: {} {}"
+
+msgid "未偵測到包含 PE 環境的隨身碟"
+msgstr "Nie wykryto dysku USB ze środowiskiem PE"
+
+msgid "未插入任何隨身碟"
+msgstr "Brak podłączonych dysków USB"
+
+msgid "USB啟動"
+msgstr "Rozruch z USB"
+
+msgid "\n[狀態變更] {}\n"
+msgstr "\n[Zmiana stanu] {}\n"
+
+msgid "使用者將目標隨身碟切換為: {} {}"
+msgstr "Zmieniono docelowy dysk USB na: {} {}"
+
+msgid "無法讀取掃描結果"
+msgstr "Nie można odczytać wyników skanowania"
+
+msgid "無法讀取選擇結果"
+msgstr "Nie można odczytać wyboru"
+
+msgid "未找到指定的 PE 隨身碟，請重新掃描。"
+msgstr "Nie znaleziono wskazanego dysku USB z PE. Zeskanuj ponownie."
+
+msgid "ramdisksdidevice 失敗: {}"
+msgstr "ramdisksdidevice nie powiodło się: {}"
+
+msgid "ramdisksdipath 失敗: {}"
+msgstr "ramdisksdipath nie powiodło się: {}"
+
+msgid "執行 bcdedit /create 失敗: {}"
+msgstr "bcdedit /create nie powiodło się: {}"
+
+msgid "set device 失敗: {}"
+msgstr "set device nie powiodło się: {}"
+
+msgid "set osdevice 失敗: {}"
+msgstr "set osdevice nie powiodło się: {}"
+
+msgid "set path 失敗: {}"
+msgstr "set path nie powiodło się: {}"
+
+msgid "set systemroot 失敗: {}"
+msgstr "set systemroot nie powiodło się: {}"
+
+msgid "set winpe 失敗: {}"
+msgstr "set winpe nie powiodło się: {}"
+
+msgid "set detecthal 失敗: {}"
+msgstr "set detecthal nie powiodło się: {}"
+
+msgid "bootsequence 失敗: {}"
+msgstr "bootsequence nie powiodło się: {}"
+
+msgid "無法在系統中找到此本地模式 PE 的引導選單。請確認您已正確安裝本地模式 PE。"
+msgstr "Nie znaleziono wpisu rozruchowego lokalnego PE. Upewnij się, że jest poprawnie zainstalowany."
+
+msgid "set device locate 失敗: {}"
+msgstr "set device locate nie powiodło się: {}"
+
+msgid "成功偵測到隨身碟並建立啟動項，系統正在重新啟動..."
+msgstr "Wykryto dysk USB i utworzono wpis rozruchowy. Ponowne uruchamianie..."
+
+msgid "成功建立 PE 啟動項，但發送重啟訊號失敗，請手動重新啟動電腦。"
+msgstr "Wpis PE utworzony, lecz wysłanie sygnału restartu nie powiodło się. Uruchom ponownie ręcznie."
+
+msgid "恢復驅動與核心安全防護"
+msgstr "Przywróć zabezpieczenia sterowników i jądra"
+
+msgid "解除驅動與核心安全限制"
+msgstr "Wyłącz ograniczenia sterowników i jądra"
+
+msgid "包含測試模式、強制簽章與記憶體完整性。\n勾選下方項目並點擊按鈕，設定將於下次重開機後生效。"
+msgstr "Obejmuje tryb testowy, wymuszanie podpisów i integralność pamięci.\nZaznacz opcje i zastosuj. Zmiany zaczną obowiązywać po restarcie."
+
+msgid "停用驅動封鎖規則"
+msgstr "Wyłącz listę blokowanych sterowników"
+
+msgid "關閉記憶體完整性"
+msgstr "Wyłącz integralność pamięci"
+
+msgid "恢復預設安全"
+msgstr "Przywróć domyślne zabezpieczenia"
+
+msgid "套用變更"
+msgstr "Zastosuj zmiany"
+
+msgid "重啟大師 (Reboot Master)"
+msgstr "Reboot Master"
+
+msgid "系統就緒。請選擇操作項目。"
+msgstr "System gotowy. Wybierz operację."
+
+msgid "USB啟動"
+msgstr "Rozruch z USB"
+
+msgid "掃描 USB 裝置中..."
+msgstr "Skanowanie urządzeń USB..."
+
+msgid "確定要執行此操作？"
+msgstr "Czy na pewno chcesz kontynuować?"
+
+msgid "即將執行選定的重啟或關機操作。"
+msgstr "Wybrana operacja ponownego uruchomienia lub zamknięcia zostanie wykonana."
+
+msgid "重啟管理"
+msgstr "Zarządzanie restartem"
+
+msgid "說明"
+msgstr "Pomoc"
+
+msgid "聲明"
+msgstr "Zastrzeżenie"
+
+msgid "外觀：跟隨系統 (點擊切換反色)"
+msgstr "Motyw: Zgodny z systemem (kliknij, aby odwrócić)"
+
+msgid "外觀：淺色 (點擊切換深色)"
+msgstr "Motyw: Jasny (kliknij, aby wybrać ciemny)"
+
+msgid "外觀：深色 (點擊跟隨系統)"
+msgstr "Motyw: Ciemny (kliknij dla systemowego)"
+
+msgid "設定"
+msgstr "Ustawienia"
+
+msgid "開機控制"
+msgstr "Kontrola rozruchu"
+
+msgid "電源與開機導向控制"
+msgstr "Kontrola zasilania i rozruchu"
+
+msgid "點擊卡片即可執行操作。安全模式採用無痕自動清除技術。"
+msgstr "Kliknij kartę, aby wykonać. Tryb awaryjny usuwa się automatycznie bez śladu."
+
+msgid "WinPE 環境"
+msgstr "Środowisko WinPE"
+
+msgid "標準 Windows"
+msgstr "Standardowy Windows"
+
+msgid "操作日誌"
+msgstr "Dziennik aktywności"
+
+msgid "BIOS / UEFI 設定"
+msgstr "Konfiguracja BIOS/UEFI"
+
+msgid "重啟並自動進入主機板底層韌體設定畫面"
+msgstr "Uruchom ponownie bezpośrednio do oprogramowania układowego płyty głównej."
+
+msgid "安全模式 (一般)"
+msgstr "Tryb awaryjny (podstawowy)"
+
+msgid "無網路基礎排錯模式，第二次重啟自動復原"
+msgstr "Podstawowe rozwiązywanie problemów bez sieci. Powrót przy kolejnym rozruchu."
+
+msgid "重新啟動系統"
+msgstr "Uruchom ponownie system"
+
+msgid "呼叫原生 API 強制重新啟動電腦"
+msgstr "Wymuś restart komputera za pomocą natywnego API."
+
+msgid "進階開機選單"
+msgstr "Zaawansowane menu rozruchu"
+
+msgid "進入 Windows 修復環境 (WinRE) 與啟動設定"
+msgstr "Wejdź do środowiska odzyskiwania Windows (WinRE) i ustawień rozruchu."
+
+msgid "自動偵測USB裝置並使用USB裝置啟動"
+msgstr "Automatycznie wykryj i uruchom z urządzenia USB."
+
+msgid "安全模式 (含網路)"
+msgstr "Tryb awaryjny (z siecią)"
+
+msgid "支援連線之排錯模式，第二次重啟自動復原"
+msgstr "Rozwiązywanie problemów z siecią. Powrót przy kolejnym rozruchu."
+
+msgid "安全關機"
+msgstr "Bezpieczne zamknięcie"
+
+msgid "呼叫原生 API 安全關閉電腦電源"
+msgstr "Bezpiecznie wyłącz komputer za pomocą natywnego API."
+
+msgid "恢復系統安全防護"
+msgstr "Przywróć bezpieczeństwo systemu"
+
+msgid "停用驅動強制簽章"
+msgstr "Wyłącz wymuszanie podpisów"
+
+msgid "啟用驅動測試模式"
+msgstr "Włącz tryb testowy sterowników"
+
+msgid "32 位元系統無強制核心簽章限制，無需解鎖。"
+msgstr "Systemy 32-bitowe nie wymagają podpisu jądra. Odblokowanie niepotrzebne."
+
+msgid "恢復預設數位簽章驗證與防護。點擊卡片套用並重啟。"
+msgstr "Przywróć domyślną weryfikację podpisów. Kliknij, aby zastosować i zrestartować."
+
+msgid "關閉數位簽章驗證與記憶體完整性。點擊卡片套用。"
+msgstr "Wyłącz weryfikację podpisów i integralność pamięci. Kliknij, aby zastosować."
+
+msgid "允許載入無簽章驅動。點擊右側展開選項。"
+msgstr "Zezwól na ładowanie niepodpisanych sterowników. Rozwiń po prawej."
+
+msgid "去除測試模式浮水印"
+msgstr "Usuń znak wodny trybu testowego"
+
+msgid "操作日誌歷史"
+msgstr "Historia dziennika aktywności"
+
+msgid "檢視所有執行過的指令與系統回報紀錄。"
+msgstr "Przeglądaj wszystkie wykonane polecenia i odpowiedzi systemu."
+
+msgid "複製日誌"
+msgstr "Kopiuj dziennik"
+
+msgid "回上一頁"
+msgstr "Wstecz"
+
+msgid "操作說明"
+msgstr "Instrukcja obsługi"
+
+msgid "了解重啟大師的操作細節與底層架構設計。"
+msgstr "Dowiedz się, jak działa Reboot Master i poznaj jego architekturę."
+
+msgid "軟體功能與優先級設計"
+msgstr "Funkcje i priorytety wykonywania"
+
+msgid "本軟體依循「原生 Win32 API 優先 > DLL 導出函式 > 系統管理指令」之架構設計。直接關機與重啟採用 ExitWindowsEx API；安全模式則透過 BCD 一次性導引機制（/bootsequence），確保重啟一次進入安全模式後，下次重開機即自動回歸標準正常模式。"
+msgstr "Zaprojektowano wg zasady: „Natywne Win32 API > Eksporty DLL > Polecenia systemowe”. Zamykanie i restart używają ExitWindowsEx; tryb awaryjny korzysta z jednorazowego mechanizmu BCD (/bootsequence), automatycznie powracając do trybu normalnego przy następnym uruchomieniu."
+
+msgid "得翼科技 (DEI 3C)"
+msgstr "DEI Tech (DEI 3C)"
+
+msgid "效能無界限，讓您的數位生活隨心所欲"
+msgstr "Wydajność bez granic dla Twojego cyfrowego życia."
+
+msgid "電腦組裝"
+msgstr "Składanie komputerów"
+
+msgid "筆電升級"
+msgstr "Modernizacja laptopów"
+
+msgid "網路規劃"
+msgstr "Projektowanie sieci"
+
+msgid "資安防護"
+msgstr "Cyberbezpieczeństwo"
+
+msgid "官方頻道與社群"
+msgstr "Oficjalne kanały i społeczność"
+
+msgid "前往官方部落格"
+msgstr "Odwiedź oficjalny blog"
+
+msgid "重啟大師 (Reboot Master) "
+msgstr "Reboot Master "
+
+msgid "使用者條款與免責聲明"
+msgstr "Warunki użytkowania i zastrzeżenia"
+
+msgid "請在使用本軟體前詳細閱讀以下條款與資料安全提醒。"
+msgstr "Przed użyciem oprogramowania przeczytaj uważnie poniższe warunki i ostrzeżenia o bezpieczeństwie."
+
+msgid "資料安全提醒與免責聲明"
+msgstr "Bezpieczeństwo danych i zastrzeżenia prawne"
+
+msgid "歡迎使用「重啟大師 (Reboot Master)」\n\n1. 觸發重新開機或關機前，系統將立即終止所有未儲存之應用程式執行。請使用者於執行前確保所有工作檔案皆已儲存完畢。\n\n2. 本軟體依「現況」免費提供，開發團隊不承擔因硬體相容性（如主機板不支援 UEFI 韌體重啟）或資料未儲存造成之任何直接或間接損失。"
+msgstr "Witamy w „Reboot Master”\n\n1. Restart lub wyłączenie natychmiast zamknie niezapisane programy. Upewnij się, że zapisałeś wszystkie pliki.\n\n2. Oprogramowanie jest dostarczane bezpłatnie „w stanie, w jakim się znajduje”. Zespół nie ponosi odpowiedzialności za niezgodność sprzętową ani utratę danych."
+
+msgid "調整語言、外觀與軟體更新。"
+msgstr "Dostosuj język, wygląd i aktualizacje."
+
+msgid "語言"
+msgstr "Język"
+
+msgid "選擇介面顯示語言。"
+msgstr "Wybierz język wyświetlania interfejsu."
+
+msgid "繁體中文"
+msgstr "Chiński tradycyjny"
+
+msgid "简体中文"
+msgstr "Chiński uproszczony"
+
+msgid "外觀"
+msgstr "Wygląd"
+
+msgid "選擇淺色、深色，或跟隨系統設定。"
+msgstr "Wybierz motyw Jasny, Ciemny lub zgodny z systemem."
+
+msgid "淺色"
+msgstr "Jasny"
+
+msgid "淺色 (跟隨系統)"
+msgstr "Jasny (System)"
+
+msgid "深色 (跟隨系統)"
+msgstr "Ciemny (System)"
+
+msgid "深色"
+msgstr "Ciemny"
+
+msgid "軟體更新"
+msgstr "Aktualizacje oprogramowania"
+
+msgid "啟動時會自動檢查 GitHub 上的最新版本。"
+msgstr "Automatycznie sprawdza najnowszą wersję na GitHubie podczas uruchamiania."
+
+msgid "目前版本："
+msgstr "Bieżąca wersja: "
+
+msgid "正在檢查更新..."
+msgstr "Sprawdzanie aktualizacji..."
+
+msgid "發現新版本："
+msgstr "Dostępna nowa wersja: "
+
+msgid "目前已是最新版本。"
+msgstr "Oprogramowanie jest aktualne."
+
+msgid "無法連線至 GitHub，請檢查網路連線。"
+msgstr "Nie można połączyć się z GitHubem. Sprawdź połączenie z siecią."
+
+msgid "正在下載更新，完成後將自動重新啟動..."
+msgstr "Pobieranie aktualizacji. Aplikacja uruchomi się ponownie po zakończeniu..."
+
+msgid "尚未檢查更新。"
+msgstr "Jeszcze nie sprawdzono aktualizacji."
+
+msgid "檢查更新"
+msgstr "Sprawdź aktualizacje"
+
+msgid "立即更新"
+msgstr "Aktualizuj teraz"
+
+msgid "再次確認您的操作"
+msgstr "Potwierdź operację"
+
+msgid "\n\n請確認您的所有工作與文件皆已儲存。確定要立即執行嗎？"
+msgstr "\n\nUpewnij się, że wszystkie prace i dokumenty zostały zapisane. Czy wykonać teraz?"
+
+msgid "取消"
+msgstr "Anuluj"
+
+msgid "確定執行"
+msgstr "Potwierdź"
+
+msgid "所有安全模式均採用無痕自動清除技術，重啟後將自動還原。"
+msgstr "Wszystkie tryby awaryjne korzystają z automatycznego czyszczenia i przywracają się po restarcie."
+
+msgid "恢復預設數位簽章驗證與防護。"
+msgstr "Przywróć domyślną weryfikację podpisów cyfrowych i ochronę."
+
+msgid "關閉數位簽章驗證與記憶體完整性"
+msgstr "Wyłącz weryfikację podpisów cyfrowych i integralność pamięci"
+
+msgid "允許載入無簽章之驅動程式。"
+msgstr "Zezwól na ładowanie niepodpisanych sterowników."
+
+msgid "選擇語言"
+msgstr "Wybierz język"
+
+msgid "此功能僅支援 Windows 8 及以上版本。您的系統過舊，請在開機時手動按鍵進入 BIOS。"
+msgstr "Ta funkcja wymaga systemu Windows 8 lub nowszego. Naciśnij klawisz podczas uruchamiania, aby wejść do BIOS-u."
+
+msgid "此系統為傳統 BIOS (Legacy)，無法透過軟體重啟進入 BIOS 設定。請在開機時手動按鍵進入。"
+msgstr "System używa starszego systemu BIOS (Legacy), restart programowy niemożliwy. Użyj klawisza podczas rozruchu."
+
+msgid "  [範本解析] 處於 WinPE 環境，採用實體系統預設項 {default}\n"
+msgstr "[Szablon] W środowisku WinPE, przy użyciu domyślnego wpisu fizycznego systemu operacyjnego {default} \n"
+
+msgid "  [範本解析] 正在探測當前引導項 {current}...\n"
+msgstr "[Szablon] Sprawdzanie bieżącego wpisu rozruchowego {current}... \n"
+
+msgid "  [範本解析] 當前會話引導項 {current} 有效，採用為母體範本\n"
+msgstr "[Szablon] Bieżący wpis rozruchowy {current} jest prawidłowy, używając jako szablonu podstawowego \n"
+
+msgid "  [範本解析] 偵測到 {current} 已於前次重啟後被清理刪除 (無效識別元)\n"
+msgstr "[Szablon] Wykryto, że {bieżący} został wyczyszczony po poprzednim ponownym uruchomieniu (nieprawidłowy identyfikator) \n"
+
+msgid "  [範本解析] 正在驗證系統永久開機項 {default}...\n"
+msgstr "[Szablon] Sprawdzanie wpisu stałego rozruchu systemu {default}... \n"
+
+msgid "  [範本解析] 成功選定系統永久開機項 {default} 作為母體範本 (確保一次成功)\n"
+msgstr "[Szablon] Pomyślnie wybrano stały wpis {domyślny} jako szablon podstawowy (zapewnia sukces przy pierwszej próbie) \n"
+
+msgid "  [範本解析] 正在掃描 BCD osloader 列表以尋找有效開機項...\n"
+msgstr "[Szablon] Skanowanie listy osloadera BCD w poszukiwaniu prawidłowych wpisów rozruchowych... \n"
+
+msgid "  [範本解析] 從 osloader 列表成功定位實體系統項: {}\n"
+msgstr "[Szablon] Pomyślnie zlokalizowano fizyczny wpis systemu operacyjnego z osloadera: {} \n"
+
+msgid "  [範本解析] 未能列舉額外開機項，預設採用 {default}\n"
+msgstr "[Szablon] Nie można wyliczyć dodatkowych wpisów, domyślnie jest to {default} \n"
+
+msgid "  [建立副本] 正在自範本 {} 複製建立臨時安全模式項...\n"
+msgstr "[Utwórz klon] Kopiowanie szablonu {} w celu utworzenia tymczasowego wpisu trybu awaryjnego... \n"
+
+msgid "  [建立副本] 成功建立副本！\n"
+msgstr "[Utwórz klon] Klon został pomyślnie utworzony! \n"
+
+msgid "  [降級備援] 複製範本 {} 失敗: {}，啟動備援嘗試 {{default}}...\n"
+msgstr "[Zastępczy] Kopiowanie szablonu {} nie powiodło się: {}, próba powrotu z {{default}}... \n"
+
+msgid "  [降級備援] 備援方案複製 {default} 成功！\n"
+msgstr "[Fallback] Awaryjny klon {default} powiódł się! \n"
+
+msgid "  [降級備援] 備援方案亦失敗: {}\n"
+msgstr "[Zastępczy] Klon zastępczy również nie powiódł się: {} \n"
+
+msgid "建立臨時安全模式引導項失敗"
+msgstr "Nie udało się utworzyć tymczasowego wpisu rozruchowego w trybie awaryjnym"
+
+msgid "  [建立副本] 失敗: {}\n"
+msgstr "[Utwórz klona] Nie udało się: {} \n"
+
+msgid "  [臨時標識] 取得臨時 GUID: {}\n"
+msgstr "[Temp GUID] Uzyskano tymczasowy identyfikator GUID: {} \n"
+
+msgid "  [選單隱藏] 從開機選單中隱藏此臨時副本 (/displayorder ... /remove)...\n"
+msgstr "[Ukryj menu] Ukrywanie tymczasowego klonu z menu startowego (/displayorder ... /remove)... \n"
+
+msgid "  [模式配置] 設定 safeboot 參數為 {}...\n"
+msgstr "[Konfiguracja] Ustawienie parametru bezpiecznego rozruchu na {}... \n"
+
+msgid "  [一次性引導] 設定單次啟動序列 (/bootsequence)，重啟後 BootMgr 自動復原...\n"
+msgstr "[Jednorazowy rozruch] Ustawienie sekwencji pojedynczego strzału (/bootsequence), BootMgr zostanie przywrócony po ponownym uruchomieniu... \n"
+
+msgid "  [開機自毀] 註冊 RunOnce 自毀清理任務 (重啟登入後徹底刪除臨時項目)...\n"
+msgstr "[Autodestrukcja] Rejestracja zadania oczyszczania RunOnce (trwale usuwa tymczasowy wpis po zalogowaniu)... \n"
+
+msgid "母體範本: {}\n  模式: {}\n  臨時 GUID: {}"
+msgstr "Szablon podstawowy: {}\nTryb: {}\nTemp GUID: {}"
+
+msgid "  [建立副本] 正在自範本 {} 複製建立臨時進階選單項...\n"
+msgstr "[Utwórz klon] Kopiowanie szablonu {} w celu utworzenia tymczasowego wpisu zaawansowanych opcji rozruchu... \n"
+
+msgid "建立臨時進階選單引導項失敗"
+msgstr "Nie udało się utworzyć tymczasowego wpisu rozruchowego zaawansowanych opcji rozruchu"
+
+msgid "  [進階選項] 啟用 advancedoptions=true (Win7 顯示 F8 選單，Win10/11 顯示開機設定)...\n"
+msgstr "[Opcje zaawansowane] Włączanie opcji zaawansowanych=true (menu F8 w Win7, ustawienia uruchamiania w Win10/11)... \n"
+
+msgid "母體範本: {}\n  臨時 GUID: {}"
+msgstr "Szablon podstawowy: {}\nTymczasowy identyfikator GUID: {}"
+
+msgid "此功能僅支援 Windows 8 及以上之 UEFI 系統"
+msgstr "Ta funkcja obsługuje tylko systemy UEFI w systemie Windows 8 i nowszych"
+
+msgid "主機板或系統未支援韌體引導 (Legacy BIOS)"
+msgstr "Płyta główna lub system nie obsługuje rozruchu oprogramowania sprzętowego (starszy BIOS)"
+

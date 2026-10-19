@@ -1,0 +1,745 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: reboot_master v1.0.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: tr\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "[{}] 操作: {}\n  變更細節: {}\n  執行狀態: {}\n----------------------------------------\n"
+msgstr "[{}] Eylem: {}\n  Ayrıntılar: {}\n  Durum: {}\n----------------------------------------\n"
+
+msgid "尚無歷史操作紀錄。\n"
+msgstr "Henüz etkinlik geçmişi yok.\n"
+
+msgid "無法獲取 SeShutdownPrivilege 系統關機權限"
+msgstr "SeShutdownPrivilege sistem ayrıcalığı alınamadı"
+
+msgid "關機失敗，錯誤碼: {}"
+msgstr "Kapatma başarısız oldu, hata kodu: {}"
+
+msgid "無法獲取 SeShutdownPrivilege 系統重啟權限"
+msgstr "SeShutdownPrivilege yeniden başlatma ayrıcalığı alınamadı"
+
+msgid "重啟失敗，錯誤碼: {}"
+msgstr "Yeniden başlatma başarısız oldu, hata kodu: {}"
+
+msgid "無法獲取系統環境權限 (SeSystemEnvironmentPrivilege)，請確認是否以系統管理員身分執行"
+msgstr "SeSystemEnvironmentPrivilege alınamadı. Lütfen yönetici olarak çalıştırın"
+
+msgid "當前主機板或作業系統不支援直接從系統重啟至韌體/BIOS設定"
+msgstr "Anakart veya işletim sistemi doğrudan BIOS/UEFI ayarlarına yeniden başlatmayı desteklemiyor"
+
+msgid "寫入 UEFI 韌體變數失敗，可能受限於防毒軟體或權限異常。"
+msgstr "UEFI değişkeni yazılamadı. Antivirüs veya izinler tarafından engellendi."
+
+msgid "重啟至 BIOS/UEFI"
+msgstr "BIOS/UEFI’ye Yeniden Başlat"
+
+msgid "寫入 UEFI 變數: OsIndications (GUID: {8BE4DF61-93CA-11D2-AA0D-00E098032B8C})，Bit 0 設為 1 (BootToFwUI)"
+msgstr "UEFI değişkeni yazıldı: OsIndications (GUID: {8BE4DF61-93CA-11D2-AA0D-00E098032B8C}), Bit 0, 1 yapıldı (BootToFwUI)"
+
+msgid "準備重啟"
+msgstr "Yeniden başlatmaya hazırlanıyor"
+
+msgid "已成功透過 API 寫入 UEFI 變數，系統正在重新啟動至 BIOS/UEFI..."
+msgstr "UEFI değişkeni başarıyla yazıldı. BIOS/UEFI’ye yeniden başlatılıyor..."
+
+msgid "執行 bcdedit 失敗: {}"
+msgstr "bcdedit çalıştırılamadı: {}"
+
+msgid "執行 `bcdedit {}` 失敗: {}"
+msgstr "`bcdedit {}` başarısız oldu: {}"
+
+msgid "找不到實體系統的 SOFTWARE 登錄檔"
+msgstr "Fiziksel sistemin SOFTWARE kayıt defteri kovanı bulunamadı"
+
+msgid "無法從 bcdedit 輸出中找到新的 GUID 起點"
+msgstr "bcdedit çıktısında yeni GUID başlangıcı bulunamadı"
+
+msgid "無法從 bcdedit 輸出中找到新的 GUID 終點"
+msgstr "bcdedit çıktısında yeni GUID sonu bulunamadı"
+
+msgid "無法獲取當前執行檔路徑: {}"
+msgstr "Mevcut yürütülebilir dosya yolu alınamadı: {}"
+
+msgid "一次性安全模式"
+msgstr "Tek Seferlik Güvenli Mod"
+
+msgid "模式: {}\n  臨時 GUID: {}"
+msgstr "Mod: {}\n  Geçici GUID: {}"
+
+msgid "已成功設定一次性安全模式，系統正在重新啟動..."
+msgstr "Tek Seferlik Güvenli Mod yapılandırıldı. Yeniden başlatılıyor..."
+
+msgid "重啟至進階開機選單"
+msgstr "Gelişmiş Başlangıç Menüsüne Yeniden Başlat"
+
+msgid "建立臨時副本 GUID: {}"
+msgstr "Geçici giriş GUID’si oluşturuldu: {}"
+
+msgid "已成功設定一次性進階開機選單，系統正在重新啟動..."
+msgstr "Tek seferlik Gelişmiş Başlangıç yapılandırıldı. Yeniden başlatılıyor..."
+
+msgid "重啟進入 BIOS / UEFI 韌體"
+msgstr "BIOS / UEFI Donanım Yazılımına Yeniden Başlat"
+
+msgid "此操作將立即重新啟動電腦並自動進入 BIOS/UEFI 設定畫面。"
+msgstr "Bilgisayarı hemen yeniden başlatır ve otomatik olarak BIOS/UEFI ayarlarına girer."
+
+msgid "一次性安全模式 (Minimal)"
+msgstr "Tek Seferlik Güvenli Mod (En az)"
+
+msgid "下一次開機將進入安全模式。第二次重新開機時，系統將自動恢復進入正常模式。"
+msgstr "Bir kez Güvenli Modda başlar. Sonraki yeniden başlatmada otomatik olarak normal moda döner."
+
+msgid "一次性安全模式 (含網路)"
+msgstr "Tek Seferlik Güvenli Mod (Ağ ile)"
+
+msgid "下一次開機將進入含網路連線的安全模式。第二次重新開機時，系統將自動恢復進入正常模式。"
+msgstr "Bir kez Ağ ile Güvenli Modda başlar. Sonraki yeniden başlatmada otomatik olarak normal moda döner."
+
+msgid "重啟進入進階開機選單"
+msgstr "Gelişmiş Başlangıç Seçeneklerine Yeniden Başlat"
+
+msgid "此操作將重新啟動電腦並直接開啟 Windows 進階開機與疑難排解選單。"
+msgstr "Bilgisayarı yeniden başlatır ve Windows gelişmiş başlangıç ve sorun giderme menüsünü açar."
+
+msgid "直接強制重啟電腦"
+msgstr "Hemen Yeniden Başlatmaya Zorla"
+
+msgid "此操作將透過 Win32 原生 API 立即重啟您的電腦。"
+msgstr "Yerel Win32 API kullanarak bilgisayarınızı hemen yeniden başlatır."
+
+msgid "直接安全關機"
+msgstr "Şimdi Güvenle Kapat"
+
+msgid "此操作將透過 Win32 原生 API 立即關閉電腦電源。"
+msgstr "Yerel Win32 API kullanarak bilgisayarınızı hemen kapatır."
+
+msgid "開啟測試模式 (Test Mode)"
+msgstr "Test Modunu Etkinleştir"
+
+msgid "開啟後系統將接受測試簽章驅動程式。桌面右下角會出現「測試模式」浮水印。\n\n• 需先在 BIOS 關閉 Secure Boot 才能生效\n• 大多數遊戲反作弊（EAC、BattlEye）會拒絕在此模式下運行遊戲\n• 執行後需重新開機才會生效。關閉則執行「關閉測試模式」"
+msgstr "Sistem test imzalı sürücüleri kabul edecektir. Masaüstünde \"Test Modu\" filigranı görünecektir.\n\n• Önce BIOS’ta Secure Boot kapatılmalıdır\n• Çoğu hile koruma sistemi (EAC, BattlEye) bu modda oyunları engeller\n• Etkili olması için yeniden başlatma gerekir. Kapatmak için \"Test Modunu Devre Dışı Bırak\"ı kullanın"
+
+msgid "關閉測試模式"
+msgstr "Test Modunu Devre Dışı Bırak"
+
+msgid "關閉測試模式後，系統將恢復標準驅動簽章驗證。需重新開機才會生效。"
+msgstr "Test Modunun kapatılması standart sürücü imza doğrulamasını geri yükler. Yeniden başlatma gerekir."
+
+msgid "停用驅動程式強制簽章"
+msgstr "Sürücü İmzası Zorlamasını Devre Dışı Bırak"
+
+msgid "此操作將徹底關閉 Windows 的驅動程式數位簽章驗證 (nointegritychecks)。\n\n• 允許安裝完全沒有數位簽章的驅動程式\n• 系統安全性將大幅降低\n• 需先在 BIOS 關閉 Secure Boot 才能生效\n• 執行後需重新開機才會生效。"
+msgstr "Windows sürücü dijital imza doğrulamasını tamamen kapatır (nointegritychecks).\n\n• İmzasız sürücülerin yüklenmesine izin verir\n• Sistem güvenliği önemli ölçüde azalır\n• Önce BIOS’ta Secure Boot kapatılmalıdır\n• Yeniden başlatma gereklidir."
+
+msgid "恢復強制簽章驗證"
+msgstr "İmza Zorlamasını Geri Yükle"
+
+msgid "將恢復 Windows 預設的驅動程式數位簽章驗證機制。需重新開機才會生效。"
+msgstr "Varsayılan Windows sürücü dijital imza doğrulamasını geri yükler. Yeniden başlatma gereklidir."
+
+msgid "恢復系統安全防護"
+msgstr "Sistem Güvenliğini Geri Yükle"
+
+msgid "將恢復 Windows 預設的數位簽章驗證與核心安全機制。\n\n需要重新開機才會完全生效。確定要執行嗎？"
+msgstr "Varsayılan Windows imza doğrulaması ve çekirdek güvenliği geri yüklenecektir.\n\nTam olarak uygulanması için yeniden başlatma gerekir. Devam edilsin mi?"
+
+msgid "警告：這將徹底停用驅動程式強制簽章 (nointegritychecks) 並關閉記憶體完整性，大幅降低系統安全性。\n\n需要重新開機才會完全生效。確定要執行嗎？"
+msgstr "Uyarı: Sürücü imzası zorlamasını ve Bellek Bütünlüğünü kapatarak sistem güvenliğini önemli ölçüde azaltır.\n\nTam olarak uygulanması için yeniden başlatma gerekir. Devam edilsin mi?"
+
+msgid "警告：這將開啟測試模式以允許載入未經簽章的驅動程式，大幅降低系統安全性。\n\n需要重新開機才會完全生效。確定要執行嗎？"
+msgstr "Uyarı: İmzasız sürücülerin yüklenmesine izin vermek için Test Modunu etkinleştirir ve sistem güvenliğini azaltır.\n\nYeniden başlatma gerekir. Devam edilsin mi?"
+
+msgid "解除驅動與核心安全限制"
+msgstr "Sürücü ve Çekirdek Güvenlik Sınırlarını Kaldır"
+
+msgid "\n[執行] 正在請求重啟至 BIOS/UEFI...\n"
+msgstr "\n[Çalıştır] BIOS/UEFI’ye yeniden başlatma isteniyor...\n"
+
+msgid "[成功] {}\n"
+msgstr "[Başarılı] {}\n"
+
+msgid "[提示/錯誤] {}\n"
+msgstr "[Uyarı/Hata] {}\n"
+
+msgid "\n[執行] 正在設定一次性安全模式 (Minimal)...\n"
+msgstr "\n[Çalıştır] Tek Seferlik Güvenli Mod (En az) yapılandırılıyor...\n"
+
+msgid "[錯誤] {}\n"
+msgstr "[Hata] {}\n"
+
+msgid "\n[執行] 正在設定一次性安全模式 (Network)...\n"
+msgstr "\n[Çalıştır] Tek Seferlik Güvenli Mod (Ağ ile) yapılandırılıyor...\n"
+
+msgid "\n[執行] 正在請求重啟進入進階選單...\n"
+msgstr "\n[Çalıştır] Gelişmiş Başlangıç Menüsüne yeniden başlatma isteniyor...\n"
+
+msgid "\n[執行] 正在偵測隨身碟並設定重啟進入 PE...\n"
+msgstr "\n[Çalıştır] USB sürücüsü algılanıyor ve PE önyüklemesi yapılandırılıyor...\n"
+
+msgid "\n[執行] 正在透過 Win32 ExitWindowsEx 原生 API 重啟電腦...\n"
+msgstr "\n[Çalıştır] Yerel Win32 ExitWindowsEx API aracılığıyla yeniden başlatılıyor...\n"
+
+msgid "[成功] 已發送 Win32 原生重啟信號，系統正在重啟...\n"
+msgstr "[Başarılı] Yerel Win32 yeniden başlatma sinyali gönderildi. Yeniden başlatılıyor...\n"
+
+msgid "[API失敗] {}"
+msgstr "[API Başarısız] {}"
+
+msgid "\n[執行] 正在透過 Win32 ExitWindowsEx 原生 API 關閉電腦...\n"
+msgstr "\n[Çalıştır] Yerel Win32 ExitWindowsEx API aracılığıyla kapatılıyor...\n"
+
+msgid "[成功] 已發送 Win32 原生關機信號，系統正在關機...\n"
+msgstr "[Başarılı] Yerel Win32 kapatma sinyali gönderildi. Kapatılıyor...\n"
+
+msgid "\n[執行] 正在開啟測試模式...\n"
+msgstr "\n[Çalıştır] Test Modu etkinleştiriliyor...\n"
+
+msgid "[成功] 測試模式已開啟，請重新開機以生效。桌面右下角將顯示「測試模式」浮水印。\n"
+msgstr "[Başarılı] Test Modu etkinleştirildi. Uygulamak için yeniden başlatın. Masaüstünde filigran görünecektir.\n"
+
+msgid "[錯誤] {}\n提示：請先到 BIOS 關閉 Secure Boot 後再嘗試。\n"
+msgstr "[Hata] {}\nİpucu: Lütfen BIOS’ta Secure Boot’u kapatıp tekrar deneyin.\n"
+
+msgid "\n[執行] 正在關閉測試模式...\n"
+msgstr "\n[Çalıştır] Test Modu devre dışı bırakılıyor...\n"
+
+msgid "[成功] 測試模式已關閉，請重新開機以生效。\n"
+msgstr "[Başarılı] Test Modu kapatıldı. Uygulamak için yeniden başlatın.\n"
+
+msgid "\n[執行] 正在停用強制簽章 (nointegritychecks)...\n"
+msgstr "\n[Çalıştır] İmza zorlaması devre dışı bırakılıyor (nointegritychecks)...\n"
+
+msgid "[成功] 強制簽章驗證已停用，請重新開機以生效。\n"
+msgstr "[Başarılı] Sürücü imzası zorlaması kapatıldı. Uygulamak için yeniden başlatın.\n"
+
+msgid "[錯誤] {}\n提示：請確認是否具備系統管理員權限，或先到 BIOS 關閉 Secure Boot。\n"
+msgstr "[Hata] {}\nİpucu: Yönetici izinlerini kontrol edin veya BIOS’ta Secure Boot’u kapatın.\n"
+
+msgid "\n[執行] 正在恢復強制簽章 (nointegritychecks)...\n"
+msgstr "\n[Çalıştır] İmza zorlaması geri yükleniyor (nointegritychecks)...\n"
+
+msgid "[成功] 強制簽章驗證已恢復正常，請重新開機以生效。\n"
+msgstr "[Başarılı] Sürücü imzası zorlaması geri yüklendi. Uygulamak için yeniden başlatın.\n"
+
+msgid "\n[執行] 正在恢復系統安全防護...\n"
+msgstr "\n[Çalıştır] Sistem güvenliği geri yükleniyor...\n"
+
+msgid "  [錯誤] 關閉 nointegritychecks 失敗: {}\n"
+msgstr "  [Hata] nointegritychecks kapatılamadı: {}\n"
+
+msgid "  - 驅動強制簽章已恢復\n"
+msgstr "  - Sürücü imzası zorlaması geri yüklendi\n"
+
+msgid "  [錯誤] 關閉 testsigning 失敗: {}\n"
+msgstr "  [Hata] testsigning kapatılamadı: {}\n"
+
+msgid "  [錯誤] 寫入登錄檔失敗 (錯誤碼 {}): 無法開啟記憶體完整性\n"
+msgstr "  [Hata] Kayıt defterine yazılamadı (kod {}): Bellek Bütünlüğü etkinleştirilemedi\n"
+
+msgid "  - 記憶體完整性已開啟\n"
+msgstr "  - Bellek Bütünlüğü etkinleştirildi\n"
+
+msgid "  - 測試模式已關閉\n"
+msgstr "  - Test Modu devre dışı bırakıldı\n"
+
+msgid "  - 系統安全防護已恢復\n"
+msgstr "  - Sistem güvenliği geri yüklendi\n"
+
+msgid "  [錯誤] 寫入登錄檔失敗 (錯誤碼 {})\n"
+msgstr "  [Hata] Kayıt defterine yazılamadı (hata kodu {})\n"
+
+msgid "[警告] 過程中有錯誤發生，請檢查上方日誌。\n"
+msgstr "[Uyarı] Hatalar oluştu. Lütfen yukarıdaki günlüğü kontrol edin.\n"
+
+msgid "[成功] 安全防護已恢復，請重新開機以生效。\n"
+msgstr "[Başarılı] Güvenlik geri yüklendi. Uygulamak için yeniden başlatın.\n"
+
+msgid "\n[執行] 正在解除驅動與核心安全限制...\n"
+msgstr "\n[Çalıştır] Sürücü ve çekirdek güvenlik sınırları kaldırılıyor...\n"
+
+msgid "  [錯誤] 開啟 nointegritychecks 失敗: {}\n"
+msgstr "  [Hata] nointegritychecks açılamadı: {}\n"
+
+msgid "  - 驅動強制簽章已停用\n"
+msgstr "  - Sürücü imzası zorlaması devre dışı bırakıldı\n"
+
+msgid "  [錯誤] 寫入登錄檔失敗 (錯誤碼 {}): 無法關閉記憶體完整性\n"
+msgstr "  [Hata] Kayıt defterine yazılamadı (kod {}): Bellek Bütünlüğü kapatılamadı\n"
+
+msgid "  - 記憶體完整性已關閉\n"
+msgstr "  - Bellek Bütünlüğü kapatıldı\n"
+
+msgid "  [錯誤] 開啟 testsigning 失敗: {}\n"
+msgstr "  [Hata] testsigning açılamadı: {}\n"
+
+msgid "  - 測試模式已開啟\n"
+msgstr "  - Test Modu etkinleştirildi\n"
+
+msgid "  - 驅動封鎖規則已關閉\n"
+msgstr "  - Sürücü engelleme listesi kapatıldı\n"
+
+msgid "[成功] 指定的安全限制已解除，請重新開機以生效。\n"
+msgstr "[Başarılı] Güvenlik sınırları kaldırıldı. Uygulamak için yeniden başlatın.\n"
+
+msgid "新增了隨身碟/磁碟: {} {}"
+msgstr "USB sürücüsü/disk eklendi: {} {}"
+
+msgid "移除了隨身碟/磁碟: {} {}"
+msgstr "USB sürücüsü/disk çıkarıldı: {} {}"
+
+msgid "未偵測到包含 PE 環境的隨身碟"
+msgstr "PE ortamı içeren USB sürücüsü algılanmadı"
+
+msgid "未插入任何隨身碟"
+msgstr "Hiçbir USB sürücüsü takılı değil"
+
+msgid "USB啟動"
+msgstr "USB’den Başlatma"
+
+msgid "\n[狀態變更] {}\n"
+msgstr "\n[Durum Değişikliği] {}\n"
+
+msgid "使用者將目標隨身碟切換為: {} {}"
+msgstr "Hedef USB sürücüsü değiştirildi: {} {}"
+
+msgid "無法讀取掃描結果"
+msgstr "Tarama sonuçları okunamıyor"
+
+msgid "無法讀取選擇結果"
+msgstr "Seçim okunamıyor"
+
+msgid "未找到指定的 PE 隨身碟，請重新掃描。"
+msgstr "Belirtilen PE USB sürücüsü bulunamadı. Lütfen tekrar tarayın."
+
+msgid "ramdisksdidevice 失敗: {}"
+msgstr "ramdisksdidevice başarısız oldu: {}"
+
+msgid "ramdisksdipath 失敗: {}"
+msgstr "ramdisksdipath başarısız oldu: {}"
+
+msgid "執行 bcdedit /create 失敗: {}"
+msgstr "bcdedit /create başarısız oldu: {}"
+
+msgid "set device 失敗: {}"
+msgstr "set device başarısız oldu: {}"
+
+msgid "set osdevice 失敗: {}"
+msgstr "set osdevice başarısız oldu: {}"
+
+msgid "set path 失敗: {}"
+msgstr "set path başarısız oldu: {}"
+
+msgid "set systemroot 失敗: {}"
+msgstr "set systemroot başarısız oldu: {}"
+
+msgid "set winpe 失敗: {}"
+msgstr "set winpe başarısız oldu: {}"
+
+msgid "set detecthal 失敗: {}"
+msgstr "set detecthal başarısız oldu: {}"
+
+msgid "bootsequence 失敗: {}"
+msgstr "bootsequence başarısız oldu: {}"
+
+msgid "無法在系統中找到此本地模式 PE 的引導選單。請確認您已正確安裝本地模式 PE。"
+msgstr "Yerel mod PE önyükleme girişi bulunamadı. Lütfen doğru yüklendiğini doğrulayın."
+
+msgid "set device locate 失敗: {}"
+msgstr "set device locate başarısız oldu: {}"
+
+msgid "成功偵測到隨身碟並建立啟動項，系統正在重新啟動..."
+msgstr "USB sürücüsü algılandı ve önyükleme girişi oluşturuldu. Yeniden başlatılıyor..."
+
+msgid "成功建立 PE 啟動項，但發送重啟訊號失敗，請手動重新啟動電腦。"
+msgstr "PE önyükleme girişi oluşturuldu ancak yeniden başlatma sinyali başarısız oldu. Lütfen manuel olarak yeniden başlatın."
+
+msgid "恢復驅動與核心安全防護"
+msgstr "Sürücü ve Çekirdek Güvenliğini Geri Yükle"
+
+msgid "解除驅動與核心安全限制"
+msgstr "Sürücü ve Çekirdek Güvenlik Sınırlarını Kaldır"
+
+msgid "包含測試模式、強制簽章與記憶體完整性。\n勾選下方項目並點擊按鈕，設定將於下次重開機後生效。"
+msgstr "Test Modu, imza zorlaması ve Bellek Bütünlüğünü içerir.\nAşağıdaki öğeleri seçip uygulayın. Ayarlar sonraki açılışta geçerli olur."
+
+msgid "停用驅動封鎖規則"
+msgstr "Sürücü Engelleme Listesini Devre Dışı Bırak"
+
+msgid "關閉記憶體完整性"
+msgstr "Bellek Bütünlüğünü Kapat"
+
+msgid "恢復預設安全"
+msgstr "Varsayılan Güvenliği Geri Yükle"
+
+msgid "套用變更"
+msgstr "Değişiklikleri Uygula"
+
+msgid "重啟大師 (Reboot Master)"
+msgstr "Reboot Master"
+
+msgid "系統就緒。請選擇操作項目。"
+msgstr "Sistem hazır. Lütfen bir eylem seçin."
+
+msgid "USB啟動"
+msgstr "USB’den Başlatma"
+
+msgid "掃描 USB 裝置中..."
+msgstr "USB cihazları taranıyor..."
+
+msgid "確定要執行此操作？"
+msgstr "Devam etmek istediğinizden emin misiniz?"
+
+msgid "即將執行選定的重啟或關機操作。"
+msgstr "Seçilen yeniden başlatma veya kapatma işlemi çalıştırılmak üzere."
+
+msgid "重啟管理"
+msgstr "Yeniden Başlatma Yönetimi"
+
+msgid "說明"
+msgstr "Yardım"
+
+msgid "聲明"
+msgstr "Sorumluluk Reddi"
+
+msgid "外觀：跟隨系統 (點擊切換反色)"
+msgstr "Tema: Sistem (tersine çevirmek için tıklayın)"
+
+msgid "外觀：淺色 (點擊切換深色)"
+msgstr "Tema: Açık (Koyu için tıklayın)"
+
+msgid "外觀：深色 (點擊跟隨系統)"
+msgstr "Tema: Koyu (Sistem için tıklayın)"
+
+msgid "設定"
+msgstr "Ayarlar"
+
+msgid "開機控制"
+msgstr "Önyükleme Kontrolü"
+
+msgid "電源與開機導向控制"
+msgstr "Güç ve Önyükleme Kontrolü"
+
+msgid "點擊卡片即可執行操作。安全模式採用無痕自動清除技術。"
+msgstr "Çalıştırmak için karta tıklayın. Güvenli Mod iz bırakmadan otomatik temizlenir."
+
+msgid "WinPE 環境"
+msgstr "WinPE Ortamı"
+
+msgid "標準 Windows"
+msgstr "Standart Windows"
+
+msgid "操作日誌"
+msgstr "Etkinlik Günlüğü"
+
+msgid "BIOS / UEFI 設定"
+msgstr "BIOS / UEFI Kurulumu"
+
+msgid "重啟並自動進入主機板底層韌體設定畫面"
+msgstr "Doğrudan anakart donanım yazılımı (BIOS) ayarlarına yeniden başlatın."
+
+msgid "安全模式 (一般)"
+msgstr "Güvenli Mod (En az)"
+
+msgid "無網路基礎排錯模式，第二次重啟自動復原"
+msgstr "Ağsız temel sorun giderme. İkinci açılışta normale döner."
+
+msgid "重新啟動系統"
+msgstr "Sistemi Yeniden Başlat"
+
+msgid "呼叫原生 API 強制重新啟動電腦"
+msgstr "Yerel API ile bilgisayarı yeniden başlatmaya zorlayın."
+
+msgid "進階開機選單"
+msgstr "Gelişmiş Başlangıç Menüsü"
+
+msgid "進入 Windows 修復環境 (WinRE) 與啟動設定"
+msgstr "Windows Kurtarma Ortamı (WinRE) ve başlangıç ayarlarına girin."
+
+msgid "自動偵測USB裝置並使用USB裝置啟動"
+msgstr "USB aygıtını otomatik algıla ve USB’den başlat."
+
+msgid "安全模式 (含網路)"
+msgstr "Güvenli Mod (Ağ ile)"
+
+msgid "支援連線之排錯模式，第二次重啟自動復原"
+msgstr "Ağ erişimli sorun giderme. İkinci açılışta normale döner."
+
+msgid "安全關機"
+msgstr "Güvenli Kapatma"
+
+msgid "呼叫原生 API 安全關閉電腦電源"
+msgstr "Yerel API ile bilgisayarı güvenli şekilde kapatın."
+
+msgid "恢復系統安全防護"
+msgstr "Sistem Güvenliğini Geri Yükle"
+
+msgid "停用驅動強制簽章"
+msgstr "İmza Zorlamasını Devre Dışı Bırak"
+
+msgid "啟用驅動測試模式"
+msgstr "Sürücü Test Modunu Etkinleştir"
+
+msgid "32 位元系統無強制核心簽章限制，無需解鎖。"
+msgstr "32 bit sistemlerde çekirdek imzası zorunlu değildir. Kilidi açmaya gerek yoktur."
+
+msgid "恢復預設數位簽章驗證與防護。點擊卡片套用並重啟。"
+msgstr "Varsayılan dijital imza doğrulamasını geri yükleyin. Uygulamak ve yeniden başlatmak için tıklayın."
+
+msgid "關閉數位簽章驗證與記憶體完整性。點擊卡片套用。"
+msgstr "Dijital imza doğrulamasını ve Bellek Bütünlüğünü kapatın. Uygulamak için tıklayın."
+
+msgid "允許載入無簽章驅動。點擊右側展開選項。"
+msgstr "İmzasız sürücülerin yüklenmesine izin verin. Seçenekler için sağa tıklayın."
+
+msgid "去除測試模式浮水印"
+msgstr "Test Modu Filigranını Kaldır"
+
+msgid "操作日誌歷史"
+msgstr "Etkinlik Günlüğü Geçmişi"
+
+msgid "檢視所有執行過的指令與系統回報紀錄。"
+msgstr "Çalıştırılan tüm komutları ve sistem yanıtlarını görüntüleyin."
+
+msgid "複製日誌"
+msgstr "Günlüğü Kopyala"
+
+msgid "回上一頁"
+msgstr "Geri"
+
+msgid "操作說明"
+msgstr "Kullanım Kılavuzu"
+
+msgid "了解重啟大師的操作細節與底層架構設計。"
+msgstr "Reboot Master’ın çalışma prensipleri ve mimari yapısı hakkında bilgi edinin."
+
+msgid "軟體功能與優先級設計"
+msgstr "Özellikler ve Yürütme Önceliği"
+
+msgid "本軟體依循「原生 Win32 API 優先 > DLL 導出函式 > 系統管理指令」之架構設計。直接關機與重啟採用 ExitWindowsEx API；安全模式則透過 BCD 一次性導引機制（/bootsequence），確保重啟一次進入安全模式後，下次重開機即自動回歸標準正常模式。"
+msgstr "\"Yerel Win32 API Önceliği > DLL İşlevleri > Sistem Komutları\" mimarisine dayanır. Kapatma ve yeniden başlatma ExitWindowsEx API’sini kullanır; Güvenli Mod ise tek seferlik BCD mekanizmasını (/bootsequence) kullanarak bir sonraki açılışta otomatik olarak normal moda döner."
+
+msgid "得翼科技 (DEI 3C)"
+msgstr "DEI Tech (DEI 3C)"
+
+msgid "效能無界限，讓您的數位生活隨心所欲"
+msgstr "Sınırsız performans ile dijital yaşamınız kontrolünüzde."
+
+msgid "電腦組裝"
+msgstr "Özel PC Toplama"
+
+msgid "筆電升級"
+msgstr "Dizüstü Bilgisayar Yükseltme"
+
+msgid "網路規劃"
+msgstr "Ağ Planlama ve Çözümleri"
+
+msgid "資安防護"
+msgstr "Siber Güvenlik"
+
+msgid "官方頻道與社群"
+msgstr "Resmi Kanallar ve Topluluk"
+
+msgid "前往官方部落格"
+msgstr "Resmi Blogu Ziyaret Edin"
+
+msgid "重啟大師 (Reboot Master) "
+msgstr "Reboot Master "
+
+msgid "使用者條款與免責聲明"
+msgstr "Kullanım Koşulları ve Sorumluluk Reddi"
+
+msgid "請在使用本軟體前詳細閱讀以下條款與資料安全提醒。"
+msgstr "Bu yazılımı kullanmadan önce lütfen aşağıdaki koşulları ve veri güvenliği uyarılarını dikkatlice okuyun."
+
+msgid "資料安全提醒與免責聲明"
+msgstr "Veri Güvenliği Bildirimi ve Sorumluluk Reddi"
+
+msgid "歡迎使用「重啟大師 (Reboot Master)」\n\n1. 觸發重新開機或關機前，系統將立即終止所有未儲存之應用程式執行。請使用者於執行前確保所有工作檔案皆已儲存完畢。\n\n2. 本軟體依「現況」免費提供，開發團隊不承擔因硬體相容性（如主機板不支援 UEFI 韌體重啟）或資料未儲存造成之任何直接或間接損失。"
+msgstr "\"Reboot Master\"a Hoş Geldiniz\n\n1. Yeniden başlatma veya kapatma, kaydedilmemiş uygulamaları hemen sonlandırır. Lütfen önce tüm dosyalarınızı kaydedin.\n\n2. Bu yazılım ücretsiz olarak \"olduğu gibi\" sağlanır. Ekip, donanım uyumsuzluğu veya veri kaybından sorumlu tutulamaz."
+
+msgid "調整語言、外觀與軟體更新。"
+msgstr "Dil, görünüm ve güncellemeleri ayarlayın."
+
+msgid "語言"
+msgstr "Dil"
+
+msgid "選擇介面顯示語言。"
+msgstr "Arayüz görüntüleme dilini seçin."
+
+msgid "繁體中文"
+msgstr "Geleneksel Çince"
+
+msgid "简体中文"
+msgstr "Basitleştirilmiş Çince"
+
+msgid "外觀"
+msgstr "Görünüm"
+
+msgid "選擇淺色、深色，或跟隨系統設定。"
+msgstr "Açık, Koyu veya sistem varsayılanını seçin."
+
+msgid "淺色"
+msgstr "Açık"
+
+msgid "淺色 (跟隨系統)"
+msgstr "Açık (Sistem)"
+
+msgid "深色 (跟隨系統)"
+msgstr "Koyu (Sistem)"
+
+msgid "深色"
+msgstr "Koyu"
+
+msgid "軟體更新"
+msgstr "Yazılım Güncellemeleri"
+
+msgid "啟動時會自動檢查 GitHub 上的最新版本。"
+msgstr "Başlangıçta GitHub’daki en son sürümü otomatik olarak kontrol eder."
+
+msgid "目前版本："
+msgstr "Mevcut sürüm: "
+
+msgid "正在檢查更新..."
+msgstr "Güncellemeler kontrol ediliyor..."
+
+msgid "發現新版本："
+msgstr "Yeni sürüm mevcut: "
+
+msgid "目前已是最新版本。"
+msgstr "Yazılımınız güncel."
+
+msgid "無法連線至 GitHub，請檢查網路連線。"
+msgstr "GitHub’a bağlanılamıyor. Lütfen ağ bağlantınızı kontrol edin."
+
+msgid "正在下載更新，完成後將自動重新啟動..."
+msgstr "Güncelleme indiriliyor. Tamamlandığında uygulama otomatik olarak yeniden başlatılacak..."
+
+msgid "尚未檢查更新。"
+msgstr "Henüz güncellemeler kontrol edilmedi."
+
+msgid "檢查更新"
+msgstr "Güncellemeleri Kontrol Et"
+
+msgid "立即更新"
+msgstr "Şimdi Güncelle"
+
+msgid "再次確認您的操作"
+msgstr "Eylemi Onayla"
+
+msgid "\n\n請確認您的所有工作與文件皆已儲存。確定要立即執行嗎？"
+msgstr "\n\nLütfen tüm çalışmalarınızın ve belgelerinizin kaydedildiğinden emin olun. Şimdi çalıştırılsın mı?"
+
+msgid "取消"
+msgstr "İptal"
+
+msgid "確定執行"
+msgstr "Onayla"
+
+msgid "所有安全模式均採用無痕自動清除技術，重啟後將自動還原。"
+msgstr "Tüm güvenli modlar iz bırakmadan otomatik temizlenir ve yeniden başlatmada geri yüklenir."
+
+msgid "恢復預設數位簽章驗證與防護。"
+msgstr "Varsayılan dijital imza doğrulamasını ve korumasını geri yükleyin."
+
+msgid "關閉數位簽章驗證與記憶體完整性"
+msgstr "Dijital imza doğrulamasını ve Bellek Bütünlüğünü devre dışı bırakın"
+
+msgid "允許載入無簽章之驅動程式。"
+msgstr "İmzasız sürücülerin yüklenmesine izin verin."
+
+msgid "選擇語言"
+msgstr "Dil Seçin"
+
+msgid "此功能僅支援 Windows 8 及以上版本。您的系統過舊，請在開機時手動按鍵進入 BIOS。"
+msgstr "Bu özellik Windows 8 ve üzerini gerektirir. BIOS’a girmek için lütfen açılışta ilgili tuşa basın."
+
+msgid "此系統為傳統 BIOS (Legacy)，無法透過軟體重啟進入 BIOS 設定。請在開機時手動按鍵進入。"
+msgstr "Sistem Eski BIOS (Legacy) kullanıyor, yazılımla yeniden başlatılamaz. Lütfen açılışta tuşa basarak girin."
+
+msgid "  [範本解析] 處於 WinPE 環境，採用實體系統預設項 {default}\n"
+msgstr "[Şablon] WinPE ortamında, fiziksel işletim sistemi varsayılan girişi kullanılarak {default} \n"
+
+msgid "  [範本解析] 正在探測當前引導項 {current}...\n"
+msgstr "[Şablon] Geçerli önyükleme girişi {geçerli} inceleniyor... \n"
+
+msgid "  [範本解析] 當前會話引導項 {current} 有效，採用為母體範本\n"
+msgstr "[Şablon] Geçerli önyükleme girişi {current} geçerli, temel şablon olarak kullanılıyor \n"
+
+msgid "  [範本解析] 偵測到 {current} 已於前次重啟後被清理刪除 (無效識別元)\n"
+msgstr "[Şablon] Algılanan {current}, önceki yeniden başlatmanın ardından temizlendi (geçersiz tanımlayıcı) \n"
+
+msgid "  [範本解析] 正在驗證系統永久開機項 {default}...\n"
+msgstr "[Şablon] Kalıcı sistem önyükleme girişi doğrulanıyor {varsayılan}... \n"
+
+msgid "  [範本解析] 成功選定系統永久開機項 {default} 作為母體範本 (確保一次成功)\n"
+msgstr "[Şablon] Temel şablon olarak kalıcı giriş {varsayılan} başarıyla seçildi (ilk denemede başarıyı garanti eder) \n"
+
+msgid "  [範本解析] 正在掃描 BCD osloader 列表以尋找有效開機項...\n"
+msgstr "[Şablon] Geçerli önyükleme girişleri için BCD osloader listesi taranıyor... \n"
+
+msgid "  [範本解析] 從 osloader 列表成功定位實體系統項: {}\n"
+msgstr "[Şablon] Osloader'dan fiziksel işletim sistemi girişi başarıyla bulundu: {} \n"
+
+msgid "  [範本解析] 未能列舉額外開機項，預設採用 {default}\n"
+msgstr "[Şablon] Ek girişler numaralandırılamadı; varsayılan olarak {default} \n"
+
+msgid "  [建立副本] 正在自範本 {} 複製建立臨時安全模式項...\n"
+msgstr "[Klon Oluştur] Geçici Güvenli Mod girişi oluşturmak için {} şablonu kopyalanıyor... \n"
+
+msgid "  [建立副本] 成功建立副本！\n"
+msgstr "[Klon Oluştur] Klon başarıyla oluşturuldu! \n"
+
+msgid "  [降級備援] 複製範本 {} 失敗: {}，啟動備援嘗試 {{default}}...\n"
+msgstr "[Geri dönüş] {} şablonu kopyalanamadı: {}, {{varsayılan}} ile geri dönüş deneniyor... \n"
+
+msgid "  [降級備援] 備援方案複製 {default} 成功！\n"
+msgstr "[Geri çekilme] {default}'un geri dönüş kopyası başarılı oldu! \n"
+
+msgid "  [降級備援] 備援方案亦失敗: {}\n"
+msgstr "[Son çare] Geri dönüş klonu da başarısız oldu: {} \n"
+
+msgid "建立臨時安全模式引導項失敗"
+msgstr "Geçici Güvenli Mod önyükleme girişi oluşturulamadı"
+
+msgid "  [建立副本] 失敗: {}\n"
+msgstr "[Klon Oluşturma] Başarısız Oldu: {} \n"
+
+msgid "  [臨時標識] 取得臨時 GUID: {}\n"
+msgstr "[Temp GUID] Geçici GUID alındı: {} \n"
+
+msgid "  [選單隱藏] 從開機選單中隱藏此臨時副本 (/displayorder ... /remove)...\n"
+msgstr "[Menüyü Gizle] Önyükleme menüsünden geçici klon gizleniyor (/displayorder ... /remove)... \n"
+
+msgid "  [模式配置] 設定 safeboot 參數為 {}...\n"
+msgstr "[Yapılandırma] Safeboot parametresi {} olarak ayarlanıyor... \n"
+
+msgid "  [一次性引導] 設定單次啟動序列 (/bootsequence)，重啟後 BootMgr 自動復原...\n"
+msgstr "[Tek seferlik Önyükleme] Tek çekim sırasını (/bootsequence) ayarlama, BootMgr yeniden başlatmanın ardından geri döner... \n"
+
+msgid "  [開機自毀] 註冊 RunOnce 自毀清理任務 (重啟登入後徹底刪除臨時項目)...\n"
+msgstr "[Kendi kendini yok etme] RunOnce temizleme görevi kaydediliyor (oturum açtıktan sonra geçici girişi kalıcı olarak siler)... \n"
+
+msgid "母體範本: {}\n  模式: {}\n  臨時 GUID: {}"
+msgstr "Temel Şablon: {}\nModu: {}\nSıcaklık GUID'i: {}"
+
+msgid "  [建立副本] 正在自範本 {} 複製建立臨時進階選單項...\n"
+msgstr "[Klon Oluştur] Geçici Gelişmiş Önyükleme Seçenekleri girişi oluşturmak için {} şablonu kopyalanıyor... \n"
+
+msgid "建立臨時進階選單引導項失敗"
+msgstr "Geçici Gelişmiş Önyükleme Seçenekleri önyükleme girişi oluşturulamadı"
+
+msgid "  [進階選項] 啟用 advancedoptions=true (Win7 顯示 F8 選單，Win10/11 顯示開機設定)...\n"
+msgstr "[Gelişmiş Seçenekler] Advancedoptions etkinleştiriliyor=true (Win7'de F8 menüsü, Win10/11'de Başlangıç ​​Ayarları)... \n"
+
+msgid "母體範本: {}\n  臨時 GUID: {}"
+msgstr "Temel Şablon: {}\nSıcaklık GUID'i: {}"
+
+msgid "此功能僅支援 Windows 8 及以上之 UEFI 系統"
+msgstr "Bu özellik yalnızca Windows 8 ve üzeri UEFI sistemlerini destekler"
+
+msgid "主機板或系統未支援韌體引導 (Legacy BIOS)"
+msgstr "Anakart veya sistem ürün yazılımı önyüklemesini desteklemiyor (Eski BIOS)"
+

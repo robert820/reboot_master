@@ -1,0 +1,54 @@
+專有免費軟體最終使用者授權合約（Proprietary Freeware EULA）
+================================================================
+
+Copyright (c) 2026 得翼科技 DEI Tech (DEI 3C). All rights reserved.
+Official Blog: https://blog.dei3c.com
+
+----------------------------------------------------------------
+【English Version / 英文授權正本】
+----------------------------------------------------------------
+
+1. Grant of License
+This software is provided "as is", free of charge, for personal, corporate, and professional IT maintenance/troubleshooting use. You are granted the non-exclusive freedom to:
+- Download, install, and run the original executable software on any number of computers or Windows PE (Preinstallation Environment) maintenance drives.
+- Use this software to service, diagnose, and repair computers for clients and end-users at no additional licensing charge.
+- Freely redistribute the exact, unmodified installation package or binary files, provided that no fee is charged and this copyright notice and branding remain intact.
+
+2. Restrictions
+You are strictly prohibited from:
+- Selling, renting, leasing, or charging any fee for the access, download, or distribution of this software (including bundling it with paid software, paid hardware, or paid maintenance media without prior written authorization).
+- Decompiling, reverse engineering, disassembling, or otherwise attempting to extract or reconstruct the source code of the software binaries.
+- Modifying, patching, altering, or removing any brand names, logos, or copyright notices belonging to DEI Tech (得翼科技).
+- Distributing modified, repacked, or Trojan-injected versions of this software.
+* Exception: Community localization and translation of language files located under the `lang/` directory are explicitly permitted and encouraged in accordance with the guidelines in `lang/README.md`.
+
+3. Privacy & Security Assurance
+The author declares that this software has been rigorously built and tested, is free from malicious code (viruses, trojans, backdoors, spyware, or adware), and respects user privacy by not collecting or transmitting personal data without user consent.
+
+4. Disclaimer of Warranty & Limitation of Liability
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHOR OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY (INCLUDING BUT NOT LIMITED TO HARDWARE DAMAGE, MOTHERBOARD FIRMWARE ISSUES, SYSTEM INSTABILITY, DATA LOSS, OR INDIRECT/CONSEQUENTIAL LOSS), WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. USERS ASSUME ALL RESPONSIBILITIES AND RISKS ASSOCIATED WITH SYSTEM-LEVEL BOOT AND POWER MODIFICATIONS.
+
+----------------------------------------------------------------
+【Traditional Chinese / 繁體中文參考說明】
+----------------------------------------------------------------
+
+1. 授權範圍 (Grant of License)
+本軟體為專有免費實用工具（Proprietary Freeware），免費提供予個人、公司企業及電腦維修人員使用。使用者享有以下權利：
+- 於任何數量之電腦實體機或 WinPE 維護隨身碟上下載、安裝與執行原版程式。
+- 電腦維修工作室、工程師或企業 IT 人員得免費使用本工具為客戶檢測、維護與修復電腦系統。
+- 得自由分發與轉載原版未修改之程式檔案，惟前提為不得收取任何費用，且必須完整保留本版權聲明與品牌標識。
+
+2. 禁止事項 (Restrictions)
+嚴格禁止以下行為：
+- 販售、出租、轉授權本軟體，或將本軟體作為收費隨身碟、收費裝機包或商業服務的付費項目營利。
+- 對本軟體二進位執行檔進行反編譯、逆向工程、反彙編或試圖擷取原始碼。
+- 擅自竄改程式碼、移除「得翼科技 (DEI 3C)」之品牌商標、著作權標示，或重新打包散佈。
+- 注入任何惡意程式、流氓廣告插件或木馬後重新散播。
+* 條款例外：社群針對 `lang/` 目錄下之多語系 PO 檔案進行在地化翻譯、校對與貢獻，不受上述修改限制，並受官方歡迎與鼓勵。
+
+3. 隱私與安全承諾 (Privacy & Security Assurance)
+開發團隊聲明本軟體經過嚴謹測試，純淨綠色，絕無任何惡意代碼（病毒、木馬、後門或間諜軟體），並嚴格恪守隱私原則，絕不在未經授權下收集或上傳使用者之個人資料。
+
+4. 免責聲明與責任限制 (Disclaimer & Limitation of Liability)
+本軟體係依「現況 (AS IS)」基礎免費提供，不提供任何形式之明示或暗示擔保。修改系統底層開機引導（BCD）與韌體開機設定屬高階系統操作，因使用者硬體相容性限制、未儲存資料或不當操作所衍生之任何系統不穩定、資料遺失或間接損失，著作權人與開發團隊概不承擔任何法律與賠償責任，使用者應自行評估並承擔使用風險。
