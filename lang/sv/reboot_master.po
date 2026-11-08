@@ -743,3 +743,60 @@ msgstr "Den här funktionen stöder endast UEFI-system på Windows 8 och senare"
 msgid "主機板或系統未支援韌體引導 (Legacy BIOS)"
 msgstr "Moderkort eller system stöder inte uppstart av firmware (Legacy BIOS)"
 
+
+msgid "安全模式"
+msgstr "Felsäkert läge"
+
+msgid "關閉 Hyper-V 虛擬化"
+msgstr "Inaktivera Hyper-V"
+
+msgid "開啟 Hyper-V 虛擬化"
+msgstr "Aktivera Hyper-V"
+
+msgid "Hyper-V 虛擬化"
+msgstr "Hyper-V-virtualisering"
+
+msgid "停用 Hypervisor 引擎以釋放效能與硬體直接存取"
+msgstr "Inaktivera Hypervisor för prestanda och direkt hårdvaruåtkomst"
+
+msgid "啟用微軟 Type-1 虛擬化架構 (支援 WSL2 與模擬器)"
+msgstr "Aktivera Microsoft Type-1-virtualisering (stöd för WSL2 och emulatorer)"
+
+msgid "32 位元系統不支援 Hyper-V 虛擬化。"
+msgstr "32-bitarssystem stöder inte Hyper-V-virtualisering."
+
+msgid "核心隔離 (記憶體完整性)"
+msgstr "Kärnisolering (Minnesintegritet)"
+
+msgid "修復 0x7B 開機藍屏"
+msgstr "Åtgärda 0x7B start-BSOD"
+
+msgid "啟用網路連線"
+msgstr "Aktivera nätverk"
+
+msgid "選擇開機隨身碟："
+msgstr "Välj startbar USB-enhet:"
+
+msgid "請注意：即將重啟或變更開機狀態"
+msgstr "Observera: Systemet startas om eller ändrar startkonfiguration"
+
+msgid "請確保所有進行中的工作與檔案皆已妥善儲存，避免重啟造成未儲存資料遺失。"
+msgstr "Se till att allt arbete är sparat för att förhindra dataförlust."
+
+msgid "請確認您的所有工作與文件皆已儲存。確定要立即執行嗎？"
+msgstr "Bekräfta att allt arbete är sparat. Vill du fortsätta nu?"
+
+msgid "UEFI BIOS"
+msgstr "UEFI BIOS"
+
+msgid "偵測到多個 Windows，請選擇要操作的系統"
+msgstr "Flera Windows-installationer upptäcktes, välj system"
+
+msgid "略過開機失敗狀態"
+msgstr "Ignorera startfelstatus"
+
+msgid "目標系統"
+msgstr "Målsystem"
+
+msgid "關閉自動修復"
+msgstr "Inaktivera automatisk reparation"

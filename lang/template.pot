@@ -743,3 +743,82 @@ msgstr ""
 msgid "主機板或系統未支援韌體引導 (Legacy BIOS)"
 msgstr ""
 
+
+msgid "安全模式"
+msgstr ""
+
+msgid "關閉 Hyper-V 虛擬化"
+msgstr ""
+
+msgid "開啟 Hyper-V 虛擬化"
+msgstr ""
+
+msgid "Hyper-V 虛擬化"
+msgstr ""
+
+msgid "停用 Hypervisor 引擎以釋放效能與硬體直接存取"
+msgstr ""
+
+msgid "啟用微軟 Type-1 虛擬化架構 (支援 WSL2 與模擬器)"
+msgstr ""
+
+msgid "32 位元系統不支援 Hyper-V 虛擬化。"
+msgstr ""
+
+msgid "核心隔離 (記憶體完整性)"
+msgstr ""
+
+msgid "修復 0x7B 開機藍屏"
+msgstr ""
+
+msgid "啟用網路連線"
+msgstr ""
+
+msgid "含網路連線的安全模式，第二次重啟自動復原"
+msgstr ""
+
+msgid "選擇開機隨身碟："
+msgstr ""
+
+msgid "請注意：即將重啟或變更開機狀態"
+msgstr ""
+
+msgid "請確保所有進行中的工作與檔案皆已妥善儲存，避免重啟造成未儲存資料遺失。"
+msgstr ""
+
+msgid "請確認您的所有工作與文件皆已儲存。確定要立即執行嗎？"
+msgstr ""
+
+msgid "此操作將透過 BCD 關閉 Hypervisor 開機載入 (hypervisorlaunchtype off)。若勾選核心隔離，將一併關閉 VBS 與記憶體完整性。\n"
+"\n"
+"需要重新開機才會生效。確定要執行並重啟嗎？"
+msgstr ""
+
+msgid "此操作將透過 BCD 開啟 Hypervisor 開機載入 (hypervisorlaunchtype auto)。若勾選核心隔離，將一併開啟 VBS 與記憶體完整性。\n"
+"\n"
+"提示：需在 BIOS 開啟 CPU 虛擬化 (VT-x / SVM)。需要重新開機才會生效。確定要執行並重啟嗎？"
+msgstr ""
+
+msgid "Hyper-V 虛擬化已關閉"
+msgstr ""
+
+msgid "Hyper-V 虛擬化已啟用"
+msgstr ""
+
+msgid "Hyper-V 虛擬化與核心隔離已啟用"
+msgstr ""
+
+msgid "UEFI BIOS"
+msgstr ""
+
+msgid "偵測到多個 Windows，請選擇要操作的系統"
+msgstr ""
+
+msgid "略過開機失敗狀態"
+msgstr ""
+
+msgid "目標系統"
+msgstr ""
+
+msgid "關閉自動修復"
+msgstr ""

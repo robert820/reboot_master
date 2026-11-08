@@ -743,3 +743,60 @@ msgstr "Esta característica solo es compatible con sistemas UEFI en Windows 8 y
 msgid "主機板或系統未支援韌體引導 (Legacy BIOS)"
 msgstr "La placa base o el sistema no admiten el inicio del firmware (BIOS heredado)"
 
+
+msgid "安全模式"
+msgstr "Modo seguro"
+
+msgid "關閉 Hyper-V 虛擬化"
+msgstr "Desactivar Hyper-V"
+
+msgid "開啟 Hyper-V 虛擬化"
+msgstr "Activar Hyper-V"
+
+msgid "Hyper-V 虛擬化"
+msgstr "Virtualización Hyper-V"
+
+msgid "停用 Hypervisor 引擎以釋放效能與硬體直接存取"
+msgstr "Desactivar Hypervisor para liberar rendimiento y acceso directo al hardware"
+
+msgid "啟用微軟 Type-1 虛擬化架構 (支援 WSL2 與模擬器)"
+msgstr "Habilitar virtualización Type-1 de Microsoft (compatible con WSL2 y emuladores)"
+
+msgid "32 位元系統不支援 Hyper-V 虛擬化。"
+msgstr "Los sistemas de 32 bits no admiten la virtualización de Hyper-V."
+
+msgid "核心隔離 (記憶體完整性)"
+msgstr "Aislamiento del núcleo (Integridad de memoria)"
+
+msgid "修復 0x7B 開機藍屏"
+msgstr "Corregir BSOD de inicio 0x7B"
+
+msgid "啟用網路連線"
+msgstr "Habilitar red"
+
+msgid "選擇開機隨身碟："
+msgstr "Seleccionar unidad USB de arranque:"
+
+msgid "請注意：即將重啟或變更開機狀態"
+msgstr "Aviso: A punto de reiniciar o cambiar la configuración de arranque"
+
+msgid "請確保所有進行中的工作與檔案皆已妥善儲存，避免重啟造成未儲存資料遺失。"
+msgstr "Asegúrese de guardar todos los trabajos y archivos para evitar pérdidas."
+
+msgid "請確認您的所有工作與文件皆已儲存。確定要立即執行嗎？"
+msgstr "Confirme que ha guardado todo el trabajo. ¿Desea continuar ahora?"
+
+msgid "UEFI BIOS"
+msgstr "UEFI BIOS"
+
+msgid "偵測到多個 Windows，請選擇要操作的系統"
+msgstr "Se detectaron varias instalaciones de Windows. Seleccione el sistema deseado"
+
+msgid "略過開機失敗狀態"
+msgstr "Ignorar estado de error de arranque"
+
+msgid "目標系統"
+msgstr "Sistema de destino"
+
+msgid "關閉自動修復"
+msgstr "Desactivar reparación automática"

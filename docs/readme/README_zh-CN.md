@@ -14,7 +14,6 @@
 专为日常使用、电脑维护与 WinPE 维护环境打造
 
 [![Platform](https://img.shields.io/badge/Platform-Windows%207%20%7C%208%20%7C%2010%20%7C%2011%20%7C%20WinPE-blue?style=flat-square&logo=windows)](https://github.com/robert820/reboot_master)
-[![License](https://img.shields.io/badge/License-Freeware-informational?style=flat-square)](../../LICENSE)
 [![Type](https://img.shields.io/badge/Type-Freeware%20%7C%20Portable-success?style=flat-square)](#-下载与使用说明)
 [![UI](https://img.shields.io/badge/GUI-Modern%20Responsive%20UI-blueviolet?style=flat-square)](#)
 [![Download](https://img.shields.io/badge/Download-GitHub%20Releases-blue?style=flat-square&logo=github)](https://github.com/robert820/reboot_master/releases)
@@ -30,7 +29,7 @@
 ## 📖 软件简介
 
 在日常使用电脑、系统维护或重装时，您是否遇过这些困扰？
-- 想进 BIOS/UEFI 设置启动顺序，开机时按键狂按 Delete 或 F2 却总是错过时机？
+- 想进 UEFI BIOS 设置启动顺序，开机时按键狂按 Delete 或 F2 却总是错过时机？
 - 想进安全模式排查故障，却因为系统卡死或键盘失灵，陷入了**安全模式无限重启循环**的噩梦？
 - 想要安装特殊硬件驱动或测试工具，却找不到哪里可以关闭驱动强制签名与内存完整性？
 - 在维护 U 盘 (WinPE) 环境下，找不到方便好用的工具快速切换启动盘或重启？
@@ -41,8 +40,8 @@
 
 ## ✨ 功能介绍
 
-### 1. ⚡ 一键重启进入 BIOS / UEFI
-- 免狂按键盘、免猜不同主板快捷键，点击按钮即可让电脑于重启时自动加载 BIOS/UEFI 设置画面。
+### 1. ⚡ 一键重启进入 UEFI BIOS
+- 免狂按键盘、免猜不同主板快捷键，点击按钮即可让电脑于重启时自动加载 UEFI BIOS 设置画面。
 - 内置智能兼容性检测，若是传统 Legacy BIOS (MBR) 模式会贴心提供防呆提醒。
 
 ### 2. 🛡️ 一次性安全模式（防卡死设计）
@@ -111,7 +110,7 @@ A: 本工具执行的功能（如指示下次开机进入 BIOS、调整开机启
 </details>
 
 <details>
-<summary><b>Q2: 为什么点击「重启进入 BIOS」会提示不支持？</b></summary>
+<summary><b>Q2: 为什么点击「重启进入 UEFI BIOS」会提示不支持？</b></summary>
 A: 此功能需主板与操作系统支持 UEFI 规范。如果您的电脑引导方式为传统的 Legacy BIOS (MBR) 模式，硬件层级本身不支持由软件发出重启进 BIOS 的指令，此时请在开机时手动按键（如 Del 或 F2）进入。
 </details>
 
@@ -122,7 +121,7 @@ A: 是的！本工具采用单次引导设计，原始系统的默认开机项�
 
 <details>
 <summary><b>Q4: 为什么杀毒软件有时会出现警示或误报？</b></summary>
-A: 本工具为纯绿色免安装软件，绝无任何恶意联网后门、广告插件或窃取隐私行为。但因为程序需调整 Windows 开机引导与执行底层电源控制，此类系统级操作容易被部分启发式杀毒软件（Heuristics）以较严格的标准判定。若遇误报，请放心将 <code>reboot_master.exe</code> 加入信任名单。
+A: 本工具为纯绿色免安装软件，绝无任何恶意联网后门、广告插件或窃取隐私行为。但因为程序需调整 Windows 开机引导与执行底层电源控制，此类系统级操作容易被部分启发式杀毒软件（Heuristics）以较严格的标准判定。若遇误报，请放心将 <code>reboot_master.exe</code> 加入信任名单，并以管理员身份运行。
 </details>
 
 ---
@@ -135,6 +134,7 @@ A: 本工具为纯绿色免安装软件，绝无任何恶意联网后门、广�
 
 ---
 
-## 📄 授权条款 (License)
+## 📄 软件授权与免责声明
 
-本软件采用专有免费软件授权（Proprietary Freeware），完整授权规范、使用条款与免责声明请参阅 [LICENSE](../../LICENSE) 文件。
+- **免费使用**：本软件为免费实用工具（Freeware），任何人均可免费下载、个人使用或于商业维护环境中使用。
+- **免责声明**：本软件已针对各种系统环境进行严密测试与防呆保护（例如引导项自动还原、Legacy BIOS 识别等）。但修改系统底层开机引导仍属系统级高级操作，用户应自行评估并承担使用本软件时可能衍生之系统风险。

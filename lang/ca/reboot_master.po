@@ -743,3 +743,60 @@ msgstr "Aquesta funció només admet sistemes UEFI a Windows 8 i posteriors"
 msgid "主機板或系統未支援韌體引導 (Legacy BIOS)"
 msgstr "La placa base o el sistema no admet l'arrencada del microprogramari (BIOS heretat)"
 
+
+msgid "安全模式"
+msgstr "Mode segur"
+
+msgid "關閉 Hyper-V 虛擬化"
+msgstr "Desactiva Hyper-V"
+
+msgid "開啟 Hyper-V 虛擬化"
+msgstr "Activa Hyper-V"
+
+msgid "Hyper-V 虛擬化"
+msgstr "Virtualització Hyper-V"
+
+msgid "停用 Hypervisor 引擎以釋放效能與硬體直接存取"
+msgstr "Inhabilita Hypervisor per alliberar rendiment i accés directe al maquinari"
+
+msgid "啟用微軟 Type-1 虛擬化架構 (支援 WSL2 與模擬器)"
+msgstr "Habilita l'arquitectura de virtualització Type-1 (suport per a WSL2 i emuladors)"
+
+msgid "32 位元系統不支援 Hyper-V 虛擬化。"
+msgstr "Els sistemes de 32 bits no admeten la virtualització Hyper-V."
+
+msgid "核心隔離 (記憶體完整性)"
+msgstr "Aïllament del nucli (Integritat de la memòria)"
+
+msgid "修復 0x7B 開機藍屏"
+msgstr "Corregeix la pantalla blava d'inici 0x7B"
+
+msgid "啟用網路連線"
+msgstr "Habilita la xarxa"
+
+msgid "選擇開機隨身碟："
+msgstr "Seleccioneu la unitat USB d'arrencada:"
+
+msgid "請注意：即將重啟或變更開機狀態"
+msgstr "Atenció: Es reiniciarà o es canviarà la configuració d'arrencada"
+
+msgid "請確保所有進行中的工作與檔案皆已妥善儲存，避免重啟造成未儲存資料遺失。"
+msgstr "Deseu tota la feina i fitxers en curs per evitar la pèrdua de dades."
+
+msgid "請確認您的所有工作與文件皆已儲存。確定要立即執行嗎？"
+msgstr "Assegureu-vos que s'ha desat tota la feina. Voleu continuar ara?"
+
+msgid "UEFI BIOS"
+msgstr "UEFI BIOS"
+
+msgid "偵測到多個 Windows，請選擇要操作的系統"
+msgstr "S'han detectat diversos Windows, seleccioneu el sistema a operar"
+
+msgid "略過開機失敗狀態"
+msgstr "Ignora l'estat d'error d'arrencada"
+
+msgid "目標系統"
+msgstr "Sistema de destinació"
+
+msgid "關閉自動修復"
+msgstr "Desactiva la reparació automàtica"

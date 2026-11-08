@@ -743,3 +743,86 @@ msgstr "이 기능은 Windows 8 이상의 UEFI 시스템만 지원합니다"
 msgid "主機板或系統未支援韌體引導 (Legacy BIOS)"
 msgstr "마더보드 또는 시스템이 펌웨어 부팅을 지원하지 않습니다(레거시 BIOS)"
 
+
+msgid "安全模式"
+msgstr "안전 모드"
+
+msgid "關閉 Hyper-V 虛擬化"
+msgstr "Hyper-V 가상화 끄기"
+
+msgid "開啟 Hyper-V 虛擬化"
+msgstr "Hyper-V 가상화 켜기"
+
+msgid "Hyper-V 虛擬化"
+msgstr "Hyper-V 가상화"
+
+msgid "停用 Hypervisor 引擎以釋放效能與硬體直接存取"
+msgstr "Hypervisor를 비활성화하여 성능 및 하드웨어 직접 액세스 확보"
+
+msgid "啟用微軟 Type-1 虛擬化架構 (支援 WSL2 與模擬器)"
+msgstr "Type-1 가상화 활성화 (WSL2 및 에뮬레이터 지원)"
+
+msgid "32 位元系統不支援 Hyper-V 虛擬化。"
+msgstr "32비트 시스템은 Hyper-V 가상화를 지원하지 않습니다."
+
+msgid "核心隔離 (記憶體完整性)"
+msgstr "코어 격리 (메모리 무결성)"
+
+msgid "修復 0x7B 開機藍屏"
+msgstr "0x7B 부팅 블루스크린 복구"
+
+msgid "啟用網路連線"
+msgstr "네트워크 사용"
+
+msgid "含網路連線的安全模式，第二次重啟自動復原"
+msgstr "네트워킹 지원 안전 모드, 2번째 재부팅 시 자동 복원"
+
+msgid "選擇開機隨身碟："
+msgstr "부팅 USB 드라이브 선택:"
+
+msgid "請注意：即將重啟或變更開機狀態"
+msgstr "주의: 시스템이 다시 시작되거나 부팅 설정이 변경됩니다"
+
+msgid "請確保所有進行中的工作與檔案皆已妥善儲存，避免重啟造成未儲存資料遺失。"
+msgstr "데이터 손실을 방지하려면 작업 중인 파일을 저장하세요."
+
+msgid "請確認您的所有工作與文件皆已儲存。確定要立即執行嗎？"
+msgstr "모든 작업과 파일이 저장되었는지 확인하세요. 지금 실행하시겠습니까?"
+
+msgid "此操作將透過 BCD 關閉 Hypervisor 開機載入 (hypervisorlaunchtype off)。若勾選核心隔離，將一併關閉 VBS 與記憶體完整性。\n"
+"\n"
+"需要重新開機才會生效。確定要執行並重啟嗎？"
+msgstr "이 작업은 BCD를 통해 Hypervisor 부팅을 끕니다(hypervisorlaunchtype off). 코어 격리를 선택하면 VBS 및 메모리 무결성도 함께 꺼집니다.\n"
+"\n"
+"적용하려면 재부팅해야 합니다. 지금 실행하고 다시 시작하시겠습니까?"
+
+msgid "此操作將透過 BCD 開啟 Hypervisor 開機載入 (hypervisorlaunchtype auto)。若勾選核心隔離，將一併開啟 VBS 與記憶體完整性。\n"
+"\n"
+"提示：需在 BIOS 開啟 CPU 虛擬化 (VT-x / SVM)。需要重新開機才會生效。確定要執行並重啟嗎？"
+msgstr "이 작업은 BCD를 통해 Hypervisor 부팅을 켭니다(hypervisorlaunchtype auto). 코어 격리를 선택하면 VBS 및 메모리 무결성도 함께 켜집니다.\n"
+"\n"
+"참고: BIOS에서 CPU 가상화(VT-x / SVM)를 활성화해야 합니다. 지금 실행하고 다시 시작하시겠습니까?"
+
+msgid "Hyper-V 虛擬化已關閉"
+msgstr "Hyper-V 가상화가 비활성화되었습니다"
+
+msgid "Hyper-V 虛擬化已啟用"
+msgstr "Hyper-V 가상화가 활성화되었습니다"
+
+msgid "Hyper-V 虛擬化與核心隔離已啟用"
+msgstr "Hyper-V 가상화 및 코어 격리가 활성화되었습니다"
+
+msgid "UEFI BIOS"
+msgstr "UEFI BIOS"
+
+msgid "偵測到多個 Windows，請選擇要操作的系統"
+msgstr "여러 Windows가 감지되었습니다. 작업할 시스템을 선택하세요"
+
+msgid "略過開機失敗狀態"
+msgstr "부팅 실패 상태 무시"
+
+msgid "目標系統"
+msgstr "대상 시스템"
+
+msgid "關閉自動修復"
+msgstr "자동 복구 비활성화"

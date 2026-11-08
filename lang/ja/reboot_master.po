@@ -743,3 +743,86 @@ msgstr "This feature only supports UEFI systems on Windows 8 and above"
 msgid "主機板或系統未支援韌體引導 (Legacy BIOS)"
 msgstr "Motherboard or system does not support firmware boot (Legacy BIOS)"
 
+
+msgid "安全模式"
+msgstr "セーフモード"
+
+msgid "關閉 Hyper-V 虛擬化"
+msgstr "Hyper-V 仮想化を無効化"
+
+msgid "開啟 Hyper-V 虛擬化"
+msgstr "Hyper-V 仮想化を有効化"
+
+msgid "Hyper-V 虛擬化"
+msgstr "Hyper-V 仮想化"
+
+msgid "停用 Hypervisor 引擎以釋放效能與硬體直接存取"
+msgstr "Hypervisor を無効化して性能と直接アクセスを向上"
+
+msgid "啟用微軟 Type-1 虛擬化架構 (支援 WSL2 與模擬器)"
+msgstr "Type-1 仮想化を有効化 (WSL2・エミュレータ対応)"
+
+msgid "32 位元系統不支援 Hyper-V 虛擬化。"
+msgstr "32ビットシステムは Hyper-V に対応していません。"
+
+msgid "核心隔離 (記憶體完整性)"
+msgstr "コア分離 (メモリの整合性)"
+
+msgid "修復 0x7B 開機藍屏"
+msgstr "0x7B 起動ブルースクリーン修復"
+
+msgid "啟用網路連線"
+msgstr "ネットワークを有効化"
+
+msgid "含網路連線的安全模式，第二次重啟自動復原"
+msgstr "ネットワーク対応セーフモード、2回目の再起動で自動復元"
+
+msgid "選擇開機隨身碟："
+msgstr "起動用 USB ドライブを選択："
+
+msgid "請注意：即將重啟或變更開機狀態"
+msgstr "ご注意：再起動または起動設定が変更されます"
+
+msgid "請確保所有進行中的工作與檔案皆已妥善儲存，避免重啟造成未儲存資料遺失。"
+msgstr "データ損失を防ぐため、作業中のファイルを保存してください。"
+
+msgid "請確認您的所有工作與文件皆已儲存。確定要立即執行嗎？"
+msgstr "すべての作業とファイルが保存されていることを確認してください。実行しますか？"
+
+msgid "此操作將透過 BCD 關閉 Hypervisor 開機載入 (hypervisorlaunchtype off)。若勾選核心隔離，將一併關閉 VBS 與記憶體完整性。\n"
+"\n"
+"需要重新開機才會生效。確定要執行並重啟嗎？"
+msgstr "この操作により BCD 経由で Hypervisor 起動を無効化します (hypervisorlaunchtype off)。コア分離にチェックを入れると VBS とメモリ整合性も同時に無効化されます。\n"
+"\n"
+"変更を適用するには再起動が必要です。今すぐ再起動しますか？"
+
+msgid "此操作將透過 BCD 開啟 Hypervisor 開機載入 (hypervisorlaunchtype auto)。若勾選核心隔離，將一併開啟 VBS 與記憶體完整性。\n"
+"\n"
+"提示：需在 BIOS 開啟 CPU 虛擬化 (VT-x / SVM)。需要重新開機才會生效。確定要執行並重啟嗎？"
+msgstr "この操作により BCD 経由で Hypervisor 起動を有効化します (hypervisorlaunchtype auto)。コア分離にチェックを入れると VBS とメモリ整合性も同時に有効化されます。\n"
+"\n"
+"ヒント：BIOS で CPU 仮想化 (VT-x / SVM) を有効にする必要があります。今すぐ再起動しますか？"
+
+msgid "Hyper-V 虛擬化已關閉"
+msgstr "Hyper-V 仮想化が無効化されました"
+
+msgid "Hyper-V 虛擬化已啟用"
+msgstr "Hyper-V 仮想化が有効化されました"
+
+msgid "Hyper-V 虛擬化與核心隔離已啟用"
+msgstr "Hyper-V 仮想化とコア分離が有効化されました"
+
+msgid "UEFI BIOS"
+msgstr "UEFI BIOS"
+
+msgid "偵測到多個 Windows，請選擇要操作的系統"
+msgstr "複数の Windows が検出されました。操作するシステムを選択してください"
+
+msgid "略過開機失敗狀態"
+msgstr "起動失敗ステータスを無視"
+
+msgid "目標系統"
+msgstr "対象システム"
+
+msgid "關閉自動修復"
+msgstr "自動修復を無効化"

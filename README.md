@@ -14,7 +14,6 @@
 專為日常使用、電腦維修與 WinPE 維護環境打造
 
 [![Platform](https://img.shields.io/badge/Platform-Windows%207%20%7C%208%20%7C%2010%20%7C%2011%20%7C%20WinPE-blue?style=flat-square&logo=windows)](https://github.com/robert820/reboot_master)
-[![License](https://img.shields.io/badge/License-Freeware-informational?style=flat-square)](LICENSE)
 [![Type](https://img.shields.io/badge/Type-Freeware%20%7C%20Portable-success?style=flat-square)](#-下載與使用說明)
 [![UI](https://img.shields.io/badge/GUI-Modern%20Responsive%20UI-blueviolet?style=flat-square)](#)
 [![Download](https://img.shields.io/badge/Download-GitHub%20Releases-blue?style=flat-square&logo=github)](https://github.com/robert820/reboot_master/releases)
@@ -30,7 +29,7 @@
 ## 📖 軟體簡介
 
 在日常使用電腦、系統維護或重灌時，您是否遇過這些困擾？
-- 想進 BIOS/UEFI 設定開機順序，開機時按鍵狂按 Delete 或 F2 卻總是錯過時機？
+- 想進 UEFI BIOS 設定開機順序，開機時按鍵狂按 Delete 或 F2 卻總是錯過時機？
 - 想進安全模式排查故障，卻因為系統卡死或鍵盤失靈，陷入了**安全模式無限重啟迴圈**的惡夢？
 - 想要安裝特殊硬體驅動或測試工具，卻找不到哪裡可以關閉驅動強制簽章與記憶體完整性？
 - 在維護隨身碟 (WinPE) 環境下，找不到方便好用的工具快速切換開機碟或重啟？
@@ -41,8 +40,8 @@
 
 ## ✨ 功能介紹
 
-### 1. ⚡ 一鍵重啟進入 BIOS / UEFI
-- 免狂敲鍵盤、免猜不同主機板快捷鍵，點擊按鈕即可讓電腦於重開機時自動載入 BIOS/UEFI 設定畫面。
+### 1. ⚡ 一鍵重啟進入 UEFI BIOS
+- 免狂敲鍵盤、免猜不同主機板快捷鍵，點擊按鈕即可讓電腦於重開機時自動載入 UEFI BIOS 設定畫面。
 - 內建智慧相容性偵測，若是傳統 Legacy BIOS (MBR) 模式會貼心提供防呆提醒。
 
 ### 2. 🛡️ 一次性安全模式（防卡死設計）
@@ -70,7 +69,7 @@
 - 內建顯示相容性最佳化，在任何 PE 急救碟中均能穩定流暢顯示。
 
 ### 8. 🌐 完整支援 31 種語言與現代化介面
-- **全球 31 種語言完整支援**：軟體啟動時自動偵測 Windows 系統語言，亦可隨時在介面設定中自由切換。核心內建繁中、簡中、英文，其餘 28 種語言收錄於 [lang/ 語言包目錄](lang/README.md)，支援社群自由編輯與自適應寬度排版：
+- **全球 31 種語言完整支援**：軟體啟動時自動偵測 Windows 系統語言，亦可隨時在介面設定中自由切換。全數原生內建支援，絕無缺漏：
   | 地區分類             | 支援語言列表 (共 31 種)                                                                                                              |
   | :------------------- | :----------------------------------------------------------------------------------------------------------------------------------- |
   | **東亞語系**         | 繁體中文、简体中文、日本語、한국어                                                                                                   |
@@ -111,7 +110,7 @@ A: 本工具執行的功能（如指示下次開機進入 BIOS、調整開機啟
 </details>
 
 <details>
-<summary><b>Q2: 為什麼點擊「重啟進入 BIOS」會提示不支援？</b></summary>
+<summary><b>Q2: 為什麼點擊「重啟進入 UEFI BIOS」會提示不支援？</b></summary>
 A: 此功能需主機板與作業系統支援 UEFI 規範。如果您的電腦開機方式為傳統的 Legacy BIOS (MBR) 模式，硬體層級本身不支援由軟體發出重啟進 BIOS 的指令，此時請在開機時手動按鍵（如 Del 或 F2）進入。
 </details>
 
@@ -135,6 +134,7 @@ A: 本工具為純綠色免安裝軟體，絕無任何惡意聯網後門、廣�
 
 ---
 
-## 📄 授權條款 (License)
+## 📄 軟體授權與免責聲明
 
-本軟體採用專有免費軟體授權（Proprietary Freeware），完整授權規範、使用條款與免責聲明請參閱 [LICENSE](LICENSE) 檔案。
+- **免費使用**：本軟體為免費實用工具（Freeware），任何人均可免費下載、個人使用或於商業維護環境中使用。
+- **免責聲明**：本軟體已針對各種系統環境進行嚴密測試與防呆保護（例如開機項自動還原、Legacy BIOS 辨識等）。但修改系統底層開機引導仍屬系統級高階操作，使用者應自行評估並承擔使用本軟體時可能衍生之系統風險。

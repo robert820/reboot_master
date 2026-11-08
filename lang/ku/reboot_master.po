@@ -743,3 +743,60 @@ msgstr "Ev taybetmendî tenê pergalên UEFI yên li ser Windows 8 û jorîn pi�
 msgid "主機板或系統未支援韌體引導 (Legacy BIOS)"
 msgstr "Motherboard an pergalê boot firmware piştgirî nake (BIOS Legacy)"
 
+
+msgid "安全模式"
+msgstr "Rewşa ewle"
+
+msgid "關閉 Hyper-V 虛擬化"
+msgstr "Hyper-V neçalak bike"
+
+msgid "開啟 Hyper-V 虛擬化"
+msgstr "Hyper-V çalak bike"
+
+msgid "Hyper-V 虛擬化"
+msgstr "Wirtualîzasyona Hyper-V"
+
+msgid "停用 Hypervisor 引擎以釋放效能與硬體直接存取"
+msgstr "Hypervisor neçalak bike bo zêdekirina karîgeriyê"
+
+msgid "啟用微軟 Type-1 虛擬化架構 (支援 WSL2 與模擬器)"
+msgstr "Wirtualîzasyona Type-1 çalak bike (piştgiriya WSL2)"
+
+msgid "32 位元系統不支援 Hyper-V 虛擬化。"
+msgstr "Pergalên 32-bit piştgiriya Hyper-V nakin."
+
+msgid "核心隔離 (記憶體完整性)"
+msgstr "Veqetandina dendikê (Yekparebûna bîrê)"
+
+msgid "修復 0x7B 開機藍屏"
+msgstr "Çewtiya 0x7B BSOD sererast bike"
+
+msgid "啟用網路連線"
+msgstr "Tora çalak bike"
+
+msgid "選擇開機隨身碟："
+msgstr "Ajokera USB ya destpêkê hilbijêre:"
+
+msgid "請注意：即將重啟或變更開機狀態"
+msgstr "Bala xwe bidê: Nûdestpêkirin an guhertina destpêkê"
+
+msgid "請確保所有進行中的工作與檔案皆已妥善儲存，避免重啟造成未儲存資料遺失。"
+msgstr "Hemû xebatên xwe tomar bike da ku dane winda nebin."
+
+msgid "請確認您的所有工作與文件皆已儲存。確定要立即執行嗎？"
+msgstr "Piştrast bike ku hemû xebat hatine tomarkirin. Niha bidomîne?"
+
+msgid "UEFI BIOS"
+msgstr "UEFI BIOS"
+
+msgid "偵測到多個 Windows，請選擇要操作的系統"
+msgstr "Gelek Windows hatin dîtin, ji kerema xwe pergalê hilbijêre"
+
+msgid "略過開機失敗狀態"
+msgstr "Rewşa têkçûna destpêkê paşguh bike"
+
+msgid "目標系統"
+msgstr "Pergala armanc"
+
+msgid "關閉自動修復"
+msgstr "Tamîrkirina otomatîk neçalak bike"

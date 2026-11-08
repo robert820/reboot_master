@@ -14,7 +14,6 @@
 Designed for Daily Use, PC Maintenance, and WinPE Rescue Environments
 
 [![Platform](https://img.shields.io/badge/Platform-Windows%207%20%7C%208%20%7C%2010%20%7C%2011%20%7C%20WinPE-blue?style=flat-square&logo=windows)](https://github.com/robert820/reboot_master)
-[![License](https://img.shields.io/badge/License-Freeware-informational?style=flat-square)](../../LICENSE)
 [![Type](https://img.shields.io/badge/Type-Freeware%20%7C%20Portable-success?style=flat-square)](#-download--usage)
 [![UI](https://img.shields.io/badge/GUI-Modern%20Responsive%20UI-blueviolet?style=flat-square)](#)
 [![Download](https://img.shields.io/badge/Download-GitHub%20Releases-blue?style=flat-square&logo=github)](https://github.com/robert820/reboot_master/releases)
@@ -30,7 +29,7 @@ Designed for Daily Use, PC Maintenance, and WinPE Rescue Environments
 ## 📖 Overview
 
 Have you ever struggled with these common Windows startup headaches?
-- Repeatedly mashing Delete or F2 upon rebooting, yet missing the brief window to enter BIOS/UEFI Setup?
+- Repeatedly mashing Delete or F2 upon rebooting, yet missing the brief window to enter UEFI BIOS Setup?
 - Booting into Safe Mode to troubleshoot, only to find yourself trapped in an **infinite Safe Mode reboot loop** due to keyboard driver issues or corrupted settings?
 - Searching endlessly for menus just to temporarily disable Driver Signature Enforcement or Memory Integrity when testing custom drivers?
 - Needing a quick and reliable way to switch boot media inside a WinPE maintenance flash drive?
@@ -41,8 +40,8 @@ Have you ever struggled with these common Windows startup headaches?
 
 ## ✨ Features
 
-### 1. ⚡ One-Click Reboot to BIOS / UEFI
-- No more key-mashing or guessing motherboard shortcut keys. Click one button and your PC will automatically boot straight into BIOS/UEFI Setup on restart.
+### 1. ⚡ One-Click Reboot to UEFI BIOS
+- No more key-mashing or guessing motherboard shortcut keys. Click one button and your PC will automatically boot straight into UEFI BIOS Setup on restart.
 - Built-in hardware check: gracefully detects Legacy BIOS (MBR) and provides clear guidance.
 
 ### 2. 🛡️ One-Time Safe Mode (Loop-Proof Design)
@@ -111,7 +110,7 @@ A: Modifying boot sequence settings, scheduling UEFI BIOS reboots, and invoking 
 </details>
 
 <details>
-<summary><b>Q2: Why does "Reboot to BIOS" display an unsupported notice on my machine?</b></summary>
+<summary><b>Q2: Why does "Reboot to UEFI BIOS" display an unsupported notice on my machine?</b></summary>
 A: This feature requires motherboard and OS support for UEFI specifications. If your machine boots under traditional Legacy BIOS (MBR) mode, hardware APIs cannot trigger a software reboot into BIOS. In this case, please use the motherboard's key (Del / F2) during startup.
 </details>
 
@@ -122,7 +121,7 @@ A: Yes! Reboot Master uses a single-boot design that leaves your original defaul
 
 <details>
 <summary><b>Q4: Why might antivirus software trigger an alert or false positive?</b></summary>
-A: Reboot Master is 100% clean, portable software with zero malware or adware. Because it configures system boot entries and invokes low-level power commands, heuristic anti-malware scanners may occasionally flag it. Please add <code>reboot_master.exe</code> to your antivirus whitelist.
+A: Reboot Master is 100% clean, portable software with zero malware or adware. Because it configures system boot entries and invokes low-level power commands, heuristic anti-malware scanners may occasionally flag it. Please add <code>reboot_master.exe</code> to your antivirus whitelist and run it with Administrator privileges.
 </details>
 
 ---
@@ -135,6 +134,7 @@ If you encounter any issues, bugs, or have feature requests during system mainte
 
 ---
 
-## 📄 License
+## 📄 License & Disclaimer
 
-This software is released under the [Proprietary Freeware License](../../LICENSE). For the complete terms, usage guidelines, and disclaimers, please refer to the [LICENSE](../../LICENSE) file.
+- **Freeware**: This utility is freeware and free for both personal and commercial use.
+- **Disclaimer**: While this utility includes rigorous safeguards (such as automatic single-boot rollback and Legacy BIOS checks), modifying boot configurations is an advanced system action. Users assume responsibility for their system environment when using this tool.

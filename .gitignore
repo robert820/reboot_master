@@ -4,5 +4,28 @@ Thumbs.db
 *.bak
 *.tmp
 *.log
+*.orig
 .vscode/
 .idea/
+
+# Strict No-Binary & No-Executable rule (AGENTS.md)
+/target/
+**/*.exe
+**/*.pdb
+**/*.ilk
+**/*.exp
+**/*.lib
+
+# Strict No-Image rule (AGENTS.md: 所有點陣圖片與圖示絕不上傳版本庫)
+/images/
+**/*.png
+**/*.jpg
+**/*.jpeg
+**/*.ico
+**/*.bmp
+**/*.webp
+
+# Temporary & backup folders
+scratch/
+_backups/
+_logs_and_temp/

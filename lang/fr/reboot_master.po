@@ -743,3 +743,60 @@ msgstr "Cette fonctionnalité prend uniquement en charge les systèmes UEFI sous
 msgid "主機板或系統未支援韌體引導 (Legacy BIOS)"
 msgstr "La carte mère ou le système ne prend pas en charge le démarrage du micrologiciel (BIOS hérité)"
 
+
+msgid "安全模式"
+msgstr "Mode sans échec"
+
+msgid "關閉 Hyper-V 虛擬化"
+msgstr "Désactiver Hyper-V"
+
+msgid "開啟 Hyper-V 虛擬化"
+msgstr "Activer Hyper-V"
+
+msgid "Hyper-V 虛擬化"
+msgstr "Virtualisation Hyper-V"
+
+msgid "停用 Hypervisor 引擎以釋放效能與硬體直接存取"
+msgstr "Désactiver l'hyperviseur pour libérer les performances et l'accès direct"
+
+msgid "啟用微軟 Type-1 虛擬化架構 (支援 WSL2 與模擬器)"
+msgstr "Activer la virtualisation Type-1 Microsoft (prise en charge de WSL2 et émulateurs)"
+
+msgid "32 位元系統不支援 Hyper-V 虛擬化。"
+msgstr "Les systèmes 32 bits ne prennent pas en charge Hyper-V."
+
+msgid "核心隔離 (記憶體完整性)"
+msgstr "Isolation du noyau (Intégrité de la mémoire)"
+
+msgid "修復 0x7B 開機藍屏"
+msgstr "Corriger le BSOD 0x7B au démarrage"
+
+msgid "啟用網路連線"
+msgstr "Activer le réseau"
+
+msgid "選擇開機隨身碟："
+msgstr "Sélectionner la clé USB de démarrage :"
+
+msgid "請注意：即將重啟或變更開機狀態"
+msgstr "Attention : Redémarrage ou modification du démarrage imminent"
+
+msgid "請確保所有進行中的工作與檔案皆已妥善儲存，避免重啟造成未儲存資料遺失。"
+msgstr "Veuillez enregistrer votre travail pour éviter toute perte de données."
+
+msgid "請確認您的所有工作與文件皆已儲存。確定要立即執行嗎？"
+msgstr "Confirmez que tout votre travail est enregistré. Continuer maintenant ?"
+
+msgid "UEFI BIOS"
+msgstr "UEFI BIOS"
+
+msgid "偵測到多個 Windows，請選擇要操作的系統"
+msgstr "Plusieurs installations Windows détectées, veuillez sélectionner le système"
+
+msgid "略過開機失敗狀態"
+msgstr "Ignorer les échecs de démarrage"
+
+msgid "目標系統"
+msgstr "Système cible"
+
+msgid "關閉自動修復"
+msgstr "Désactiver la réparation automatique"

@@ -743,3 +743,60 @@ msgstr "Bu xususiyat faqat Windows 8 va undan yuqori versiyalardagi UEFI tizimla
 msgid "主機板或系統未支援韌體引導 (Legacy BIOS)"
 msgstr "Anakart yoki tizim mikrodasturni yuklashni qo'llab-quvvatlamaydi (Legacy BIOS)"
 
+
+msgid "安全模式"
+msgstr "Xavfsiz rejim"
+
+msgid "關閉 Hyper-V 虛擬化"
+msgstr "Hyper-V-ni faolsizlantirish"
+
+msgid "開啟 Hyper-V 虛擬化"
+msgstr "Hyper-V-ni faollashtirish"
+
+msgid "Hyper-V 虛擬化"
+msgstr "Hyper-V virtuallashtirish"
+
+msgid "停用 Hypervisor 引擎以釋放效能與硬體直接存取"
+msgstr "Unumdorlikni oshirish uchun Hypervisor-ni faolsizlantiring"
+
+msgid "啟用微軟 Type-1 虛擬化架構 (支援 WSL2 與模擬器)"
+msgstr "Microsoft Type-1 virtuallashtirishni faollashtirish (WSL2 va emulyatorlar)"
+
+msgid "32 位元系統不支援 Hyper-V 虛擬化。"
+msgstr "32 bitli tizimlar Hyper-V-ni qo'llab-quvvatlamaydi."
+
+msgid "核心隔離 (記憶體完整性)"
+msgstr "Yadro ajratish (Xotira yaxlitligi)"
+
+msgid "修復 0x7B 開機藍屏"
+msgstr "Yuklanishdagi 0x7B BSOD xatosini tuzatish"
+
+msgid "啟用網路連線"
+msgstr "Tarmoqni yoqish"
+
+msgid "選擇開機隨身碟："
+msgstr "Yuklanuvchi USB diskni tanlang:"
+
+msgid "請注意：即將重啟或變更開機狀態"
+msgstr "Diqqat: Qayta yuklanish yoki yuklanish holati o'zgarishi arafasida"
+
+msgid "請確保所有進行中的工作與檔案皆已妥善儲存，避免重啟造成未儲存資料遺失。"
+msgstr "Ma'lumot yo'qolishining oldini olish uchun barcha fayllarni saqlang."
+
+msgid "請確認您的所有工作與文件皆已儲存。確定要立即執行嗎？"
+msgstr "Barcha ishlar saqlanganiga ishonch hosil qiling. Hozir bajarilsinmi?"
+
+msgid "UEFI BIOS"
+msgstr "UEFI BIOS"
+
+msgid "偵測到多個 Windows，請選擇要操作的系統"
+msgstr "Bir nechta Windows aniqlandi, iltimos tizimni tanlang"
+
+msgid "略過開機失敗狀態"
+msgstr "Yuklanishdagi xatolik holatini e'tiborsiz qoldirish"
+
+msgid "目標系統"
+msgstr "Maqsadli tizim"
+
+msgid "關閉自動修復"
+msgstr "Avtomatik tiklashni o'chirish"

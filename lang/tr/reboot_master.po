@@ -743,3 +743,60 @@ msgstr "Bu özellik yalnızca Windows 8 ve üzeri UEFI sistemlerini destekler"
 msgid "主機板或系統未支援韌體引導 (Legacy BIOS)"
 msgstr "Anakart veya sistem ürün yazılımı önyüklemesini desteklemiyor (Eski BIOS)"
 
+
+msgid "安全模式"
+msgstr "Güvenli Mod"
+
+msgid "關閉 Hyper-V 虛擬化"
+msgstr "Hyper-V'yi Devre Dışı Bırak"
+
+msgid "開啟 Hyper-V 虛擬化"
+msgstr "Hyper-V'yi Etkinleştir"
+
+msgid "Hyper-V 虛擬化"
+msgstr "Hyper-V Sanallaştırma"
+
+msgid "停用 Hypervisor 引擎以釋放效能與硬體直接存取"
+msgstr "Performansı ve doğrudan donanım erişimini serbest bırakmak için Hypervisor'ı kapatın"
+
+msgid "啟用微軟 Type-1 虛擬化架構 (支援 WSL2 與模擬器)"
+msgstr "Microsoft Type-1 Sanallaştırmayı Etkinleştir (WSL2 ve emülatör desteği)"
+
+msgid "32 位元系統不支援 Hyper-V 虛擬化。"
+msgstr "32 bit sistemler Hyper-V sanallaştırmayı desteklemez."
+
+msgid "核心隔離 (記憶體完整性)"
+msgstr "Çekirdek Yalıtımı (Bellek Bütünlüğü)"
+
+msgid "修復 0x7B 開機藍屏"
+msgstr "0x7B Başlangıç BSOD Onarımı"
+
+msgid "啟用網路連線"
+msgstr "Ağı Etkinleştir"
+
+msgid "選擇開機隨身碟："
+msgstr "Önyükleme USB Sürücüsünü Seçin:"
+
+msgid "請注意：即將重啟或變更開機狀態"
+msgstr "Dikkat: Yeniden başlatılmak veya önyükleme durumu değiştirilmek üzere"
+
+msgid "請確保所有進行中的工作與檔案皆已妥善儲存，避免重啟造成未儲存資料遺失。"
+msgstr "Veri kaybını önlemek için lütfen tüm çalışmalarınızı ve dosyalarınızı kaydedin."
+
+msgid "請確認您的所有工作與文件皆已儲存。確定要立即執行嗎？"
+msgstr "Tüm çalışmalarınızın kaydedildiğinden emin olun. Şimdi çalıştırılsın mı?"
+
+msgid "UEFI BIOS"
+msgstr "UEFI BIOS"
+
+msgid "偵測到多個 Windows，請選擇要操作的系統"
+msgstr "Birden fazla Windows algılandı, lütfen işlem yapılacak sistemi seçin"
+
+msgid "略過開機失敗狀態"
+msgstr "Önyükleme hatası durumunu yoksay"
+
+msgid "目標系統"
+msgstr "Hedef Sistem"
+
+msgid "關閉自動修復"
+msgstr "Otomatik Onarımı Kapat"

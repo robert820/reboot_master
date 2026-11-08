@@ -743,3 +743,60 @@ msgstr "Fitur ini hanya mendukung sistem UEFI pada Windows 8 ke atas"
 msgid "主機板或系統未支援韌體引導 (Legacy BIOS)"
 msgstr "Motherboard atau sistem tidak mendukung boot firmware (Legacy BIOS)"
 
+
+msgid "安全模式"
+msgstr "Mode Aman"
+
+msgid "關閉 Hyper-V 虛擬化"
+msgstr "Nonaktifkan Hyper-V"
+
+msgid "開啟 Hyper-V 虛擬化"
+msgstr "Aktifkan Hyper-V"
+
+msgid "Hyper-V 虛擬化"
+msgstr "Virtualisasi Hyper-V"
+
+msgid "停用 Hypervisor 引擎以釋放效能與硬體直接存取"
+msgstr "Nonaktifkan Hypervisor untuk meningkatkan performa dan akses perangkat keras langsung"
+
+msgid "啟用微軟 Type-1 虛擬化架構 (支援 WSL2 與模擬器)"
+msgstr "Aktifkan arsitektur virtualisasi Microsoft Type-1 (mendukung WSL2 dan emulator)"
+
+msgid "32 位元系統不支援 Hyper-V 虛擬化。"
+msgstr "Sistem 32-bit tidak mendukung virtualisasi Hyper-V."
+
+msgid "核心隔離 (記憶體完整性)"
+msgstr "Isolasi Inti (Integritas Memori)"
+
+msgid "修復 0x7B 開機藍屏"
+msgstr "Perbaiki BSOD Booting 0x7B"
+
+msgid "啟用網路連線"
+msgstr "Aktifkan Jaringan"
+
+msgid "選擇開機隨身碟："
+msgstr "Pilih Flashdisk Booting:"
+
+msgid "請注意：即將重啟或變更開機狀態"
+msgstr "Perhatian: Komputer akan dimulai ulang atau konfigurasi booting diubah"
+
+msgid "請確保所有進行中的工作與檔案皆已妥善儲存，避免重啟造成未儲存資料遺失。"
+msgstr "Pastikan semua pekerjaan dan berkas telah disimpan agar data tidak hilang."
+
+msgid "請確認您的所有工作與文件皆已儲存。確定要立即執行嗎？"
+msgstr "Pastikan semua pekerjaan telah disimpan. Lanjutkan sekarang?"
+
+msgid "UEFI BIOS"
+msgstr "UEFI BIOS"
+
+msgid "偵測到多個 Windows，請選擇要操作的系統"
+msgstr "Beberapa instalasi Windows terdeteksi, silakan pilih sistem yang diinginkan"
+
+msgid "略過開機失敗狀態"
+msgstr "Abaikan Status Kegagalan Booting"
+
+msgid "目標系統"
+msgstr "Sistem Target"
+
+msgid "關閉自動修復"
+msgstr "Nonaktifkan Perbaikan Otomatis"
