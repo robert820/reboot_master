@@ -3,315 +3,781 @@ msgstr ""
 "Project-Id-Version: reboot_master v1.0.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Language: \n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-msgid "[{}] 操作: {}\n  變更細節: {}\n  執行狀態: {}\n----------------------------------------\n"
+msgid ""
+"\n"
+"[Hyper-V 設定] 正在{} Hyper-V 虛擬化與核心隔離...\n"
+""
 msgstr ""
 
-msgid "尚無歷史操作紀錄。\n"
+msgid ""
+"\n"
+"[WinRE 檢查] 診斷 Windows 修復環境狀態...\n"
+""
 msgstr ""
 
-msgid "無法獲取 SeShutdownPrivilege 系統關機權限"
+msgid ""
+"\n"
+"[事前阻斷] 目標系統 {}: 無法開機（原因：{}）。\n"
+"為防止電腦黑屏或引導混亂，已禁止重啟操作！\n"
+""
 msgstr ""
 
-msgid "關機失敗，錯誤碼: {}"
+msgid ""
+"\n"
+"[執行] 正在{}...\n"
+""
 msgstr ""
 
-msgid "無法獲取 SeShutdownPrivilege 系統重啟權限"
+msgid ""
+"\n"
+"[執行] 正在停用強制簽章 (nointegritychecks)...\n"
+""
 msgstr ""
 
-msgid "重啟失敗，錯誤碼: {}"
+msgid ""
+"\n"
+"[執行] 正在偵測隨身碟並設定重啟進入 PE...\n"
+""
 msgstr ""
 
-msgid "無法獲取系統環境權限 (SeSystemEnvironmentPrivilege)，請確認是否以系統管理員身分執行"
+msgid ""
+"\n"
+"[執行] 正在恢復強制簽章 (nointegritychecks)...\n"
+""
 msgstr ""
 
-msgid "當前主機板或作業系統不支援直接從系統重啟至韌體/BIOS設定"
+msgid ""
+"\n"
+"[執行] 正在恢復系統安全防護...\n"
+""
 msgstr ""
 
-msgid "寫入 UEFI 韌體變數失敗，可能受限於防毒軟體或權限異常。"
+msgid ""
+"\n"
+"[執行] 正在解除驅動與核心安全限制...\n"
+""
 msgstr ""
 
-msgid "重啟至 BIOS/UEFI"
+msgid ""
+"\n"
+"[執行] 正在設定{}...\n"
+""
 msgstr ""
 
-msgid "寫入 UEFI 變數: OsIndications (GUID: {8BE4DF61-93CA-11D2-AA0D-00E098032B8C})，Bit 0 設為 1 (BootToFwUI)"
+msgid ""
+"\n"
+"[執行] 正在請求重啟至 UEFI BIOS...\n"
+""
 msgstr ""
 
-msgid "準備重啟"
+msgid ""
+"\n"
+"[執行] 正在請求重啟進入進階選單...\n"
+""
 msgstr ""
 
-msgid "已成功透過 API 寫入 UEFI 變數，系統正在重新啟動至 BIOS/UEFI..."
+msgid ""
+"\n"
+"[執行] 正在透過 Win32 ExitWindowsEx 原生 API 重啟電腦...\n"
+""
 msgstr ""
 
-msgid "執行 bcdedit 失敗: {}"
+msgid ""
+"\n"
+"[執行] 正在透過 Win32 ExitWindowsEx 原生 API 關閉電腦...\n"
+""
 msgstr ""
 
-msgid "執行 `bcdedit {}` 失敗: {}"
+msgid ""
+"\n"
+"[執行] 正在開啟測試模式...\n"
+""
 msgstr ""
 
-msgid "找不到實體系統的 SOFTWARE 登錄檔"
+msgid ""
+"\n"
+"[執行] 正在關閉測試模式...\n"
+""
 msgstr ""
 
-msgid "無法從 bcdedit 輸出中找到新的 GUID 起點"
+msgid ""
+"\n"
+"[核心操作] 執行真實二進位修補 (True In-Place Code Patch)...\n"
+""
 msgstr ""
 
-msgid "無法從 bcdedit 輸出中找到新的 GUID 終點"
+msgid ""
+"\n"
+"[核心操作] 正在排程還原原廠 user32.dll...\n"
+""
 msgstr ""
 
-msgid "無法獲取當前執行檔路徑: {}"
+msgid ""
+"\n"
+"[狀態變更] {}\n"
+""
 msgstr ""
 
-msgid "一次性安全模式"
+msgid ""
+"\n"
+"[目標系統切換] 已切換目標系統為 {}: ({}, {})\n"
+""
 msgstr ""
 
-msgid "模式: {}\n  臨時 GUID: {}"
+msgid ""
+"\n"
+"[開機校驗] 重啟前檢查開機引導鏈...\n"
+""
 msgstr ""
 
-msgid "已成功設定一次性安全模式，系統正在重新啟動..."
+msgid ""
+"\n"
+"[電源策略] 準備執行原生熱重啟至 {}...\n"
+""
 msgstr ""
 
-msgid "重啟至進階開機選單"
+msgid ""
+"      -> MoveFileExW 失敗。\n"
+""
 msgstr ""
 
-msgid "建立臨時副本 GUID: {}"
+msgid ""
+"      -> [成功] 排程就緒！重開機後將正式載入被改寫的機器碼。\n"
+""
 msgstr ""
 
-msgid "已成功設定一次性進階開機選單，系統正在重新啟動..."
+msgid ""
+"      -> 已修改分支旗標: JZ -> JMP (強制繞過浮水印字串組裝)\n"
+""
 msgstr ""
 
-msgid "重啟進入 BIOS / UEFI 韌體"
+msgid ""
+"      -> 已就地覆寫機器碼: 31 C0 C2 04 00 (XOR EAX, EAX; RET 4)\n"
+""
 msgstr ""
 
-msgid "此操作將立即重新啟動電腦並自動進入 BIOS/UEFI 設定畫面。"
+msgid ""
+"  - 測試模式已開啟\n"
+""
 msgstr ""
 
-msgid "一次性安全模式 (Minimal)"
+msgid ""
+"  - 測試模式已關閉\n"
+""
 msgstr ""
 
-msgid "下一次開機將進入安全模式。第二次重新開機時，系統將自動恢復進入正常模式。"
+msgid ""
+"  - 系統安全防護已恢復\n"
+""
 msgstr ""
 
-msgid "一次性安全模式 (含網路)"
+msgid ""
+"  - 記憶體完整性已開啟\n"
+""
 msgstr ""
 
-msgid "下一次開機將進入含網路連線的安全模式。第二次重新開機時，系統將自動恢復進入正常模式。"
+msgid ""
+"  - 記憶體完整性已關閉\n"
+""
 msgstr ""
 
-msgid "重啟進入進階開機選單"
+msgid ""
+"  - 驅動封鎖規則已關閉\n"
+""
 msgstr ""
 
-msgid "此操作將重新啟動電腦並直接開啟 Windows 進階開機與疑難排解選單。"
+msgid ""
+"  - 驅動強制簽章已停用\n"
+""
 msgstr ""
 
-msgid "直接強制重啟電腦"
+msgid ""
+"  - 驅動強制簽章已恢復\n"
+""
 msgstr ""
 
-msgid "此操作將透過 Win32 原生 API 立即重啟您的電腦。"
+msgid ""
+"  [+] 已排程：原廠 user32.dll 將於重開機瞬間復原。\n"
+""
 msgstr ""
 
-msgid "直接安全關機"
+msgid ""
+"  [-] 找不到備份檔，忽略還原。\n"
+""
 msgstr ""
 
-msgid "此操作將透過 Win32 原生 API 立即關閉電腦電源。"
+msgid ""
+"  [-] 註冊延遲還原失敗。\n"
+""
 msgstr ""
 
-msgid "開啟測試模式 (Test Mode)"
+msgid ""
+"  [-] 警告：未找到相符特徵碼，可能此 Win7 組建補丁版本不同。\n"
+""
 msgstr ""
 
-msgid "開啟後系統將接受測試簽章驅動程式。桌面右下角會出現「測試模式」浮水印。\n\n• 需先在 BIOS 關閉 Secure Boot 才能生效\n• 大多數遊戲反作弊（EAC、BattlEye）會拒絕在此模式下運行遊戲\n• 執行後需重新開機才會生效。關閉則執行「關閉測試模式」"
+msgid ""
+"  [0x7B 修復] ✓ 已啟用當前系統儲存控制器開機驅動: {}\n"
+""
 msgstr ""
 
-msgid "關閉測試模式"
+msgid ""
+"  [0x7B 修復] ✓ 已啟用離線系統 ({}:) 儲存控制器開機驅動: {}\n"
+""
 msgstr ""
 
-msgid "關閉測試模式後，系統將恢復標準驅動簽章驗證。需重新開機才會生效。"
+msgid ""
+"  [0x7B 修復] 警告：未找到可修改的儲存驅動機碼\n"
+""
 msgstr ""
 
-msgid "停用驅動程式強制簽章"
+msgid ""
+"  [1] 解除 TrustedInstaller 系統鎖定...\n"
+""
 msgstr ""
 
-msgid "此操作將徹底關閉 Windows 的驅動程式數位簽章驗證 (nointegritychecks)。\n\n• 允許安裝完全沒有數位簽章的驅動程式\n• 系統安全性將大幅降低\n• 需先在 BIOS 關閉 Secure Boot 才能生效\n• 執行後需重新開機才會生效。"
+msgid ""
+"  [2] 建立安全還原備份: user32_bak.dll\n"
+""
 msgstr ""
 
-msgid "恢復強制簽章驗證"
+msgid ""
+"  [3] 載入二進位檔案並掃描繪圖邏輯常式...\n"
+""
 msgstr ""
 
-msgid "將恢復 Windows 預設的驅動程式數位簽章驗證機制。需重新開機才會生效。"
+msgid ""
+"  [4] 導言特徵未命中，改為掃描測試模式條件跳躍 (Branch Patch)...\n"
+""
 msgstr ""
 
-msgid "恢復系統安全防護"
+msgid ""
+"  [5] 匯出修補後的 user32_patched.dll...\n"
+""
 msgstr ""
 
-msgid "將恢復 Windows 預設的數位簽章驗證與核心安全機制。\n\n需要重新開機才會完全生效。確定要執行嗎？"
+msgid ""
+"  [6] 掛載 PendingFileRenameOperations 延遲開機覆蓋...\n"
+""
 msgstr ""
 
-msgid "警告：這將徹底停用驅動程式強制簽章 (nointegritychecks) 並關閉記憶體完整性，大幅降低系統安全性。\n\n需要重新開機才會完全生效。確定要執行嗎？"
+msgid ""
+"  [BCD 設定] ✓ 備援方案設定 {{default}} hypervisorlaunchtype 為 {} 成功\n"
+""
 msgstr ""
 
-msgid "警告：這將開啟測試模式以允許載入未經簽章的驅動程式，大幅降低系統安全性。\n\n需要重新開機才會完全生效。確定要執行嗎？"
+msgid ""
+"  [BCD 設定] ✓ 成功設定 hypervisorlaunchtype 為 {}\n"
+""
 msgstr ""
 
-msgid "解除驅動與核心安全限制"
+msgid ""
+"  [BCD 設定] 執行 bcdedit /set {} hypervisorlaunchtype {}...\n"
+""
 msgstr ""
 
-msgid "\n[執行] 正在請求重啟至 BIOS/UEFI...\n"
+msgid ""
+"  [BIOS 警告] 注意：系統回報主機板 BIOS 未啟用 CPU 虛擬化 (VT-x / SVM)！\n"
+"  請確保於重啟後進入 BIOS 啟用 Virtualization，否則 Hyper-V 將無法載入。\n"
+""
 msgstr ""
 
-msgid "[成功] {}\n"
+msgid ""
+"  [WinRE 檢查] [!] {}\n"
+""
 msgstr ""
 
-msgid "[提示/錯誤] {}\n"
+msgid ""
+"  [WinRE 檢查] [OK] {} (BCD: {})\n"
+""
 msgstr ""
 
-msgid "\n[執行] 正在設定一次性安全模式 (Minimal)...\n"
+msgid ""
+"  [WinRE 狀態] 目標系統 WinRE 處於停用或未就緒狀態 ({})，將引導至 Windows 標準開機選單\n"
+""
 msgstr ""
 
-msgid "[錯誤] {}\n"
+msgid ""
+"  [WinRE 直通] 偵測到目標系統之 WinRE 修復環境健全 (GUID: {})，設定單次啟動序列直通 WinRE...\n"
+""
 msgstr ""
 
-msgid "\n[執行] 正在設定一次性安全模式 (Network)...\n"
+msgid ""
+"  [WinRE 直通] 成功設定單次啟動直通 WinRE！重啟後將直接進入修復環境。\n"
+""
 msgstr ""
 
-msgid "\n[執行] 正在請求重啟進入進階選單...\n"
+msgid ""
+"  [WinRE 直通] 警告：設定 bootsequence 失敗，啟動備援降級為標準啟動設定選單...\n"
+""
 msgstr ""
 
-msgid "\n[執行] 正在偵測隨身碟並設定重啟進入 PE...\n"
+msgid ""
+"  [一次性引導] 成功設定單次啟動序列！\n"
+""
 msgstr ""
 
-msgid "\n[執行] 正在透過 Win32 ExitWindowsEx 原生 API 重啟電腦...\n"
+msgid ""
+"  [一次性引導] 設定單次啟動序列 (/bootsequence)，重啟後 BootMgr 自動復原...\n"
+""
 msgstr ""
 
-msgid "[成功] 已發送 Win32 原生重啟信號，系統正在重啟...\n"
+msgid ""
+"  [一次性引導] 設定單次啟動序列失敗: {}\n"
+""
 msgstr ""
 
-msgid "[API失敗] {}"
+msgid ""
+"  [建立副本] 失敗: {}\n"
+""
 msgstr ""
 
-msgid "\n[執行] 正在透過 Win32 ExitWindowsEx 原生 API 關閉電腦...\n"
+msgid ""
+"  [建立副本] 成功建立副本！\n"
+""
 msgstr ""
 
-msgid "[成功] 已發送 Win32 原生關機信號，系統正在關機...\n"
+msgid ""
+"  [建立副本] 正在自範本 {} 複製建立單次重啟防護項...\n"
+""
 msgstr ""
 
-msgid "\n[執行] 正在開啟測試模式...\n"
+msgid ""
+"  [建立副本] 正在自範本 {} 複製建立臨時安全模式項...\n"
+""
 msgstr ""
 
-msgid "[成功] 測試模式已開啟，請重新開機以生效。桌面右下角將顯示「測試模式」浮水印。\n"
+msgid ""
+"  [建立副本] 正在自範本 {} 複製建立臨時進階選單項...\n"
+""
 msgstr ""
 
-msgid "[錯誤] {}\n提示：請先到 BIOS 關閉 Secure Boot 後再嘗試。\n"
+msgid ""
+"  [引導回滾] 成功清理臨時開機項！\n"
+""
 msgstr ""
 
-msgid "\n[執行] 正在關閉測試模式...\n"
+msgid ""
+"  [引導回滾] 正在清理臨時開機項 {}...\n"
+""
 msgstr ""
 
-msgid "[成功] 測試模式已關閉，請重新開機以生效。\n"
+msgid ""
+"  [引導回滾] 警告：清理臨時開機項失敗: {}\n"
+""
 msgstr ""
 
-msgid "\n[執行] 正在停用強制簽章 (nointegritychecks)...\n"
+msgid ""
+"  [引導維護] 已自動清除目標系統 safeboot 安全模式標籤與單次序列，重啟後將直接進入正常桌面 (解除安全模式死循環)\n"
+""
 msgstr ""
 
-msgid "[成功] 強制簽章驗證已停用，請重新開機以生效。\n"
+msgid ""
+"  [核心隔離] ✓ 已將當前系統核心隔離機碼設定為 {}\n"
+""
 msgstr ""
 
-msgid "[錯誤] {}\n提示：請確認是否具備系統管理員權限，或先到 BIOS 關閉 Secure Boot。\n"
+msgid ""
+"  [核心隔離] ✓ 已將離線系統 ({}:) 核心隔離機碼設定為 {}\n"
+""
 msgstr ""
 
-msgid "\n[執行] 正在恢復強制簽章 (nointegritychecks)...\n"
+msgid ""
+"  [核心隔離] 正在{}核心隔離 (VBS / HVCI 記憶體完整性)...\n"
+""
 msgstr ""
 
-msgid "[成功] 強制簽章驗證已恢復正常，請重新開機以生效。\n"
+msgid ""
+"  [模式配置] 成功設定 safeboot 參數！\n"
+""
 msgstr ""
 
-msgid "\n[執行] 正在恢復系統安全防護...\n"
+msgid ""
+"  [模式配置] 設定 safeboot 參數失敗: {}\n"
+""
 msgstr ""
 
-msgid "  [錯誤] 關閉 nointegritychecks 失敗: {}\n"
+msgid ""
+"  [模式配置] 設定 safeboot 參數為 {}...\n"
+""
 msgstr ""
 
-msgid "  - 驅動強制簽章已恢復\n"
+msgid ""
+"  [範本解析] 偵測到 {current} 已於前次重啟後被清理刪除 (無效識別元)\n"
+""
 msgstr ""
 
-msgid "  [錯誤] 關閉 testsigning 失敗: {}\n"
+msgid ""
+"  [範本解析] 從 osloader 列表成功定位實體系統項: {}\n"
+""
 msgstr ""
 
-msgid "  [錯誤] 寫入登錄檔失敗 (錯誤碼 {}): 無法開啟記憶體完整性\n"
+msgid ""
+"  [範本解析] 成功選定系統永久開機項 {default} 作為母體範本 (確保一次成功)\n"
+""
 msgstr ""
 
-msgid "  - 記憶體完整性已開啟\n"
+msgid ""
+"  [範本解析] 未能列舉額外開機項，預設採用 {default}\n"
+""
 msgstr ""
 
-msgid "  - 測試模式已關閉\n"
+msgid ""
+"  [範本解析] 正在掃描 BCD osloader 列表以尋找有效開機項...\n"
+""
 msgstr ""
 
-msgid "  - 系統安全防護已恢復\n"
+msgid ""
+"  [範本解析] 正在探測當前引導項 {current}...\n"
+""
 msgstr ""
 
-msgid "  [錯誤] 寫入登錄檔失敗 (錯誤碼 {})\n"
+msgid ""
+"  [範本解析] 正在驗證系統永久開機項 {default}...\n"
+""
 msgstr ""
 
-msgid "[警告] 過程中有錯誤發生，請檢查上方日誌。\n"
+msgid ""
+"  [範本解析] 當前會話引導項 {current} 有效，採用為母體範本\n"
+""
 msgstr ""
 
-msgid "[成功] 安全防護已恢復，請重新開機以生效。\n"
+msgid ""
+"  [範本解析] 處於 WinPE 環境，採用實體系統預設項 {default}\n"
+""
 msgstr ""
 
-msgid "\n[執行] 正在解除驅動與核心安全限制...\n"
+msgid ""
+"  [範本解析] 處於 WinPE 環境，鎖定目標系統 {} ({}) 之專屬開機項 {}\n"
+""
 msgstr ""
 
-msgid "  [錯誤] 開啟 nointegritychecks 失敗: {}\n"
+msgid ""
+"  [臨時標識] 取得臨時 GUID: {}\n"
+""
 msgstr ""
 
-msgid "  - 驅動強制簽章已停用\n"
+msgid ""
+"  [進階選項] 啟用 advancedoptions 失敗: {}\n"
+""
 msgstr ""
 
-msgid "  [錯誤] 寫入登錄檔失敗 (錯誤碼 {}): 無法關閉記憶體完整性\n"
+msgid ""
+"  [進階選項] 啟用 advancedoptions=true (Win7 顯示 F8 選單，Win10/11 顯示開機設定)...\n"
+""
 msgstr ""
 
-msgid "  - 記憶體完整性已關閉\n"
+msgid ""
+"  [進階選項] 成功啟用 advancedoptions！\n"
+""
 msgstr ""
 
-msgid "  [錯誤] 開啟 testsigning 失敗: {}\n"
+msgid ""
+"  [選單隱藏] 從開機選單中隱藏此臨時副本 (/displayorder ... /remove)...\n"
+""
 msgstr ""
 
-msgid "  - 測試模式已開啟\n"
+msgid ""
+"  [選單隱藏] 成功從開機選單隱藏臨時副本\n"
+""
 msgstr ""
 
-msgid "  - 驅動封鎖規則已關閉\n"
+msgid ""
+"  [選單隱藏] 警告：隱藏失敗 ({}) (不影響開機)\n"
+""
 msgstr ""
 
-msgid "[成功] 指定的安全限制已解除，請重新開機以生效。\n"
+msgid ""
+"  [錯誤] 寫入登錄檔失敗 (錯誤碼 {})\n"
+""
 msgstr ""
 
-msgid "新增了隨身碟/磁碟: {} {}"
+msgid ""
+"  [錯誤] 寫入登錄檔失敗 (錯誤碼 {}): 無法開啟記憶體完整性\n"
+""
 msgstr ""
 
-msgid "移除了隨身碟/磁碟: {} {}"
+msgid ""
+"  [錯誤] 寫入登錄檔失敗 (錯誤碼 {}): 無法關閉記憶體完整性\n"
+""
 msgstr ""
 
-msgid "未偵測到包含 PE 環境的隨身碟"
+msgid ""
+"  [錯誤] 開啟 nointegritychecks 失敗: {}\n"
+""
 msgstr ""
 
-msgid "未插入任何隨身碟"
+msgid ""
+"  [錯誤] 開啟 testsigning 失敗: {}\n"
+""
+msgstr ""
+
+msgid ""
+"  [錯誤] 關閉 nointegritychecks 失敗: {}\n"
+""
+msgstr ""
+
+msgid ""
+"  [錯誤] 關閉 testsigning 失敗: {}\n"
+""
+msgstr ""
+
+msgid ""
+"  [開機校驗] ✓ BCD Hive 結構正常\n"
+""
+msgstr ""
+
+msgid ""
+"  [開機校驗] ✓ BCD 項目有效 (無 unknown 指向)\n"
+""
+msgstr ""
+
+msgid ""
+"  [開機校驗] ✓ 線上 BCD 已由系統載入保護\n"
+""
+msgstr ""
+
+msgid ""
+"  [開機校驗] ✓ 關鍵開機檔案皆存在\n"
+""
+msgstr ""
+
+msgid ""
+"  [開機校驗] 無法直接存取開機分區，略過 Hive 結構檢查 ({})\n"
+""
+msgstr ""
+
+msgid ""
+"  [開機自毀] 成功註冊自毀清理任務！\n"
+""
+msgstr ""
+
+msgid ""
+"  [開機自毀] 註冊 RunOnce 自毀清理任務 (重啟登入後徹底刪除臨時項目)...\n"
+""
+msgstr ""
+
+msgid ""
+"  [開機自毀] 警告：註冊自毀清理任務失敗 ({}) (不影響本次開機)\n"
+""
+msgstr ""
+
+msgid ""
+"  [防護配置] 成功設定略過開機失敗檢查！\n"
+""
+msgstr ""
+
+msgid ""
+"  [防護配置] 成功關閉自動修復！\n"
+""
+msgstr ""
+
+msgid ""
+"  [防護配置] 設定略過開機失敗檢查 (bootstatuspolicy ignoreallfailures)...\n"
+""
+msgstr ""
+
+msgid ""
+"  [防護配置] 設定略過開機失敗檢查失敗: {}\n"
+""
+msgstr ""
+
+msgid ""
+"  [防護配置] 設定關閉自動修復 (recoveryenabled No)...\n"
+""
+msgstr ""
+
+msgid ""
+"  [防護配置] 關閉自動修復失敗: {}\n"
+""
+msgstr ""
+
+msgid ""
+"  [降級備援] 備援方案亦失敗: {}\n"
+""
+msgstr ""
+
+msgid ""
+"  [降級備援] 備援方案複製 {default} 成功！\n"
+""
+msgstr ""
+
+msgid ""
+"  [降級備援] 複製範本 {} 失敗: {}，啟動備援嘗試 {{default}}...\n"
+""
+msgstr ""
+
+msgid "32 位元系統不支援 Hyper-V 虛擬化。"
+msgstr ""
+
+msgid "32 位元系統無強制核心簽章限制，無需解鎖。"
+msgstr ""
+
+msgid "BCD 蜂巢結構損毀 ({})"
+msgstr ""
+
+msgid "BCD 解析失敗: {}"
+msgstr ""
+
+msgid "BCD 設定 hypervisorlaunchtype 失敗: {}"
+msgstr ""
+
+msgid "Hyper-V 虛擬化"
+msgstr ""
+
+msgid "Hyper-V 虛擬化已啟用"
+msgstr ""
+
+msgid "Hyper-V 虛擬化已關閉"
+msgstr ""
+
+msgid "Hyper-V 虛擬化與核心隔離已啟用"
+msgstr ""
+
+msgid "PE 啟動項的裝置指向無效 (unknown)，已回滾並取消重啟，請改以碟符掛載後再試。"
+msgstr ""
+
+msgid "PE 核心重啟指令失敗 (NTSTATUS: 0x{:08X}, Privilege: 0x{:08X})"
+msgstr ""
+
+msgid "PE 核心關機指令失敗 (NTSTATUS: 0x{:08X}, Privilege: 0x{:08X})"
+msgstr ""
+
+msgid "UEFI BIOS"
 msgstr ""
 
 msgid "USB啟動"
 msgstr ""
 
-msgid "\n[狀態變更] {}\n"
+msgid "WinPE 環境"
 msgstr ""
 
-msgid "使用者將目標隨身碟切換為: {} {}"
+msgid "WinRE 健全 (已啟用 · {} · {} MB)"
 msgstr ""
 
-msgid "無法讀取掃描結果"
+msgid "WinRE 已設定啟用，但找不到實體 winre.wim 映像檔"
 msgstr ""
 
-msgid "無法讀取選擇結果"
+msgid "WinRE 映像存在但處於停用狀態 (可執行 reagentc /enable)"
 msgstr ""
 
-msgid "未找到指定的 PE 隨身碟，請重新掃描。"
+msgid "Windows 修復環境 (WinRE)"
+msgstr ""
+
+msgid "[API失敗] {}"
+msgstr ""
+
+msgid ""
+"[{}] 操作: {}\n"
+"  變更細節: {}\n"
+"  執行狀態: {}\n"
+"----------------------------------------\n"
+""
+msgstr ""
+
+msgid ""
+"[成功] {}\n"
+""
+msgstr ""
+
+msgid ""
+"[成功] 安全防護已恢復，請重新開機以生效。\n"
+""
+msgstr ""
+
+msgid ""
+"[成功] 已發送 Win32 原生關機信號，系統正在關機...\n"
+""
+msgstr ""
+
+msgid ""
+"[成功] 強制簽章驗證已停用，請重新開機以生效。\n"
+""
+msgstr ""
+
+msgid ""
+"[成功] 強制簽章驗證已恢復正常，請重新開機以生效。\n"
+""
+msgstr ""
+
+msgid ""
+"[成功] 指定的安全限制已解除，請重新開機以生效。\n"
+""
+msgstr ""
+
+msgid ""
+"[成功] 測試模式已開啟，請重新開機以生效。桌面右下角將顯示「測試模式」浮水印。\n"
+""
+msgstr ""
+
+msgid ""
+"[成功] 測試模式已關閉，請重新開機以生效。\n"
+""
+msgstr ""
+
+msgid ""
+"[成功] 設定已完成！系統即將重新啟動使變更生效...\n"
+""
+msgstr ""
+
+msgid ""
+"[提示/錯誤] {}\n"
+""
+msgstr ""
+
+msgid ""
+"[警告] 過程中有錯誤發生，請檢查上方日誌。\n"
+""
+msgstr ""
+
+msgid ""
+"[錯誤] {}\n"
+""
+msgstr ""
+
+msgid ""
+"[錯誤] {}\n"
+"提示：請先到 BIOS 關閉 Secure Boot 後再嘗試。\n"
+""
+msgstr ""
+
+msgid ""
+"[錯誤] {}\n"
+"提示：請確認是否具備系統管理員權限，或先到 BIOS 關閉 Secure Boot。\n"
+""
+msgstr ""
+
+msgid "[開機校驗] BCD 登錄檔結構損毀或無法載入 ({})，已阻斷重啟"
+msgstr ""
+
+msgid "[開機校驗] BCD 項目 {} 含有無效分區指向 \"{}\"，已阻斷重啟"
+msgstr ""
+
+msgid "[開機校驗] BCD 項目 {} 指向的載入器不存在: {}，已阻斷重啟"
+msgstr ""
+
+msgid "[開機校驗] 找不到實體系統的開機分區 / BCD，已阻斷重啟"
+msgstr ""
+
+msgid "[開機校驗] 無法讀取 BCD 項目 {}: {}"
+msgstr ""
+
+msgid "[開機校驗] 缺少關鍵開機檔案: {}，已阻斷重啟"
+msgstr ""
+
+msgid ""
+"[電源策略] 原生重啟信號發送成功，系統正在重新啟動...\n"
+""
+msgstr ""
+
+msgid ""
+"[電源策略] 重啟信號發送失敗: {}\n"
+""
+msgstr ""
+
+msgid "bootsequence 失敗: {}"
 msgstr ""
 
 msgid "ramdisksdidevice 失敗: {}"
@@ -320,7 +786,7 @@ msgstr ""
 msgid "ramdisksdipath 失敗: {}"
 msgstr ""
 
-msgid "執行 bcdedit /create 失敗: {}"
+msgid "set detecthal 失敗: {}"
 msgstr ""
 
 msgid "set device 失敗: {}"
@@ -338,247 +804,349 @@ msgstr ""
 msgid "set winpe 失敗: {}"
 msgstr ""
 
-msgid "set detecthal 失敗: {}"
+msgid "一次性安全模式"
 msgstr ""
 
-msgid "bootsequence 失敗: {}"
+msgid "一次性安全模式 (Minimal)"
 msgstr ""
 
-msgid "無法在系統中找到此本地模式 PE 的引導選單。請確認您已正確安裝本地模式 PE。"
+msgid "一次性安全模式 (含網路)"
 msgstr ""
 
-msgid "set device locate 失敗: {}"
+msgid "下一次開機將進入含網路連線的安全模式。第二次重新開機時，系統將自動恢復進入正常模式。"
 msgstr ""
 
-msgid "成功偵測到隨身碟並建立啟動項，系統正在重新啟動..."
+msgid "下一次開機將進入安全模式。第二次重新開機時，系統將自動恢復進入正常模式。"
 msgstr ""
 
-msgid "成功建立 PE 啟動項，但發送重啟訊號失敗，請手動重新啟動電腦。"
+msgid "不可開機"
 msgstr ""
 
-msgid "恢復驅動與核心安全防護"
-msgstr ""
-
-msgid "解除驅動與核心安全限制"
-msgstr ""
-
-msgid "包含測試模式、強制簽章與記憶體完整性。\n勾選下方項目並點擊按鈕，設定將於下次重開機後生效。"
-msgstr ""
-
-msgid "停用驅動封鎖規則"
-msgstr ""
-
-msgid "關閉記憶體完整性"
-msgstr ""
-
-msgid "恢復預設安全"
-msgstr ""
-
-msgid "套用變更"
-msgstr ""
-
-msgid "重啟大師 (Reboot Master)"
-msgstr ""
-
-msgid "系統就緒。請選擇操作項目。"
-msgstr ""
-
-msgid "USB啟動"
-msgstr ""
-
-msgid "掃描 USB 裝置中..."
-msgstr ""
-
-msgid "確定要執行此操作？"
-msgstr ""
-
-msgid "即將執行選定的重啟或關機操作。"
-msgstr ""
-
-msgid "重啟管理"
-msgstr ""
-
-msgid "說明"
-msgstr ""
-
-msgid "聲明"
-msgstr ""
-
-msgid "外觀：跟隨系統 (點擊切換反色)"
-msgstr ""
-
-msgid "外觀：淺色 (點擊切換深色)"
-msgstr ""
-
-msgid "外觀：深色 (點擊跟隨系統)"
-msgstr ""
-
-msgid "設定"
-msgstr ""
-
-msgid "開機控制"
-msgstr ""
-
-msgid "電源與開機導向控制"
-msgstr ""
-
-msgid "點擊卡片即可執行操作。安全模式採用無痕自動清除技術。"
-msgstr ""
-
-msgid "WinPE 環境"
-msgstr ""
-
-msgid "標準 Windows"
-msgstr ""
-
-msgid "操作日誌"
-msgstr ""
-
-msgid "BIOS / UEFI 設定"
-msgstr ""
-
-msgid "重啟並自動進入主機板底層韌體設定畫面"
-msgstr ""
-
-msgid "安全模式 (一般)"
-msgstr ""
-
-msgid "無網路基礎排錯模式，第二次重啟自動復原"
-msgstr ""
-
-msgid "重新啟動系統"
-msgstr ""
-
-msgid "呼叫原生 API 強制重新啟動電腦"
-msgstr ""
-
-msgid "進階開機選單"
-msgstr ""
-
-msgid "進入 Windows 修復環境 (WinRE) 與啟動設定"
-msgstr ""
-
-msgid "自動偵測USB裝置並使用USB裝置啟動"
-msgstr ""
-
-msgid "安全模式 (含網路)"
-msgstr ""
-
-msgid "支援連線之排錯模式，第二次重啟自動復原"
-msgstr ""
-
-msgid "安全關機"
-msgstr ""
-
-msgid "呼叫原生 API 安全關閉電腦電源"
-msgstr ""
-
-msgid "恢復系統安全防護"
-msgstr ""
-
-msgid "停用驅動強制簽章"
-msgstr ""
-
-msgid "啟用驅動測試模式"
-msgstr ""
-
-msgid "32 位元系統無強制核心簽章限制，無需解鎖。"
-msgstr ""
-
-msgid "恢復預設數位簽章驗證與防護。點擊卡片套用並重啟。"
-msgstr ""
-
-msgid "關閉數位簽章驗證與記憶體完整性。點擊卡片套用。"
-msgstr ""
-
-msgid "允許載入無簽章驅動。點擊右側展開選項。"
-msgstr ""
-
-msgid "去除測試模式浮水印"
-msgstr ""
-
-msgid "操作日誌歷史"
-msgstr ""
-
-msgid "檢視所有執行過的指令與系統回報紀錄。"
-msgstr ""
-
-msgid "複製日誌"
-msgstr ""
-
-msgid "回上一頁"
-msgstr ""
-
-msgid "操作說明"
+msgid "主機板或系統未支援韌體引導 (Legacy BIOS)"
 msgstr ""
 
 msgid "了解重啟大師的操作細節與底層架構設計。"
 msgstr ""
 
-msgid "軟體功能與優先級設計"
-msgstr ""
-
-msgid "本軟體依循「原生 Win32 API 優先 > DLL 導出函式 > 系統管理指令」之架構設計。直接關機與重啟採用 ExitWindowsEx API；安全模式則透過 BCD 一次性導引機制（/bootsequence），確保重啟一次進入安全模式後，下次重開機即自動回歸標準正常模式。"
-msgstr ""
-
-msgid "得翼科技 (DEI 3C)"
-msgstr ""
-
-msgid "效能無界限，讓您的數位生活隨心所欲"
-msgstr ""
-
-msgid "電腦組裝"
-msgstr ""
-
-msgid "筆電升級"
-msgstr ""
-
-msgid "網路規劃"
-msgstr ""
-
-msgid "資安防護"
-msgstr ""
-
-msgid "官方頻道與社群"
-msgstr ""
-
-msgid "前往官方部落格"
-msgstr ""
-
-msgid "重啟大師 (Reboot Master) "
+msgid "使用者將目標隨身碟切換為: {} {}"
 msgstr ""
 
 msgid "使用者條款與免責聲明"
 msgstr ""
 
-msgid "請在使用本軟體前詳細閱讀以下條款與資料安全提醒。"
+msgid "修復 0x7B 開機藍屏"
 msgstr ""
 
-msgid "資料安全提醒與免責聲明"
+msgid "停用 Hypervisor 引擎以釋放效能與硬體直接存取"
 msgstr ""
 
-msgid "歡迎使用「重啟大師 (Reboot Master)」\n\n1. 觸發重新開機或關機前，系統將立即終止所有未儲存之應用程式執行。請使用者於執行前確保所有工作檔案皆已儲存完畢。\n\n2. 本軟體依「現況」免費提供，開發團隊不承擔因硬體相容性（如主機板不支援 UEFI 韌體重啟）或資料未儲存造成之任何直接或間接損失。"
+msgid "停用驅動封鎖規則"
 msgstr ""
 
-msgid "調整語言、外觀與軟體更新。"
+msgid "停用驅動強制簽章"
 msgstr ""
 
-msgid "語言"
+msgid "停用驅動程式強制簽章"
 msgstr ""
 
-msgid "選擇介面顯示語言。"
+msgid "偵測到多個 Windows，請選擇要操作的系統"
 msgstr ""
 
-msgid "繁體中文"
+msgid "偵測到系統碟 ({}:) 位於 IDE/ATA 磁碟 ({})，但系統 IDE 驅動未啟用開機載入 (Start={})，已自動勾選「修復 0x7B 開機藍屏」"
 msgstr ""
 
-msgid "简体中文"
+msgid "偵測到系統碟 ({}:) 位於 NVMe 磁碟 ({})，但系統 stornvme 驅動未啟用開機載入 (Start={})，已自動勾選「修復 0x7B 開機藍屏」"
+msgstr ""
+
+msgid "偵測到系統碟 ({}:) 位於 RAID/VMD 磁碟 ({})，但對應儲存驅動未啟用開機載入，已自動勾選「修復 0x7B 開機藍屏」"
+msgstr ""
+
+msgid "偵測到系統碟 ({}:) 位於 SATA/AHCI 磁碟 ({})，但系統 AHCI 驅動未啟用開機載入 (Start={})，已自動勾選「修復 0x7B 開機藍屏」"
+msgstr ""
+
+msgid "允許載入無簽章之驅動程式。"
+msgstr ""
+
+msgid "內部鎖定失敗"
+msgstr ""
+
+msgid "再次確認您的操作"
+msgstr ""
+
+msgid "前往官方部落格"
+msgstr ""
+
+msgid "即將執行選定的重啟或關機操作。"
+msgstr ""
+
+msgid "去除測試模式浮水印"
+msgstr ""
+
+msgid "取消"
+msgstr ""
+
+msgid "呼叫原生 API 安全關閉電腦電源"
+msgstr ""
+
+msgid "呼叫原生 API 強制重新啟動電腦"
+msgstr ""
+
+msgid "啟動時會自動檢查 GitHub 上的最新版本。"
+msgstr ""
+
+msgid "啟用微軟 Type-1 虛擬化架構 (支援 WSL2 與模擬器)"
+msgstr ""
+
+msgid "啟用網路連線"
+msgstr ""
+
+msgid "啟用驅動測試模式"
+msgstr ""
+
+msgid "回上一頁"
+msgstr ""
+
+msgid "執行 `bcdedit {}` 失敗: {}"
+msgstr ""
+
+msgid "執行 bcdedit /create 失敗: {}"
+msgstr ""
+
+msgid "執行 bcdedit 失敗: {}"
 msgstr ""
 
 msgid "外觀"
 msgstr ""
 
-msgid "選擇淺色、深色，或跟隨系統設定。"
+msgid "外觀：深色 (點擊跟隨系統)"
+msgstr ""
+
+msgid "外觀：淺色 (點擊切換深色)"
+msgstr ""
+
+msgid "外觀：跟隨系統 (點擊切換反色)"
+msgstr ""
+
+msgid "安全模式"
+msgstr ""
+
+msgid "安全關機"
+msgstr ""
+
+msgid "官方頻道與社群"
+msgstr ""
+
+msgid "寫入 UEFI 變數: OsIndications (GUID: {8BE4DF61-93CA-11D2-AA0D-00E098032B8C})，Bit 0 設為 1 (BootToFwUI)"
+msgstr ""
+
+msgid "寫入 UEFI 韌體變數失敗，可能受限於防毒軟體或權限異常。"
+msgstr ""
+
+msgid "寫入登錄檔失敗 (代碼 {})"
+msgstr ""
+
+msgid "寫入離線登錄檔 RunOnce 失敗 (錯誤碼 {})"
+msgstr ""
+
+msgid ""
+"將恢復 Windows 預設的數位簽章驗證與核心安全機制。\n"
+"\n"
+"需要重新開機才會完全生效。確定要執行嗎？"
+msgstr ""
+
+msgid "將恢復 Windows 預設的驅動程式數位簽章驗證機制。需重新開機才會生效。"
+msgstr ""
+
+msgid "尚未檢查更新。"
+msgstr ""
+
+msgid ""
+"尚無歷史操作紀錄。\n"
+""
+msgstr ""
+
+msgid "已套用單次重啟防護參數並發送重啟信號，系統正在重啟..."
+msgstr ""
+
+msgid "已成功設定 {}，系統正在重新啟動..."
+msgstr ""
+
+msgid "已成功設定重啟並直通進入 WinRE 修復環境"
+msgstr ""
+
+msgid "已發送 Win32 原生重啟信號，系統正在重啟..."
+msgstr ""
+
+msgid "已連接隨身碟，但未偵測到包含 PE 環境"
+msgstr ""
+
+msgid "建立臨時安全模式引導項失敗"
+msgstr ""
+
+msgid "建立臨時進階選單引導項失敗"
+msgstr ""
+
+msgid "得翼科技 (DEI 3C)"
+msgstr ""
+
+msgid "恢復強制簽章驗證"
+msgstr ""
+
+msgid "恢復系統安全防護"
+msgstr ""
+
+msgid "恢復預設數位簽章驗證與防護。"
+msgstr ""
+
+msgid "成功偵測到隨身碟並建立啟動項，系統正在重新啟動..."
+msgstr ""
+
+msgid "成功建立 PE 啟動項！因 {}，為避免黑屏系統即將關機。請於電腦斷電後按電源鍵開機即可亮屏進入 PE！"
+msgstr ""
+
+msgid "成功建立 PE 啟動項，但發送重啟訊號失敗，請手動重新啟動電腦。"
+msgstr ""
+
+msgid "所有安全模式均採用無痕自動清除技術，重啟後將自動還原。"
+msgstr ""
+
+msgid "找不到 ESP / 開機分區"
+msgstr ""
+
+msgid "找不到實體系統的 SOFTWARE 登錄檔"
+msgstr ""
+
+msgid "找不到目標系統的 SYSTEM 登錄檔: {}"
+msgstr ""
+
+msgid "找不到開機設定存放區 (BCD): {}"
+msgstr ""
+
+msgid "掃描 USB 裝置中..."
+msgstr ""
+
+msgid "操作日誌"
+msgstr ""
+
+msgid "操作日誌歷史"
+msgstr ""
+
+msgid "操作說明"
+msgstr ""
+
+msgid "支援連線之排錯模式，第二次重啟自動復原"
+msgstr ""
+
+msgid "效能無界限，讓您的數位生活隨心所欲"
+msgstr ""
+
+msgid "新增了隨身碟/磁碟: {} {}"
+msgstr ""
+
+msgid "未在開機選單中註冊 (BCD 無對應項目)"
+msgstr ""
+
+msgid "未找到指定的 PE 隨身碟，請重新掃描。"
+msgstr ""
+
+msgid "未插入任何隨身碟"
+msgstr ""
+
+msgid "未配置 WinRE 修復環境"
+msgstr ""
+
+msgid "未配置開機引導或檔案缺失"
+msgstr ""
+
+msgid "本地 PE 啟動項 ({}) 含有無效分區指向 (unknown)，開機會引發藍屏 (0xc000000e)！已自動阻斷重啟。請重新於系統內安裝本地 PE 或改用 USB 隨身碟啟動。"
+msgstr ""
+
+msgid "本軟體依循「原生 Win32 API 優先 > DLL 導出函式 > 系統管理指令」之架構設計。直接關機與重啟採用 ExitWindowsEx API；安全模式則透過 BCD 一次性導引機制（/bootsequence），確保重啟一次進入安全模式後，下次重開機即自動回歸標準正常模式。"
+msgstr ""
+
+msgid "核心隔離 (記憶體完整性)"
+msgstr ""
+
+msgid "標準 Windows"
+msgstr ""
+
+msgid "檢查更新"
+msgstr ""
+
+msgid "檢視所有執行過的指令與系統回報紀錄。"
+msgstr ""
+
+msgid ""
+"歡迎使用「重啟大師 (Reboot Master)」\n"
+"\n"
+"1. 觸發重新開機或關機前，系統將立即終止所有未儲存之應用程式執行。請使用者於執行前確保所有工作檔案皆已儲存完畢。\n"
+"\n"
+"2. 本軟體依「現況」免費提供，開發團隊不承擔因硬體相容性（如主機板不支援 UEFI 韌體重啟）或資料未儲存造成之任何直接或間接損失。"
+msgstr ""
+
+msgid "正在下載更新，完成後將自動重新啟動..."
+msgstr ""
+
+msgid "正在檢查更新..."
+msgstr ""
+
+msgid "此功能僅支援 Windows 8 及以上之 UEFI 系統"
+msgstr ""
+
+msgid "此功能僅支援 Windows 8 及以上版本。您的系統過舊，請在開機時手動按鍵進入 BIOS。"
+msgstr ""
+
+msgid ""
+"此操作將徹底關閉 Windows 的驅動程式數位簽章驗證 (nointegritychecks)。\n"
+"\n"
+"• 允許安裝完全沒有數位簽章的驅動程式\n"
+"• 系統安全性將大幅降低\n"
+"• 需先在 BIOS 關閉 Secure Boot 才能生效\n"
+"• 執行後需重新開機才會生效。"
+msgstr ""
+
+msgid "此操作將立即重新啟動電腦並自動進入 UEFI BIOS 設定畫面。"
+msgstr ""
+
+msgid ""
+"此操作將透過 BCD 開啟 Hypervisor 開機載入 (hypervisorlaunchtype auto)。若勾選核心隔離，將一併開啟 VBS 與記憶體完整性。\n"
+"\n"
+"提示：需在 BIOS 開啟 CPU 虛擬化 (VT-x / SVM)。需要重新開機才會生效。確定要執行並重啟嗎？"
+msgstr ""
+
+msgid ""
+"此操作將透過 BCD 關閉 Hypervisor 開機載入 (hypervisorlaunchtype off)。若勾選核心隔離，將一併關閉 VBS 與記憶體完整性。\n"
+"\n"
+"需要重新開機才會生效。確定要執行並重啟嗎？"
+msgstr ""
+
+msgid "此操作將透過 Win32 原生 API 立即重啟您的電腦。"
+msgstr ""
+
+msgid "此操作將透過 Win32 原生 API 立即關閉電腦電源。"
+msgstr ""
+
+msgid "此操作將重新啟動電腦並直接開啟 Windows 進階開機與疑難排解選單。"
+msgstr ""
+
+msgid "此系統為傳統 BIOS (Legacy)，無法透過軟體重啟進入 BIOS 設定。請在開機時手動按鍵進入。"
+msgstr ""
+
+msgid ""
+"母體範本: {}\n"
+"  模式: {}\n"
+"  臨時 GUID: {}"
+msgstr ""
+
+msgid ""
+"母體範本: {}\n"
+"  臨時 GUID: {}"
+msgstr ""
+
+msgid "深色"
+msgstr ""
+
+msgid "深色 (跟隨系統)"
 msgstr ""
 
 msgid "淺色"
@@ -587,22 +1155,61 @@ msgstr ""
 msgid "淺色 (跟隨系統)"
 msgstr ""
 
-msgid "深色 (跟隨系統)"
+msgid "準備重啟"
 msgstr ""
 
-msgid "深色"
+msgid "無法判定系統所在的實體磁碟"
 msgstr ""
 
-msgid "軟體更新"
+msgid "無法在系統中找到此本地模式 PE 的引導選單。請確認您已正確安裝本地模式 PE。"
 msgstr ""
 
-msgid "啟動時會自動檢查 GitHub 上的最新版本。"
+msgid "無法執行 bcdedit: {}"
 msgstr ""
 
-msgid "目前版本："
+msgid "無法存取開機分區 ({})"
 msgstr ""
 
-msgid "正在檢查更新..."
+msgid "無法從 bcdedit 輸出中找到新的 GUID 終點"
+msgstr ""
+
+msgid "無法從 bcdedit 輸出中找到新的 GUID 起點"
+msgstr ""
+
+msgid "無法掛載目標系統的 SYSTEM 登錄檔 Hive"
+msgstr ""
+
+msgid "無法獲取 SeShutdownPrivilege 系統重啟權限"
+msgstr ""
+
+msgid "無法獲取 SeShutdownPrivilege 系統關機權限"
+msgstr ""
+
+msgid "無法獲取當前執行檔路徑: {}"
+msgstr ""
+
+msgid "無法獲取系統環境權限 (SeSystemEnvironmentPrivilege)，請確認是否以系統管理員身分執行"
+msgstr ""
+
+msgid "無法讀取掃描結果"
+msgstr ""
+
+msgid "無法讀取選擇結果"
+msgstr ""
+
+msgid "無法載入實體系統的 SOFTWARE 登錄檔 Hive"
+msgstr ""
+
+msgid "無法連線至 GitHub，請檢查網路連線。"
+msgstr ""
+
+msgid "無網路基礎排錯模式，第二次重啟自動復原"
+msgstr ""
+
+msgid "略過開機失敗狀態"
+msgstr ""
+
+msgid "當前主機板或作業系統不支援直接從系統重啟至韌體/BIOS設定"
 msgstr ""
 
 msgid "發現新版本："
@@ -611,173 +1218,97 @@ msgstr ""
 msgid "目前已是最新版本。"
 msgstr ""
 
-msgid "無法連線至 GitHub，請檢查網路連線。"
+msgid "目前版本："
 msgstr ""
 
-msgid "正在下載更新，完成後將自動重新啟動..."
+msgid "目標系統"
 msgstr ""
 
-msgid "尚未檢查更新。"
+msgid "目標系統 {}: 無法開機（{}），已中止重啟配置！"
 msgstr ""
 
-msgid "檢查更新"
+msgid ""
+"目標系統 {}: 無法開機（原因：{}）。\n"
+"\n"
+"為確保電腦安全，系統已阻斷重啟引導設定！請檢查該系統分區之 EFI 開機引導與核心檔案是否健全。"
 msgstr ""
 
-msgid "立即更新"
+msgid "目標系統無法開機"
 msgstr ""
 
-msgid "再次確認您的操作"
+msgid "直接安全關機"
 msgstr ""
 
-msgid "\n\n請確認您的所有工作與文件皆已儲存。確定要立即執行嗎？"
-msgstr ""
-
-msgid "取消"
+msgid "直接強制重啟電腦"
 msgstr ""
 
 msgid "確定執行"
 msgstr ""
 
-msgid "所有安全模式均採用無痕自動清除技術，重啟後將自動還原。"
+msgid "確定要執行此操作？"
 msgstr ""
 
-msgid "恢復預設數位簽章驗證與防護。"
+msgid "移除了隨身碟/磁碟: {} {}"
 msgstr ""
 
-msgid "關閉數位簽章驗證與記憶體完整性"
+msgid "立即更新"
 msgstr ""
 
-msgid "允許載入無簽章之驅動程式。"
+msgid "筆電升級"
 msgstr ""
 
-msgid "選擇語言"
+msgid "系統就緒。請選擇操作項目。"
 msgstr ""
 
-msgid "此功能僅支援 Windows 8 及以上版本。您的系統過舊，請在開機時手動按鍵進入 BIOS。"
+msgid "系統碟 ({}:) 介面為 IDE/ATA，儲存驅動狀態正常 (Start=0)"
 msgstr ""
 
-msgid "此系統為傳統 BIOS (Legacy)，無法透過軟體重啟進入 BIOS 設定。請在開機時手動按鍵進入。"
+msgid "系統碟 ({}:) 介面為 NVMe，stornvme 開機驅動狀態正常 (Start=0)"
 msgstr ""
 
-msgid "  [範本解析] 處於 WinPE 環境，採用實體系統預設項 {default}\n"
+msgid "系統碟 ({}:) 介面為 RAID/VMD，儲存驅動狀態正常 (Start=0)"
 msgstr ""
 
-msgid "  [範本解析] 正在探測當前引導項 {current}...\n"
+msgid "系統碟 ({}:) 介面為 SATA/AHCI，儲存驅動狀態正常 (Start=0)"
 msgstr ""
 
-msgid "  [範本解析] 當前會話引導項 {current} 有效，採用為母體範本\n"
+msgid "網路規劃"
 msgstr ""
 
-msgid "  [範本解析] 偵測到 {current} 已於前次重啟後被清理刪除 (無效識別元)\n"
+msgid "缺少 ntoskrnl 核心檔案"
 msgstr ""
 
-msgid "  [範本解析] 正在驗證系統永久開機項 {default}...\n"
+msgid "缺少 winload 核心載入器"
 msgstr ""
 
-msgid "  [範本解析] 成功選定系統永久開機項 {default} 作為母體範本 (確保一次成功)\n"
+msgid "缺少韌體開機管理程式 (bootmgfw.efi/bootmgr)"
 msgstr ""
 
-msgid "  [範本解析] 正在掃描 BCD osloader 列表以尋找有效開機項...\n"
+msgid "聲明"
 msgstr ""
 
-msgid "  [範本解析] 從 osloader 列表成功定位實體系統項: {}\n"
+msgid "自動偵測USB裝置並使用USB裝置啟動"
 msgstr ""
 
-msgid "  [範本解析] 未能列舉額外開機項，預設採用 {default}\n"
+msgid "複製日誌"
 msgstr ""
 
-msgid "  [建立副本] 正在自範本 {} 複製建立臨時安全模式項...\n"
+msgid "解除驅動與核心安全限制"
 msgstr ""
 
-msgid "  [建立副本] 成功建立副本！\n"
+msgid "設定"
 msgstr ""
 
-msgid "  [降級備援] 複製範本 {} 失敗: {}，啟動備援嘗試 {{default}}...\n"
+msgid "語言"
 msgstr ""
 
-msgid "  [降級備援] 備援方案複製 {default} 成功！\n"
+msgid "說明"
 msgstr ""
 
-msgid "  [降級備援] 備援方案亦失敗: {}\n"
+msgid "調整語言、外觀與軟體更新。"
 msgstr ""
 
-msgid "建立臨時安全模式引導項失敗"
-msgstr ""
-
-msgid "  [建立副本] 失敗: {}\n"
-msgstr ""
-
-msgid "  [臨時標識] 取得臨時 GUID: {}\n"
-msgstr ""
-
-msgid "  [選單隱藏] 從開機選單中隱藏此臨時副本 (/displayorder ... /remove)...\n"
-msgstr ""
-
-msgid "  [模式配置] 設定 safeboot 參數為 {}...\n"
-msgstr ""
-
-msgid "  [一次性引導] 設定單次啟動序列 (/bootsequence)，重啟後 BootMgr 自動復原...\n"
-msgstr ""
-
-msgid "  [開機自毀] 註冊 RunOnce 自毀清理任務 (重啟登入後徹底刪除臨時項目)...\n"
-msgstr ""
-
-msgid "母體範本: {}\n  模式: {}\n  臨時 GUID: {}"
-msgstr ""
-
-msgid "  [建立副本] 正在自範本 {} 複製建立臨時進階選單項...\n"
-msgstr ""
-
-msgid "建立臨時進階選單引導項失敗"
-msgstr ""
-
-msgid "  [進階選項] 啟用 advancedoptions=true (Win7 顯示 F8 選單，Win10/11 顯示開機設定)...\n"
-msgstr ""
-
-msgid "母體範本: {}\n  臨時 GUID: {}"
-msgstr ""
-
-msgid "此功能僅支援 Windows 8 及以上之 UEFI 系統"
-msgstr ""
-
-msgid "主機板或系統未支援韌體引導 (Legacy BIOS)"
-msgstr ""
-
-
-msgid "安全模式"
-msgstr ""
-
-msgid "關閉 Hyper-V 虛擬化"
-msgstr ""
-
-msgid "開啟 Hyper-V 虛擬化"
-msgstr ""
-
-msgid "Hyper-V 虛擬化"
-msgstr ""
-
-msgid "停用 Hypervisor 引擎以釋放效能與硬體直接存取"
-msgstr ""
-
-msgid "啟用微軟 Type-1 虛擬化架構 (支援 WSL2 與模擬器)"
-msgstr ""
-
-msgid "32 位元系統不支援 Hyper-V 虛擬化。"
-msgstr ""
-
-msgid "核心隔離 (記憶體完整性)"
-msgstr ""
-
-msgid "修復 0x7B 開機藍屏"
-msgstr ""
-
-msgid "啟用網路連線"
-msgstr ""
-
-msgid "含網路連線的安全模式，第二次重啟自動復原"
-msgstr ""
-
-msgid "選擇開機隨身碟："
+msgid "請在使用本軟體前詳細閱讀以下條款與資料安全提醒。"
 msgstr ""
 
 msgid "請注意：即將重啟或變更開機狀態"
@@ -789,36 +1320,145 @@ msgstr ""
 msgid "請確認您的所有工作與文件皆已儲存。確定要立即執行嗎？"
 msgstr ""
 
-msgid "此操作將透過 BCD 關閉 Hypervisor 開機載入 (hypervisorlaunchtype off)。若勾選核心隔離，將一併關閉 VBS 與記憶體完整性。\n"
+msgid ""
+"警告：這將徹底停用驅動程式強制簽章 (nointegritychecks) 並關閉記憶體完整性，大幅降低系統安全性。\n"
 "\n"
-"需要重新開機才會生效。確定要執行並重啟嗎？"
+"需要重新開機才會完全生效。確定要執行嗎？"
 msgstr ""
 
-msgid "此操作將透過 BCD 開啟 Hypervisor 開機載入 (hypervisorlaunchtype auto)。若勾選核心隔離，將一併開啟 VBS 與記憶體完整性。\n"
+msgid ""
+"警告：這將開啟測試模式以允許載入未經簽章的驅動程式，大幅降低系統安全性。\n"
 "\n"
-"提示：需在 BIOS 開啟 CPU 虛擬化 (VT-x / SVM)。需要重新開機才會生效。確定要執行並重啟嗎？"
+"需要重新開機才會完全生效。確定要執行嗎？"
 msgstr ""
 
-msgid "Hyper-V 虛擬化已關閉"
+msgid "讀取 BCD 本地項目失敗: {}"
 msgstr ""
 
-msgid "Hyper-V 虛擬化已啟用"
+msgid "資安防護"
 msgstr ""
 
-msgid "Hyper-V 虛擬化與核心隔離已啟用"
+msgid "資料安全提醒與免責聲明"
 msgstr ""
 
-msgid "UEFI BIOS"
+msgid "軟體功能與優先級設計"
 msgstr ""
 
-msgid "偵測到多個 Windows，請選擇要操作的系統"
+msgid "軟體更新"
 msgstr ""
 
-msgid "略過開機失敗狀態"
+msgid "進入 Windows 修復環境 (WinRE) 與啟動設定"
 msgstr ""
 
-msgid "目標系統"
+msgid "進階開機選單"
+msgstr ""
+
+msgid "選擇介面顯示語言。"
+msgstr ""
+
+msgid "選擇淺色、深色，或跟隨系統設定。"
+msgstr ""
+
+msgid "選擇開機隨身碟："
+msgstr ""
+
+msgid "重啟並自動進入主機板底層韌體設定畫面"
+msgstr ""
+
+msgid "重啟大師 (Reboot Master)"
+msgstr ""
+
+msgid "重啟大師 (Reboot Master) "
+msgstr ""
+
+msgid "重啟失敗，錯誤碼: {}"
+msgstr ""
+
+msgid "重啟管理"
+msgstr ""
+
+msgid "重啟至 UEFI BIOS"
+msgstr ""
+
+msgid "重啟至進階開機選單"
+msgstr ""
+
+msgid "重啟進入 UEFI BIOS"
+msgstr ""
+
+msgid "重啟進入進階開機選單"
+msgstr ""
+
+msgid "重新啟動系統"
+msgstr ""
+
+msgid "開啟"
+msgstr ""
+
+msgid "開啟 Hyper-V 虛擬化"
+msgstr ""
+
+msgid ""
+"開啟後系統將接受測試簽章驅動程式。桌面右下角會出現「測試模式」浮水印。\n"
+"\n"
+"• 需先在 BIOS 關閉 Secure Boot 才能生效\n"
+"• 大多數遊戲反作弊（EAC、BattlEye）會拒絕在此模式下運行遊戲\n"
+"• 執行後需重新開機才會生效。關閉則執行「關閉測試模式」"
+msgstr ""
+
+msgid "開啟測試模式 (Test Mode)"
+msgstr ""
+
+msgid "開機分區異常"
+msgstr ""
+
+msgid "開機鏈完整 (EFI/BCD 正常)"
+msgstr ""
+
+msgid "開機鏈完整 (單系統引導)"
+msgstr ""
+
+msgid "關機失敗，錯誤碼: {}"
+msgstr ""
+
+msgid "關閉"
+msgstr ""
+
+msgid "關閉 Hyper-V 虛擬化"
+msgstr ""
+
+msgid "關閉數位簽章驗證與記憶體完整性"
+msgstr ""
+
+msgid "關閉測試模式"
+msgstr ""
+
+msgid "關閉測試模式後，系統將恢復標準驅動簽章驗證。需重新開機才會生效。"
 msgstr ""
 
 msgid "關閉自動修復"
+msgstr ""
+
+msgid "關閉記憶體完整性"
+msgstr ""
+
+msgid "電源與開機導向控制"
+msgstr ""
+
+msgid "電腦組裝"
+msgstr ""
+
+msgid "確定"
+msgstr ""
+
+msgid "語言切換失敗"
+msgstr ""
+
+msgid "無法切換至「{}」：目前 Windows 系統缺少顯示該語言所需的字體。"
+msgstr ""
+
+msgid "無法切換至「{}」：找不到該語言的翻譯檔案或語言包已損毀。"
+msgstr ""
+
+msgid "無法切換至「{}」：語言載入失敗，已保留目前介面語言。"
 msgstr ""

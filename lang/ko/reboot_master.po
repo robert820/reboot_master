@@ -32,8 +32,8 @@ msgstr "현재 메인보드 또는 OS에서 펌웨어/BIOS 설정으로 직접 �
 msgid "寫入 UEFI 韌體變數失敗，可能受限於防毒軟體或權限異常。"
 msgstr "UEFI 펌웨어 변수 쓰기 실패. 백신 프로그램 또는 권한 문제를 확인하세요."
 
-msgid "重啟至 BIOS/UEFI"
-msgstr "BIOS/UEFI로 다시 시작"
+msgid "重啟至 UEFI BIOS"
+msgstr "UEFI BIOS로 다시 시작"
 
 msgid "寫入 UEFI 變數: OsIndications (GUID: {8BE4DF61-93CA-11D2-AA0D-00E098032B8C})，Bit 0 設為 1 (BootToFwUI)"
 msgstr "UEFI 변수 작성: OsIndications (GUID: {8BE4DF61-93CA-11D2-AA0D-00E098032B8C}), 비트 0을 1로 설정 (BootToFwUI)"
@@ -41,8 +41,8 @@ msgstr "UEFI 변수 작성: OsIndications (GUID: {8BE4DF61-93CA-11D2-AA0D-00E098
 msgid "準備重啟"
 msgstr "다시 시작 준비 중"
 
-msgid "已成功透過 API 寫入 UEFI 變數，系統正在重新啟動至 BIOS/UEFI..."
-msgstr "UEFI 변수가 작성되었습니다. BIOS/UEFI로 다시 시작하는 중..."
+msgid "已成功透過 API 寫入 UEFI 變數，系統正在重新啟動至 UEFI BIOS..."
+msgstr "UEFI 변수가 작성되었습니다. UEFI BIOS로 다시 시작하는 중..."
 
 msgid "執行 bcdedit 失敗: {}"
 msgstr "bcdedit 실행 실패: {}"
@@ -80,11 +80,11 @@ msgstr "임시 항목 GUID 생성됨: {}"
 msgid "已成功設定一次性進階開機選單，系統正在重新啟動..."
 msgstr "일회성 고급 시작 옵션이 설정되었습니다. 다시 시작하는 중..."
 
-msgid "重啟進入 BIOS / UEFI 韌體"
-msgstr "BIOS/UEFI 펌웨어로 다시 시작"
+msgid "重啟進入 UEFI BIOS"
+msgstr "UEFI BIOS 펌웨어로 다시 시작"
 
-msgid "此操作將立即重新啟動電腦並自動進入 BIOS/UEFI 設定畫面。"
-msgstr "컴퓨터를 즉시 다시 시작하고 BIOS/UEFI 설정 화면으로 자동 진입합니다."
+msgid "此操作將立即重新啟動電腦並自動進入 UEFI BIOS 設定畫面。"
+msgstr "컴퓨터를 즉시 다시 시작하고 UEFI BIOS 설정 화면으로 자동 진입합니다."
 
 msgid "一次性安全模式 (Minimal)"
 msgstr "일회성 안전 모드(최소)"
@@ -155,8 +155,8 @@ msgstr "경고: 서명되지 않은 드라이버 로드를 허용하는 테스�
 msgid "解除驅動與核心安全限制"
 msgstr "드라이버 및 커널 보안 제한 해제"
 
-msgid "\n[執行] 正在請求重啟至 BIOS/UEFI...\n"
-msgstr "\n[실행] BIOS/UEFI 재시작 요청 중...\n"
+msgid "\n[執行] 正在請求重啟至 UEFI BIOS...\n"
+msgstr "\n[실행] UEFI BIOS 재시작 요청 중...\n"
 
 msgid "[成功] {}\n"
 msgstr "[성공] {}\n"
@@ -434,8 +434,8 @@ msgstr "표준 Windows"
 msgid "操作日誌"
 msgstr "활동 로그"
 
-msgid "BIOS / UEFI 設定"
-msgstr "BIOS/UEFI 설정"
+msgid "UEFI BIOS"
+msgstr "UEFI BIOS"
 
 msgid "重啟並自動進入主機板底層韌體設定畫面"
 msgstr "재부팅 후 마더보드 펌웨어(BIOS) 설정으로 자동 진입합니다."
@@ -743,6 +743,303 @@ msgstr "이 기능은 Windows 8 이상의 UEFI 시스템만 지원합니다"
 msgid "主機板或系統未支援韌體引導 (Legacy BIOS)"
 msgstr "마더보드 또는 시스템이 펌웨어 부팅을 지원하지 않습니다(레거시 BIOS)"
 
+msgid "關閉自動修復"
+msgstr "자동 복구 비활성화"
+
+msgid "略過開機失敗狀態"
+msgstr "부팅 실패 상태 무시"
+
+msgid "  [防護配置] 設定關閉自動修復 (recoveryenabled No)...\n"
+msgstr "  [보호 구성] 자동 복구 비활성화 설정 중 (recoveryenabled No)...\n"
+
+msgid "  [防護配置] 成功關閉自動修復！\n"
+msgstr "  [보호 구성] 자동 복구가 성공적으로 비활성화되었습니다!\n"
+
+msgid "  [防護配置] 關閉自動修復失敗: {}\n"
+msgstr "  [보호 구성] 자동 복구 비활성화 실패: {}\n"
+
+msgid "  [防護配置] 設定略過開機失敗檢查 (bootstatuspolicy ignoreallfailures)...\n"
+msgstr "  [보호 구성] 부팅失敗 무시 설정 중 (bootstatuspolicy ignoreallfailures)...\n"
+
+msgid "  [防護配置] 成功設定略過開機失敗檢查！\n"
+msgstr "  [보호 구성] 부팅 실패 무시 설정이 완료되었습니다!\n"
+
+msgid "  [防護配置] 設定略過開機失敗檢查失敗: {}\n"
+msgstr "  [보호 구성] 부팅 실패 무시 설정 실패: {}\n"
+
+msgid "  [建立副本] 正在自範本 {} 複製建立單次重啟臨時項...\n"
+msgstr "  [복제 생성] 템플릿 {}에서 1회성 재부팅 항목 복사 생성 중...\n"
+
+msgid "建立臨時重啟引導項失敗"
+msgstr "임시 재부팅 부팅 항목 생성 실패"
+
+msgid "單次重啟配置"
+msgstr "1회성 재부팅 구성"
+
+msgid "\n[執行] 正在設定單次重啟引導項...\n"
+msgstr "\n[실행] 1회성 재부팅 부팅 항목 설정 중...\n"
+
+msgid "目標系統"
+msgstr "대상 시스템"
+
+msgid "偵測到多個 Windows，請選擇要操作的系統"
+msgstr "여러 Windows가 감지되었습니다. 작업할 시스템을 선택하세요"
+
+msgid "\n[WinRE 檢查] 診斷 Windows 修復環境狀態...\n"
+msgstr "\n[WinRE Check] Diagnosing Windows Recovery Environment status...\n"
+
+msgid "\n[核心操作] 執行真實二進位修補 (True In-Place Code Patch)...\n"
+msgstr "\n[Core Action] Executing true in-place binary code patch...\n"
+
+msgid "\n[核心操作] 正在排程還原原廠 user32.dll...\n"
+msgstr "\n[Core Action] Scheduling restore of original user32.dll...\n"
+
+msgid "\n[狀態變更] 使用者將目標系統切換為: {}\n"
+msgstr "\n[Status] User switched target system to: {}\n"
+
+msgid "\n[開機校驗] 重啟前檢查開機引導鏈...\n"
+msgstr "\n[Boot Check] Verifying boot chain before restart...\n"
+
+msgid "\n[電源策略] 執行原生熱重啟，系統正在重新啟動至 {}...\n"
+msgstr "\n[Power Policy] Executing native warm reboot to {}...\n"
+
+msgid "      -> MoveFileExW 失敗。\n"
+msgstr "      -> MoveFileExW failed.\n"
+
+msgid "      -> [成功] 排程就緒！重開機後將正式載入被改寫的機器碼。\n"
+msgstr "      -> [Success] Scheduled! Modified machine code will load after reboot.\n"
+
+msgid "      -> 已修改分支旗標: JZ -> JMP (強制繞過浮水印字串組裝)\n"
+msgstr "      -> Branch flag modified: JZ -> JMP (bypass watermark assembly)\n"
+
+msgid "      -> 已就地覆寫機器碼: 31 C0 C2 04 00 (XOR EAX, EAX; RET 4)\n"
+msgstr "      -> In-place opcode patched: 31 C0 C2 04 00 (XOR EAX, EAX; RET 4)\n"
+
+msgid "  [+] 已排程：原廠 user32.dll 將於重開機瞬間復原。\n"
+msgstr "  [+] Scheduled: Original user32.dll will be restored upon reboot.\n"
+
+msgid "  [-] 找不到備份檔，忽略還原。\n"
+msgstr "  [-] Backup file not found, skipping restore.\n"
+
+msgid "  [-] 註冊延遲還原失敗。\n"
+msgstr "  [-] Registering delayed restore failed.\n"
+
+msgid "  [-] 警告：未找到相符特徵碼，可能此 Win7 組建補丁版本不同。\n"
+msgstr "  [-] Warning: Signature mismatch, Win7 build/patch version may differ.\n"
+
+msgid "  [1] 解除 TrustedInstaller 系統鎖定...\n"
+msgstr "  [1] Unlocking TrustedInstaller system lock...\n"
+
+msgid "  [2] 建立安全還原備份: user32_bak.dll\n"
+msgstr "  [2] Creating safe restore backup: user32_bak.dll\n"
+
+msgid "  [3] 載入二進位檔案並掃描繪圖邏輯常式...\n"
+msgstr "  [3] Loading binary and scanning paint routines...\n"
+
+msgid "  [4] 導言特徵未命中，改為掃描測試模式條件跳躍 (Branch Patch)...\n"
+msgstr "  [4] Prologue not matched, scanning test mode conditional jump (Branch Patch)...\n"
+
+msgid "  [5] 匯出修補後的 user32_patched.dll...\n"
+msgstr "  [5] Exporting patched user32_patched.dll...\n"
+
+msgid "  [6] 掛載 PendingFileRenameOperations 延遲開機覆蓋...\n"
+msgstr "  [6] Setting PendingFileRenameOperations for reboot replace...\n"
+
+msgid "  [WinRE 檢查] [!] WinRE 處於停用狀態，進階選單可能無法進入修復環境 (可在系統內執行 reagentc /enable)\n"
+msgstr "  [WinRE Check] [!] WinRE is disabled; advanced menu may not enter recovery (run reagentc /enable in OS)\n"
+
+msgid "  [WinRE 檢查] [!] 找不到 ReAgent.xml，WinRE 可能未設定\n"
+msgstr "  [WinRE Check] [!] ReAgent.xml not found; WinRE may not be configured\n"
+
+msgid "  [WinRE 檢查] [!] 找不到 winre.wim (可能位於未指派碟符的復原分區，無法確認)\n"
+msgstr "  [WinRE Check] [!] winre.wim not found (may reside in unassigned recovery partition)\n"
+
+msgid "  [WinRE 檢查] ✓ WinRE 已啟用且 winre.wim 存在 (BCD: {})\n"
+msgstr "  [WinRE Check] [OK] WinRE enabled and winre.wim verified (BCD: {})\n"
+
+msgid "  [開機校驗] ✓ BCD Hive 結構正常\n"
+msgstr "  [Boot Check] [OK] BCD Hive structure intact\n"
+
+msgid "  [開機校驗] ✓ BCD 項目有效 (無 unknown 指向)\n"
+msgstr "  [Boot Check] [OK] BCD entries valid (no unknown pointers)\n"
+
+msgid "  [開機校驗] ✓ 關鍵開機檔案皆存在\n"
+msgstr "  [Boot Check] [OK] All critical boot files present\n"
+
+msgid "  [開機校驗] 無法直接存取開機分區，略過 Hive 結構檢查 ({})\n"
+msgstr "  [Boot Check] Cannot directly access boot partition, skipping Hive check ({})\n"
+
+msgid "[開機校驗] BCD 登錄檔結構損毀或無法載入 ({})，已阻斷重啟"
+msgstr "[Boot Check] BCD registry Hive damaged or cannot be loaded ({}), reboot aborted"
+
+msgid "[開機校驗] BCD 項目 {} 含有無效分區指向 \"{}\"，已阻斷重啟"
+msgstr "[Boot Check] BCD entry {} points to invalid partition \"{}\", reboot aborted"
+
+msgid "[開機校驗] BCD 項目 {} 指向的載入器不存在: {}，已阻斷重啟"
+msgstr "[Boot Check] Boot loader for BCD entry {} not found: {}, reboot aborted"
+
+msgid "[開機校驗] 找不到實體系統的開機分區 / BCD，已阻斷重啟"
+msgstr "[Boot Check] Cannot locate physical boot partition / BCD, reboot aborted"
+
+msgid "[開機校驗] 無法讀取 BCD 項目 {}: {}"
+msgstr "[Boot Check] Failed to read BCD entry {}: {}"
+
+msgid "[開機校驗] 缺少關鍵開機檔案: {}，已阻斷重啟"
+msgstr "[Boot Check] Missing critical boot files: {}, reboot aborted"
+
+msgid "內部鎖定失敗"
+msgstr "Internal lock acquisition failed"
+
+msgid "已成功設定 {}，系統正在重新啟動..."
+msgstr "Successfully configured {}, restarting system..."
+
+msgid "成功建立 PE 啟動項！因 {}，為避免黑屏系統即將關機。請於電腦斷電後按電源鍵開機即可亮屏進入 PE！"
+msgstr "PE entry created! Due to {}, shutting down to prevent black screen. Power on manually to boot PE!"
+
+msgid "找不到 ESP / 開機分區"
+msgstr "ESP / boot partition not found"
+
+msgid "找不到開機設定存放區 (BCD): {}"
+msgstr "Boot configuration data (BCD) not found: {}"
+
+msgid "無法判定系統所在的實體磁碟"
+msgstr "Unable to determine physical disk for system"
+
+msgid "無法存取開機分區 ({})"
+msgstr "Cannot access boot partition ({})"
+
+msgid "  [引導回滾] 正在清理臨時開機項 {}...\n"
+msgstr "  [Boot Rollback] Cleaning up temporary boot entry {}...\n"
+
+msgid "  [引導回滾] 成功清理臨時開機項！\n"
+msgstr "  [Boot Rollback] Successfully cleaned up temporary boot entry!\n"
+
+msgid "  [引導回滾] 警告：清理臨時開機項失敗: {}\n"
+msgstr "  [Boot Rollback] Warning: Failed to clean up temporary boot entry: {}\n"
+
+msgid "\n[電源策略] 準備執行原生熱重啟至 {}...\n"
+msgstr "\n[Power Policy] Preparing native warm reboot to {}...\n"
+
+msgid "[電源策略] 原生重啟信號發送成功，系統正在重新啟動...\n"
+msgstr "[Power Policy] Native reboot signal sent successfully, restarting...\n"
+
+msgid "[電源策略] 重啟信號發送失敗: {}\n"
+msgstr "[Power Policy] Failed to send reboot signal: {}\n"
+
+msgid "[API失敗] 自動重啟失敗: {}\n提示：請手動重新開機以套用設定。\n"
+msgstr "[API Error] Auto-reboot failed: {}\nTip: Please reboot manually to apply settings.\n"
+
+msgid "  [選單隱藏] 成功從開機選單隱藏臨時副本\n"
+msgstr "  [Menu Hide] Successfully removed temporary entry from display order\n"
+
+msgid "  [選單隱藏] 警告：隱藏失敗 ({}) (不影響開機)\n"
+msgstr "  [Menu Hide] Warning: Hide failed ({}) (non-critical)\n"
+
+msgid "  [進階選項] 成功啟用 advancedoptions！\n"
+msgstr "  [Advanced Options] Successfully enabled advancedoptions!\n"
+
+msgid "  [進階選項] 啟用 advancedoptions 失敗: {}\n"
+msgstr "  [Advanced Options] Failed to enable advancedoptions: {}\n"
+
+msgid "  [一次性引導] 成功設定單次啟動序列！\n"
+msgstr "  [One-Time Boot] Successfully configured bootsequence!\n"
+
+msgid "  [一次性引導] 設定單次啟動序列失敗: {}\n"
+msgstr "  [One-Time Boot] Failed to configure bootsequence: {}\n"
+
+msgid "  [開機自毀] 成功註冊自毀清理任務！\n"
+msgstr "  [Self-Destruct] Successfully registered RunOnce cleanup task!\n"
+
+msgid "  [開機自毀] 警告：註冊自毀清理任務失敗 ({}) (不影響本次開機)\n"
+msgstr "  [Self-Destruct] Warning: Failed to register cleanup task ({}) (non-critical)\n"
+
+msgid "      -> MoveFileExW 失敗 (錯誤碼 {})。\n"
+msgstr "      -> MoveFileExW failed (Error code {}).\n"
+
+msgid "缺少 winload 核心載入器"
+msgstr "Missing winload kernel loader"
+
+msgid "缺少 ntoskrnl 核心檔案"
+msgstr "Missing ntoskrnl kernel file"
+
+msgid "開機分區異常"
+msgstr "Boot partition anomaly"
+
+msgid "缺少韌體開機管理程式 (bootmgfw.efi/bootmgr)"
+msgstr "Missing firmware boot manager (bootmgfw.efi/bootmgr)"
+
+msgid "BCD 蜂巢結構損毀 ({})"
+msgstr "BCD Hive structure damaged ({})"
+
+msgid "BCD 解析失敗: {}"
+msgstr "BCD parsing failed: {}"
+
+msgid "開機鏈完整 (EFI/BCD 正常)"
+msgstr "Boot chain intact (EFI/BCD verified)"
+
+msgid "開機鏈完整 (單系統引導)"
+msgstr "Boot chain intact (single OS loader)"
+
+msgid "未在開機選單中註冊 (BCD 無對應項目)"
+msgstr "Unregistered in boot menu (no matching BCD entry)"
+
+msgid "未配置引導"
+msgstr "Unconfigured boot"
+
+msgid "\n[狀態變更] 使用者將目標系統切換為: {}: ({} · {})\n  [開機狀態] {}\n"
+msgstr "\n[Status] User switched target system to: {}: ({} · {})\n  [Boot Status] {}\n"
+
+msgid "  [範本解析] 處於 WinPE 環境，鎖定目標系統 {} ({}) 之專屬開機項 {}\n"
+msgstr "  [Template] WinPE mode: locked target system {} ({}) specific boot entry {}\n"
+
+msgid "未檢測"
+msgstr "Not Checked"
+
+msgid "WinRE 健全 (已啟用 · {} · {} MB)"
+msgstr "WinRE Healthy (Enabled · {} · {} MB)"
+
+msgid "WinRE 映像存在但處於停用狀態 (可執行 reagentc /enable)"
+msgstr "WinRE image exists but disabled (run reagentc /enable)"
+
+msgid "WinRE 已設定啟用，但找不到實體 winre.wim 映像檔"
+msgstr "WinRE is enabled, but physical winre.wim not found"
+
+msgid "未配置 WinRE 修復環境"
+msgstr "WinRE recovery environment not configured"
+
+msgid "  [WinRE 直通] 偵測到目標系統之 WinRE 修復環境健全 (GUID: {})，設定單次啟動序列直通 WinRE...\n"
+msgstr "  [WinRE Direct] WinRE healthy (GUID: {}), setting one-time bootsequence directly to WinRE...\n"
+
+msgid "  [WinRE 直通] 成功設定單次啟動直通 WinRE！重啟後將直接進入修復環境。\n"
+msgstr "  [WinRE Direct] Successfully configured direct WinRE boot! System will reboot directly into Recovery.\n"
+
+msgid "  [WinRE 直通] 警告：設定 bootsequence 失敗，啟動備援降級為標準啟動設定選單...\n"
+msgstr "  [WinRE Direct] Warning: Failed to set bootsequence, falling back to standard boot settings menu...\n"
+
+msgid "  [WinRE 狀態] 目標系統 WinRE 處於停用或未就緒狀態 ({})，將引導至 Windows 標準開機選單\n"
+msgstr "  [WinRE Status] Target system WinRE disabled or not ready ({}), booting to standard Windows menu\n"
+
+msgid "已成功設定重啟並直通進入 WinRE 修復環境"
+msgstr "Successfully configured reboot directly into WinRE recovery environment"
+
+msgid "  [引導維護] 已自動清除目標系統 safeboot 安全模式標籤與單次序列，重啟後將直接進入正常桌面 (解除安全模式死循環)\n"
+msgstr "  [Boot Maintenance] Safeboot tag and bootsequence cleared from target, rebooting normally to desktop (broken safe mode loop resolved)\n"
+
+msgid "\n[狀態變更] 使用者將目標系統切換為: {}: ({} · {})\n  [開機狀態] {}\n  [修復環境] {}\n"
+msgstr "\n[Status Change] Target switched to: {}: ({} · {})\n  [Boot Status] {}\n  [Recovery Env] {}\n"
+
+msgid "EFI 引導缺失"
+msgstr "EFI Boot Missing"
+
+msgid "[EFI 缺失 · 禁用]"
+msgstr "[EFI Missing · Disabled]"
+
+msgid "\n[操作拒絕] 目標系統 {}: EFI 引導缺失或無法開機，無法選定為目標！\n"
+msgstr "\n[Operation Refused] Target system {}: EFI boot is missing or unbootable, cannot select as target!\n"
+
+msgid "該系統未配置 EFI 開機引導或核心檔案缺失，已禁用不可選取"
+msgstr "System lacks EFI boot configuration or kernel files, disabled from selection"
+
 
 msgid "安全模式"
 msgstr "안전 모드"
@@ -812,17 +1109,503 @@ msgstr "Hyper-V 가상화가 활성화되었습니다"
 msgid "Hyper-V 虛擬化與核心隔離已啟用"
 msgstr "Hyper-V 가상화 및 코어 격리가 활성화되었습니다"
 
-msgid "UEFI BIOS"
-msgstr "UEFI BIOS"
+msgid ""
+"\n"
+"[Hyper-V 設定] 正在{} Hyper-V 虛擬化與核心隔離...\n"
+""
+msgstr ""
+"\n"
+"[Hyper-V 설정] Hyper-V 가상화 및 코어 격리 {} 중...\n"
+""
 
-msgid "偵測到多個 Windows，請選擇要操作的系統"
-msgstr "여러 Windows가 감지되었습니다. 작업할 시스템을 선택하세요"
+msgid ""
+"\n"
+"[事前阻斷] 目標系統 {}: 無法開機（原因：{}）。\n"
+"為防止電腦黑屏或引導混亂，已禁止重啟操作！\n"
+""
+msgstr ""
+"\n"
+"[사전 차단] 대상 시스템 {}: 부팅 불가 (원인: {}).\n"
+"흑화 또는 부팅 오류 방지를 위해 재부팅이 차단되었습니다!\n"
+""
 
-msgid "略過開機失敗狀態"
-msgstr "부팅 실패 상태 무시"
+msgid ""
+"\n"
+"[執行] 正在{}...\n"
+""
+msgstr ""
+"\n"
+"[실행] {} 중...\n"
+""
 
-msgid "目標系統"
-msgstr "대상 시스템"
+msgid ""
+"\n"
+"[執行] 正在設定{}...\n"
+""
+msgstr ""
+"\n"
+"[실행] {} 설정 중...\n"
+""
 
-msgid "關閉自動修復"
-msgstr "자동 복구 비활성화"
+msgid ""
+"\n"
+"[目標系統切換] 已切換目標系統為 {}: ({}, {})\n"
+""
+msgstr ""
+"\n"
+"[대상 시스템 전환] 대상 시스템이 {}: ({}, {})로 전환되었습니다\n"
+""
+
+msgid ""
+"  [0x7B 修復] ✓ 已啟用當前系統儲存控制器開機驅動: {}\n"
+""
+msgstr ""
+"  [0x7B 복구] [OK] 스토리지 컨트롤러 부팅 드라이버 활성화: {}\n"
+""
+
+msgid ""
+"  [0x7B 修復] ✓ 已啟用離線系統 ({}:) 儲存控制器開機驅動: {}\n"
+""
+msgstr ""
+"  [0x7B 복구] [OK] 오프라인 시스템 ({}:) 스토리지 컨트롤러 부팅 드라이버 활성화: {}\n"
+""
+
+msgid ""
+"  [0x7B 修復] 警告：未找到可修改的儲存驅動機碼\n"
+""
+msgstr ""
+"  [0x7B 복구] 경고: 수정 가능한 스토리지 드라이버 레지스트리 키를 찾을 수 없음\n"
+""
+
+msgid ""
+"  [BCD 設定] ✓ 備援方案設定 {{default}} hypervisorlaunchtype 為 {} 成功\n"
+""
+msgstr ""
+"  [BCD 설정] [OK] 대체 방안 {{default}} hypervisorlaunchtype을 {}으로 설정 성공\n"
+""
+
+msgid ""
+"  [BCD 設定] ✓ 成功設定 hypervisorlaunchtype 為 {}\n"
+""
+msgstr ""
+"  [BCD 설정] [OK] hypervisorlaunchtype을 {}으로 설정 완료\n"
+""
+
+msgid ""
+"  [BCD 設定] 執行 bcdedit /set {} hypervisorlaunchtype {}...\n"
+""
+msgstr ""
+"  [BCD 설정] bcdedit /set {} hypervisorlaunchtype {} 실행 중...\n"
+""
+
+msgid ""
+"  [BIOS 警告] 注意：系統回報主機板 BIOS 未啟用 CPU 虛擬化 (VT-x / SVM)！\n"
+"  請確保於重啟後進入 BIOS 啟用 Virtualization，否則 Hyper-V 將無法載入。\n"
+""
+msgstr ""
+"  [BIOS 경고] 주의: 메인보드 BIOS에서 CPU 가상화(VT-x / SVM)가 비활성화되어 있습니다!\n"
+"  재부팅 후 BIOS에서 활성화하세요.\n"
+""
+
+msgid ""
+"  [WinRE 檢查] [!] {}\n"
+""
+msgstr ""
+"  [WinRE 검사] [!] {}\n"
+""
+
+msgid ""
+"  [WinRE 檢查] [OK] {} (BCD: {})\n"
+""
+msgstr ""
+"  [WinRE 검사] [OK] {} (BCD: {})\n"
+""
+
+msgid ""
+"  [建立副本] 正在自範本 {} 複製建立單次重啟防護項...\n"
+""
+msgstr ""
+"  [복제본 생성] 템플릿 {}에서 1회성 재부팅 보호 항목 복사 생성 중...\n"
+""
+
+msgid ""
+"  [核心隔離] ✓ 已將當前系統核心隔離機碼設定為 {}\n"
+""
+msgstr ""
+"  [코어 격리] [OK] 현재 시스템 코어 격리 레ジ스트리를 {}로 설정\n"
+""
+
+msgid ""
+"  [核心隔離] ✓ 已將離線系統 ({}:) 核心隔離機碼設定為 {}\n"
+""
+msgstr ""
+"  [코어 격리] [OK] 오프라인 시스템 ({}:) 코어 격리 레ジ스트리를 {}로 설정\n"
+""
+
+msgid ""
+"  [核心隔離] 正在{}核心隔離 (VBS / HVCI 記憶體完整性)...\n"
+""
+msgstr ""
+"  [코어 격리] 코어 격리(VBS / HVCI 메모리 무결성) {} 중...\n"
+""
+
+msgid ""
+"  [模式配置] 成功設定 safeboot 參數！\n"
+""
+msgstr ""
+"  [모드 구성] safeboot 매개변수를 성공적으로 설정했습니다!\n"
+""
+
+msgid ""
+"  [模式配置] 設定 safeboot 參數失敗: {}\n"
+""
+msgstr ""
+"  [모드 구성] safeboot 매개변수 설정 실패: {}\n"
+""
+
+msgid ""
+"  [開機校驗] ✓ BCD Hive 結構正常\n"
+""
+msgstr ""
+"  [부팅 검증] [OK] BCD 하이브 구조 정상\n"
+""
+
+msgid ""
+"  [開機校驗] ✓ BCD 項目有效 (無 unknown 指向)\n"
+""
+msgstr ""
+"  [부팅 검증] [OK] BCD 항목 유효 (unknown 대상 없음)\n"
+""
+
+msgid ""
+"  [開機校驗] ✓ 線上 BCD 已由系統載入保護\n"
+""
+msgstr ""
+"  [부팅 검증] [OK] 온라인 BCD가 시스템 보호 하에 로드됨\n"
+""
+
+msgid ""
+"  [開機校驗] ✓ 關鍵開機檔案皆存在\n"
+""
+msgstr ""
+"  [부팅 검증] [OK] 모든 필수 부팅 파일 존재\n"
+""
+
+msgid "BCD 設定 hypervisorlaunchtype 失敗: {}"
+msgstr "BCD hypervisorlaunchtype 설정 실패: {}"
+
+msgid "PE 啟動項的裝置指向無效 (unknown)，已回滾並取消重啟，請改以碟符掛載後再試。"
+msgstr "PE 부팅 항목의 장치 대상이 잘못되어(unknown) 롤백되었습니다. 드라이브 문자를 마운트한 후 다시 시도하세요."
+
+msgid "PE 核心重啟指令失敗 (NTSTATUS: 0x{:08X}, Privilege: 0x{:08X})"
+msgstr "PE 커널 재부팅 명령 실패 (NTSTATUS: 0x{:08X}, Privilege: 0x{:08X})"
+
+msgid "PE 核心關機指令失敗 (NTSTATUS: 0x{:08X}, Privilege: 0x{:08X})"
+msgstr "PE 커널 종료 명령 실패 (NTSTATUS: 0x{:08X}, Privilege: 0x{:08X})"
+
+msgid ""
+"[成功] 設定已完成！系統即將重新啟動使變更生效...\n"
+""
+msgstr ""
+"[성공] 설정이 완료되었습니다! 시스템을 다시 시작합니다...\n"
+""
+
+msgid "不可開機"
+msgstr "부팅 불가"
+
+msgid "偵測到系統碟 ({}:) 位於 IDE/ATA 磁碟 ({})，但系統 IDE 驅動未啟用開機載入 (Start={})，已自動勾選「修復 0x7B 開機藍屏」"
+msgstr "시스템 드라이브({}:)가 IDE/ATA({})이지만 부팅 드라이버가 비활성화됨(Start={}). \"0x7B 블루스크린 복구\"가 자동 선택됨"
+
+msgid "偵測到系統碟 ({}:) 位於 NVMe 磁碟 ({})，但系統 stornvme 驅動未啟用開機載入 (Start={})，已自動勾選「修復 0x7B 開機藍屏」"
+msgstr "시스템 드라이브({}:)가 NVMe({})이지만 stornvme 드라이버가 비활성화됨(Start={}). \"0x7B 블루스크린 복구\"가 자동 선택됨"
+
+msgid "偵測到系統碟 ({}:) 位於 RAID/VMD 磁碟 ({})，但對應儲存驅動未啟用開機載入，已自動勾選「修復 0x7B 開機藍屏」"
+msgstr "시스템 드라이브({}:)가 RAID/VMD({})이지만 드라이버가 비활성화됨. \"0x7B 블루스크린 복구\"가 자동 선택됨"
+
+msgid "偵測到系統碟 ({}:) 位於 SATA/AHCI 磁碟 ({})，但系統 AHCI 驅動未啟用開機載入 (Start={})，已自動勾選「修復 0x7B 開機藍屏」"
+msgstr "시스템 드라이브({}:)가 SATA/AHCI({})이지만 AHCI 드라이버가 비활성화됨(Start={}). \"0x7B 블루스크린 복구\"가 자동 선택됨"
+
+msgid "寫入登錄檔失敗 (代碼 {})"
+msgstr "레지스트리 쓰기 실패 (코드 {})"
+
+msgid "寫入離線登錄檔 RunOnce 失敗 (錯誤碼 {})"
+msgstr "오프라인 레지스트리 RunOnce 쓰기 실패 (오류 코드 {})"
+
+msgid "已套用單次重啟防護參數並發送重啟信號，系統正在重啟..."
+msgstr "1회성 부팅 보호 설정 적용 후 신호를 보냈습니다. 재부팅 중..."
+
+msgid "已連接隨身碟，但未偵測到包含 PE 環境"
+msgstr "USB 드라이브가 연결되었지만 PE 환경이 감지되지 않음"
+
+msgid "找不到目標系統的 SYSTEM 登錄檔: {}"
+msgstr "대상 시스템의 SYSTEM 레지스트리를 찾을 수 없습니다: {}"
+
+msgid "未配置開機引導或檔案缺失"
+msgstr "부팅 설정 또는 파일이 누락됨"
+
+msgid "本地 PE 啟動項 ({}) 含有無效分區指向 (unknown)，開機會引發藍屏 (0xc000000e)！已自動阻斷重啟。請重新於系統內安裝本地 PE 或改用 USB 隨身碟啟動。"
+msgstr "로컬 PE 부팅 항목({})이 잘못된 파提션(unknown)을 가리켜 블루스크린(0xc000000e)이 발생합니다! 부팅이 차단되었습니다."
+
+msgid "無法執行 bcdedit: {}"
+msgstr "bcdedit을 실행할 수 없습니다: {}"
+
+msgid "無法掛載目標系統的 SYSTEM 登錄檔 Hive"
+msgstr "대상 시스템의 SYSTEM 레지스트리 하이브를 마운트할 수 없습니다"
+
+msgid "無法載入實體系統的 SOFTWARE 登錄檔 Hive"
+msgstr "물리 시스템의 SOFTWARE 레지스트리 하이브를 로드할 수 없습니다"
+
+msgid "目標系統 {}: 無法開機（{}），已中止重啟配置！"
+msgstr "대상 시스템 {}: 부팅 불가 ({}), 재부팅 설정이 중단되었습니다!"
+
+msgid ""
+"目標系統 {}: 無法開機（原因：{}）。\n"
+"\n"
+"為確保電腦安全，系統已阻斷重啟引導設定！請檢查該系統分區之 EFI 開機引導與核心檔案是否健全。"
+msgstr ""
+"대상 시스템 {}: 부팅 불가 (원인: {}).\n"
+"\n"
+"시스템 보호를 위해 부팅 설정을 차단했습니다! EFI 부팅 파일과 커널 파일을 확인하세요."
+
+msgid "目標系統無法開機"
+msgstr "대상 시스템을 부팅할 수 없음"
+
+msgid "系統碟 ({}:) 介面為 IDE/ATA，儲存驅動狀態正常 (Start=0)"
+msgstr "시스템 드라이브({}:) 인터페이스: IDE/ATA, 드라이버 상태 정상 (Start=0)"
+
+msgid "系統碟 ({}:) 介面為 NVMe，stornvme 開機驅動狀態正常 (Start=0)"
+msgstr "시스템 드라이브({}:) 인터페이스: NVMe, stornvme 드라이버 상태 정상 (Start=0)"
+
+msgid "系統碟 ({}:) 介面為 RAID/VMD，儲存驅動狀態正常 (Start=0)"
+msgstr "시스템 드라이브({}:) 인터페이스: RAID/VMD, 드라이버 상태 정상 (Start=0)"
+
+msgid "系統碟 ({}:) 介面為 SATA/AHCI，儲存驅動狀態正常 (Start=0)"
+msgstr "시스템 드라이브({}:) 인터페이스: SATA/AHCI, 드라이버 상태 정상 (Start=0)"
+
+msgid "讀取 BCD 本地項目失敗: {}"
+msgstr "BCD 로컬 항목 읽기 실패: {}"
+
+msgid ""
+"\n"
+"[Hyper-V 設定] 正在{} Hyper-V 虛擬化與核心隔離...\n"
+""
+msgstr ""
+"\n"
+"[Hyper-V 설정] Hyper-V 가상화 및 코어 격리 {} 중...\n"
+""
+
+msgid ""
+"\n"
+"[事前阻斷] 目標系統 {}: 無法開機（原因：{}）。\n"
+"為防止電腦黑屏或引導混亂，已禁止重啟操作！\n"
+""
+msgstr ""
+"\n"
+"[사전 차단] 대상 시스템 {}: 부팅 불가 (원인: {}).\n"
+"흑화 또는 부팅 오류 방지를 위해 재부팅이 차단되었습니다!\n"
+""
+
+msgid ""
+"\n"
+"[執行] 正在{}...\n"
+""
+msgstr ""
+"\n"
+"[실행] {} 중...\n"
+""
+
+msgid ""
+"\n"
+"[執行] 正在設定{}...\n"
+""
+msgstr ""
+"\n"
+"[실행] {} 설정 중...\n"
+""
+
+msgid ""
+"\n"
+"[目標系統切換] 已切換目標系統為 {}: ({}, {})\n"
+""
+msgstr ""
+"\n"
+"[대상 시스템 전환] 대상 시스템이 {}: ({}, {})로 전환되었습니다\n"
+""
+
+msgid ""
+"  [0x7B 修復] ✓ 已啟用當前系統儲存控制器開機驅動: {}\n"
+""
+msgstr ""
+"  [0x7B 복구] [OK] 스토리지 컨트롤러 부팅 드라이버 활성화: {}\n"
+""
+
+msgid ""
+"  [0x7B 修復] ✓ 已啟用離線系統 ({}:) 儲存控制器開機驅動: {}\n"
+""
+msgstr ""
+"  [0x7B 복구] [OK] 오프라인 시스템 ({}:) 스토리지 컨트롤러 부팅 드라이버 활성화: {}\n"
+""
+
+msgid ""
+"  [0x7B 修復] 警告：未找到可修改的儲存驅動機碼\n"
+""
+msgstr ""
+"  [0x7B 복구] 경고: 수정 가능한 스토리지 드라이버 레지스트리 키를 찾을 수 없음\n"
+""
+
+msgid ""
+"  [BCD 設定] ✓ 備援方案設定 {{default}} hypervisorlaunchtype 為 {} 成功\n"
+""
+msgstr ""
+"  [BCD 설정] [OK] 대체 방안 {{default}} hypervisorlaunchtype을 {}으로 설정 성공\n"
+""
+
+msgid ""
+"  [BCD 設定] ✓ 成功設定 hypervisorlaunchtype 為 {}\n"
+""
+msgstr ""
+"  [BCD 설정] [OK] hypervisorlaunchtype을 {}으로 설정 완료\n"
+""
+
+msgid ""
+"  [BCD 設定] 執行 bcdedit /set {} hypervisorlaunchtype {}...\n"
+""
+msgstr ""
+"  [BCD 설정] bcdedit /set {} hypervisorlaunchtype {} 실행 중...\n"
+""
+
+msgid ""
+"  [BIOS 警告] 注意：系統回報主機板 BIOS 未啟用 CPU 虛擬化 (VT-x / SVM)！\n"
+"  請確保於重啟後進入 BIOS 啟用 Virtualization，否則 Hyper-V 將無法載入。\n"
+""
+msgstr ""
+"  [BIOS 경고] 주의: 메인보드 BIOS에서 CPU 가상화(VT-x / SVM)가 비활성화되어 있습니다!\n"
+"  재부팅 후 BIOS에서 활성화하세요.\n"
+""
+
+msgid ""
+"  [WinRE 檢查] [!] {}\n"
+""
+msgstr ""
+"  [WinRE 검사] [!] {}\n"
+""
+
+msgid ""
+"  [WinRE 檢查] [OK] {} (BCD: {})\n"
+""
+msgstr ""
+"  [WinRE 검사] [OK] {} (BCD: {})\n"
+""
+
+msgid ""
+"  [建立副本] 正在自範本 {} 複製建立單次重啟防護項...\n"
+""
+msgstr ""
+"  [복제본 생성] 템플릿 {}에서 1회성 재부팅 보호 항목 복사 생성 중...\n"
+""
+
+msgid ""
+"  [核心隔離] ✓ 已將當前系統核心隔離機碼設定為 {}\n"
+""
+msgstr ""
+"  [코어 격리] [OK] 현재 시스템 코어 격리 레ジ스트리를 {}로 설정\n"
+""
+
+msgid ""
+"  [核心隔離] ✓ 已將離線系統 ({}:) 核心隔離機碼設定為 {}\n"
+""
+msgstr ""
+"  [코어 격리] [OK] 오프라인 시스템 ({}:) 코어 격리 레ジ스트리를 {}로 설정\n"
+""
+
+msgid ""
+"  [核心隔離] 正在{}核心隔離 (VBS / HVCI 記憶體完整性)...\n"
+""
+msgstr ""
+"  [코어 격리] 코어 격리(VBS / HVCI 메모리 무결성) {} 중...\n"
+""
+
+msgid ""
+"  [模式配置] 成功設定 safeboot 參數！\n"
+""
+msgstr ""
+"  [모드 구성] safeboot 매개변수를 성공적으로 설정했습니다!\n"
+""
+
+msgid ""
+"  [模式配置] 設定 safeboot 參數失敗: {}\n"
+""
+msgstr ""
+"  [모드 구성] safeboot 매개변수 설정 실패: {}\n"
+""
+
+msgid ""
+"  [開機校驗] ✓ BCD Hive 結構正常\n"
+""
+msgstr ""
+"  [부팅 검증] [OK] BCD 하이브 구조 정상\n"
+""
+
+msgid ""
+"  [開機校驗] ✓ BCD 項目有效 (無 unknown 指向)\n"
+""
+msgstr ""
+"  [부팅 검증] [OK] BCD 항목 유효 (unknown 대상 없음)\n"
+""
+
+msgid ""
+"  [開機校驗] ✓ 線上 BCD 已由系統載入保護\n"
+""
+msgstr ""
+"  [부팅 검증] [OK] 온라인 BCD가 시스템 보호 하에 로드됨\n"
+""
+
+msgid ""
+"  [開機校驗] ✓ 關鍵開機檔案皆存在\n"
+""
+msgstr ""
+"  [부팅 검증] [OK] 모든 필수 부팅 파일 존재\n"
+""
+
+msgid ""
+"[成功] 設定已完成！系統即將重新啟動使變更生效...\n"
+""
+msgstr ""
+"[성공] 설정이 완료되었습니다! 시스템을 다시 시작합니다...\n"
+""
+
+msgid ""
+"目標系統 {}: 無法開機（原因：{}）。\n"
+"\n"
+"為確保電腦安全，系統已阻斷重啟引導設定！請檢查該系統分區之 EFI 開機引導與核心檔案是否健全。"
+msgstr ""
+"대상 시스템 {}: 부팅 불가 (원인: {}).\n"
+"\n"
+"시스템 보호를 위해 부팅 설정을 차단했습니다! EFI 부팅 파일과 커널 파일을 확인하세요."
+
+msgid "Windows 修復環境 (WinRE)"
+msgstr "Windows 복구 환경 (WinRE)"
+
+msgid "已發送 Win32 原生重啟信號，系統正在重啟..."
+msgstr "Win32 네이티브 재부팅 신호를 전송했습니다. 시스템 다시 시작 중..."
+
+msgid "開啟"
+msgstr "켜기"
+
+msgid "關閉"
+msgstr "끄기"
+
+msgid "確定"
+msgstr "확인"
+
+msgid "語言切換失敗"
+msgstr "언어 전환 실패"
+
+msgid "無法切換至「{}」：目前 Windows 系統缺少顯示該語言所需的字體。"
+msgstr ""{}"(으)로 전환할 수 없습니다: Windows에 해당 언어를 표시하는 데 필요한 글꼴이 없습니다."
+
+msgid "無法切換至「{}」：找不到該語言的翻譯檔案或語言包已損毀。"
+msgstr ""{}"(으)로 전환할 수 없습니다: 해당 언어의 번역 파일을 찾을 수 없거나 파일이 손상되었습니다."
+
+msgid "無法切換至「{}」：語言載入失敗，已保留目前介面語言。"
+msgstr ""{}"(으)로 전환할 수 없습니다: 언어 로드에 실패하여 현재 언어를 유지합니다."

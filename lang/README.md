@@ -1,4 +1,4 @@
-# 🌐 Reboot Master 多語系語言包與字體庫 (Language Packs & Fonts)
+# 🌐 Reboot Master 多語系語言包 (Language Packs)
 
 [English](#english) | [繁體中文](#繁體中文)
 
@@ -6,8 +6,15 @@
 
 ## 繁體中文
 
-本目錄收錄 **重啟大師 (Reboot Master)** 的外部擴充語言包與伴隨字庫。
-為了確保主程式極致輕量（單一執行檔僅約 4.3 MB），繁體中文、簡體中文與英文已直接內嵌於主程式核心，其餘 28 種語言則模組化放置於此，供社群自由下載、修改與自訂！
+本目錄收錄 **重啟大師 (Reboot Master)** 的外部擴充語言包與翻譯範本。
+為了確保主程式極致輕量與安全，繁體中文、簡體中文、英文、日本語與韓語 5 大常用語言已直接內嵌於主程式核心，其餘 26 種語言則模組化放置於此，供社群自由下載、修改與自訂！
+
+### 🔤 100% 純系統字體架構 (零外部字型依賴)
+
+Reboot Master 採用**純 Windows 系統原生字體架構**：
+- **完全零自帶字型**：倉庫與發行版**不攜帶、不下架、不打包任何字型檔** (`*.ttf`, `*.ttc`, `*.otf`)，外部語言包僅包含純文字 Gettext 翻譯檔案 (`reboot_master.po`)。
+- **自動適配 Windows 原生 UI 字體**：軟體會根據使用者選擇的介面語言，自動偵測並選用 Windows 7、8、10、11 該語系慣用的系統字體（如微軟正黑體、Segoe UI、Yu Gothic UI / Meiryo、Malgun Gothic 等）。
+- **缺字安全防護**：若在極簡環境（如極簡英文 WinPE）下選擇缺少字體的語言，系統會友善提示並安全保留當前語言，防止文字顯示為空白或亂碼方框。
 
 ### 📂 目錄結構
 
@@ -15,12 +22,12 @@
 lang/
 ├── template.pot          # 官方翻譯範本檔 (供翻譯新語言或比對最新詞條)
 ├── de/                   # 語言代碼 (以德文為例)
-│   ├── reboot_master.po  # 德文 Gettext 翻譯檔案 (可自由編輯)
-│   └── font.ttf          # 德文伴隨精簡字庫 (確保任何 WinPE 環境下均能正常顯示)
-├── ja/
-│   ├── reboot_master.po
-│   └── font.ttf
-└── ... (共 28 種語言)
+│   └── reboot_master.po  # 德文 Gettext 翻譯檔案 (純文字 PO，可自由編輯)
+├── fr/
+│   └── reboot_master.po  # 法文 Gettext 翻譯檔案
+├── ru/
+│   └── reboot_master.po  # 俄文 Gettext 翻譯檔案
+└── ... (共 26+ 種語言擴充包)
 ```
 
 ### 🚀 如何使用外部語言包？
@@ -32,10 +39,9 @@ lang/
    ├── reboot_master.exe
    └── lang/
        └── de/
-           ├── reboot_master.po
-           └── font.ttf
+           └── reboot_master.po
    ```
-3. 啟動 `reboot_master.exe`，進入「設定」選擇該語言，軟體將**自動動態載入**自訂翻譯與伴隨字庫！
+3. 啟動 `reboot_master.exe`，進入「語言設定」選擇該語言，軟體將**自動動態載入**自訂翻譯！
 4. **自適應視窗排版**：軟體引擎會自動計算該語言關鍵標題的視覺寬度，自動切換至標準視窗 (920px) 或寬視窗 (1048px)，絕不截斷或折行。
 
 ### ✍️ 如何自行修改或貢獻翻譯？
@@ -45,14 +51,21 @@ lang/
    - 搜尋想修改的詞條（`msgid`），修改其對應的譯文（`msgstr`）後存檔即可！
 2. **新增全新語言**：
    - 複製 `template.pot` 為 `新語言代碼/reboot_master.po`。
-   - 完成翻譯後提交 Pull Request，我們將為您自動生成伴隨字庫並整合進官方清單！
+   - 完成翻譯後提交 Pull Request，我們審核後會整合進官方清單！
 
 ---
 
 ## English
 
-This directory contains external language packs and companion font subsets for **Reboot Master**.
-To keep the universal executable ultra-compact (~4.3 MB), Traditional Chinese, Simplified Chinese, and English are built into the core binary. The remaining 28 languages are modularized here for community download, customization, and contribution!
+This directory contains external language packs and the translation template for **Reboot Master**.
+To keep the universal executable ultra-compact (~5 MB) and zero-dependency, 5 major languages (Traditional Chinese, Simplified Chinese, English, Japanese, and Korean) are built directly into the core binary. The remaining 26 languages are modularized here for community download, customization, and contribution!
+
+### 🔤 100% Native System Font Architecture (Zero Font Bundling)
+
+Reboot Master utilizes a **pure native Windows system font architecture**:
+- **Zero Bundled Fonts**: The repository and distributed binaries **never bundle, embed, or download external font files** (`*.ttf`, `*.ttc`, `*.otf`). Language packs contain only plain-text Gettext PO files (`reboot_master.po`).
+- **Dynamic System Font Adaptation**: The application dynamically detects and selects the idiomatic native UI fonts installed on Windows 7, 8, 10, and 11 for each language (such as Segoe UI, Microsoft JhengHei, Yu Gothic UI / Meiryo, Malgun Gothic, Tahoma, etc.).
+- **Missing Glyph Protection**: In minimal environments (e.g. minimal English WinPE lacking CJK fonts), switching to an unsupported language is safely prevented with an informative message, avoiding broken squares (tofu) and preserving your language preferences.
 
 ### 📂 Directory Structure
 
@@ -60,9 +73,12 @@ To keep the universal executable ultra-compact (~4.3 MB), Traditional Chinese, S
 lang/
 ├── template.pot          # Official translation template
 ├── de/                   # Language code (e.g. German)
-│   ├── reboot_master.po  # Gettext PO translation file
-│   └── font.ttf          # Companion minimal font subset
-└── ... (28 languages)
+│   └── reboot_master.po  # Gettext PO translation file (plain text, easily editable)
+├── fr/
+│   └── reboot_master.po  # French translation file
+├── ru/
+│   └── reboot_master.po  # Russian translation file
+└── ... (26+ languages)
 ```
 
 ### 🚀 How to Use an External Language Pack?
@@ -74,10 +90,9 @@ lang/
    ├── reboot_master.exe
    └── lang/
        └── de/
-           ├── reboot_master.po
-           └── font.ttf
+           └── reboot_master.po
    ```
-3. Run `reboot_master.exe` and select your language in Settings. The app will dynamically load your PO catalog and register the companion font into memory.
+3. Run `reboot_master.exe` and select your language in the Language dropdown. The app will dynamically load your PO catalog with zero restarts required!
 4. **Adaptive Window Layout**: The UI dynamically measures the visual width of key titles to expand to wide mode (1048px) or stay in standard compact mode (920px) automatically.
 
 ### ✍️ How to Customize or Contribute?

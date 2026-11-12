@@ -25,6 +25,11 @@ Thumbs.db
 **/*.bmp
 **/*.webp
 
+# Strict No-Font rule (AGENTS.md: 100% 純系統字體，零自帶字庫)
+**/*.ttf
+**/*.ttc
+**/*.otf
+
 # Temporary & backup folders
 scratch/
 _backups/

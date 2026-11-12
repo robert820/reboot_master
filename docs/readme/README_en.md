@@ -138,3 +138,4 @@ If you encounter any issues, bugs, or have feature requests during system mainte
 
 - **Freeware**: This utility is freeware and free for both personal and commercial use.
 - **Disclaimer**: While this utility includes rigorous safeguards (such as automatic single-boot rollback and Legacy BIOS checks), modifying boot configurations is an advanced system action. Users assume responsibility for their system environment when using this tool.
+- **Third-Party Components**: This software uses YY-Thunks (MIT License). See [THIRD_PARTY_NOTICES.md](../../THIRD_PARTY_NOTICES.md).

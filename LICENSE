@@ -43,6 +43,9 @@ THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF ANY KIN
 6. LIMITATION OF LIABILITY
 TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL LICENSOR, ITS DIRECTORS, EMPLOYEES, OR AGENTS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, REVENUE, OR PROFITS; SYSTEM OR HARDWARE INSTABILITY; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. USERS ASSUME ALL RISKS AND RESPONSIBILITIES FOR SYSTEM-LEVEL MODIFICATIONS.
 
+7. THIRD-PARTY COMPONENTS
+The Software includes third-party components (such as YY-Thunks, MIT License) that are licensed under their own terms. Nothing in this EULA restricts your rights under those licenses. See THIRD_PARTY_NOTICES.md.
+
 ================================================================================
 PART 2: 繁體中文條款
 ================================================================================
@@ -73,3 +76,6 @@ PART 2: 繁體中文條款
 
 第六條 責任限制 (Limitation of Liability)
 在相關法律所允許之最大範圍內，授權人對於因使用或無法使用本軟體所產生之任何直接、間接、附隨、特別、懲罰性或衍生性損害（包括但不限於系統或硬體不穩定、開機異常、業務中斷、資料毀損或遺失、預期利益損失等），無論係基於侵權行為、契約違反或其他法律理論，即便授權人曾被告知該等損害發生之可能性，授權人均概不承擔任何賠償責任。使用者須自行評估並承擔使用本軟體進行系統層級修改之所有風險與責任。
+
+第七條 第三方元件 (Third-Party Components)
+本軟體包含依各自授權條款提供之第三方元件（例如 YY-Thunks，MIT License），本合約不限制您依該等授權所享有之權利，詳見 THIRD_PARTY_NOTICES.md。
