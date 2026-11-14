@@ -138,4 +138,6 @@ A: 本工具為純綠色免安裝軟體，絕無任何惡意聯網後門、廣�
 
 - **免費使用**：本軟體為免費實用工具（Freeware），任何人均可免費下載、個人使用或於商業維護環境中使用。
 - **免責聲明**：本軟體已針對各種系統環境進行嚴密測試與防呆保護（例如開機項自動還原、Legacy BIOS 辨識等）。但修改系統底層開機引導仍屬系統級高階操作，使用者應自行評估並承擔使用本軟體時可能衍生之系統風險。
-- **第三方元件**：本軟體使用 YY-Thunks（MIT License），授權聲明請見 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
+- **第三方元件**：本軟體使用 Slint（Royalty-Free License）、YY-Thunks（MIT）與多個開源 Rust 套件，授權聲明請見 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) 與 [THIRD_PARTY_LICENSES.md](THIRD_PARTY_LICENSES.md)。
+
+<a href="https://slint.dev"><img src="https://raw.githubusercontent.com/slint-ui/slint/master/logo/MadeWithSlint-logo-whitebg.png" alt="Made with Slint" width="160"></a>
