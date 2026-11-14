@@ -15,7 +15,10 @@ This software is distributed as a closed-source freeware executable and includes
 - Modifications / 修改：A locally patched copy of some `i-slint-*` crates is used; original license notices are kept unchanged. / 部分 `i-slint-*` 套件使用本地修補版，原始授權聲明均未更動。
 - Attribution (required by Section 2 of the license) / 授權要求之標示：
 
-<a href="https://slint.dev"><img src="https://raw.githubusercontent.com/slint-ui/slint/master/logo/MadeWithSlint-logo-whitebg.png" alt="Made with Slint" width="180"></a>
+<a href="https://slint.dev"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/slint-ui/slint/master/logo/MadeWithSlint-logo-dark.png">
+  <img src="https://raw.githubusercontent.com/slint-ui/slint/master/logo/MadeWithSlint-logo-light.png" alt="Made with Slint" width="180">
+</picture></a>
 
 Full license text: see [THIRD_PARTY_LICENSES.md](THIRD_PARTY_LICENSES.md#slint-royalty-free-license-20).
 

@@ -142,4 +142,7 @@ A: 本工具为纯绿色免安装软件，绝无任何恶意联网后门、广�
 - **免责声明**：本软件已针对各种系统环境进行严密测试与防呆保护（例如引导项自动还原、Legacy BIOS 识别等）。但修改系统底层开机引导仍属系统级高级操作，用户应自行评估并承担使用本软件时可能衍生之系统风险。
 - **第三方组件**：本软件使用 Slint（Royalty-Free License）、YY-Thunks（MIT）与多个开源 Rust 库，授权声明请见 [THIRD_PARTY_NOTICES.md](../../THIRD_PARTY_NOTICES.md) 与 [THIRD_PARTY_LICENSES.md](../../THIRD_PARTY_LICENSES.md)。
 
-<a href="https://slint.dev"><img src="https://raw.githubusercontent.com/slint-ui/slint/master/logo/MadeWithSlint-logo-whitebg.png" alt="Made with Slint" width="160"></a>
+<a href="https://slint.dev"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/slint-ui/slint/master/logo/MadeWithSlint-logo-dark.png">
+  <img src="https://raw.githubusercontent.com/slint-ui/slint/master/logo/MadeWithSlint-logo-light.png" alt="Made with Slint" width="160">
+</picture></a>
