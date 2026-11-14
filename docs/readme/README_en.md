@@ -132,6 +132,8 @@ If you encounter any issues, bugs, or have feature requests during system mainte
 1. Please report them on our [GitHub Issues](https://github.com/robert820/reboot_master/issues) page.
 2. Including your Windows version (e.g. Win10 22H2, WinPE) and log messages from the app will help us fix problems quickly.
 
+- 🌐 **Official Website**: [https://blog.dei3c.com](https://blog.dei3c.com)
+
 ---
 
 ## 📄 License & Disclaimer

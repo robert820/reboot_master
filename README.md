@@ -132,6 +132,8 @@ A: 本工具為純綠色免安裝軟體，絕無任何惡意聯網後門、廣�
 1. 請至本專案的 [Issues 頁面](https://github.com/robert820/reboot_master/issues) 提交反饋。
 2. 提交時建議附上作業系統版本（如 Win10 22H2、WinPE 等）以及程式內日誌視窗中顯示的具體錯誤訊息，這將有助於我們快速為您排查與修復！
 
+- 🌐 **得翼科技官方網站**：[https://blog.dei3c.com](https://blog.dei3c.com)
+
 ---
 
 ## 📄 軟體授權與免責聲明
